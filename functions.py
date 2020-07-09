@@ -50,7 +50,7 @@ def get_data_typeA(i, link):
         L = []
         time.sleep(4)
         # Now we collect all bookmaker
-        for j in range(1,10): # only first 10 bookmakers displayed
+        for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
             Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
             Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
@@ -166,7 +166,11 @@ def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page
         driver.close()
 
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
     '''Now we simply need to split team names, transform date, split score'''
 
@@ -195,9 +199,9 @@ def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
-        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+    #     format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
 
     return(data_df)
 
@@ -212,7 +216,11 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
     '''Now we simply need to split team names, transform date, split score'''
 
@@ -240,9 +248,9 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+    #     to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
 
 def scrape_league_typeA(Season, sport, country1, tournament1, nseason):
@@ -287,7 +295,11 @@ def scrape_next_games_typeA(tournament, sport, country, SEASON, nmax = 30):
     driver.close()
 
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw']
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
 
     data_df["ScoreRaw"] = '0:0'
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
@@ -336,7 +348,7 @@ def get_data_typeB(i, link):
         L = []
         time.sleep(4)
         # Now we collect all bookmaker
-        for j in range(1,10): # only first 10 bookmakers displayed
+        for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
             Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
             Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
@@ -448,7 +460,7 @@ def scrape_page_next_games_typeB(country, tournament, nmax = 20):
     return(DATA)
   
 
-def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon', country = 'france', name_to_write = 'WTA Lyon', SEASON = '2020'):
+def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon', country = 'france', name_to_write = 'WTA Lyon', SEASON = '2020', max_page = 20):
     global driver
     REACH_END = 0
     
@@ -462,7 +474,7 @@ def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon'
     driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
     #SEASON = '''2020'''
     DATA_ALL = []
-    for page in range(1, 20):
+    for page in range(1, max_page + 1):
       if REACH_END == 0 :
         print('We start to scrape the page n°{}'.format(page))
         data, REACH_END = scrape_page_typeB(page, country, tournament, SEASON, alpha_game)
@@ -602,7 +614,7 @@ def get_data_typeC(i, link):
         L = []
         time.sleep(4)
         # Now we collect all bookmaker
-        for j in range(1,10): # only first 10 bookmakers displayed
+        for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
             Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
             Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
@@ -725,7 +737,12 @@ def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page
         driver.close()
 
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
     '''Now we simply need to split team names, transform date, split score'''
 
@@ -754,9 +771,9 @@ def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
-        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+    #     format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
 
     return(data_df)
 
@@ -771,7 +788,11 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
     '''Now we simply need to split team names, transform date, split score'''
 
@@ -799,9 +820,9 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+    #     to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
 
 def scrape_league_typeC(Season, sport, country1, tournament1, nseason):
@@ -840,7 +861,12 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
     driver.close()
 
     data_df = pd.DataFrame(DATA_ALL)
-    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw']
+
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
 
     data_df["ScoreRaw"] = '0:0'
     ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
@@ -885,14 +911,19 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+
+  if sport == 'tennis' :
+    bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
+    surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football']:
     df = scrape_current_season_typeA(tournament = league, sport = sport, country = country, SEASON = season)
     df = create_clean_table_two_ways(df)
   elif sport in ['tennis']:
-    df = scrape_current_season_typeB(tournament = league, country = country, SEASON = season)
+    df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, \
+        country = country, name_to_write = league, SEASON = season)
     df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season)
     df = create_clean_table_three_ways(df)
     
@@ -900,7 +931,7 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   if not os.path.exists('./{}'.format(sport)):
         os.makedirs('./{}'.format(sport))
 
-  data_df.to_csv('./{}/CurrentSeason_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+  df.to_csv('./{}/CurrentSeason_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
   
   
 def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes'):
@@ -908,14 +939,18 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+
+  if sport == 'tennis' :
+    bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
+    surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football']:
     df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
     df = create_clean_table_two_ways(df)
-  elif sport in ['tennis']:
-    df = scrape_league_typeB(Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
-    df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+  #elif sport in ['tennis']:
+    #df = scrape_league_typeB(Surface = surface, bestof = bestof, Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
+    #df = create_clean_table_two_ways(df)
+  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
     df = create_clean_table_three_ways(df)
     
@@ -923,7 +958,7 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   if not os.path.exists('./{}'.format(sport)):
         os.makedirs('./{}'.format(sport))
 
-  data_df.to_csv('./{}/Historical_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+  df.to_csv('./{}/Historical_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
   
   
 def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
@@ -931,14 +966,18 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+
+  if sport == 'tennis' :
+    bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
+    surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football']:
     df = scrape_next_games_typeA(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
     df = create_clean_table_two_ways(df)
   elif sport in ['tennis']:
-    df = scrape_next_games_typeB(Surface = 'Hard', bestof = 3, tournament = league , country = country , name_to_write = league, SEASON = '2020')
+    df = scrape_next_games_typeB(Surface = surface, bestof = bestof, tournament = league , country = country , name_to_write = league, SEASON = '2020')
     df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_next_games_typeC(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
     df = create_clean_table_three_ways(df)
     
@@ -946,7 +985,35 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
   if not os.path.exists('./{}'.format(sport)):
         os.makedirs('./{}'.format(sport))
 
-  data_df.to_csv('./{}/NextGames_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+  df.to_csv('./{}/NextGames_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
+
+
+def scrape_oddsportal_specific_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', max_page = 25):
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  
+  while sport not in L :
+    sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+
+  if sport == 'tennis' :
+    bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
+    surface = input('Please indicate the surface : \n ')
+    
+  if sport in ['baseball','esports','basketball','darts', 'american-football']:
+    df = scrape_current_tournament_typeA(sport, tournament, country, season, max_page = max_page)
+    df = create_clean_table_two_ways(df)
+  #elif sport in ['tennis']:
+    #df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, country = country,\
+         #name_to_write = league, SEASON = season)
+    #df = create_clean_table_two_ways(df)
+  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
+    df = scrape_current_tournament_typeC(sport = sport, tournament = league, country = country, SEASON = season, max_page = max_page)
+    df = create_clean_table_three_ways(df)
+    
+    
+  if not os.path.exists('./{}'.format(sport)):
+        os.makedirs('./{}'.format(sport))
+
+  df.to_csv('./{}/Season_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
     
     
   
