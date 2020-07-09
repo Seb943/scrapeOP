@@ -1,0 +1,957 @@
+### functions 
+
+# OddsPortal scraper functions 
+
+
+import os
+import urllib
+from selenium import webdriver
+import time
+from selenium.webdriver.common.keys import Keys
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import re
+import sys
+
+from create_clean_table import *
+
+def fi(a):
+    try:
+        driver.find_element_by_xpath(a).text
+    except:
+        return False
+
+def ffi(a):
+    if fi(a) != False :
+        return driver.find_element_by_xpath(a).text
+
+def fi2(a):
+    try:
+        driver.find_element_by_xpath(a).click()
+    except:
+        return False
+
+def ffi2(a):
+    if fi2(a) != False :
+        fi2(a)
+        return(True)
+    else:
+        return(None)
+
+
+
+def get_data_typeA(i, link):
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,10): # only first 10 bookmakers displayed
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+        return(L)
+
+    return(None)
+
+def get_data_next_games_typeA(i, link):
+    L = None
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
+    a = ffi2(target)
+
+    L = []
+
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+
+    return(L)
+###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
+
+
+def scrape_page_typeA(page, sport, country, tournament, SEASON):
+    link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport, country, tournament, SEASON, page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeA(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_page_next_games_typeA(country, sport, tournament, nmax = 20):
+    link = 'https://www.oddsportal.com/{}/{}/{}/'.format(sport, country,tournament)
+    DATA = []
+    for i in range(1,nmax):
+        print(i)
+        content = get_data_next_games_typeA(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_page_current_season_typeA(page,sport, country, tournament):
+    link = 'https://www.oddsportal.com/{}/{}/{}/results/page/1/#/page/{}'.format(sport,country,tournament,page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeA(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page = 25):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        data = scrape_page_typeA(page,sport, country, tournament, SEASON)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    # Finally we save results
+    if not os.path.exists('./{}_FULL'.format(tournament)):
+        os.makedirs('./{}_FULL'.format(tournament))
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+
+    return(data_df)
+
+def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 25):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        data = scrape_page_current_season_typeA(page, sport, country, tournament)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    # Finally we save results
+    if not os.path.exists('./{}_FULL'.format(tournament)):
+        os.makedirs('./{}_FULL'.format(tournament))
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    return(data_df)
+
+def scrape_league_typeA(Season, sport, country1, tournament1, nseason):
+    for i in range(nseason):
+        SEASON1 = '{}'.format(Season)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
+        Season+=1
+
+    SEASON1 = '{}'.format(Season)
+    print('We start to collect season {}'.format(SEASON1))
+    scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+    print('We finished to collect season {} !'.format(SEASON1))
+
+    # Finally we merge all files
+    file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
+    print(os.listdir('./{}/'.format(tournament1))[0])
+    for filename in os.listdir('./{}/'.format(tournament1))[1:]:
+        file = pd.read_csv('./{}/'.format(tournament1) + filename, sep=';')
+        print(filename)
+        file1 = file1.append(file)
+
+    file1 = file1.reset_index()
+
+    #Correct falsly collected data for away (in case of 1X2 instead of H/A odds)
+    for i in range(file1.shape[0]):
+        if (1/file1["OddHome"].iloc[i] + 1/file1["OddAway"].iloc[i]) < 1 :
+            file1["OddAway"].iloc[i] = 1 / ((1 - 1/file1["OddHome"].iloc[i])*1.07) #  1/1.07 = 0.934 => 6.5 % margin (estimation)
+            print(file1["OddHome"].iloc[i], file1["OddAway"].iloc[i], i)
+    file1.to_csv("./{}/All_data_{}.csv".format(tournament1, tournament1))
+
+    print('All good! ')
+
+def scrape_next_games_typeA(tournament, sport, country, SEASON, nmax = 30):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    data = scrape_page_next_games_typeA(country, sport, tournament, nmax)
+    DATA_ALL = DATA_ALL + [y for y in data if y != None]
+    driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw']
+
+    data_df["ScoreRaw"] = '0:0'
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+
+    # (d) Set season column
+    data_df["Season"] = SEASON
+
+
+    # Finally we save results
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/NextGames_{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+
+
+    return(data_df)
+
+
+
+def get_data_typeB(i, link):
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,10): # only first 10 bookmakers displayed
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+            if final_score[-1].isalpha(): # if last character is a letter
+                print('We detect one player retired!')
+                return(None)
+            L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+        return(L)
+
+    return(None)
+
+def get_data_next_games_typeB(i, link):
+    L = None
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
+    a = ffi2(target)
+
+    L = []
+
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            #final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_2, date, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_2, date)]
+            
+
+
+    return(L)
+###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
+def scrape_page_typeB(page, country, tournament, SEASON, alpha_game = ['We_scrape_full_season','We_scrape_full_season','We_scrape_full_season']):
+    link = 'https://www.oddsportal.com/tennis/{}/{}/results/#/page/{}/'.format(country,tournament,page)
+    DATA = []
+    REACH_END = 0
+    print("alpha_game = ", alpha_game)
+    for i in range(1,100):
+      if REACH_END == 0 :
+        content = get_data_typeB(i, link)
+        if content != None:
+          #print(content)
+          p1 = re.split(' - ', content[0][0])[0] 
+          p2 = re.split(' - ', content[0][0])[1]
+          date = re.split(', ', content[0][4])[1]
+          if (p1 == alpha_game[0]) & (p2 == alpha_game[1]) & (date == alpha_game[2]):
+            REACH_END = 1
+            print("REACH_END = 1, the scraping should stop!", "\n")
+          if (p1 != alpha_game[0]) | (p2 != alpha_game[1]) | (date != alpha_game[2]):
+            DATA = DATA + list(content)
+          
+    #print(DATA)
+    print("REACH_END = ", REACH_END)
+    return(DATA, REACH_END)
+    
+
+def scrape_page_next_games_typeB(country, tournament, nmax = 20):
+    link = 'https://www.oddsportal.com/tennis/{}/{}/'.format(country,tournament)
+    DATA = []
+    for i in range(1,nmax):
+        print(i)
+        content = get_data_next_games_typeB(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+  
+
+def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon', country = 'france', name_to_write = 'WTA Lyon', SEASON = '2020'):
+    global driver
+    REACH_END = 0
+    
+    if not os.path.exists('./{}/{}_{}.csv'.format(tournament,tournament, SEASON)):
+        alpha_game = ['We_scrape_full_season','We_scrape_full_season','We_scrape_full_season']
+    elif os.path.exists('./{}/{}_{}.csv'.format(tournament,tournament, SEASON)):
+      file = pd.read_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8')
+      alpha_game = [file["P1"].iloc[0],file["P2"].iloc[0],file["Date"].iloc[0]]
+
+    print("We start to scrape the following tournament :", tournament)
+    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    #SEASON = '''2020'''
+    DATA_ALL = []
+    for page in range(1, 20):
+      if REACH_END == 0 :
+        print('We start to scrape the page n°{}'.format(page))
+        data, REACH_END = scrape_page_typeB(page, country, tournament, SEASON, alpha_game)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        print('We finished to scrape the page n°{}'.format(page))
+    driver.close()
+    
+    
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    DATA_ALL_CLEANED = DATA_ALL
+    #for i in range(len(DATA_ALL)):
+        #DATA_ALL_CLEANED+= DATA_ALL[i]
+    #print(DATA_ALL_CLEANED)
+    #print(len(DATA_ALL_CLEANED))
+    scores = getScore(DATA_ALL_CLEANED)
+    teams = [re.split(' - ',y) for y in [y[0] for y in DATA_ALL_CLEANED]]
+    set_scores = [re.split(':',y) for y in [y[5][13:16] for y in DATA_ALL_CLEANED]]
+    DATE = [re.split(', ',y) for y in [y[4] for y in DATA_ALL_CLEANED]]
+    games_score = [re.split(',',y) for y in [y[5][18:] for y in DATA_ALL_CLEANED]]
+    set1 = [re.split(',',y) for y in [y[0] for y in games_score]]
+    set2 = [re.split(',',y) for y in [y[1] for y in games_score]]
+    #set3 = [re.split(',',y) for y in [y[2] for y in games_score]]
+    set1games = [re.split(':',y) for y in [y[0] for y in set1]]
+    set2games = [re.split(':',y) for y in [y[0] for y in set2]]
+    FINAL_DATASET = pd.DataFrame({'Date' : [y[1] for y in DATE], #'Time': [y[2] for y in DATE],
+                                'Bookmaker' : [y[1] for y in DATA_ALL_CLEANED],
+                                'P1' : [y[0] for y in teams],
+                                'P2' : [y[1] for y in teams],
+                                'Odd_v1' : [y[2] for y in DATA_ALL_CLEANED],
+                                'Odd_v2' : [y[3] for y in DATA_ALL_CLEANED],
+                                'Score_1_set': [scores[y[0] + ' - ' + y[1]]['setP1'] for y in teams], #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
+                                'Score_2_set': [scores[y[0] + ' - ' + y[1]]['setP2'] for y in teams], #[y[1][0] for y in set_scores],
+                                'Set1score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set1P1'] for y in teams], #[y[0] for y in set1games],
+                                'Set1score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set1P2'] for y in teams], #[y[1] for y in set1games],
+                                'Set2score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set2P1'] for y in teams], #[y[0] for y in set2games],
+                                'Set2score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set2P2'] for y in teams], #[y[1] for y in set2games]
+                                'Set3score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set3P1'] for y in teams],
+                                'Set3score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set3P2'] for y in teams],
+                                'Set4score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set4P1'] for y in teams],
+                                'Set4score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set4P2'] for y in teams],
+                                'Set5score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set5P1'] for y in teams],
+                                'Set5score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set5P2'] for y in teams]
+                                })
+                                
+                          
+    #print(FINAL_DATASET.head())
+    FINAL_DATASET["Tournament"] = name_to_write
+    FINAL_DATASET["Season"] = SEASON
+    FINAL_DATASET["Surface"] = Surface
+    FINAL_DATASET["Best.of"] = bestof
+
+    # (0) Filter out None rows
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v1'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v2'].isnull()].dropna().reset_index()
+
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    FINAL_DATASET.to_csv('./{}/{}_{}.csv'.format(tournament, tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    #print(os.listdir())
+    #print(os.getcwd())
+    return(FINAL_DATASET)
+    
+    
+def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_write, SEASON = '2020'):
+    global driver
+    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    #SEASON = '''2020'''
+    DATA_ALL = []
+    for page in range(1):
+        print('We start to scrape the page n°{}'.format(page))
+        data = scrape_page_next_games_typeB(country, tournament)
+        DATA_ALL.append([y for y in data if y != None])
+        
+    driver.close()
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    DATA_ALL_CLEANED = []
+    for i in range(len(DATA_ALL)):
+        DATA_ALL_CLEANED+= DATA_ALL[i]
+    #print(DATA_ALL_CLEANED)
+    #print(len(DATA_ALL_CLEANED))
+    #scores = getScore(DATA_ALL_CLEANED)
+    teams = [re.split(' - ',y) for y in [y[0] for y in DATA_ALL_CLEANED]]
+    #set_scores = [re.split(':',y) for y in [y[5][13:16] for y in DATA_ALL_CLEANED]]
+    DATE = [re.split(', ',y) for y in [y[4] for y in DATA_ALL_CLEANED]]
+    #games_score = [re.split(',',y) for y in [y[5][18:] for y in DATA_ALL_CLEANED]]
+    #set1 = [re.split(',',y) for y in [y[0] for y in games_score]]
+    #set2 = [re.split(',',y) for y in [y[1] for y in games_score]]
+    #set3 = [re.split(',',y) for y in [y[2] for y in games_score]]
+    #set1games = [re.split(':',y) for y in [y[0] for y in set1]]
+    #set2games = [re.split(':',y) for y in [y[0] for y in set2]]
+    FINAL_DATASET = pd.DataFrame({'Date' : [y[1] for y in DATE], #'Time': [y[2] for y in DATE],
+                                'Bookmaker' : [y[1] for y in DATA_ALL_CLEANED],
+                                'P1' : [y[0] for y in teams],
+                                'P2' : [y[1] for y in teams],
+                                'Odd_v1' : [y[2] for y in DATA_ALL_CLEANED],
+                                'Odd_v2' : [y[3] for y in DATA_ALL_CLEANED],
+                                'Score_1_set': 0, #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
+                                'Score_2_set': 0, #[y[1][0] for y in set_scores],
+                                'Set1score1' : 0, #[y[0] for y in set1games],
+                                'Set1score2' : 0, #[y[1] for y in set1games],
+                                'Set2score1' : 0, #[y[0] for y in set2games],
+                                'Set2score2' : 0, #[y[1] for y in set2games]
+                                'Set3score1' : 0,
+                                'Set3score2' : 0,
+                                'Set4score1' : 0,
+                                'Set4score2' : 0,
+                                'Set5score1' : 0,
+                                'Set5score2' : 0
+                                })
+                                
+                          
+    #print(FINAL_DATASET.head())
+    FINAL_DATASET["Tournament"] = name_to_write
+    FINAL_DATASET["Season"] = SEASON
+    FINAL_DATASET["Surface"] = Surface
+    FINAL_DATASET["Best.of"] = bestof
+
+
+    # (0) Filter out None rows
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v1'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v2'].isnull()].dropna().reset_index()
+
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    FINAL_DATASET.to_csv('./{}/NextGames_{}_{}.csv'.format(tournament, tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    #print(os.listdir())
+    #print(os.getcwd())
+    return(FINAL_DATASET)
+
+
+def get_data_typeC(i, link):
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,10): # only first 10 bookmakers displayed
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_X, Odd_2, date, final_score, i, '/ 500 ')
+            L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
+        return(L)
+
+    return(None)
+
+def get_data_next_games_typeC(i, link):
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
+    a = ffi2(target)
+
+    L = []
+
+
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_X, Odd_2, date, final_score, i, '/ 30 ')
+            L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_X, Odd_2, date, final_score, i, '/ 30 ')
+            L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
+            
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        time.sleep(4)
+        # Now we collect all bookmaker
+        for j in range(1,30): # only first 10 bookmakers displayed
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_X, Odd_2, date, final_score, i, '/ 30 ')
+            L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
+            
+            Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            match = ffi('//*[@id="col-content"]/h1') # match teams
+            final_score = ffi('//*[@id="event-status"]')
+            date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+            print(match, Book, Odd_1, Odd_X, Odd_2, date, final_score, i, '/ 30 ')
+            L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
+            
+
+
+    return(L)
+###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
+
+
+def scrape_page_typeC(page, sport, country, tournament, SEASON):
+    link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport,country,tournament,SEASON,page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeC(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_page_next_games_typeC(country,sport,  tournament, nmax = 20):
+    link = 'https://www.oddsportal.com/{}/{}/{}/'.format(sport, country,tournament)
+    DATA = []
+    for i in range(1,nmax):
+        print(i)
+        content = get_data_next_games_typeC(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_page_current_season_typeC(page,sport, country, tournament):
+    link = 'https://www.oddsportal.com/{}/{}/{}/results/page/1/#/page/{}'.format(sport,country,tournament,page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeC(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page = 25):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        data = scrape_page_typeC(page, sport, country, tournament, SEASON)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    # Finally we save results
+    if not os.path.exists('./{}_FULL'.format(tournament)):
+        os.makedirs('./{}_FULL'.format(tournament))
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+
+    return(data_df)
+
+def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 25):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        data = scrape_page_current_season_typeC(page, sport, country, tournament)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    # Finally we save results
+    if not os.path.exists('./{}_FULL'.format(tournament)):
+        os.makedirs('./{}_FULL'.format(tournament))
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    return(data_df)
+
+def scrape_league_typeC(Season, sport, country1, tournament1, nseason):
+    for i in range(nseason):
+        SEASON1 = '{}'.format(Season)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
+        Season+=1
+
+    SEASON1 = '{}'.format(Season)
+    print('We start to collect season {}'.format(SEASON1))
+    scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+    print('We finished to collect season {} !'.format(SEASON1))
+
+    # Finally we merge all files
+    file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
+    print(os.listdir('./{}/'.format(tournament1))[0])
+    for filename in os.listdir('./{}/'.format(tournament1))[1:]:
+        file = pd.read_csv('./{}/'.format(tournament1) + filename, sep=';')
+        print(filename)
+        file1 = file1.append(file)
+
+    file1 = file1.reset_index()
+
+    #Correct falsly collected data for away (in case of 1X2 instead of H/A odds)
+    return(0)
+
+def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    data = scrape_page_next_games_typeC(country, sport, tournament, nmax)
+    DATA_ALL = DATA_ALL + [y for y in data if y != None]
+    driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw']
+
+    data_df["ScoreRaw"] = '0:0'
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+
+    # (d) Set season column
+    data_df["Season"] = SEASON
+
+
+    # Finally we save results
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/NextGames_{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+
+
+    return(data_df)
+
+
+
+def scrape_oddsportal_current_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020'):
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  
+  while sport not in L :
+    sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+    
+  if sport in ['baseball','esports','basketball','darts']:
+    df = scrape_current_season_typeA(tournament = league, sport = sport, country = country, SEASON = season)
+    df = create_clean_table_two_ways(df)
+  elif sport in ['tennis']:
+    df = scrape_current_season_typeB(tournament = league, country = country, SEASON = season)
+    df = create_clean_table_two_ways(df)
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+    df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season)
+    df = create_clean_table_three_ways(df)
+    
+    
+  if not os.path.exists('./{}'.format(sport)):
+        os.makedirs('./{}'.format(sport))
+
+  data_df.to_csv('./{}/CurrentSeason_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+  
+  
+def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes'):
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  
+  while sport not in L :
+    sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+    
+  if sport in ['baseball','esports','basketball','darts']:
+    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
+    df = create_clean_table_two_ways(df)
+  elif sport in ['tennis']:
+    df = scrape_league_typeB(Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
+    df = create_clean_table_two_ways(df)
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+    df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
+    df = create_clean_table_three_ways(df)
+    
+    
+  if not os.path.exists('./{}'.format(sport)):
+        os.makedirs('./{}'.format(sport))
+
+  data_df.to_csv('./{}/Historical_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+  
+  
+def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  
+  while sport not in L :
+    sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
+    
+  if sport in ['baseball','esports','basketball','darts']:
+    df = scrape_next_games_typeA(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
+    df = create_clean_table_two_ways(df)
+  elif sport in ['tennis']:
+    df = scrape_next_games_typeB(Surface = 'Hard', bestof = 3, tournament = league , country = country , name_to_write = league, SEASON = '2020')
+    df = create_clean_table_two_ways(df)
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'american-football']:
+    df = scrape_next_games_typeC(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
+    df = create_clean_table_three_ways(df)
+    
+    
+  if not os.path.exists('./{}'.format(sport)):
+        os.makedirs('./{}'.format(sport))
+
+  data_df.to_csv('./{}/NextGames_{}_{}_{}.csv'.format(sport, country, tournament, SEASON), sep=',', encoding='utf-8', index=False)
+    
+    
+  
+    
+    
+  
+    
+    
