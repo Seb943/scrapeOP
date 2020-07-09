@@ -8,7 +8,7 @@ Functionalities :
 - Mutiple functionalities : collect historical odds, current season only, upcoming games, specific season only
 - Collects all available bookmakers odds for each game
 - Collects the final result
-- Sort the data by date <br />
+- Automatically sort the data by date <br />
 
 The main functions which you can use are the following one : 
 1. scrape_oddsportal_historical(sport = 'soccer', country = 'france', league = 'ligue-1', start = '2010-2011', nseason = 5, current_season = 'yes')
