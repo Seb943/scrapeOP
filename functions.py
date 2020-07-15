@@ -1140,7 +1140,7 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
     surface = input('Please indicate the surface : \n ')
     
   if sport in ['baseball','esports','basketball','darts', 'american-football']:
-    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season)
+    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_league_typeB(Surface = surface, bestof = bestof, Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
