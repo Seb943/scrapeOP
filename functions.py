@@ -190,8 +190,15 @@ def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page
     # (b) Transform date
     data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
     # (c) Split score
-    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
-    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    data_df["Score_home"] = [re.split(':',y)[0][-3:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:3] for y in data_df["ScoreRaw"]]
+    for j in range(len(data_df["Score_home"])):
+      str_home = data_df["Score_home"].iloc[j]
+      str_away = data_df["Score_away"].iloc[j]
+      if str_home[0] == 't':
+        data_df["Score_home"].iloc[j] = str_home[1:]
+      if str_away[-1] == '(':
+        data_df["Score_away"].iloc[j] = str_away[:-1]
     # (e) Set season column
     data_df["Season"] = SEASON
     # Finally we save results
@@ -239,8 +246,17 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     # (b) Transform date
     data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
     # (c) Split score
-    data_df["Score_home"] = [re.split(':',y)[0][-2:] for y in data_df["ScoreRaw"]]
-    data_df["Score_away"] = [re.split(':',y)[1][:2] for y in data_df["ScoreRaw"]]
+    data_df["Score_home"] = [re.split(':',y)[0][-3:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:3] for y in data_df["ScoreRaw"]]
+    
+    for j in range(len(data_df["Score_home"])):
+      str_home = data_df["Score_home"].iloc[j]
+      str_away = data_df["Score_away"].iloc[j]
+      if str_home[0] == 't':
+        data_df["Score_home"].iloc[j] = str_home[1:]
+      if str_away[-1] == '(':
+        data_df["Score_away"].iloc[j] = str_away[:-1]
+        
     # (e) Set season column
     data_df["Season"] = SEASON
     # Finally we save results
@@ -915,6 +931,7 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
 
     return(data_df)
 
+
 def get_data_typeD(i, link):
     driver.get(link)
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
@@ -926,7 +943,32 @@ def get_data_typeD(i, link):
         a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]') # click on home/away odds
         if a == True :
             # Now we collect all bookmaker
-            for j in range(1,10): # only first 10 bookmakers displayed
+            for j in range(1,30): # only first 10 bookmakers displayed
+                Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                match = ffi('//*[@id="col-content"]/h1') # match teams
+                #final_score = ffi('//*[@id="event-status"]')
+                date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+                print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+                L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+            return(L)
+
+    return(None)
+    
+def get_data_next_games_typeD(i, link):
+    driver.get(link)
+    L = []
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]') # click on home/away odds
+        if a == True :
+            # Now we collect all bookmaker
+            for j in range(1,30): # only first 10 bookmakers displayed
                 Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
                 Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
                 Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
@@ -935,10 +977,28 @@ def get_data_typeD(i, link):
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
                 print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
                 L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
-            return(L)
-
-    return(None)
-
+                
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]') # click on home/away odds
+        if a == True :
+            # Now we collect all bookmaker
+            for j in range(1,30): # only first 10 bookmakers displayed
+                Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                match = ffi('//*[@id="col-content"]/h1') # match teams
+                final_score = ffi('//*[@id="event-status"]')
+                date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+                print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+                L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+                
+    return(L)
+    
 
 def scrape_page_typeD(page, sport, country, tournament, SEASON):
     link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport,country,tournament,SEASON,page)
@@ -1003,6 +1063,19 @@ def scrape_current_tournament_typeD(sport, tournament, country, SEASON, max_page
     data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
     to_csv('./{}/{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
+    
+def scrape_page_next_games_typeD(country, sport, tournament, nmax = 20):
+  link = 'https://www.oddsportal.com/{}/{}/{}/'.format(sport, country,tournament)
+  DATA = []
+  for i in range(1,nmax):
+    print(i)
+    content = get_data_next_games_typeD(i, link)
+    if content != None:
+        DATA = DATA + content
+  print(DATA)
+  return(DATA)
+
+
 
 def scrape_current_season_typeD(tournament, sport, country, SEASON, max_page = 25):
     global driver
@@ -1052,6 +1125,58 @@ def scrape_current_season_typeD(tournament, sport, country, SEASON, max_page = 2
 
     return(data_df)
 
+def scrape_next_games_typeD(tournament, sport, country, SEASON, nmax = 30):
+    global driver
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
+    data = scrape_page_next_games_typeD(country, sport, tournament, nmax)
+    DATA_ALL = DATA_ALL + [y for y in data if y != None]
+    driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw', 'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
+
+    data_df["ScoreRaw"] = '0:0'
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+
+    # (d) Set season column
+    data_df["Season"] = SEASON
+
+
+    # Finally we save results
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/NextGames_{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+
+
+    return(data_df)
+
 
 
 def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
@@ -1095,7 +1220,7 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
 
 
 def scrape_oddsportal_current_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020'):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -1104,14 +1229,14 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
     bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
     surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts', 'american-football']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
     df = scrape_current_season_typeA(tournament = league, sport = sport, country = country, SEASON = season)
     df = create_clean_table_two_ways(df)
   elif sport in ['tennis']:
     df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, \
         country = country, name_to_write = league, SEASON = season)
     df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
     df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season)
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
@@ -1126,7 +1251,7 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   
   
 def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes'):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -1135,13 +1260,13 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
     bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
     surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts', 'american-football']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
     df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_league_typeB(Surface = surface, bestof = bestof, Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
     #df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
     df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
@@ -1156,7 +1281,7 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   
   
 def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -1165,13 +1290,13 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
     bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
     surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts', 'american-football']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
     df = scrape_next_games_typeA(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
     df = create_clean_table_two_ways(df)
   elif sport in ['tennis']:
     df = scrape_next_games_typeB(Surface = surface, bestof = bestof, tournament = league , country = country , name_to_write = league, SEASON = '2020')
     df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
     df = scrape_next_games_typeC(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
@@ -1186,7 +1311,7 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
 
 
 def scrape_oddsportal_specific_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', max_page = 25):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -1195,14 +1320,14 @@ def scrape_oddsportal_specific_season(sport = 'football', country = 'france', le
     bestof = input('Please indicate the format of tournament (3 sets or 5 sets) : \n ')
     surface = input('Please indicate the surface : \n ')
     
-  if sport in ['baseball','esports','basketball','darts', 'american-football']:
+  if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
     df = scrape_current_tournament_typeA(sport, tournament, country, season, max_page = max_page)
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, country = country,\
          #name_to_write = league, SEASON = season)
     #df = create_clean_table_two_ways(df)
-  elif sport in ['soccer', 'rugby-union', 'rugby-league']:
+  elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
     df = scrape_current_tournament_typeC(sport = sport, tournament = league, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
