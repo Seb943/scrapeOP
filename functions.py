@@ -270,7 +270,7 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
         to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
 
-def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
     long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
     Season = Season[0:4]
     for i in range(nseason):
@@ -278,7 +278,7 @@ def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
+        scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = 25)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
@@ -846,7 +846,7 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
         to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
     
-def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
     long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
     Season = Season[0:4]
     for i in range(nseason):
@@ -854,14 +854,14 @@ def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
+        scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = 25)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
     if current_season == 'yes' : 
         SEASON1 = '{}'.format(Season)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = 25)
         print('We finished to collect season {} !'.format(SEASON1))
 
     # Finally we merge all files
@@ -1179,7 +1179,7 @@ def scrape_next_games_typeD(tournament, sport, country, SEASON, nmax = 30):
 
 
 
-def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
     long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
     Season = Season[0:4]
     for i in range(nseason):
@@ -1187,14 +1187,14 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
             SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeD(tournament = tournament1, country = country1, SEASON = SEASON1)
+        scrape_current_tournament_typeD(tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
     if current_season == 'yes' : 
         SEASON1 = '{}-{}'.format(Season, Season +1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_season_typeD(tournament = tournament1, country = country1, SEASON = SEASON1)
+        scrape_current_season_typeD(tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
 
 
@@ -1219,7 +1219,11 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
     return(file1)
 
 
-def scrape_oddsportal_current_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020'):
+def scrape_oddsportal_current_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', max_page = 25):
+  ''' sport : sport as mentioned on the oddsportal website 
+      country : country as mentioned on oddsportal website 
+      league : league as mentioned on oddsportal website
+      season : season that you want in the column Season in the csv'''
   L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
@@ -1230,17 +1234,17 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
     surface = input('Please indicate the surface : \n ')
     
   if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
-    df = scrape_current_season_typeA(tournament = league, sport = sport, country = country, SEASON = season)
+    df = scrape_current_season_typeA(tournament = league, sport = sport, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_two_ways(df)
   elif sport in ['tennis']:
     df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, \
-        country = country, name_to_write = league, SEASON = season)
+        country = country, name_to_write = league, SEASON = season, max_page = 25)
     df = create_clean_table_two_ways(df)
   elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
-    df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season)
+    df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
-    df = scrape_current_season_typeD(tournament = league, sport = sport, country = country, SEASON = season)
+    df = scrape_current_season_typeD(tournament = league, sport = sport, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_two_ways(df)
     
     
@@ -1250,7 +1254,13 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   df.to_csv('./{}/CurrentSeason_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
   
   
-def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes'):
+def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes', max_page = 25):
+  ''' sport : sport as mentioned on the oddsportal website 
+      country : country as mentioned on oddsportal website 
+      league : league as mentioned on oddsportal website
+      start_season : starting season as mentioned in the oddsportal website
+      nseasons = number of seasons to scrape from the starting season (do not include current season!)
+      current_season : do you want to scrape current season aswell ? '''
   L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
@@ -1261,16 +1271,16 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
     surface = input('Please indicate the surface : \n ')
     
   if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
-    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
+    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes', max_page = max_page)
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_league_typeB(Surface = surface, bestof = bestof, Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
     #df = create_clean_table_two_ways(df)
   elif sport in ['soccer', 'rugby-union', 'rugby-league', 'handball']:
-    df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
+    df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes', max_page = max_page)
     df = create_clean_table_three_ways(df)
   elif sport in ['hockey']:
-    df = scrape_league_typeD(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
+    df = scrape_league_typeD(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes', max_page = max_page)
     df = create_clean_table_two_ways(df)
     
     
@@ -1281,6 +1291,11 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   
   
 def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
+  ''' sport : sport as mentioned on the oddsportal website 
+      country : country as mentioned on oddsportal website 
+      league : league as mentioned on oddsportal website
+      season : season that you want in the column Season in the csv
+      nmax : how many links do you want to try - usually nmax = 4*number of games we want to scrape'''
   L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
@@ -1311,6 +1326,11 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
 
 
 def scrape_oddsportal_specific_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', max_page = 25):
+  ''' sport : sport as mentioned on the oddsportal website 
+      country : country as mentioned on oddsportal website 
+      league : league as mentioned on oddsportal website
+      season : season that you want in the column Season in the csv
+      max_page = how many pages do you want to scrape for this season?'''
   L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey', 'volleyball', 'handball']
   
   while sport not in L :
