@@ -3,8 +3,8 @@ A python package for scraping oddsportal.com
 
 Oddportal.com [1] is a tremendous website containing both historical and future betting odds concerning a wide range of sports and boomakers. <br />
 This repository contains : <br />
-1 . A set of functions to scrape whatever league you wish : simply clone the repository and open the FinalScraper.py script<br />
-2 . A repository DATA containing multiple leagues data scraped onto the website<br />
+1. A set of functions to scrape whatever league you wish : simply clone the repository and open the FinalScraper.py script<br />
+1. A repository DATA containing multiple leagues data scraped onto the website<br />
 
 Functionalities :
 - Multiple sports supported : soccer, basketball, esports, darts, tennis, baseball, rugby, american football [list to be expanded soon!]
