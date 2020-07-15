@@ -5,9 +5,9 @@ Oddportal.com [1] is a tremendous website containing both historical and future 
 This repository contains : <br />
 1. A set of functions to scrape whatever league you wish : 
   1. (a) Clone the repository or download it 
-  1. (b) Set your chrome driver location at line 20 in functions.py
-  1. (c) Open FinalScraper.py and use one of the functions to scrape, that is as simple as this!
-1. A repository DATA containing multiple leagues data scraped onto the website
+  2. (b) Set your chrome driver location at line 20 in functions.py
+  3. (c) Open FinalScraper.py and use one of the functions to scrape, that is as simple as this!
+2. A repository DATA containing multiple leagues data scraped onto the website
 
 Functionalities :
 - Multiple sports supported : soccer, basketball, esports, darts, tennis, baseball, rugby, american football [list to be expanded soon!]
