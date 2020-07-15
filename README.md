@@ -9,6 +9,13 @@ This repository contains : <br />
   3. (c) Open FinalScraper.py and use one of the functions to scrape, that is as simple as this!
 2. A repository DATA containing multiple leagues data scraped onto the website
 
+1. First item
+2. Second item
+3. Third item
+    1. Indented item
+    2. Indented item
+4. Fourth item
+
 Functionalities :
 - Multiple sports supported : soccer, basketball, esports, darts, tennis, baseball, rugby, american football [list to be expanded soon!]
 - Mutiple functionalities : collect historical odds, current season only, upcoming games, specific season only
