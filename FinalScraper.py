@@ -1,7 +1,7 @@
 ############ Final oddsportal scraper 
 
 # ATP, baseball, basket, darts, eSports, football, nfl, nhl, rugby
-''' Create three main functions : scrape_historical, scrape current_season, scrape_next_games'''
+''' Create 4 main functions : scrape_historical, scrape_specific_season, scrape current_season, scrape_next_games'''
 import os
 
 os.chdir("C:\\Users\\Sébastien CARARO\\Desktop\\ATP& &Others\\WebScraping")

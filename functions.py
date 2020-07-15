@@ -16,6 +16,9 @@ import sys
 
 from create_clean_table import *
 
+global DRIVER_LOCATION
+DRIVER_LOCATION = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe"
+
 def fi(a):
     try:
         driver.find_element_by_xpath(a).text
@@ -160,7 +163,7 @@ def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page
     DATA_ALL = []
     for page in range(1, max_page):
         print('We start to scrape the page n°{}'.format(page))
-        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_typeA(page,sport, country, tournament, SEASON)
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
@@ -199,9 +202,9 @@ def scrape_current_tournament_typeA(sport, tournament, country, SEASON, max_page
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
-    #     format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
 
     return(data_df)
 
@@ -211,7 +214,7 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     DATA_ALL = []
     for page in range(1, max_page):
         print('We start to scrape the page n°{}'.format(page))
-        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_current_season_typeA(page, sport, country, tournament)
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
@@ -248,23 +251,28 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-    #     to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
 
-def scrape_league_typeA(Season, sport, country1, tournament1, nseason):
+def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = Season[0:4]
     for i in range(nseason):
         SEASON1 = '{}'.format(Season)
+        if long_season:
+          SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
         scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
-    SEASON1 = '{}'.format(Season)
-    print('We start to collect season {}'.format(SEASON1))
-    scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
-    print('We finished to collect season {} !'.format(SEASON1))
+    if current_season == 'yes' : 
+        SEASON1 = '{}'.format(Season)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
 
     # Finally we merge all files
     file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
@@ -284,12 +292,13 @@ def scrape_league_typeA(Season, sport, country1, tournament1, nseason):
     file1.to_csv("./{}/All_data_{}.csv".format(tournament1, tournament1))
 
     print('All good! ')
+    return(file1)
 
 def scrape_next_games_typeA(tournament, sport, country, SEASON, nmax = 30):
     global driver
     ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
     DATA_ALL = []
-    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
     data = scrape_page_next_games_typeA(country, sport, tournament, nmax)
     DATA_ALL = DATA_ALL + [y for y in data if y != None]
     driver.close()
@@ -471,7 +480,7 @@ def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon'
       alpha_game = [file["P1"].iloc[0],file["P2"].iloc[0],file["Date"].iloc[0]]
 
     print("We start to scrape the following tournament :", tournament)
-    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
     #SEASON = '''2020'''
     DATA_ALL = []
     for page in range(1, max_page + 1):
@@ -540,7 +549,7 @@ def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon'
     
 def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_write, SEASON = '2020'):
     global driver
-    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
     #SEASON = '''2020'''
     DATA_ALL = []
     for page in range(1):
@@ -731,7 +740,7 @@ def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page
     DATA_ALL = []
     for page in range(1, max_page):
         print('We start to scrape the page n°{}'.format(page))
-        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_typeC(page, sport, country, tournament, SEASON)
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
@@ -771,9 +780,9 @@ def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
-    #     format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].to_csv('./{}/{}_{}.csv'.\
+        format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
 
     return(data_df)
 
@@ -783,7 +792,7 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     DATA_ALL = []
     for page in range(1, max_page):
         print('We start to scrape the page n°{}'.format(page))
-        driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_current_season_typeC(page, sport, country, tournament)
         DATA_ALL = DATA_ALL + [y for y in data if y != None]
         driver.close()
@@ -820,23 +829,28 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    # data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
-    # data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-    #     to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
     return(data_df)
-
-def scrape_league_typeC(Season, sport, country1, tournament1, nseason):
+    
+def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = Season[0:4]
     for i in range(nseason):
         SEASON1 = '{}'.format(Season)
+        if long_season:
+          SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
         scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
-    SEASON1 = '{}'.format(Season)
-    print('We start to collect season {}'.format(SEASON1))
-    scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
-    print('We finished to collect season {} !'.format(SEASON1))
+    if current_season == 'yes' : 
+        SEASON1 = '{}'.format(Season)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
 
     # Finally we merge all files
     file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
@@ -849,13 +863,14 @@ def scrape_league_typeC(Season, sport, country1, tournament1, nseason):
     file1 = file1.reset_index()
 
     #Correct falsly collected data for away (in case of 1X2 instead of H/A odds)
-    return(0)
+    return(file1)
+    
 
 def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
     global driver
     ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
     DATA_ALL = []
-    driver = webdriver.Chrome(executable_path = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe")
+    driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
     data = scrape_page_next_games_typeC(country, sport, tournament, nmax)
     DATA_ALL = DATA_ALL + [y for y in data if y != None]
     driver.close()
@@ -904,10 +919,187 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
 
     return(data_df)
 
+def get_data_typeD(i, link):
+    driver.get(link)
+    target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
+    a = ffi2(target)
+    if a == True:
+        print('We wait 4 seconds')
+        L = []
+        time.sleep(4)
+        a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]') # click on home/away odds
+        if a == True :
+            # Now we collect all bookmaker
+            for j in range(1,10): # only first 10 bookmakers displayed
+                Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                match = ffi('//*[@id="col-content"]/h1') # match teams
+                final_score = ffi('//*[@id="event-status"]')
+                date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+                print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+                L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+            return(L)
+
+    return(None)
+
+
+def scrape_page_typeD(page, sport, country, tournament, SEASON):
+    link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport,country,tournament,SEASON,page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeD(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_page_current_season_typeD(page, sport, country, tournament):
+    link = 'https://www.oddsportal.com/{}/{}/{}/results/page/1/#/page/{}'.format(sport,country,tournament,page)
+    DATA = []
+    for i in range(1,100):
+        content = get_data_typeD(i, link)
+        if content != None:
+            DATA = DATA + content
+    print(DATA)
+    return(DATA)
+
+def scrape_current_tournament_typeD(sport, tournament, country, SEASON, max_page = 25):
+    global driver
+    
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
+        data = scrape_page_typeD(page, sport, country, tournament, SEASON)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+    to_csv('./{}/{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    return(data_df)
+
+def scrape_current_season_typeD(tournament, sport, country, SEASON, max_page = 25):
+    global driver
+
+    ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
+    DATA_ALL = []
+    for page in range(1, max_page):
+        print('We start to scrape the page n°{}'.format(page))
+        driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
+        data = scrape_page_current_season_typeD(page, sport, country, tournament)
+        DATA_ALL = DATA_ALL + [y for y in data if y != None]
+        driver.close()
+
+    data_df = pd.DataFrame(DATA_ALL)
+    try:
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome', 'OddAway', 'DateRaw' ,'ScoreRaw']
+    except:
+        print('Function crashed, probable reason : no games scraped (empty season)')
+        return(1)    
+    ##################### FINALLY WE CLEAN THE DATA AND SAVE IT ##########################
+    '''Now we simply need to split team names, transform date, split score'''
+
+    # (0) Filter out None rows
+    data_df = data_df[~data_df['Bookmaker'].isnull()].dropna().reset_index()
+    data_df["TO_KEEP"] = 1
+    for i in range(len(data_df["TO_KEEP"])):
+        if len(re.split(':',data_df["ScoreRaw"][i]))<2 :
+            data_df["TO_KEEP"].iloc[i] = 0
+    data_df = data_df[data_df["TO_KEEP"] == 1]
+    # (a) Split team names
+    data_df["Home_id"] = [re.split(' - ',y)[0] for y in data_df["TeamsRaw"]]
+    data_df["Away_id"] = [re.split(' - ',y)[1] for y in data_df["TeamsRaw"]]
+    # (b) Transform date
+    data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
+    # (c) Split score
+    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
+    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+    # (e) Set season column
+    data_df["Season"] = SEASON
+    # Finally we save results
+    if not os.path.exists('./{}'.format(tournament)):
+        os.makedirs('./{}'.format(tournament))
+
+    data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
+    to_csv('./{}/{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    # 
+
+    return(data_df)
+
+
+
+def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_season = 'yes'):
+    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = Season[0:4]
+    for i in range(nseason):
+        SEASON1 = '{}'.format(Season)
+        if long_season:
+            SEASON1 = '{}-{}'.format(Season, Season+1)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_tournament_typeD(tournament = tournament1, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
+        Season+=1
+
+    if current_season == 'yes' : 
+        SEASON1 = '{}-{}'.format(Season, Season +1)
+        print('We start to collect season {}'.format(SEASON1))
+        scrape_current_season_typeD(tournament = tournament1, country = country1, SEASON = SEASON1)
+        print('We finished to collect season {} !'.format(SEASON1))
+
+
+    # Finally we merge all files
+    file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
+    print(os.listdir('./{}/'.format(tournament1))[0])
+    for filename in os.listdir('./{}/'.format(tournament1))[1:]:
+        file = pd.read_csv('./{}/'.format(tournament1) + filename, sep=';')
+        print(filename)
+        file1 = file1.append(file)
+
+    file1 = file1.reset_index()
+
+    #Correct falsly collected data for away (in case of 1X2 instead of H/A odds)
+    for i in range(file1.shape[0]):
+        if (1/file1["OddHome"].iloc[i] + 1/file1["OddAway"].iloc[i]) < 1 :
+            file1["OddAway"].iloc[i] = 1 / ((1 - 1/file1["OddHome"].iloc[i])*1.07) #  1/1.07 = 0.934 => 6.5 % margin (estimation)
+            print(file1["OddHome"].iloc[i], file1["OddAway"].iloc[i], i)
+    file1.to_csv("./{}/All_data_{}.csv".format(tournament1, tournament1))
+
+    print('All good! ')
+    return(file1)
 
 
 def scrape_oddsportal_current_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020'):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -926,6 +1118,9 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_current_season_typeC(tournament = league, sport = sport, country = country, SEASON = season)
     df = create_clean_table_three_ways(df)
+  elif sport in ['hockey']:
+    df = scrape_current_season_typeD(tournament = league, sport = sport, country = country, SEASON = season)
+    df = create_clean_table_two_ways(df)
     
     
   if not os.path.exists('./{}'.format(sport)):
@@ -935,7 +1130,7 @@ def scrape_oddsportal_current_season(sport = 'football', country = 'france', lea
   
   
 def scrape_oddsportal_historical(sport = 'football', country = 'france', league = 'ligue-1', start_season = '2019-2020', nseasons = 1, current_season = 'yes'):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -945,14 +1140,17 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
     surface = input('Please indicate the surface : \n ')
     
   if sport in ['baseball','esports','basketball','darts', 'american-football']:
-    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
+    df = scrape_league_typeA(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season)
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_league_typeB(Surface = surface, bestof = bestof, Season = start_season, country1 = country, tournament1 = league, nseason = nseasons)
     #df = create_clean_table_two_ways(df)
   elif sport in ['soccer', 'rugby-union', 'rugby-league']:
-    df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons)
+    df = scrape_league_typeC(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
     df = create_clean_table_three_ways(df)
+  elif sport in ['hockey']:
+    df = scrape_league_typeD(Season = start_season, sport = sport, country1 = country, tournament1 = league, nseason = nseasons, current_season = 'yes')
+    df = create_clean_table_two_ways(df)
     
     
   if not os.path.exists('./{}'.format(sport)):
@@ -962,7 +1160,7 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   
   
 def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -980,6 +1178,9 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
   elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_next_games_typeC(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
     df = create_clean_table_three_ways(df)
+  elif sport in ['hockey']:
+    df = scrape_next_games_typeD(tournament = league, sport = sport, country = country, SEASON = season, nmax = nmax)
+    df = create_clean_table_two_ways(df)
     
     
   if not os.path.exists('./{}'.format(sport)):
@@ -989,7 +1190,7 @@ def scrape_oddsportal_next_games(sport = 'football', country = 'france', league 
 
 
 def scrape_oddsportal_specific_season(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', max_page = 25):
-  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football']
+  L = ['soccer', 'basketball', 'esports', 'darts', 'tennis', 'baseball', 'rugby-union', 'rugby-league', 'american-football', 'hockey']
   
   while sport not in L :
     sport = input('Please choose a sport among the following list : \n {} \n'.format(L))
@@ -1008,6 +1209,9 @@ def scrape_oddsportal_specific_season(sport = 'football', country = 'france', le
   elif sport in ['soccer', 'rugby-union', 'rugby-league']:
     df = scrape_current_tournament_typeC(sport = sport, tournament = league, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_three_ways(df)
+  elif sport in ['hockey']:
+    df = scrape_current_tournament_typeD(sport = sport, tournament = league, country = country, SEASON = season, max_page = max_page)
+    df = create_clean_table_two_ways(df)
     
     
   if not os.path.exists('./{}'.format(sport)):
