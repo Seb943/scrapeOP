@@ -18,7 +18,7 @@ Functionalities :
 
 Currently supported : <br />
 Sport | Historical data (multiple seasons) | Current Season only | Specific Season | Next Games 
------------- | ------------- | ------------ | -------------
+------------ | ------------- | ------------ | ------------- | -------------
 American Football | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Baseball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Basketball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
