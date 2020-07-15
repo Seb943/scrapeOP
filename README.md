@@ -5,8 +5,8 @@
 This repository contains : <br /> 
 1. A set of functions to scrape whatever league you wish : 
     1. Clone the repository or download it 
-    2. Set your chrome driver location at line 20 in functions.py
-    2. Open FinalScraper.py and use one of the functions to scrape, that is as simple as this!
+    2. Set your chrome driver location at line 20 in *functions.py*
+    2. Open *FinalScraper.py* and use one of the functions to scrape, that is as simple as this!
 2. A repository DATA containing already scraped data among various leagues and sports
 
 :information_source: Functionalities :
@@ -36,13 +36,13 @@ Tennis | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x
 4. scrape_oddsportal_next_games(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020') <br />
 
 
-:information_source: Please report any bug/issue in the ***issues*** section or directly at sebcararo@hotmail.fr
+:information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-You can also have a look at the functions.py source code in order to understand the mechanics and eventually adapt the code to your own purpose. In the functions.py script, I distinguished 4 types of sports, according to the sport-related format of outcome (either 1X2, 12, and various types of score : tennis-alike, football-alike, baseball-alike, hockey-like (the format is different for hockey on oddsportal website) ). <br />
+You can also have a look at the *functions.py* source code in order to understand the mechanics and eventually adapt the code to your own purpose. In the *functions.py* script, I distinguished 4 types of sports, according to the sport-related format of outcome (either 1X2, 12, and various types of score : tennis-alike, football-alike, baseball-alike, hockey-like (the format is different for hockey on oddsportal website) ). <br />
 
 With the emergence of sports analytics and machine learning, it has become possible for anyone to create data-based betting strategies, taking into considerations both market-related figures (odds values, variations, differentials between bookmakers) and sport-related metrics of performance of any team. In order to perform this task, the very minimal data required is the historical results and betting odds (closing odds are usually preferred) which you can then use to create Machine Learning and Deep Learning models to infer probabilities of victories, and to analyze wheteher or not any given team is being undervalued or overvalued by any fiven bookmaker. The oddsportal website is one of the largest publicly open odds database, however its format and architecture are not very pleasing to deal with, therefore one need a bit of time to build tools to collect the data on their website. This package offers a comprehensive interface (sort of unofficial API) to collect odds and save the data into a comprehensive csv format. <br />
 
