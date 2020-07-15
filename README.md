@@ -6,7 +6,7 @@ This repository contains : <br />
 1 . A set of functions to scrape whatever league you wish : simply clone the repository and open the FinalScraper.py script<br />
 2 . A repository DATA containing multiple leagues data scraped onto the website<br />
 
-<u>Functionalities : </u>
+Functionalities :
 - Multiple sports supported : soccer, basketball, esports, darts, tennis, baseball, rugby, american football [list to be expanded soon!]
 - Mutiple functionalities : collect historical odds, current season only, upcoming games, specific season only
 - Collects all available bookmakers odds for each game
