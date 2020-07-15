@@ -524,12 +524,12 @@ def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon'
     set2games = [re.split(':',y) for y in [y[0] for y in set2]]
     FINAL_DATASET = pd.DataFrame({'Date' : [y[1] for y in DATE], #'Time': [y[2] for y in DATE],
                                 'Bookmaker' : [y[1] for y in DATA_ALL_CLEANED],
-                                'P1' : [y[0] for y in teams],
-                                'P2' : [y[1] for y in teams],
-                                'Odd_v1' : [y[2] for y in DATA_ALL_CLEANED],
-                                'Odd_v2' : [y[3] for y in DATA_ALL_CLEANED],
-                                'Score_1_set': [scores[y[0] + ' - ' + y[1]]['setP1'] for y in teams], #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
-                                'Score_2_set': [scores[y[0] + ' - ' + y[1]]['setP2'] for y in teams], #[y[1][0] for y in set_scores],
+                                'Home_id' : [y[0] for y in teams],
+                                'Away_id' : [y[1] for y in teams],
+                                'OddHome' : [y[2] for y in DATA_ALL_CLEANED],
+                                'OddAway' : [y[3] for y in DATA_ALL_CLEANED],
+                                'Score_home': [scores[y[0] + ' - ' + y[1]]['setP1'] for y in teams], #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
+                                'Score_away': [scores[y[0] + ' - ' + y[1]]['setP2'] for y in teams], #[y[1][0] for y in set_scores],
                                 'Set1score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set1P1'] for y in teams], #[y[0] for y in set1games],
                                 'Set1score2' : [scores[y[0] + ' - ' + y[1]]['jeux']['set1P2'] for y in teams], #[y[1] for y in set1games],
                                 'Set2score1' : [scores[y[0] + ' - ' + y[1]]['jeux']['set2P1'] for y in teams], #[y[0] for y in set2games],
@@ -550,8 +550,8 @@ def scrape_current_tournament_typeB(Surface, bestof = 3, tournament = 'wta-lyon'
     FINAL_DATASET["Best.of"] = bestof
 
     # (0) Filter out None rows
-    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v1'].isnull()].dropna().reset_index()
-    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v2'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['OddHome'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['OddAway'].isnull()].dropna().reset_index()
 
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
@@ -590,12 +590,12 @@ def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_writ
     #set2games = [re.split(':',y) for y in [y[0] for y in set2]]
     FINAL_DATASET = pd.DataFrame({'Date' : [y[1] for y in DATE], #'Time': [y[2] for y in DATE],
                                 'Bookmaker' : [y[1] for y in DATA_ALL_CLEANED],
-                                'P1' : [y[0] for y in teams],
-                                'P2' : [y[1] for y in teams],
-                                'Odd_v1' : [y[2] for y in DATA_ALL_CLEANED],
-                                'Odd_v2' : [y[3] for y in DATA_ALL_CLEANED],
-                                'Score_1_set': 0, #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
-                                'Score_2_set': 0, #[y[1][0] for y in set_scores],
+                                'Home_id' : [y[0] for y in teams],
+                                'Away_id' : [y[1] for y in teams],
+                                'OddHome' : [y[2] for y in DATA_ALL_CLEANED],
+                                'OddAway' : [y[3] for y in DATA_ALL_CLEANED],
+                                'Score_home': 0, #[y[0][len(y[0])-1:len(y[0])] for y in set_scores],
+                                'Score_away': 0, #[y[1][0] for y in set_scores],
                                 'Set1score1' : 0, #[y[0] for y in set1games],
                                 'Set1score2' : 0, #[y[1] for y in set1games],
                                 'Set2score1' : 0, #[y[0] for y in set2games],
@@ -617,8 +617,8 @@ def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_writ
 
 
     # (0) Filter out None rows
-    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v1'].isnull()].dropna().reset_index()
-    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['Odd_v2'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['OddHome'].isnull()].dropna().reset_index()
+    FINAL_DATASET = FINAL_DATASET[~FINAL_DATASET['OddAway'].isnull()].dropna().reset_index()
 
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
