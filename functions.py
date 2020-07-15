@@ -123,8 +123,6 @@ def get_data_next_games_typeA(i, link):
             L = L + [(match, Book, Odd_1, Odd_2, date)]
 
     return(L)
-###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
-
 
 def scrape_page_typeA(page, sport, country, tournament, SEASON):
     link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport, country, tournament, SEASON, page)
@@ -432,7 +430,7 @@ def get_data_next_games_typeB(i, link):
 
 
     return(L)
-###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
+
 def scrape_page_typeB(page, country, tournament, SEASON, alpha_game = ['We_scrape_full_season','We_scrape_full_season','We_scrape_full_season']):
     link = 'https://www.oddsportal.com/tennis/{}/{}/results/#/page/{}/'.format(country,tournament,page)
     DATA = []
@@ -700,8 +698,6 @@ def get_data_next_games_typeC(i, link):
 
 
     return(L)
-###################### FINALLY WE REPEAT THE PROCESS OVER THE PAGES ##########################
-
 
 def scrape_page_typeC(page, sport, country, tournament, SEASON):
     link = 'https://www.oddsportal.com/{}/{}/{}-{}/results/page/1/#/page/{}'.format(sport,country,tournament,SEASON,page)
@@ -876,9 +872,9 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
     driver.close()
 
     data_df = pd.DataFrame(DATA_ALL)
-
+  
     try:
-        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw']
+        data_df.columns = ['TeamsRaw', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'DateRaw', 'ScoreRaw']
     except:
         print('Function crashed, probable reason : no games scraped (empty season)')
         return(1)
