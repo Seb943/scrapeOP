@@ -2,21 +2,21 @@
 :new: A python package for scraping oddsportal.com :new: <br/>
 
 :information_source: Oddportal.com [1] is a tremendous website containing both historical and future betting odds concerning a wide range of sports and boomakers. <br />
-_This repository contains :_ <br /> 
+This repository contains : <br /> 
 1. A set of functions to scrape whatever league you wish : 
     1. Clone the repository or download it 
     2. Set your chrome driver location at line 20 in functions.py
     2. Open FinalScraper.py and use one of the functions to scrape, that is as simple as this!
 2. A repository DATA containing already scraped data among various leagues and sports
 
-:information_source: [Functionalities :]
+:information_source: Functionalities :
 - Multiple sports supported : soccer, basketball, esports, darts, tennis, baseball, rugby, american football, hockey [list to be expanded soon!]
 - Mutiple functionalities : collect historical odds, current season only, upcoming games, specific season only
 - Collects all available bookmakers odds for each game
 - Collects the final result
 - Automatically sort the data by date <br />
 
-:information_source: [Currently supported :] <br />
+:information_source: Currently supported : <br />
 Sport | Historical data (multiple seasons) | Current Season only | Specific Season | Next Games 
 ------------ | ------------- | ------------ | ------------- | -------------
 American Football | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
@@ -29,7 +29,7 @@ Rugby | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_ch
 Soccer | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 Tennis | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x: | :heavy_check_mark:
 
-:information_source: [The main functions which you can use are the following one :] 
+:information_source: The main functions which you can use are the following one :
 1. scrape_oddsportal_historical(sport = 'soccer', country = 'france', league = 'ligue-1', start = '2010-2011', nseason = 5, current_season = 'yes')
 2. scrape_oddsportal_current_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020')
 3. scrape_oddsportal_specific_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2019', max_page = 2)
