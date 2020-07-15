@@ -2,7 +2,7 @@
 :new: A python package for scraping oddsportal.com :new: <br/>
 
 :information_source: Oddportal.com [1] is a tremendous website containing both historical and future betting odds concerning a wide range of sports and boomakers. <br />
-[This repository contains :] <br /> 
+_This repository contains :_ <br /> 
 1. A set of functions to scrape whatever league you wish : 
     1. Clone the repository or download it 
     2. Set your chrome driver location at line 20 in functions.py
