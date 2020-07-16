@@ -41,7 +41,7 @@ Volleyball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :hea
 4.scrape_oddsportal_next_games(sport = 'tennis', country = 'germany', league = 'exhibition-bett1-aces-berlin-women', season = '2020') <br/>
 
 
-:information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr
+:information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr (Any feedback is really appreciated :speech_balloon: :+1:)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
