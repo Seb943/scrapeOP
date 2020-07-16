@@ -35,10 +35,10 @@ Tennis | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x
 Volleyball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 
 :information_source: The main functions which you can use are the following one :
-1. scrape_oddsportal_historical(sport = 'soccer', country = 'france', league = 'ligue-1', start = '2010-2011', nseason = 5, current_season = 'yes')
-2. scrape_oddsportal_current_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020')
-3. scrape_oddsportal_specific_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2019', max_page = 2)
-4. scrape_oddsportal_next_games(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020') <br />
+1.scrape_oddsportal_historical(sport = 'soccer', country = 'france', league = 'ligue-1', start_season = '2010-2011', nseasons = 5, current_season = 'yes', max_page = 25)
+2.scrape_oddsportal_current_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020', max_page = 25)
+3.scrape_oddsportal_specific_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2019', max_page = 25)
+4.scrape_oddsportal_next_games(sport = 'tennis', country = 'germany', league = 'exhibition-bett1-aces-berlin-women', season = '2020') <br/>
 
 
 :information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr
