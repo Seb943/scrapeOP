@@ -284,9 +284,11 @@ def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_s
 
     if current_season == 'yes' : 
         SEASON1 = '{}'.format(Season)
-        print('We start to collect season {}'.format(SEASON1))
+        if long_season:
+          SEASON1 = '{}-{}'.format(Season, Season+1)
+        print('We start to collect current season')
         scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
-        print('We finished to collect season {} !'.format(SEASON1))
+        print('We finished to collect current season !')
 
     # Finally we merge all files
     file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
@@ -567,7 +569,7 @@ def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_writ
     #SEASON = '''2020'''
     DATA_ALL = []
     for page in range(1):
-        print('We start to scrape the page n°{}'.format(page))
+        print('We start to scrape the page n°{}'.format(page+1))
         data = scrape_page_next_games_typeB(country, tournament)
         DATA_ALL.append([y for y in data if y != None])
         
@@ -750,7 +752,7 @@ def scrape_current_tournament_typeC(sport, tournament, country, SEASON, max_page
     global driver
     ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
     DATA_ALL = []
-    for page in range(1, max_page):
+    for page in range(1, max_page + 1):
         print('We start to scrape the page n°{}'.format(page))
         driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_typeC(page, sport, country, tournament, SEASON)
@@ -802,7 +804,7 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     global driver
     ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
     DATA_ALL = []
-    for page in range(1, max_page):
+    for page in range(1, max_page + 1):
         print('We start to scrape the page n°{}'.format(page))
         driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_current_season_typeC(page, sport, country, tournament)
@@ -860,9 +862,11 @@ def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_s
 
     if current_season == 'yes' : 
         SEASON1 = '{}'.format(Season)
-        print('We start to collect season {}'.format(SEASON1))
+        if long_season:
+          SEASON1 = '{}-{}'.format(Season, Season+1)
+        print('We start to collect current season')
         scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
-        print('We finished to collect season {} !'.format(SEASON1))
+        print('We finished to collect current season !')
 
     # Finally we merge all files
     file1 = pd.read_csv('./{}/'.format(tournament1) + os.listdir('./{}/'.format(tournament1))[0], sep=';')
@@ -1024,7 +1028,7 @@ def scrape_current_tournament_typeD(sport, tournament, country, SEASON, max_page
     global driver
     
     DATA_ALL = []
-    for page in range(1, max_page):
+    for page in range(1, max_page + 1):
         print('We start to scrape the page n°{}'.format(page))
         driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_typeD(page, sport, country, tournament, SEASON)
@@ -1082,7 +1086,7 @@ def scrape_current_season_typeD(tournament, sport, country, SEASON, max_page = 2
 
     ############### NOW WE SEEK TO SCRAPE THE ODDS AND MATCH INFO################################
     DATA_ALL = []
-    for page in range(1, max_page):
+    for page in range(1, max_page + 1):
         print('We start to scrape the page n°{}'.format(page))
         driver = webdriver.Chrome(executable_path = DRIVER_LOCATION)
         data = scrape_page_current_season_typeD(page, sport, country, tournament)
@@ -1192,10 +1196,12 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
         Season+=1
 
     if current_season == 'yes' : 
-        SEASON1 = '{}-{}'.format(Season, Season +1)
-        print('We start to collect season {}'.format(SEASON1))
+        SEASON1 = '{}'.format(Season)
+        if long_season:
+            SEASON1 = '{}-{}'.format(Season, Season+1)
+        print('We start to collect current season')
         scrape_current_season_typeD(tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
-        print('We finished to collect season {} !'.format(SEASON1))
+        print('We finished to collect current season !')
 
 
     # Finally we merge all files
@@ -1287,7 +1293,7 @@ def scrape_oddsportal_historical(sport = 'football', country = 'france', league 
   if not os.path.exists('./{}'.format(sport)):
         os.makedirs('./{}'.format(sport))
 
-  df.to_csv('./{}/Historical_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
+  df.to_csv('./{}/Historical_{}_{}.csv'.format(sport, country, league), sep=',', encoding='utf-8', index=False)
   
   
 def scrape_oddsportal_next_games(sport = 'football', country = 'france', league = 'ligue-1', season = '2019-2020', nmax = 30):
