@@ -265,9 +265,9 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_CurrentSeason_FULL.csv'.format(tournament,tournament), sep=';', encoding='utf-8', index=False)
     data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+        to_csv('./{}/{}_CurrentSeason.csv'.format(tournament,tournament), sep=';', encoding='utf-8', index=False)
     return(data_df)
 
 def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
@@ -843,9 +843,9 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     if not os.path.exists('./{}'.format(tournament)):
         os.makedirs('./{}'.format(tournament))
 
-    data_df.to_csv('./{}_FULL/{}_{}_FULL.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    data_df.to_csv('./{}_FULL/{}_CurrentSeason_FULL.csv'.format(tournament,tournament), sep=';', encoding='utf-8', index=False)
     data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome','OddDraw', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-        to_csv('./{}/{}_{}.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+        to_csv('./{}/{}_CurrentSeason.csv'.format(tournament,tournament), sep=';', encoding='utf-8', index=False)
     return(data_df)
     
 def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
@@ -952,7 +952,7 @@ def get_data_typeD(i, link):
                 Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
                 Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
                 match = ffi('//*[@id="col-content"]/h1') # match teams
-                #final_score = ffi('//*[@id="event-status"]')
+                final_score = ffi('//*[@id="event-status"]')
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
                 print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
                 L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
@@ -1124,7 +1124,7 @@ def scrape_current_season_typeD(tournament, sport, country, SEASON, max_page = 2
         os.makedirs('./{}'.format(tournament))
 
     data_df[['Home_id', 'Away_id', 'Bookmaker', 'OddHome', 'OddAway', 'Date', 'Score_home', 'Score_away','Season']].\
-    to_csv('./{}/{}_{}_08042020.csv'.format(tournament,tournament, SEASON), sep=';', encoding='utf-8', index=False)
+    to_csv('./{}/{}_CurrentSeason_08042020.csv'.format(tournament,tournament), sep=';', encoding='utf-8', index=False)
     # 
 
     return(data_df)
@@ -1191,7 +1191,7 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
             SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeD(tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
+        scrape_current_tournament_typeD(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
@@ -1200,7 +1200,7 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
             SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect current season')
-        scrape_current_season_typeD(tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
+        scrape_current_season_typeD(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect current season !')
 
 
