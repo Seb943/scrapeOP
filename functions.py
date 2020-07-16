@@ -271,21 +271,21 @@ def scrape_current_season_typeA(tournament, sport, country, SEASON, max_page = 2
     return(data_df)
 
 def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
-    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
-    Season = Season[0:4]
+    long_season = (len(Season) > 6) # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = int(Season[0:4])
     for i in range(nseason):
         SEASON1 = '{}'.format(Season)
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = 25)
+        scrape_current_tournament_typeA(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
     if current_season == 'yes' : 
         SEASON1 = '{}'.format(Season)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1)
+        scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
 
     # Finally we merge all files
@@ -847,21 +847,21 @@ def scrape_current_season_typeC(tournament, sport, country, SEASON, max_page = 2
     return(data_df)
     
 def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
-    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
-    Season = Season[0:4]
+    long_season = (len(Season) > 6) # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = int(Season[0:4])
     for i in range(nseason):
         SEASON1 = '{}'.format(Season)
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = 25)
+        scrape_current_tournament_typeC(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
         Season+=1
 
     if current_season == 'yes' : 
         SEASON1 = '{}'.format(Season)
         print('We start to collect season {}'.format(SEASON1))
-        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = 25)
+        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
         print('We finished to collect season {} !'.format(SEASON1))
 
     # Finally we merge all files
@@ -1180,8 +1180,8 @@ def scrape_next_games_typeD(tournament, sport, country, SEASON, nmax = 30):
 
 
 def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_season = 'yes', max_page = 25):
-    long_season == len(Season) > 6 # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
-    Season = Season[0:4]
+    long_season = (len(Season) > 6) # indicates whether Season is in format '2010-2011' or '2011' depends on the league) 
+    Season = int(Season[0:4])
     for i in range(nseason):
         SEASON1 = '{}'.format(Season)
         if long_season:
