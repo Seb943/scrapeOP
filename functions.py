@@ -287,7 +287,7 @@ def scrape_league_typeA(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect current season')
-        scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
+        scrape_current_season_typeA(tournament = tournament1, sport = sport, country = country1, SEASON = 'CurrentSeason', max_page = max_page)
         print('We finished to collect current season !')
 
     # Finally we merge all files
@@ -865,7 +865,7 @@ def scrape_league_typeC(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
           SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect current season')
-        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = SEASON1, max_page = max_page)
+        scrape_current_season_typeC(tournament = tournament1, sport = sport, country = country1, SEASON = 'CurrentSeason', max_page = max_page)
         print('We finished to collect current season !')
 
     # Finally we merge all files
@@ -1200,7 +1200,7 @@ def scrape_league_typeD(Season, sport, country1, tournament1, nseason, current_s
         if long_season:
             SEASON1 = '{}-{}'.format(Season, Season+1)
         print('We start to collect current season')
-        scrape_current_season_typeD(sport = sport, tournament = tournament1, country = country1, SEASON = SEASON1, max_page = max_page)
+        scrape_current_season_typeD(sport = sport, tournament = tournament1, country = country1, SEASON = 'CurrentSeason', max_page = max_page)
         print('We finished to collect current season !')
 
 
