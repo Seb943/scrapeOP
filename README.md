@@ -40,7 +40,14 @@ Volleyball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :hea
 3.scrape_oddsportal_specific_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2019', max_page = 25)<br/>
 4.scrape_oddsportal_next_games(sport = 'tennis', country = 'germany', league = 'exhibition-bett1-aces-berlin-women', season = '2020') <br/>
 
+:information_source: *e.g.* if I want to collect the data concerning the soccer league **MLS (USA)*** during the **2013 season (1 season)** and for the **current season aswell** and that I only want the **first two pages** from oddsportal, I just need to call : <br/>
+![Scraper_final code](Screenshots/ScreenshotCode.PNG)
+..then console when running code : <br/>
+![Scraper_final code running](Screenshots/ScreenshotRunning.PNG)
+..and finally the scraped data, saved in .csv format : <br/>
+![Table Overview](Screenshots/ScreenshotTable.PNG) <br/>
 
+Extra-documentation can be found for the functions in the *functions.py* script. :100::100: <br/><br/>
 :information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr (Any feedback is really appreciated :speech_balloon: :+1:)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
