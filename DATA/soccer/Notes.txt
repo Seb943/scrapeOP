@@ -1,0 +1,79 @@
+Pour DNK : 
+- De 2004/2005 à 2011/2012 : j'ai scrapé moi-même (bookmaker retenu = bet-at-home [1551 matchs vs 1321 pour bet365])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour FIN : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [1418 vs 1018 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour IRL : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = William Hill [1411 vs 705 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour JPN : 
+- De 2005 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [2051 vs 740 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour MEX : 
+- De 2005/2006 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [2321 vs 1541 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour NOR : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [1477 vs 1170 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour POL : 
+- De 2008/2009 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet365 [948 vs 766 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour ROU : 
+- De 2008/2009 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [1993 vs 964 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour SWE : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [1648 vs 1270 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour SWZ : 
+- De 2004/2005 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [1373 vs 1040 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour USA : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [1658 vs 1197 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour AUT : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [1394 vs 1030 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour ARG : 
+- De 2003/2004 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [2942 vs 2134 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour BRA : 
+- De 2004 à 2011 : j'ai scrapé moi-même (bookmaker = bet-at-home [2973 vs 2145 pour Pinnacle])
+- De 2012 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour CHN : 
+- De 2009 à 2013 : j'ai scrapé moi-même (bookmaker = bwin [1144 vs 101 pour Pinnacle])
+- De 2014 à 2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
+
+Pour RUS : 
+- De 2004 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [1721 vs 1098 pour Pinnacle])
+- De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
+Ensuite j'ai fusionné les datasets
