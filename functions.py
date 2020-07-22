@@ -347,8 +347,8 @@ def scrape_next_games_typeA(tournament, sport, country, SEASON, nmax = 30):
     data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
 
     # (c) Split score
-    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
-    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+    data_df["Score_home"] = 0
+    data_df["Score_away"] = 0
 
     # (d) Set season column
     data_df["Season"] = SEASON
@@ -920,8 +920,8 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
     data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
 
     # (c) Split score
-    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
-    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+    data_df["Score_home"] = 0
+    data_df["Score_away"] = 0
 
     # (d) Set season column
     data_df["Season"] = SEASON
@@ -1166,8 +1166,8 @@ def scrape_next_games_typeD(tournament, sport, country, SEASON, nmax = 30):
     data_df["Date"] = [re.split(', ',y)[1] for y in data_df["DateRaw"]]
 
     # (c) Split score
-    data_df["Score_home"] = [re.split(':',y)[0][-1:] for y in data_df["ScoreRaw"]]
-    data_df["Score_away"] = [re.split(':',y)[1][:1] for y in data_df["ScoreRaw"]]
+    data_df["Score_home"] = 0
+    data_df["Score_away"] = 0
 
     # (d) Set season column
     data_df["Season"] = SEASON
