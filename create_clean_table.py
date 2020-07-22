@@ -57,7 +57,7 @@ def create_clean_table_two_ways(df):
     months[months == 'Nov'] = '11'
     months[months == 'Dec'] = '12'
     date = days + '/' + months + '/' + years
-    df_final['Date'] = pd.to_datetime(date)
+    df_final['Date'] = pd.to_datetime(date, format='%d/%m/%Y')
     df.sort_values(by=['Date'])
   except:
     print('Cannot convert Date into regular Date format')
@@ -118,7 +118,7 @@ def create_clean_table_three_ways(df):
     months[months == 'Nov'] = '11'
     months[months == 'Dec'] = '12'
     date = days + '/' + months + '/' + years
-    df_final['Date'] = pd.to_datetime(date)
+    df_final['Date'] = pd.to_datetime(date, format='%d/%m/%Y')
     df.sort_values(by=['Date'])
   except:
     print('Cannot convert Date into regular Date format')
@@ -137,3 +137,4 @@ def create_clean_df(fileloc, sep = ";", ways = 2):
   print('Finished cleaning table!')
   return(0)
   
+#fileloc = "C:\\Users\\Sébastien CARARO\\Desktop\\ATP& &Others\\WebScraping\\DATA\\Treated data\\All_data_champions-league_foot";create_clean_df(fileloc, sep = ",", ways = 3)
