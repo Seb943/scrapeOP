@@ -1,3 +1,9 @@
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+Bookmakers for soccer datasets 
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+Default bookmaker = bet365 (if not precised), else : </br>
 Pour DNK : 
 - De 2004/2005 à 2011/2012 : j'ai scrapé moi-même (bookmaker retenu = bet-at-home [1551 matchs vs 1321 pour bet365])
 - De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
@@ -77,3 +83,7 @@ Pour RUS :
 - De 2004 à 2011/2012 : j'ai scrapé moi-même (bookmaker = bet-at-home [1721 vs 1098 pour Pinnacle])
 - De 2012/2013 à 2018/2019 : j'ai pris le dataset sur football.data.co.uk (Pinnacle)
 Ensuite j'ai fusionné les datasets
+
+AUS : Average </br>
+BLR : bet-at-home </br>
+ILF : bwin </br>
