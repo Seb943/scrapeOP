@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 import os 
 
+print(os.getcwd())
 def create_clean_table_two_ways(df):
   # (a) Count the number of bookmakers
   nbooks = df['Bookmaker'].nunique()
@@ -131,7 +132,7 @@ def create_clean_df(fileloc, sep = ";", ways = 2):
   if ways == 2:
     df = create_clean_table_two_ways(df)
   if ways == 3:
-    create_clean_table_three_ways(df)
+    df = create_clean_table_three_ways(df)
   
   df.to_csv(fileloc +'_CLEAN' +  '.csv', index = False)
   print('Finished cleaning table!')
