@@ -35,11 +35,12 @@ Tennis | :heavy_multiplication_x: | :heavy_check_mark: | :heavy_multiplication_x
 Volleyball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
 
 :information_source: The main functions which you can use are the following one : <br />
+```python
 1.scrape_oddsportal_historical(sport = 'soccer', country = 'france', league = 'ligue-1', start_season = '2010-2011', nseasons = 5, current_season = 'yes', max_page = 25)<br/>
 2.scrape_oddsportal_current_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2020', max_page = 25)<br/>
 3.scrape_oddsportal_specific_season(sport = 'soccer', country = 'finland', league = 'veikkausliiga', season = '2019', max_page = 25)<br/>
 4.scrape_oddsportal_next_games(sport = 'tennis', country = 'germany', league = 'exhibition-bett1-aces-berlin-women', season = '2020') <br/>
-
+```
 :information_source: *e.g.* if I want to collect the data concerning the **soccer** league **MLS (USA)** during the **2013 season (1 season)** and for the **current season aswell** and that I only want the **first two pages** from oddsportal, I just need to call : <br/>
 ![Scraper_final code](Screenshots/ScreenshotCode.PNG)
 ..then console when running code : <br/>
