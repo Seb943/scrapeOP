@@ -17,7 +17,8 @@ This repository contains : <br />
 - Mutiple functionalities : collect historical odds, current season only, upcoming games, specific season only
 - Collects all available bookmakers odds for each game
 - Collects the final result
-- Automatically sort the data by date <br />
+- Automatically sort the data by date 
+- 14/11/2020 : You can now have the possibility to scrape the opening odds instead of the closing odds. To do this, just change the line 26 in *functions.py* to 'OPENING'<br />
 
 :information_source: Currently supported : <br />
 Sport | Historical data (multiple seasons) | Current Season only | Specific Season | Next Games 
