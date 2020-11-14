@@ -13,12 +13,35 @@ import numpy as np
 import pandas as pd
 import re
 import sys
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+import signal
 
 from create_clean_table import *
 
 global DRIVER_LOCATION
-DRIVER_LOCATION = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe"
+DRIVER_LOCATION = "C:\\Users\\Utilisateur\\Desktop\\scrapeOP-master\\chromedriver_win32\\chromedriver.exe"
 
+global TYPE_ODDS
+TYPE_ODDS = 'CLOSING' # you can change to 'OPENING' if you want to collect opening odds, any other value will make the program collect CLOSING odds
+
+def get_opening_odd(xpath):
+    # I. Get the raw data by hovering and collecting
+    data = driver.find_element_by_xpath(xpath)
+    hov = ActionChains(driver).move_to_element(data)
+    hov.perform()
+    data_in_the_bubble = driver.find_element_by_xpath("//*[@id='tooltiptext']")
+    hover_data = data_in_the_bubble.get_attribute("innerHTML")
+
+    # II. Extract opening odds
+    b = re.split('<br>', hover_data)
+    c = [re.split('</strong>',y)[0] for y in b][-2]
+    opening_odd = re.split('<strong>', c)[1]
+
+    #print(opening_odd)
+    return(opening_odd)
+    
+    
 def fi(a):
     try:
         driver.find_element_by_xpath(a).text
@@ -28,6 +51,15 @@ def fi(a):
 def ffi(a):
     if fi(a) != False :
         return driver.find_element_by_xpath(a).text
+            
+def fffi(a):
+    if TYPE_ODDS == 'OPENING':
+        try:
+            return get_opening_odd(a) 
+        except:
+            return ffi(a)  
+    else:
+        return(ffi(a))
 
 def fi2(a):
     try:
@@ -55,8 +87,8 @@ def get_data_typeA(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -80,8 +112,8 @@ def get_data_next_games_typeA(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -89,8 +121,8 @@ def get_data_next_games_typeA(i, link):
             L = L + [(match, Book, Odd_1, Odd_2, date)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -105,8 +137,8 @@ def get_data_next_games_typeA(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -114,8 +146,8 @@ def get_data_next_games_typeA(i, link):
             L = L + [(match, Book, Odd_1, Odd_2, date)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -375,8 +407,8 @@ def get_data_typeB(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -403,8 +435,8 @@ def get_data_next_games_typeB(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -412,8 +444,8 @@ def get_data_next_games_typeB(i, link):
             L = L + [(match, Book, Odd_1, Odd_2, date)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -428,8 +460,8 @@ def get_data_next_games_typeB(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed, CHANGE 01/05/2020 -> div[1] BECOMES div + WE STOP AT td[...] for odds
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -437,8 +469,8 @@ def get_data_next_games_typeB(i, link):
             L = L + [(match, Book, Odd_1, Odd_2, date)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             #final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -641,9 +673,9 @@ def get_data_typeC(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -667,9 +699,9 @@ def get_data_next_games_typeC(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_X = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -677,9 +709,9 @@ def get_data_next_games_typeC(i, link):
             L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -694,9 +726,9 @@ def get_data_next_games_typeC(i, link):
         # Now we collect all bookmaker
         for j in range(1,30): # only first 10 bookmakers displayed
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
-            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/a'.format(j)) # first home odd
+            Odd_X = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/a'.format(j)) # draw odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/a'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -704,9 +736,9 @@ def get_data_next_games_typeC(i, link):
             L = L + [(match, Book, Odd_1, Odd_X, Odd_2, date, final_score)]
             
             Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-            Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-            Odd_X = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
-            Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
+            Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+            Odd_X = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # draw odd
+            Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[4]/div'.format(j)) # first away odd
             match = ffi('//*[@id="col-content"]/h1') # match teams
             final_score = ffi('//*[@id="event-status"]')
             date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -949,8 +981,8 @@ def get_data_typeD(i, link):
             # Now we collect all bookmaker
             for j in range(1,30): # only first 10 bookmakers displayed
                 Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
                 match = ffi('//*[@id="col-content"]/h1') # match teams
                 final_score = ffi('//*[@id="event-status"]')
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -974,8 +1006,8 @@ def get_data_next_games_typeD(i, link):
             # Now we collect all bookmaker
             for j in range(1,30): # only first 10 bookmakers displayed
                 Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
                 match = ffi('//*[@id="col-content"]/h1') # match teams
                 final_score = ffi('//*[@id="event-status"]')
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
@@ -993,8 +1025,8 @@ def get_data_next_games_typeD(i, link):
             # Now we collect all bookmaker
             for j in range(1,30): # only first 10 bookmakers displayed
                 Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
-                Odd_1 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
-                Odd_2 = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
+                Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
+                Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
                 match = ffi('//*[@id="col-content"]/h1') # match teams
                 final_score = ffi('//*[@id="event-status"]')
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
