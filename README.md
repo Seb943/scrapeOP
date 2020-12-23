@@ -50,6 +50,10 @@ Volleyball | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :hea
 ![Table Overview](Screenshots/ScreenshotTable.PNG) <br/>
 
 Extra-documentation can be found for the functions in the *functions.py* script. :100::100: <br/><br/>
+
+:information_source: How to create a sports-betting algorithm from historical data : </br>
+- Medium article : https://medium.com/analytics-vidhya/how-covid-19-prevented-me-from-being-a-millionnaire-in-2020-5b2144e8bdef </br>
+- Full paper : https://seb943.github.io/Data/Paper_Exploiting_bookmakers_biases.pdf </br>
 :information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr (Any feedback is really appreciated :speech_balloon: :+1:)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
