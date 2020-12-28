@@ -55,7 +55,7 @@ Extra-documentation can be found for the functions in the *functions.py* script.
 - Medium article : https://medium.com/analytics-vidhya/how-covid-19-prevented-me-from-being-a-millionnaire-in-2020-5b2144e8bdef </br>
 - Full paper : https://seb943.github.io/Data/Paper_Exploiting_bookmakers_biases.pdf </br> </br>
 
-:information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr (Any feedback is really appreciated :speech_balloon: :+1:)
+:information_source: Please report any bug/issue in the *issues* section or directly at sebcararo@hotmail.fr (Any feedback is really appreciated :speech_balloon: :+1:). A :star2: is also greatly appreciate :raised_hands:. 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
