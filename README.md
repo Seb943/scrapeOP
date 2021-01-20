@@ -68,7 +68,7 @@ With the emergence of sports analytics and machine learning, it has become possi
 
 [1] https://www.oddsportal.com/ <br />
 
-NB : This package is purposed for educational use only, not for any commmercial purpose in any way. I am not related to any mean with the oddsportal website. <br/>
+NB : This package is purposed for educational use only, not for any commmercial purpose in any way. I am not related by any mean with the oddsportal website. <br/>
 
 BTC : 3PkoHLXmXsL8kBrFu7GQ8kpmzPBmNK6m8B <br/>
 ETH : 0xFdbB5aF291cB7e711D62c1E4a8B58d0EbD423F9C
