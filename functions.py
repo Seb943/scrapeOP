@@ -20,7 +20,7 @@ import signal
 from create_clean_table import *
 
 global DRIVER_LOCATION
-DRIVER_LOCATION = "C:\\Users\\Utilisateur\\Desktop\\scrapeOP-master\\chromedriver_win32\\chromedriver.exe"
+DRIVER_LOCATION = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe"
 
 global TYPE_ODDS
 TYPE_ODDS = 'CLOSING' # you can change to 'OPENING' if you want to collect opening odds, any other value will make the program collect CLOSING odds
@@ -979,7 +979,7 @@ def get_data_typeD(i, link):
         a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]') # click on home/away odds
         if a == True :
             # Now we collect all bookmaker
-            for j in range(1,30): # only first 10 bookmakers displayed
+            for j in range(1,15): # only first 10 bookmakers displayed
                 Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
                 Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]/div'.format(j)) # first home odd
                 Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]/div'.format(j)) # first away odd
@@ -988,6 +988,17 @@ def get_data_typeD(i, link):
                 date = ffi('//*[@id="col-content"]/p[1]') # Date and time
                 print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
                 L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+
+            for j in range(1,15): # only first 10 bookmakers displayed
+                Book = ffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[1]/div/a[2]'.format(j)) # first bookmaker name
+                Odd_1 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[2]'.format(j)) # first home odd
+                Odd_2 = fffi('//*[@id="odds-data-table"]/div[1]/table/tbody/tr[{}]/td[3]'.format(j)) # first away odd
+                match = ffi('//*[@id="col-content"]/h1') # match teams
+                final_score = ffi('//*[@id="event-status"]')
+                date = ffi('//*[@id="col-content"]/p[1]') # Date and time
+                print(match, Book, Odd_1, Odd_2, date, final_score, i, '/ 500 ')
+                L = L + [(match, Book, Odd_1, Odd_2, date, final_score)]
+
             return(L)
 
     return(None)
