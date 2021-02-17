@@ -8,7 +8,7 @@
 This repository contains : <br /> 
 1. A set of functions to scrape whatever league you wish : 
     1. Clone the repository or download it 
-    2. Set your chrome driver location at line 20 in *functions.py*
+    2. Set your chrome driver location at line 20 in *functions.py*. NB : path is written with double slashes
     2. Open *FinalScraper.py* and use one of the functions to scrape, that is as simple as this!
 
 :information_source: Functionalities :
