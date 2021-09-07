@@ -20,6 +20,7 @@ This repository contains : <br />
 - 14/11/2020 : You can now have the possibility to scrape the opening odds instead of the closing odds. To do this, just change the line 26 in *functions.py* to 'OPENING'<br />
 
 :information_source: Currently supported : <br />
+
 Sport | Historical data (multiple seasons) | Current Season only | Specific Season | Next Games 
 ------------ | ------------- | ------------ | ------------- | -------------
 American Football | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:
