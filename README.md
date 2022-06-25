@@ -73,3 +73,27 @@ NB : This package is purposed for educational use only, not for any commmercial 
 BTC : 3PkoHLXmXsL8kBrFu7GQ8kpmzPBmNK6m8B <br/>
 ETH : 0xFdbB5aF291cB7e711D62c1E4a8B58d0EbD423F9C
 
+Chrome 93 and chromedriver 93 is required but some newer version may also work
+This version was the last one released when this script was written, so it's
+the safest bet in my opinion.
+create a chrome options file as detailed here to turn off auto-updating
+https://support.google.com/chrome/a/answer/7591084?hl=en#zippy=%2Ccreate-a-new-property-list-file
+A plist file like in the link is saved in this folder, it needs to be moved to the correct spot
+on my computer that is /Library/Managed Preferences
+The make plist recipe will do this for you and will requre your password
+the chrome 93 install file and chromedriver are located in this repo as well.
+sample .plist file:
+<key>updatePolicies</key>
+<key>com.google.Chrome</key>
+<dict>
+ <key>TargetVersionPrefix</key>
+ <string>93.</string>
+</dict>
+<dict>
+ <key>global</key>
+ <dict>
+ </dict>
+</dict>
+
+linke to chrome 93:
+https://chromium.cypress.io/mac/stable/93.0.4577.82

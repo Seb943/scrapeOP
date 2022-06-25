@@ -1,0 +1,102 @@
+Home_id;Away_id;Bookmaker;OddHome;OddDraw;OddAway;Date;Score_home;Score_away;Season
+New England Revolution;Los Angeles Galaxy;bet365;+100;+210;+239;13 Nov 2005; 0;1 ;2005
+New England Revolution;Los Angeles Galaxy;Pinnacle;+134;+211;+189;13 Nov 2005; 0;1 ;2005
+New England Revolution;Los Angeles Galaxy;William Hill;+100;+215;+225;13 Nov 2005; 0;1 ;2005
+New England Revolution;Chicago Fire;bet-at-home;-118;+220;+270;06 Nov 2005; 1;0 ;2005
+New England Revolution;Chicago Fire;bet365;-111;+220;+260;06 Nov 2005; 1;0 ;2005
+New England Revolution;Chicago Fire;bwin;-118;+229;+270;06 Nov 2005; 1;0 ;2005
+New England Revolution;Chicago Fire;Pinnacle;-120;+229;+300;06 Nov 2005; 1;0 ;2005
+New England Revolution;Chicago Fire;William Hill;-125;+220;+290;06 Nov 2005; 1;0 ;2005
+Colorado Rapids;Los Angeles Galaxy;bet-at-home;+100;+220;+240;05 Nov 2005; 0;2 ;2005
+Colorado Rapids;Los Angeles Galaxy;bet365;+100;+220;+239;05 Nov 2005; 0;2 ;2005
+Colorado Rapids;Los Angeles Galaxy;bwin;+100;+225;+229;05 Nov 2005; 0;2 ;2005
+Colorado Rapids;Los Angeles Galaxy;Pinnacle;+110;+225;+225;05 Nov 2005; 0;2 ;2005
+Colorado Rapids;Los Angeles Galaxy;William Hill;-111;+210;+260;05 Nov 2005; 0;2 ;2005
+DC United;Chicago Fire;bet-at-home;-118;+220;+270;30 Oct 2005; 0;4 ;2005
+DC United;Chicago Fire;bet365;-111;+225;+250;30 Oct 2005; 0;4 ;2005
+DC United;Chicago Fire;bwin;-125;+220;+309;30 Oct 2005; 0;4 ;2005
+DC United;Chicago Fire;Pinnacle;-120;+245;+280;30 Oct 2005; 0;4 ;2005
+DC United;Chicago Fire;William Hill;-118;+229;+250;30 Oct 2005; 0;4 ;2005
+FC Dallas;DC United;bet-at-home;+114;+210;+190;10 Sep 2005; 1;2 ;2005
+FC Dallas;DC United;bet365;+120;+210;+200;10 Sep 2005; 1;2 ;2005
+FC Dallas;DC United;bwin;+114;+204;+215;10 Sep 2005; 1;2 ;2005
+FC Dallas;DC United;Pinnacle;+120;+210;+210;10 Sep 2005; 1;2 ;2005
+FC Dallas;DC United;William Hill;+125;+210;+179;10 Sep 2005; 1;2 ;2005
+New England Revolution;Columbus Crew;bet-at-home;-182;+250;+400;10 Sep 2005; 3;1 ;2005
+New England Revolution;Columbus Crew;bet365;-175;+260;+400;10 Sep 2005; 3;1 ;2005
+New England Revolution;Columbus Crew;bwin;-200;+250;+525;10 Sep 2005; 3;1 ;2005
+New England Revolution;Columbus Crew;Pinnacle;-179;+254;+475;10 Sep 2005; 3;1 ;2005
+New England Revolution;Columbus Crew;William Hill;-167;+240;+380;10 Sep 2005; 3;1 ;2005
+Los Angeles Galaxy;Chicago Fire;bet-at-home;+110;+210;+200;04 Sep 2005; 1;2 ;2005
+Los Angeles Galaxy;Chicago Fire;bet365;+110;+200;+220;04 Sep 2005; 1;2 ;2005
+Los Angeles Galaxy;Chicago Fire;William Hill;+104;+210;+220;04 Sep 2005; 1;2 ;2005
+Chivas USA;Columbus Crew;bet-at-home;+150;+200;+150;03 Sep 2005; 0;3 ;2005
+Chivas USA;Columbus Crew;bet365;+170;+200;+137;03 Sep 2005; 0;3 ;2005
+Chivas USA;Columbus Crew;Pinnacle;+140;+235;+160;03 Sep 2005; 0;3 ;2005
+Chivas USA;Columbus Crew;William Hill;+150;+210;+150;03 Sep 2005; 0;3 ;2005
+Colorado Rapids;DC United;bet365;+129;+200;+175;03 Sep 2005; 1;0 ;2005
+Colorado Rapids;DC United;Pinnacle;+135;+210;+185;03 Sep 2005; 1;0 ;2005
+Colorado Rapids;DC United;William Hill;+129;+210;+170;03 Sep 2005; 1;0 ;2005
+FC Dallas;Houston Dynamo;bet-at-home;+140;+210;+154;03 Sep 2005; 0;2 ;2005
+FC Dallas;Houston Dynamo;bet365;+150;+200;+160;03 Sep 2005; 0;2 ;2005
+FC Dallas;Houston Dynamo;Pinnacle;+154;+225;+154;03 Sep 2005; 0;2 ;2005
+FC Dallas;Houston Dynamo;William Hill;+150;+200;+154;03 Sep 2005; 0;2 ;2005
+New York Red Bulls;Sporting Kansas City;bet-at-home;+140;+210;+154;03 Sep 2005; 2;2 ;2005
+New York Red Bulls;Sporting Kansas City;bet365;+139;+189;+175;03 Sep 2005; 2;2 ;2005
+New York Red Bulls;Sporting Kansas City;Pinnacle;+135;+210;+185;03 Sep 2005; 2;2 ;2005
+New York Red Bulls;Sporting Kansas City;William Hill;+140;+204;+160;03 Sep 2005; 2;2 ;2005
+Real Salt Lake;New England Revolution;bet-at-home;+220;+220;+100;03 Sep 2005; 0;1 ;2005
+Real Salt Lake;New England Revolution;bet365;+275;+200;-111;03 Sep 2005; 0;1 ;2005
+Real Salt Lake;New England Revolution;Pinnacle;+254;+215;+100;03 Sep 2005; 0;1 ;2005
+Real Salt Lake;New England Revolution;William Hill;+250;+215;-111;03 Sep 2005; 0;1 ;2005
+Chicago Fire;DC United;bet-at-home;-111;+225;+245;06 Aug 2005; 2;3 ;2005
+Chicago Fire;DC United;bet365;-111;+220;+250;06 Aug 2005; 2;3 ;2005
+Chicago Fire;DC United;bwin;-125;+225;+300;06 Aug 2005; 2;3 ;2005
+Chicago Fire;DC United;Pinnacle;-111;+220;+285;06 Aug 2005; 2;3 ;2005
+Chicago Fire;DC United;William Hill;-105;+210;+240;06 Aug 2005; 2;3 ;2005
+Houston Dynamo;Columbus Crew;bet-at-home;-167;+240;+370;06 Aug 2005; 2;1 ;2005
+Houston Dynamo;Columbus Crew;bet365;-152;+239;+333;06 Aug 2005; 2;1 ;2005
+Houston Dynamo;Columbus Crew;bwin;-182;+250;+450;06 Aug 2005; 2;1 ;2005
+Houston Dynamo;Columbus Crew;Pinnacle;-161;+240;+425;06 Aug 2005; 2;1 ;2005
+Houston Dynamo;Columbus Crew;William Hill;-154;+240;+350;06 Aug 2005; 2;1 ;2005
+Real Salt Lake;Chivas USA;bet-at-home;-111;+225;+245;06 Aug 2005; 2;1 ;2005
+Real Salt Lake;Chivas USA;bet365;-125;+225;+275;06 Aug 2005; 2;1 ;2005
+Real Salt Lake;Chivas USA;bwin;-105;+220;+250;06 Aug 2005; 2;1 ;2005
+Real Salt Lake;Chivas USA;Pinnacle;-125;+220;+330;06 Aug 2005; 2;1 ;2005
+Real Salt Lake;Chivas USA;William Hill;-125;+210;+300;06 Aug 2005; 2;1 ;2005
+New York Red Bulls;FC Dallas;bet-at-home;+145;+210;+154;27 Jul 2005; 3;2 ;2005
+New York Red Bulls;FC Dallas;bet365;+139;+220;+150;27 Jul 2005; 3;2 ;2005
+New York Red Bulls;FC Dallas;bwin;+160;+204;+150;27 Jul 2005; 3;2 ;2005
+New York Red Bulls;FC Dallas;Pinnacle;+145;+218;+165;27 Jul 2005; 3;2 ;2005
+New York Red Bulls;FC Dallas;William Hill;+145;+215;+150;27 Jul 2005; 3;2 ;2005
+Columbus Crew;Sporting Kansas City;bet-at-home;+154;+210;+140;23 Jul 2005; 2;0 ;2005
+Columbus Crew;Sporting Kansas City;bet365;+150;+200;+162;23 Jul 2005; 2;0 ;2005
+Columbus Crew;Sporting Kansas City;bwin;+140;+204;+170;23 Jul 2005; 2;0 ;2005
+Columbus Crew;Sporting Kansas City;Pinnacle;+145;+210;+175;23 Jul 2005; 2;0 ;2005
+Columbus Crew;Sporting Kansas City;William Hill;+160;+210;+140;23 Jul 2005; 2;0 ;2005
+Chicago Fire;Columbus Crew;bet-at-home;-167;+235;+375;16 Jul 2005; 1;1 ;2005
+Chicago Fire;Columbus Crew;bet365;-175;+229;+450;16 Jul 2005; 1;1 ;2005
+Chicago Fire;Columbus Crew;bwin;-200;+250;+520;16 Jul 2005; 1;1 ;2005
+Chicago Fire;Columbus Crew;Pinnacle;-169;+250;+445;16 Jul 2005; 1;1 ;2005
+Chicago Fire;Columbus Crew;William Hill;-200;+240;+500;16 Jul 2005; 1;1 ;2005
+DC United;Houston Dynamo;bet-at-home;+120;+210;+179;15 Jul 2005; 3;0 ;2005
+DC United;Houston Dynamo;bet365;+120;+210;+187;15 Jul 2005; 3;0 ;2005
+DC United;Houston Dynamo;bwin;+129;+210;+179;15 Jul 2005; 3;0 ;2005
+DC United;Houston Dynamo;Pinnacle;+125;+210;+200;15 Jul 2005; 3;0 ;2005
+DC United;Houston Dynamo;William Hill;+129;+210;+175;15 Jul 2005; 3;0 ;2005
+Chicago Fire;New England Revolution;bet-at-home;+114;+210;+190;09 Jul 2005; 1;0 ;2005
+Chicago Fire;New England Revolution;bet365;+125;+200;+187;09 Jul 2005; 1;0 ;2005
+Chicago Fire;New England Revolution;bwin;+120;+200;+210;09 Jul 2005; 1;0 ;2005
+Chicago Fire;New England Revolution;Pinnacle;+125;+210;+200;09 Jul 2005; 1;0 ;2005
+Chicago Fire;New England Revolution;William Hill;+120;+210;+185;09 Jul 2005; 1;0 ;2005
+Columbus Crew;Houston Dynamo;bwin;+140;+200;+175;09 Jul 2005; 1;2 ;2005
+New York Red Bulls;Los Angeles Galaxy;bet-at-home;-118;+220;+254;09 Jul 2005; 2;1 ;2005
+New York Red Bulls;Los Angeles Galaxy;bet365;-125;+229;+275;09 Jul 2005; 2;1 ;2005
+New York Red Bulls;Los Angeles Galaxy;Pinnacle;-122;+249;+282;09 Jul 2005; 2;1 ;2005
+New York Red Bulls;Los Angeles Galaxy;William Hill;-143;+220;+350;09 Jul 2005; 2;1 ;2005
+Sporting Kansas City;New York Red Bulls;William Hill;-105;+210;+240;25 May 2005; 1;0 ;2005
+Chivas USA;FC Dallas;William Hill;+179;+200;+129;22 May 2005; 2;5 ;2005
+Columbus Crew;Real Salt Lake;bet365;-120;+220;+275;21 May 2005; 2;0 ;2005
+DC United;Sporting Kansas City;bet-at-home;+100;+210;+220;21 May 2005; 3;2 ;2005
+New York Red Bulls;New England Revolution;bet-at-home;+165;+204;+129;21 May 2005; 2;2 ;2005
+FC Dallas;Colorado Rapids;Pinnacle;-145;+246;+359;18 May 2005; 2;1 ;2005
