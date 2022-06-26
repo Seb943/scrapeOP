@@ -23,7 +23,7 @@ global DRIVER_LOCATION
 DRIVER_LOCATION = "/Usr/local/bin/chromedriver"
 
 global TYPE_ODDS
-TYPE_ODDS = "CLOSING"  # you can change to 'OPENING' if you want to collect opening odds, any other value will make the program collect CLOSING odds
+TYPE_ODDS = "OPENING"  # you can change to 'OPENING' if you want to collect opening odds, any other value will make the program collect CLOSING odds
 
 
 def get_opening_odd(xpath):

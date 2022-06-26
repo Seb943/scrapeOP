@@ -101,7 +101,7 @@ https://chromium.cypress.io/mac/stable/93.0.4577.82
 Features/bugs to work on in priority:x
 x if adding a non int is added to an input response exit the program after confirmation
 x align the text outputs
-- add the rest of the sports and seasons
+x add the rest of the sports and seasons
 - add the current season
 - add caching check to see if the files exists before rerunning the reports
 - add the ability to email csvs to someone

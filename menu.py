@@ -5,6 +5,8 @@
 NB : You need to be in the right repository to import functions..."""
 
 # os.chdir("C:\\Users\\Sébastien CARARO\\Desktop\\ATP& &Others\\WebScraping")
+from datetime import datetime
+
 from functions import *
 from sports import sports
 
@@ -96,8 +98,10 @@ class Menu:
         ]
 
         while self.print_sub_menu:
+            current_year = str(datetime.now().year)
             print("✨✨Select a season to scrape:")
             print(*seasons, sep="\n")
+            print(f"{self.padding}16. Current season {current_year}")
             print(f"{self.padding}0. Go Back to Sports Menu ⏪")
             try:
                 choice = int(input("Enter your choice: "))
@@ -113,11 +117,25 @@ class Menu:
                 elif choice == 0:
                     self.print_sub_menu = False
                     self.menu()
+                elif choice == 16:
+
+                    print(f"{self.padding}Scraping current season ({current_year})...")
+                    print(
+                        "Unable to guess max pages for the current season so there may be additional loading time."
+                    )
+                    scrape_oddsportal_current_season(
+                        sport=sports_choice["sport"],
+                        country=sports_choice["country"],
+                        league=sports_choice["league"],
+                        season=current_year,
+                        max_page=25,
+                    )
                 else:
                     print("Invalid input, please try again.")
                     wipe_screen()
                     self.sub_menu(sports_choice)
             except ValueError:
+
                 print("Press only numbers")
                 exit_program = input(
                     "Please try again or press x to exit or press any key to continue: "
