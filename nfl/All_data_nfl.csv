@@ -1,100 +1,509 @@
-,index,Home_id,Away_id,Bookmaker,OddHome,OddAway,Date,Score_home,Score_away,Season
-0,0,Los Angeles Rams,New England Patriots,1xBet,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019
-1,1,Los Angeles Rams,New England Patriots,bet-at-home,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019
-2,2,Los Angeles Rams,New England Patriots,bet365,110,0.9431535625482292,03 Feb 2019,3,13,2018-2019
-3,3,Los Angeles Rams,New England Patriots,bwin,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019
-4,4,Los Angeles Rams,New England Patriots,Coolbet,116,0.9427062169849654,03 Feb 2019,3,13,2018-2019
-5,5,Los Angeles Rams,New England Patriots,Marathonbet,112,0.9429990738401953,03 Feb 2019,3,13,2018-2019
-6,6,Los Angeles Rams,New England Patriots,Parimatch,117,0.9426361585562358,03 Feb 2019,3,13,2018-2019
-7,7,Los Angeles Rams,New England Patriots,Pinnacle,112,0.9429990738401953,03 Feb 2019,3,13,2018-2019
-8,8,Los Angeles Rams,New England Patriots,Unibet,-125,0.9271621421154131,03 Feb 2019,3,13,2018-2019
-9,9,Los Angeles Rams,New England Patriots,William Hill,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019
-10,10,NFC,AFC,1xBet,-108,0.9260053159564433,27 Jan 2019,7,26,2018-2019
-11,11,NFC,AFC,bet-at-home,-108,0.9260053159564433,27 Jan 2019,7,26,2018-2019
-12,12,NFC,AFC,bet365,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019
-13,13,NFC,AFC,bwin,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019
-14,14,NFC,AFC,Coolbet,-104,0.9256786826880284,27 Jan 2019,7,26,2018-2019
-15,15,NFC,AFC,Marathonbet,-109,0.9260832625318607,27 Jan 2019,7,26,2018-2019
-16,16,NFC,AFC,Parimatch,-104,0.9256786826880284,27 Jan 2019,7,26,2018-2019
-17,17,NFC,AFC,Unibet,-102,0.9255058524634787,27 Jan 2019,7,26,2018-2019
-18,18,NFC,AFC,William Hill,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019
-19,19,Kansas City Chiefs,New England Patriots,1xBet,-169,0.9290819131390873,20 Jan 2019,31,37,2018-2019
-20,20,Kansas City Chiefs,New England Patriots,bet-at-home,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019
-21,21,Kansas City Chiefs,New England Patriots,bet365,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019
-22,22,Kansas City Chiefs,New England Patriots,bwin,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019
-23,23,Kansas City Chiefs,New England Patriots,Coolbet,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019
-24,24,Kansas City Chiefs,New England Patriots,Marathonbet,-179,0.92938733125649,20 Jan 2019,31,37,2018-2019
-25,25,Kansas City Chiefs,New England Patriots,Parimatch,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019
-26,26,Kansas City Chiefs,New England Patriots,Pinnacle,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019
-27,27,Kansas City Chiefs,New England Patriots,Unibet,-185,0.9295548186111948,20 Jan 2019,31,37,2018-2019
-28,28,Kansas City Chiefs,New England Patriots,William Hill,-179,0.92938733125649,20 Jan 2019,31,37,2018-2019
-29,29,New Orleans Saints,Los Angeles Rams,1xBet,-182,0.9294724477810121,20 Jan 2019,23,26,2018-2019
-30,30,New Orleans Saints,Los Angeles Rams,bet-at-home,-167,0.929016466399644,20 Jan 2019,23,26,2018-2019
-31,31,New Orleans Saints,Los Angeles Rams,bet365,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019
-32,32,New Orleans Saints,Los Angeles Rams,bwin,-175,0.929269328802039,20 Jan 2019,23,26,2018-2019
-33,33,New Orleans Saints,Los Angeles Rams,Coolbet,-154,0.9285498944829664,20 Jan 2019,23,26,2018-2019
-34,34,New Orleans Saints,Los Angeles Rams,Marathonbet,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019
-35,35,New Orleans Saints,Los Angeles Rams,Parimatch,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019
-36,36,New Orleans Saints,Los Angeles Rams,Pinnacle,-154,0.9285498944829664,20 Jan 2019,23,26,2018-2019
-37,37,New Orleans Saints,Los Angeles Rams,Unibet,-172,0.9291772459618604,20 Jan 2019,23,26,2018-2019
-38,38,New Orleans Saints,Los Angeles Rams,William Hill,-164,0.9289153214386858,20 Jan 2019,23,26,2018-2019
-39,39,New Orleans Saints,Philadelphia Eagles,1xBet,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019
-40,40,New Orleans Saints,Philadelphia Eagles,bet-at-home,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019
-41,41,New Orleans Saints,Philadelphia Eagles,bet365,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019
-42,42,New Orleans Saints,Philadelphia Eagles,bwin,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019
-43,43,New Orleans Saints,Philadelphia Eagles,Coolbet,-370,0.9320603572058341,13 Jan 2019,20,14,2018-2019
-44,44,New Orleans Saints,Philadelphia Eagles,Marathonbet,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019
-45,45,New Orleans Saints,Philadelphia Eagles,Parimatch,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019
-46,46,New Orleans Saints,Philadelphia Eagles,Pinnacle,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019
-47,47,New Orleans Saints,Philadelphia Eagles,Unibet,-357,0.9319688821594527,13 Jan 2019,20,14,2018-2019
-48,48,New Orleans Saints,Philadelphia Eagles,William Hill,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019
-49,49,New England Patriots,Los Angeles Chargers,1xBet,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019
-50,50,New England Patriots,Los Angeles Chargers,bet-at-home,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019
-51,51,New England Patriots,Los Angeles Chargers,bet365,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019
-52,52,New England Patriots,Los Angeles Chargers,bwin,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019
-53,53,New England Patriots,Los Angeles Chargers,Coolbet,-192,0.9297370587380758,13 Jan 2019,41,28,2018-2019
-54,54,New England Patriots,Los Angeles Chargers,Marathonbet,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019
-55,55,New England Patriots,Los Angeles Chargers,Parimatch,-185,0.9295548186111948,13 Jan 2019,41,28,2018-2019
-56,56,New England Patriots,Los Angeles Chargers,Pinnacle,-189,0.9296606000983767,13 Jan 2019,41,28,2018-2019
-57,57,New England Patriots,Los Angeles Chargers,Unibet,-189,0.9296606000983767,13 Jan 2019,41,28,2018-2019
-58,58,New England Patriots,Los Angeles Chargers,William Hill,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019
-59,59,Los Angeles Rams,Dallas Cowboys,1xBet,-357,0.9319688821594527,13 Jan 2019,30,22,2018-2019
-60,60,Los Angeles Rams,Dallas Cowboys,bet-at-home,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019
-61,61,Los Angeles Rams,Dallas Cowboys,bet365,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019
-62,62,Los Angeles Rams,Dallas Cowboys,bwin,-357,0.9319688821594527,13 Jan 2019,30,22,2018-2019
-63,63,Los Angeles Rams,Dallas Cowboys,Coolbet,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019
-64,64,Los Angeles Rams,Dallas Cowboys,Marathonbet,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019
-65,65,Los Angeles Rams,Dallas Cowboys,Parimatch,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019
-66,66,Los Angeles Rams,Dallas Cowboys,Pinnacle,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019
-67,67,Los Angeles Rams,Dallas Cowboys,Unibet,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019
-68,68,Los Angeles Rams,Dallas Cowboys,William Hill,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019
-69,69,New Orleans Saints,Pittsburgh Steelers,1xBet,-256,0.9309429433797592,23 Dec 2018,31,28,2018-2019
-70,70,New Orleans Saints,Pittsburgh Steelers,bet-at-home,-270,0.9311308066351691,23 Dec 2018,31,28,2018-2019
-71,71,New Orleans Saints,Pittsburgh Steelers,bet365,-286,0.9313230648995406,23 Dec 2018,31,28,2018-2019
-72,72,New Orleans Saints,Pittsburgh Steelers,bwin,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019
-73,73,New Orleans Saints,Pittsburgh Steelers,Coolbet,-270,0.9311308066351691,23 Dec 2018,31,28,2018-2019
-74,74,New Orleans Saints,Pittsburgh Steelers,Marathonbet,-250,0.93085601519157,23 Dec 2018,31,28,2018-2019
-75,75,New Orleans Saints,Pittsburgh Steelers,Parimatch,-256,0.9309429433797592,23 Dec 2018,31,28,2018-2019
-76,76,New Orleans Saints,Pittsburgh Steelers,Pinnacle,-263,0.9310393656188048,23 Dec 2018,31,28,2018-2019
-77,77,New Orleans Saints,Pittsburgh Steelers,Unibet,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019
-78,78,New Orleans Saints,Pittsburgh Steelers,William Hill,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019
-79,79,Philadelphia Eagles,Houston Texans,1xBet,-133,0.9276049658250801,23 Dec 2018,32,30,2018-2019
-80,80,Philadelphia Eagles,Houston Texans,bet-at-home,-128,0.9273346373976672,23 Dec 2018,32,30,2018-2019
-81,81,Philadelphia Eagles,Houston Texans,bet365,-125,0.9271621421154131,23 Dec 2018,32,30,2018-2019
-82,82,Philadelphia Eagles,Houston Texans,bwin,-133,0.9276049658250801,23 Dec 2018,32,30,2018-2019
-83,83,Philadelphia Eagles,Houston Texans,Coolbet,-119,0.926791277258567,23 Dec 2018,32,30,2018-2019
-84,84,Philadelphia Eagles,Houston Texans,Marathonbet,-119,0.926791277258567,23 Dec 2018,32,30,2018-2019
-85,85,Philadelphia Eagles,Houston Texans,Parimatch,-120,0.9268556422337221,23 Dec 2018,32,30,2018-2019
-86,86,Philadelphia Eagles,Houston Texans,Pinnacle,-122,0.9269812324291469,23 Dec 2018,32,30,2018-2019
-87,87,Philadelphia Eagles,Houston Texans,Unibet,-130,0.9274452450595705,23 Dec 2018,32,30,2018-2019
-88,88,Philadelphia Eagles,Houston Texans,William Hill,-130,0.9274452450595705,23 Dec 2018,32,30,2018-2019
-89,89,Tennessee Titans,Washington Commanders,1xBet,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019
-90,90,Tennessee Titans,Washington Commanders,bet-at-home,-833,0.933458840404312,22 Dec 2018,25,16,2018-2019
-91,91,Tennessee Titans,Washington Commanders,bet365,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019
-92,92,Tennessee Titans,Washington Commanders,bwin,-625,0.9330865008509747,22 Dec 2018,25,16,2018-2019
-93,93,Tennessee Titans,Washington Commanders,Coolbet,-526,0.9328060437319334,22 Dec 2018,25,16,2018-2019
-94,94,Tennessee Titans,Washington Commanders,Marathonbet,-556,0.9329015587509858,22 Dec 2018,25,16,2018-2019
-95,95,Tennessee Titans,Washington Commanders,Parimatch,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019
-96,96,Tennessee Titans,Washington Commanders,Pinnacle,-588,0.9329927169446075,22 Dec 2018,25,16,2018-2019
-97,97,Tennessee Titans,Washington Commanders,Unibet,-625,0.9330865008509747,22 Dec 2018,25,16,2018-2019
-98,98,Tennessee Titans,Washington Commanders,William Hill,-667,0.9331803682354916,22 Dec 2018,25,16,2018-2019
+,index,Home_id,Away_id,Bookmaker,OddHome,OddAway,Date,Score_home,Score_away,Season,",index,Home_id,Away_id,Bookmaker,OddHome,OddAway,Date,Score_home,Score_away,Season"
+0,0,Los Angeles Rams,New England Patriots,1xBet,114.0,0.9428500537589942,03 Feb 2019,3.0,13.0,2018-2019,
+1,1,Los Angeles Rams,New England Patriots,bet-at-home,114.0,0.9428500537589942,03 Feb 2019,3.0,13.0,2018-2019,
+2,2,Los Angeles Rams,New England Patriots,bet365,110.0,0.9431535625482292,03 Feb 2019,3.0,13.0,2018-2019,
+3,3,Los Angeles Rams,New England Patriots,bwin,114.0,0.9428500537589942,03 Feb 2019,3.0,13.0,2018-2019,
+4,4,Los Angeles Rams,New England Patriots,Coolbet,116.0,0.9427062169849654,03 Feb 2019,3.0,13.0,2018-2019,
+5,5,Los Angeles Rams,New England Patriots,Marathonbet,112.0,0.9429990738401953,03 Feb 2019,3.0,13.0,2018-2019,
+6,6,Los Angeles Rams,New England Patriots,Parimatch,117.0,0.9426361585562358,03 Feb 2019,3.0,13.0,2018-2019,
+7,7,Los Angeles Rams,New England Patriots,Pinnacle,112.0,0.9429990738401953,03 Feb 2019,3.0,13.0,2018-2019,
+8,8,Los Angeles Rams,New England Patriots,Unibet,-125.0,0.9271621421154131,03 Feb 2019,3.0,13.0,2018-2019,
+9,9,Los Angeles Rams,New England Patriots,William Hill,114.0,0.9428500537589942,03 Feb 2019,3.0,13.0,2018-2019,
+10,10,NFC,AFC,1xBet,-108.0,0.9260053159564433,27 Jan 2019,7.0,26.0,2018-2019,
+11,11,NFC,AFC,bet-at-home,-108.0,0.9260053159564433,27 Jan 2019,7.0,26.0,2018-2019,
+12,12,NFC,AFC,bet365,-105.0,0.9257626520895786,27 Jan 2019,7.0,26.0,2018-2019,
+13,13,NFC,AFC,bwin,-105.0,0.9257626520895786,27 Jan 2019,7.0,26.0,2018-2019,
+14,14,NFC,AFC,Coolbet,-104.0,0.9256786826880284,27 Jan 2019,7.0,26.0,2018-2019,
+15,15,NFC,AFC,Marathonbet,-109.0,0.9260832625318607,27 Jan 2019,7.0,26.0,2018-2019,
+16,16,NFC,AFC,Parimatch,-104.0,0.9256786826880284,27 Jan 2019,7.0,26.0,2018-2019,
+17,17,NFC,AFC,Unibet,-102.0,0.9255058524634787,27 Jan 2019,7.0,26.0,2018-2019,
+18,18,NFC,AFC,William Hill,-105.0,0.9257626520895786,27 Jan 2019,7.0,26.0,2018-2019,
+19,19,Kansas City Chiefs,New England Patriots,1xBet,-169.0,0.9290819131390873,20 Jan 2019,31.0,37.0,2018-2019,
+20,20,Kansas City Chiefs,New England Patriots,bet-at-home,-172.0,0.9291772459618604,20 Jan 2019,31.0,37.0,2018-2019,
+21,21,Kansas City Chiefs,New England Patriots,bet365,-172.0,0.9291772459618604,20 Jan 2019,31.0,37.0,2018-2019,
+22,22,Kansas City Chiefs,New England Patriots,bwin,-167.0,0.929016466399644,20 Jan 2019,31.0,37.0,2018-2019,
+23,23,Kansas City Chiefs,New England Patriots,Coolbet,-167.0,0.929016466399644,20 Jan 2019,31.0,37.0,2018-2019,
+24,24,Kansas City Chiefs,New England Patriots,Marathonbet,-179.0,0.92938733125649,20 Jan 2019,31.0,37.0,2018-2019,
+25,25,Kansas City Chiefs,New England Patriots,Parimatch,-167.0,0.929016466399644,20 Jan 2019,31.0,37.0,2018-2019,
+26,26,Kansas City Chiefs,New England Patriots,Pinnacle,-172.0,0.9291772459618604,20 Jan 2019,31.0,37.0,2018-2019,
+27,27,Kansas City Chiefs,New England Patriots,Unibet,-185.0,0.9295548186111948,20 Jan 2019,31.0,37.0,2018-2019,
+28,28,Kansas City Chiefs,New England Patriots,William Hill,-179.0,0.92938733125649,20 Jan 2019,31.0,37.0,2018-2019,
+29,29,New Orleans Saints,Los Angeles Rams,1xBet,-182.0,0.9294724477810121,20 Jan 2019,23.0,26.0,2018-2019,
+30,30,New Orleans Saints,Los Angeles Rams,bet-at-home,-167.0,0.929016466399644,20 Jan 2019,23.0,26.0,2018-2019,
+31,31,New Orleans Saints,Los Angeles Rams,bet365,-161.0,0.9288104303680628,20 Jan 2019,23.0,26.0,2018-2019,
+32,32,New Orleans Saints,Los Angeles Rams,bwin,-175.0,0.929269328802039,20 Jan 2019,23.0,26.0,2018-2019,
+33,33,New Orleans Saints,Los Angeles Rams,Coolbet,-154.0,0.9285498944829664,20 Jan 2019,23.0,26.0,2018-2019,
+34,34,New Orleans Saints,Los Angeles Rams,Marathonbet,-161.0,0.9288104303680628,20 Jan 2019,23.0,26.0,2018-2019,
+35,35,New Orleans Saints,Los Angeles Rams,Parimatch,-161.0,0.9288104303680628,20 Jan 2019,23.0,26.0,2018-2019,
+36,36,New Orleans Saints,Los Angeles Rams,Pinnacle,-154.0,0.9285498944829664,20 Jan 2019,23.0,26.0,2018-2019,
+37,37,New Orleans Saints,Los Angeles Rams,Unibet,-172.0,0.9291772459618604,20 Jan 2019,23.0,26.0,2018-2019,
+38,38,New Orleans Saints,Los Angeles Rams,William Hill,-164.0,0.9289153214386858,20 Jan 2019,23.0,26.0,2018-2019,
+39,39,New Orleans Saints,Philadelphia Eagles,1xBet,-385.0,0.932158248995206,13 Jan 2019,20.0,14.0,2018-2019,
+40,40,New Orleans Saints,Philadelphia Eagles,bet-at-home,-400.0,0.9322488172093131,13 Jan 2019,20.0,14.0,2018-2019,
+41,41,New Orleans Saints,Philadelphia Eagles,bet365,-400.0,0.9322488172093131,13 Jan 2019,20.0,14.0,2018-2019,
+42,42,New Orleans Saints,Philadelphia Eagles,bwin,-400.0,0.9322488172093131,13 Jan 2019,20.0,14.0,2018-2019,
+43,43,New Orleans Saints,Philadelphia Eagles,Coolbet,-370.0,0.9320603572058341,13 Jan 2019,20.0,14.0,2018-2019,
+44,44,New Orleans Saints,Philadelphia Eagles,Marathonbet,-400.0,0.9322488172093131,13 Jan 2019,20.0,14.0,2018-2019,
+45,45,New Orleans Saints,Philadelphia Eagles,Parimatch,-385.0,0.932158248995206,13 Jan 2019,20.0,14.0,2018-2019,
+46,46,New Orleans Saints,Philadelphia Eagles,Pinnacle,-385.0,0.932158248995206,13 Jan 2019,20.0,14.0,2018-2019,
+47,47,New Orleans Saints,Philadelphia Eagles,Unibet,-357.0,0.9319688821594527,13 Jan 2019,20.0,14.0,2018-2019,
+48,48,New Orleans Saints,Philadelphia Eagles,William Hill,-400.0,0.9322488172093131,13 Jan 2019,20.0,14.0,2018-2019,
+49,49,New England Patriots,Los Angeles Chargers,1xBet,-200.0,0.9299297903008322,13 Jan 2019,41.0,28.0,2018-2019,
+50,50,New England Patriots,Los Angeles Chargers,bet-at-home,-196.0,0.9298353811850656,13 Jan 2019,41.0,28.0,2018-2019,
+51,51,New England Patriots,Los Angeles Chargers,bet365,-200.0,0.9299297903008322,13 Jan 2019,41.0,28.0,2018-2019,
+52,52,New England Patriots,Los Angeles Chargers,bwin,-200.0,0.9299297903008322,13 Jan 2019,41.0,28.0,2018-2019,
+53,53,New England Patriots,Los Angeles Chargers,Coolbet,-192.0,0.9297370587380758,13 Jan 2019,41.0,28.0,2018-2019,
+54,54,New England Patriots,Los Angeles Chargers,Marathonbet,-196.0,0.9298353811850656,13 Jan 2019,41.0,28.0,2018-2019,
+55,55,New England Patriots,Los Angeles Chargers,Parimatch,-185.0,0.9295548186111948,13 Jan 2019,41.0,28.0,2018-2019,
+56,56,New England Patriots,Los Angeles Chargers,Pinnacle,-189.0,0.9296606000983767,13 Jan 2019,41.0,28.0,2018-2019,
+57,57,New England Patriots,Los Angeles Chargers,Unibet,-189.0,0.9296606000983767,13 Jan 2019,41.0,28.0,2018-2019,
+58,58,New England Patriots,Los Angeles Chargers,William Hill,-196.0,0.9298353811850656,13 Jan 2019,41.0,28.0,2018-2019,
+59,59,Los Angeles Rams,Dallas Cowboys,1xBet,-357.0,0.9319688821594527,13 Jan 2019,30.0,22.0,2018-2019,
+60,60,Los Angeles Rams,Dallas Cowboys,bet-at-home,-345.0,0.9318783426070982,13 Jan 2019,30.0,22.0,2018-2019,
+61,61,Los Angeles Rams,Dallas Cowboys,bet365,-345.0,0.9318783426070982,13 Jan 2019,30.0,22.0,2018-2019,
+62,62,Los Angeles Rams,Dallas Cowboys,bwin,-357.0,0.9319688821594527,13 Jan 2019,30.0,22.0,2018-2019,
+63,63,Los Angeles Rams,Dallas Cowboys,Coolbet,-333.0,0.9317812972186468,13 Jan 2019,30.0,22.0,2018-2019,
+64,64,Los Angeles Rams,Dallas Cowboys,Marathonbet,-345.0,0.9318783426070982,13 Jan 2019,30.0,22.0,2018-2019,
+65,65,Los Angeles Rams,Dallas Cowboys,Parimatch,-333.0,0.9317812972186468,13 Jan 2019,30.0,22.0,2018-2019,
+66,66,Los Angeles Rams,Dallas Cowboys,Pinnacle,-345.0,0.9318783426070982,13 Jan 2019,30.0,22.0,2018-2019,
+67,67,Los Angeles Rams,Dallas Cowboys,Unibet,-333.0,0.9317812972186468,13 Jan 2019,30.0,22.0,2018-2019,
+68,68,Los Angeles Rams,Dallas Cowboys,William Hill,-345.0,0.9318783426070982,13 Jan 2019,30.0,22.0,2018-2019,
+69,69,New Orleans Saints,Pittsburgh Steelers,1xBet,-256.0,0.9309429433797592,23 Dec 2018,31.0,28.0,2018-2019,
+70,70,New Orleans Saints,Pittsburgh Steelers,bet-at-home,-270.0,0.9311308066351691,23 Dec 2018,31.0,28.0,2018-2019,
+71,71,New Orleans Saints,Pittsburgh Steelers,bet365,-286.0,0.9313230648995406,23 Dec 2018,31.0,28.0,2018-2019,
+72,72,New Orleans Saints,Pittsburgh Steelers,bwin,-278.0,0.9312296921582421,23 Dec 2018,31.0,28.0,2018-2019,
+73,73,New Orleans Saints,Pittsburgh Steelers,Coolbet,-270.0,0.9311308066351691,23 Dec 2018,31.0,28.0,2018-2019,
+74,74,New Orleans Saints,Pittsburgh Steelers,Marathonbet,-250.0,0.93085601519157,23 Dec 2018,31.0,28.0,2018-2019,
+75,75,New Orleans Saints,Pittsburgh Steelers,Parimatch,-256.0,0.9309429433797592,23 Dec 2018,31.0,28.0,2018-2019,
+76,76,New Orleans Saints,Pittsburgh Steelers,Pinnacle,-263.0,0.9310393656188048,23 Dec 2018,31.0,28.0,2018-2019,
+77,77,New Orleans Saints,Pittsburgh Steelers,Unibet,-278.0,0.9312296921582421,23 Dec 2018,31.0,28.0,2018-2019,
+78,78,New Orleans Saints,Pittsburgh Steelers,William Hill,-278.0,0.9312296921582421,23 Dec 2018,31.0,28.0,2018-2019,
+79,79,Philadelphia Eagles,Houston Texans,1xBet,-133.0,0.9276049658250801,23 Dec 2018,32.0,30.0,2018-2019,
+80,80,Philadelphia Eagles,Houston Texans,bet-at-home,-128.0,0.9273346373976672,23 Dec 2018,32.0,30.0,2018-2019,
+81,81,Philadelphia Eagles,Houston Texans,bet365,-125.0,0.9271621421154131,23 Dec 2018,32.0,30.0,2018-2019,
+82,82,Philadelphia Eagles,Houston Texans,bwin,-133.0,0.9276049658250801,23 Dec 2018,32.0,30.0,2018-2019,
+83,83,Philadelphia Eagles,Houston Texans,Coolbet,-119.0,0.926791277258567,23 Dec 2018,32.0,30.0,2018-2019,
+84,84,Philadelphia Eagles,Houston Texans,Marathonbet,-119.0,0.926791277258567,23 Dec 2018,32.0,30.0,2018-2019,
+85,85,Philadelphia Eagles,Houston Texans,Parimatch,-120.0,0.9268556422337221,23 Dec 2018,32.0,30.0,2018-2019,
+86,86,Philadelphia Eagles,Houston Texans,Pinnacle,-122.0,0.9269812324291469,23 Dec 2018,32.0,30.0,2018-2019,
+87,87,Philadelphia Eagles,Houston Texans,Unibet,-130.0,0.9274452450595705,23 Dec 2018,32.0,30.0,2018-2019,
+88,88,Philadelphia Eagles,Houston Texans,William Hill,-130.0,0.9274452450595705,23 Dec 2018,32.0,30.0,2018-2019,
+89,89,Tennessee Titans,Washington Commanders,1xBet,-714.0,0.9332723351414941,22 Dec 2018,25.0,16.0,2018-2019,
+90,90,Tennessee Titans,Washington Commanders,bet-at-home,-833.0,0.933458840404312,22 Dec 2018,25.0,16.0,2018-2019,
+91,91,Tennessee Titans,Washington Commanders,bet365,-714.0,0.9332723351414941,22 Dec 2018,25.0,16.0,2018-2019,
+92,92,Tennessee Titans,Washington Commanders,bwin,-625.0,0.9330865008509747,22 Dec 2018,25.0,16.0,2018-2019,
+93,93,Tennessee Titans,Washington Commanders,Coolbet,-526.0,0.9328060437319334,22 Dec 2018,25.0,16.0,2018-2019,
+94,94,Tennessee Titans,Washington Commanders,Marathonbet,-556.0,0.9329015587509858,22 Dec 2018,25.0,16.0,2018-2019,
+95,95,Tennessee Titans,Washington Commanders,Parimatch,-714.0,0.9332723351414941,22 Dec 2018,25.0,16.0,2018-2019,
+96,96,Tennessee Titans,Washington Commanders,Pinnacle,-588.0,0.9329927169446075,22 Dec 2018,25.0,16.0,2018-2019,
+97,97,Tennessee Titans,Washington Commanders,Unibet,-625.0,0.9330865008509747,22 Dec 2018,25.0,16.0,2018-2019,
+98,98,Tennessee Titans,Washington Commanders,William Hill,-667.0,0.9331803682354916,22 Dec 2018,25.0,16.0,2018-2019,
+99,0,Atlanta Falcons,New England Patriots,1xBet,129.0,0.9418808411214952,05 Feb 2017,28.0,34.0,2016-2017,
+100,1,Atlanta Falcons,New England Patriots,bet-at-home,123.0,0.9422399264593229,05 Feb 2017,28.0,34.0,2016-2017,
+101,2,Atlanta Falcons,New England Patriots,bet365,125.0,0.9421163702140487,05 Feb 2017,28.0,34.0,2016-2017,
+102,3,Atlanta Falcons,New England Patriots,bwin,125.0,0.9421163702140487,05 Feb 2017,28.0,34.0,2016-2017,
+103,4,Atlanta Falcons,New England Patriots,Marathonbet,131.0,0.9417685118619696,05 Feb 2017,28.0,34.0,2016-2017,
+104,5,Atlanta Falcons,New England Patriots,Pinnacle,124.0,0.942177646075526,05 Feb 2017,28.0,34.0,2016-2017,
+105,6,Atlanta Falcons,New England Patriots,Unibet,123.0,0.9422399264593229,05 Feb 2017,28.0,34.0,2016-2017,
+106,7,Atlanta Falcons,New England Patriots,William Hill,125.0,0.9421163702140487,05 Feb 2017,28.0,34.0,2016-2017,
+107,8,NFC,AFC,1xBet,-182.0,0.9294724477810121,30 Jan 2017,13.0,20.0,2016-2017,
+108,9,NFC,AFC,bet-at-home,-189.0,0.9296606000983767,30 Jan 2017,13.0,20.0,2016-2017,
+109,10,NFC,AFC,bet365,-175.0,0.929269328802039,30 Jan 2017,13.0,20.0,2016-2017,
+110,11,NFC,AFC,bwin,-196.0,0.9298353811850656,30 Jan 2017,13.0,20.0,2016-2017,
+111,12,NFC,AFC,Marathonbet,-189.0,0.9296606000983767,30 Jan 2017,13.0,20.0,2016-2017,
+112,13,NFC,AFC,Pinnacle,-179.0,0.92938733125649,30 Jan 2017,13.0,20.0,2016-2017,
+113,14,NFC,AFC,Unibet,-189.0,0.9296606000983767,30 Jan 2017,13.0,20.0,2016-2017,
+114,15,NFC,AFC,William Hill,-179.0,0.92938733125649,30 Jan 2017,13.0,20.0,2016-2017,
+115,16,New England Patriots,Pittsburgh Steelers,1xBet,-278.0,0.9312296921582421,22 Jan 2017,36.0,17.0,2016-2017,
+116,17,New England Patriots,Pittsburgh Steelers,bet-at-home,-244.0,0.9307648292962044,22 Jan 2017,36.0,17.0,2016-2017,
+117,18,New England Patriots,Pittsburgh Steelers,bet365,-244.0,0.9307648292962044,22 Jan 2017,36.0,17.0,2016-2017,
+118,19,New England Patriots,Pittsburgh Steelers,bwin,-263.0,0.9310393656188048,22 Jan 2017,36.0,17.0,2016-2017,
+119,20,New England Patriots,Pittsburgh Steelers,Marathonbet,-227.0,0.9304804066240366,22 Jan 2017,36.0,17.0,2016-2017,
+120,21,New England Patriots,Pittsburgh Steelers,Pinnacle,-227.0,0.9304804066240366,22 Jan 2017,36.0,17.0,2016-2017,
+121,22,New England Patriots,Pittsburgh Steelers,Unibet,-238.0,0.9306690650295233,22 Jan 2017,36.0,17.0,2016-2017,
+122,23,New England Patriots,Pittsburgh Steelers,William Hill,-250.0,0.93085601519157,22 Jan 2017,36.0,17.0,2016-2017,
+123,24,Atlanta Falcons,Green Bay Packers,1xBet,-238.0,0.9306690650295233,22 Jan 2017,44.0,21.0,2016-2017,
+124,25,Atlanta Falcons,Green Bay Packers,bet-at-home,-250.0,0.93085601519157,22 Jan 2017,44.0,21.0,2016-2017,
+125,26,Atlanta Falcons,Green Bay Packers,bet365,-250.0,0.93085601519157,22 Jan 2017,44.0,21.0,2016-2017,
+126,27,Atlanta Falcons,Green Bay Packers,bwin,-222.0,0.9303885000628641,22 Jan 2017,44.0,21.0,2016-2017,
+127,28,Atlanta Falcons,Green Bay Packers,Marathonbet,-227.0,0.9304804066240366,22 Jan 2017,44.0,21.0,2016-2017,
+128,29,Atlanta Falcons,Green Bay Packers,Pinnacle,-250.0,0.93085601519157,22 Jan 2017,44.0,21.0,2016-2017,
+129,30,Atlanta Falcons,Green Bay Packers,Unibet,-222.0,0.9303885000628641,22 Jan 2017,44.0,21.0,2016-2017,
+130,31,Atlanta Falcons,Green Bay Packers,William Hill,-208.0,0.9301077672941913,22 Jan 2017,44.0,21.0,2016-2017,
+131,32,Kansas City Chiefs,Pittsburgh Steelers,1xBet,-133.0,0.9276049658250801,16 Jan 2017,16.0,18.0,2016-2017,
+132,33,Kansas City Chiefs,Pittsburgh Steelers,bet-at-home,-139.0,0.9279038718291054,16 Jan 2017,16.0,18.0,2016-2017,
+133,34,Kansas City Chiefs,Pittsburgh Steelers,bet365,-141.0,0.9279978939054889,16 Jan 2017,16.0,18.0,2016-2017,
+134,35,Kansas City Chiefs,Pittsburgh Steelers,bwin,-143.0,0.9280893042575284,16 Jan 2017,16.0,18.0,2016-2017,
+135,36,Kansas City Chiefs,Pittsburgh Steelers,Marathonbet,-135.0,0.9277075316107751,16 Jan 2017,16.0,18.0,2016-2017,
+136,37,Kansas City Chiefs,Pittsburgh Steelers,Pinnacle,-139.0,0.9279038718291054,16 Jan 2017,16.0,18.0,2016-2017,
+137,38,Kansas City Chiefs,Pittsburgh Steelers,Unibet,-130.0,0.9274452450595705,16 Jan 2017,16.0,18.0,2016-2017,
+138,39,Kansas City Chiefs,Pittsburgh Steelers,William Hill,-135.0,0.9277075316107751,16 Jan 2017,16.0,18.0,2016-2017,
+139,40,Baltimore Ravens,Philadelphia Eagles,1xBet,-238.0,0.9306690650295233,18 Dec 2016,27.0,26.0,2016-2017,
+140,41,Baltimore Ravens,Philadelphia Eagles,bet-at-home,-238.0,0.9306690650295233,18 Dec 2016,27.0,26.0,2016-2017,
+141,42,Baltimore Ravens,Philadelphia Eagles,bet365,-244.0,0.9307648292962044,18 Dec 2016,27.0,26.0,2016-2017,
+142,43,Baltimore Ravens,Philadelphia Eagles,bwin,-250.0,0.93085601519157,18 Dec 2016,27.0,26.0,2016-2017,
+143,44,Baltimore Ravens,Philadelphia Eagles,Marathonbet,-244.0,0.9307648292962044,18 Dec 2016,27.0,26.0,2016-2017,
+144,45,Baltimore Ravens,Philadelphia Eagles,Pinnacle,-227.0,0.9304804066240366,18 Dec 2016,27.0,26.0,2016-2017,
+145,46,Baltimore Ravens,Philadelphia Eagles,Unibet,-238.0,0.9306690650295233,18 Dec 2016,27.0,26.0,2016-2017,
+146,47,Baltimore Ravens,Philadelphia Eagles,William Hill,-250.0,0.93085601519157,18 Dec 2016,27.0,26.0,2016-2017,
+147,48,Buffalo Bills,Cleveland Browns,1xBet,-455.0,0.9325299229381865,18 Dec 2016,33.0,13.0,2016-2017,
+148,49,Buffalo Bills,Cleveland Browns,bet-at-home,-625.0,0.9330865008509747,18 Dec 2016,33.0,13.0,2016-2017,
+149,50,Buffalo Bills,Cleveland Browns,bet365,-500.0,0.9327140112298766,18 Dec 2016,33.0,13.0,2016-2017,
+150,51,Buffalo Bills,Cleveland Browns,bwin,-476.0,0.9326201532161679,18 Dec 2016,33.0,13.0,2016-2017,
+151,52,Buffalo Bills,Cleveland Browns,Marathonbet,-476.0,0.9326201532161679,18 Dec 2016,33.0,13.0,2016-2017,
+152,53,Buffalo Bills,Cleveland Browns,Pinnacle,-455.0,0.9325299229381865,18 Dec 2016,33.0,13.0,2016-2017,
+153,54,Buffalo Bills,Cleveland Browns,Unibet,-476.0,0.9326201532161679,18 Dec 2016,33.0,13.0,2016-2017,
+154,55,Buffalo Bills,Cleveland Browns,William Hill,-556.0,0.9329015587509858,18 Dec 2016,33.0,13.0,2016-2017,
+155,56,Chicago Bears,Green Bay Packers,1xBet,200.0,0.9392758183440566,18 Dec 2016,27.0,30.0,2016-2017,
+156,57,Chicago Bears,Green Bay Packers,bet-at-home,172.0,0.9400448160900694,18 Dec 2016,27.0,30.0,2016-2017,
+157,58,Chicago Bears,Green Bay Packers,bet365,190.0,0.9395243040102853,18 Dec 2016,27.0,30.0,2016-2017,
+158,59,Chicago Bears,Green Bay Packers,bwin,179.0,0.9398298855402709,18 Dec 2016,27.0,30.0,2016-2017,
+159,60,Chicago Bears,Green Bay Packers,Marathonbet,202.0,0.9392290882038407,18 Dec 2016,27.0,30.0,2016-2017,
+160,61,Chicago Bears,Green Bay Packers,Pinnacle,193.0,0.9394470404984423,18 Dec 2016,27.0,30.0,2016-2017,
+161,62,Chicago Bears,Green Bay Packers,Unibet,179.0,0.9398298855402709,18 Dec 2016,27.0,30.0,2016-2017,
+162,63,Chicago Bears,Green Bay Packers,William Hill,190.0,0.9395243040102853,18 Dec 2016,27.0,30.0,2016-2017,
+163,64,Cincinnati Bengals,Pittsburgh Steelers,1xBet,148.0,0.9409371225125563,18 Dec 2016,20.0,24.0,2016-2017,
+164,65,Cincinnati Bengals,Pittsburgh Steelers,bet-at-home,127.0,0.9419967363892596,18 Dec 2016,20.0,24.0,2016-2017,
+165,66,Cincinnati Bengals,Pittsburgh Steelers,bet365,140.0,0.9413030323404826,18 Dec 2016,20.0,24.0,2016-2017,
+166,67,Cincinnati Bengals,Pittsburgh Steelers,bwin,140.0,0.9413030323404826,18 Dec 2016,20.0,24.0,2016-2017,
+167,68,Cincinnati Bengals,Pittsburgh Steelers,Marathonbet,150.0,0.940851784482218,18 Dec 2016,20.0,24.0,2016-2017,
+168,69,Cincinnati Bengals,Pittsburgh Steelers,Pinnacle,140.0,0.9413030323404826,18 Dec 2016,20.0,24.0,2016-2017,
+169,70,Cincinnati Bengals,Pittsburgh Steelers,Unibet,140.0,0.9413030323404826,18 Dec 2016,20.0,24.0,2016-2017,
+170,71,Cincinnati Bengals,Pittsburgh Steelers,William Hill,145.0,0.9410695742471443,18 Dec 2016,20.0,24.0,2016-2017,
+171,72,Houston Texans,Jacksonville Jaguars,1xBet,-200.0,0.9299297903008322,18 Dec 2016,21.0,20.0,2016-2017,
+172,73,Houston Texans,Jacksonville Jaguars,bet-at-home,-200.0,0.9299297903008322,18 Dec 2016,21.0,20.0,2016-2017,
+173,74,Houston Texans,Jacksonville Jaguars,bet365,-185.0,0.9295548186111948,18 Dec 2016,21.0,20.0,2016-2017,
+174,75,Houston Texans,Jacksonville Jaguars,bwin,-189.0,0.9296606000983767,18 Dec 2016,21.0,20.0,2016-2017,
+175,76,Houston Texans,Jacksonville Jaguars,Marathonbet,-204.0,0.9300205151584227,18 Dec 2016,21.0,20.0,2016-2017,
+176,77,Houston Texans,Jacksonville Jaguars,Pinnacle,-185.0,0.9295548186111948,18 Dec 2016,21.0,20.0,2016-2017,
+177,78,Houston Texans,Jacksonville Jaguars,Unibet,-192.0,0.9297370587380758,18 Dec 2016,21.0,20.0,2016-2017,
+178,79,Houston Texans,Jacksonville Jaguars,William Hill,-189.0,0.9296606000983767,18 Dec 2016,21.0,20.0,2016-2017,
+179,80,Kansas City Chiefs,Tennessee Titans,1xBet,-244.0,0.9307648292962044,18 Dec 2016,17.0,19.0,2016-2017,
+180,81,Kansas City Chiefs,Tennessee Titans,bet-at-home,-270.0,0.9311308066351691,18 Dec 2016,17.0,19.0,2016-2017,
+181,82,Kansas City Chiefs,Tennessee Titans,bet365,-270.0,0.9311308066351691,18 Dec 2016,17.0,19.0,2016-2017,
+182,83,Kansas City Chiefs,Tennessee Titans,bwin,-278.0,0.9312296921582421,18 Dec 2016,17.0,19.0,2016-2017,
+183,84,Kansas City Chiefs,Tennessee Titans,Marathonbet,-250.0,0.93085601519157,18 Dec 2016,17.0,19.0,2016-2017,
+184,85,Kansas City Chiefs,Tennessee Titans,Pinnacle,-250.0,0.93085601519157,18 Dec 2016,17.0,19.0,2016-2017,
+185,86,Kansas City Chiefs,Tennessee Titans,Unibet,-256.0,0.9309429433797592,18 Dec 2016,17.0,19.0,2016-2017,
+186,87,Kansas City Chiefs,Tennessee Titans,William Hill,-270.0,0.9311308066351691,18 Dec 2016,17.0,19.0,2016-2017,
+187,88,Minnesota Vikings,Indianapolis Colts,1xBet,-208.0,0.9301077672941913,18 Dec 2016,6.0,34.0,2016-2017,
+188,89,Minnesota Vikings,Indianapolis Colts,bet-at-home,-250.0,0.93085601519157,18 Dec 2016,6.0,34.0,2016-2017,
+189,90,Minnesota Vikings,Indianapolis Colts,bet365,-244.0,0.9307648292962044,18 Dec 2016,6.0,34.0,2016-2017,
+190,91,Minnesota Vikings,Indianapolis Colts,bwin,-250.0,0.93085601519157,18 Dec 2016,6.0,34.0,2016-2017,
+191,92,Minnesota Vikings,Indianapolis Colts,Marathonbet,-213.0,0.9302122456109703,18 Dec 2016,6.0,34.0,2016-2017,
+192,93,Minnesota Vikings,Indianapolis Colts,Pinnacle,-238.0,0.9306690650295233,18 Dec 2016,6.0,34.0,2016-2017,
+193,94,Minnesota Vikings,Indianapolis Colts,Unibet,-227.0,0.9304804066240366,18 Dec 2016,6.0,34.0,2016-2017,
+194,95,Minnesota Vikings,Indianapolis Colts,William Hill,-250.0,0.93085601519157,18 Dec 2016,6.0,34.0,2016-2017,
+195,96,New York Giants,Detroit Lions,1xBet,-175.0,0.929269328802039,18 Dec 2016,17.0,6.0,2016-2017,
+196,97,New York Giants,Detroit Lions,bet-at-home,-208.0,0.9301077672941913,18 Dec 2016,17.0,6.0,2016-2017,
+197,98,New York Giants,Detroit Lions,bet365,-222.0,0.9303885000628641,18 Dec 2016,17.0,6.0,2016-2017,
+198,99,New York Giants,Detroit Lions,bwin,-208.0,0.9301077672941913,18 Dec 2016,17.0,6.0,2016-2017,
+199,100,New York Giants,Detroit Lions,Marathonbet,-185.0,0.9295548186111948,18 Dec 2016,17.0,6.0,2016-2017,
+200,101,New York Giants,Detroit Lions,Pinnacle,-200.0,0.9299297903008322,18 Dec 2016,17.0,6.0,2016-2017,
+201,102,New York Giants,Detroit Lions,Unibet,-200.0,0.9299297903008322,18 Dec 2016,17.0,6.0,2016-2017,
+202,103,New York Giants,Detroit Lions,William Hill,-208.0,0.9301077672941913,18 Dec 2016,17.0,6.0,2016-2017,
+203,104,New York Jets,Miami Dolphins,1xBet,129.0,0.9418808411214952,18 Dec 2016,13.0,34.0,2016-2017,
+204,105,New York Jets,Miami Dolphins,bet-at-home,112.0,0.9429990738401953,18 Dec 2016,13.0,34.0,2016-2017,
+205,106,New York Jets,Miami Dolphins,bet365,125.0,0.9421163702140487,18 Dec 2016,13.0,34.0,2016-2017,
+206,107,New York Jets,Miami Dolphins,bwin,125.0,0.9421163702140487,18 Dec 2016,13.0,34.0,2016-2017,
+207,108,New York Jets,Miami Dolphins,Marathonbet,135.0,0.9415539126795927,18 Dec 2016,13.0,34.0,2016-2017,
+208,109,New York Jets,Miami Dolphins,Pinnacle,129.0,0.9418808411214952,18 Dec 2016,13.0,34.0,2016-2017,
+209,110,New York Jets,Miami Dolphins,Unibet,118.0,0.9425672977074846,18 Dec 2016,13.0,34.0,2016-2017,
+210,111,New York Jets,Miami Dolphins,William Hill,120.0,0.9424330479855493,18 Dec 2016,13.0,34.0,2016-2017,
+211,112,Baltimore Ravens,Cincinnati Bengals,bet-at-home,-185.0,0.9295548186111948,27 Nov 2016,19.0,14.0,2016-2017,
+212,113,Baltimore Ravens,Cincinnati Bengals,bet365,-182.0,0.9294724477810121,27 Nov 2016,19.0,14.0,2016-2017,
+213,114,Baltimore Ravens,Cincinnati Bengals,bwin,-189.0,0.9296606000983767,27 Nov 2016,19.0,14.0,2016-2017,
+214,115,Baltimore Ravens,Cincinnati Bengals,Marathonbet,-169.0,0.9290819131390873,27 Nov 2016,19.0,14.0,2016-2017,
+215,116,Baltimore Ravens,Cincinnati Bengals,Pinnacle,-185.0,0.9295548186111948,27 Nov 2016,19.0,14.0,2016-2017,
+216,117,Baltimore Ravens,Cincinnati Bengals,Unibet,-182.0,0.9294724477810121,27 Nov 2016,19.0,14.0,2016-2017,
+217,118,Baltimore Ravens,Cincinnati Bengals,William Hill,-179.0,0.92938733125649,27 Nov 2016,19.0,14.0,2016-2017,
+218,119,Buffalo Bills,Jacksonville Jaguars,bet-at-home,-417.0,0.9323436032732639,27 Nov 2016,28.0,21.0,2016-2017,
+219,120,Buffalo Bills,Jacksonville Jaguars,bet365,-400.0,0.9322488172093131,27 Nov 2016,28.0,21.0,2016-2017,
+220,121,Buffalo Bills,Jacksonville Jaguars,bwin,-357.0,0.9319688821594527,27 Nov 2016,28.0,21.0,2016-2017,
+221,122,Buffalo Bills,Jacksonville Jaguars,Marathonbet,-385.0,0.932158248995206,27 Nov 2016,28.0,21.0,2016-2017,
+222,123,Buffalo Bills,Jacksonville Jaguars,Pinnacle,-357.0,0.9319688821594527,27 Nov 2016,28.0,21.0,2016-2017,
+223,124,Buffalo Bills,Jacksonville Jaguars,Unibet,-370.0,0.9320603572058341,27 Nov 2016,28.0,21.0,2016-2017,
+224,125,Buffalo Bills,Jacksonville Jaguars,William Hill,-455.0,0.9325299229381865,27 Nov 2016,28.0,21.0,2016-2017,
+225,126,Chicago Bears,Tennessee Titans,bet-at-home,214.0,0.9389671361502346,27 Nov 2016,21.0,27.0,2016-2017,
+226,127,Chicago Bears,Tennessee Titans,bet365,225.0,0.9387516688918558,27 Nov 2016,21.0,27.0,2016-2017,
+227,128,Chicago Bears,Tennessee Titans,bwin,200.0,0.9392758183440566,27 Nov 2016,21.0,27.0,2016-2017,
+228,129,Chicago Bears,Tennessee Titans,Marathonbet,244.0,0.9384254451751856,27 Nov 2016,21.0,27.0,2016-2017,
+229,130,Chicago Bears,Tennessee Titans,Pinnacle,222.0,0.9388083054932971,27 Nov 2016,21.0,27.0,2016-2017,
+230,131,Chicago Bears,Tennessee Titans,Unibet,229.0,0.9386784718806361,27 Nov 2016,21.0,27.0,2016-2017,
+231,132,Chicago Bears,Tennessee Titans,William Hill,220.0,0.9388469252763196,27 Nov 2016,21.0,27.0,2016-2017,
+232,133,Cleveland Browns,New York Giants,bet-at-home,213.0,0.9389878328337152,27 Nov 2016,13.0,27.0,2016-2017,
+233,134,Cleveland Browns,New York Giants,bet365,240.0,0.9384898134751495,27 Nov 2016,13.0,27.0,2016-2017,
+234,135,Cleveland Browns,New York Giants,bwin,229.0,0.9386784718806361,27 Nov 2016,13.0,27.0,2016-2017,
+235,136,Cleveland Browns,New York Giants,Marathonbet,258.0,0.9382159351249135,27 Nov 2016,13.0,27.0,2016-2017,
+236,137,Cleveland Browns,New York Giants,Pinnacle,237.0,0.9385395216220497,27 Nov 2016,13.0,27.0,2016-2017,
+237,138,Cleveland Browns,New York Giants,Unibet,210.0,0.9390511112104815,27 Nov 2016,13.0,27.0,2016-2017,
+238,139,Cleveland Browns,New York Giants,William Hill,240.0,0.9384898134751495,27 Nov 2016,13.0,27.0,2016-2017,
+239,140,Indianapolis Colts,Pittsburgh Steelers,bet-at-home,284.0,0.937881840097751,25 Nov 2016,7.0,28.0,2016-2017,
+240,141,Indianapolis Colts,Pittsburgh Steelers,bet365,325.0,0.9374639436944733,25 Nov 2016,7.0,28.0,2016-2017,
+241,142,Indianapolis Colts,Pittsburgh Steelers,bwin,309.0,0.9376137880810778,25 Nov 2016,7.0,28.0,2016-2017,
+242,143,Indianapolis Colts,Pittsburgh Steelers,Marathonbet,355.0,0.9372194941654787,25 Nov 2016,7.0,28.0,2016-2017,
+243,144,Indianapolis Colts,Pittsburgh Steelers,Pinnacle,361.0,0.9371754932502595,25 Nov 2016,7.0,28.0,2016-2017,
+244,145,Indianapolis Colts,Pittsburgh Steelers,Unibet,325.0,0.9374639436944733,25 Nov 2016,7.0,28.0,2016-2017,
+245,146,Indianapolis Colts,Pittsburgh Steelers,William Hill,325.0,0.9374639436944733,25 Nov 2016,7.0,28.0,2016-2017,
+246,147,Dallas Cowboys,Washington Commanders,bet-at-home,-244.0,0.9307648292962044,24 Nov 2016,31.0,26.0,2016-2017,
+247,148,Dallas Cowboys,Washington Commanders,bet365,-250.0,0.93085601519157,24 Nov 2016,31.0,26.0,2016-2017,
+248,149,Dallas Cowboys,Washington Commanders,bwin,-250.0,0.93085601519157,24 Nov 2016,31.0,26.0,2016-2017,
+249,150,Dallas Cowboys,Washington Commanders,Marathonbet,-227.0,0.9304804066240366,24 Nov 2016,31.0,26.0,2016-2017,
+250,151,Dallas Cowboys,Washington Commanders,Pinnacle,-233.0,0.9305855100247622,24 Nov 2016,31.0,26.0,2016-2017,
+251,152,Dallas Cowboys,Washington Commanders,Unibet,-244.0,0.9307648292962044,24 Nov 2016,31.0,26.0,2016-2017,
+252,153,Dallas Cowboys,Washington Commanders,William Hill,-263.0,0.9310393656188048,24 Nov 2016,31.0,26.0,2016-2017,
+253,154,Detroit Lions,Minnesota Vikings,bet-at-home,-127.0,0.9272780373831776,24 Nov 2016,16.0,13.0,2016-2017,
+254,155,Detroit Lions,Minnesota Vikings,bet365,-125.0,0.9271621421154131,24 Nov 2016,16.0,13.0,2016-2017,
+255,156,Detroit Lions,Minnesota Vikings,bwin,-125.0,0.9271621421154131,24 Nov 2016,16.0,13.0,2016-2017,
+256,157,Detroit Lions,Minnesota Vikings,Marathonbet,-127.0,0.9272780373831776,24 Nov 2016,16.0,13.0,2016-2017,
+257,158,Detroit Lions,Minnesota Vikings,Pinnacle,-123.0,0.9270425082906242,24 Nov 2016,16.0,13.0,2016-2017,
+258,159,Detroit Lions,Minnesota Vikings,Unibet,-127.0,0.9272780373831776,24 Nov 2016,16.0,13.0,2016-2017,
+259,160,Detroit Lions,Minnesota Vikings,William Hill,-130.0,0.9274452450595705,24 Nov 2016,16.0,13.0,2016-2017,
+260,161,Atlanta Falcons,Green Bay Packers,bet-at-home,-169.0,0.9290819131390873,30 Oct 2016,33.0,32.0,2016-2017,
+261,162,Atlanta Falcons,Green Bay Packers,bet365,-167.0,0.929016466399644,30 Oct 2016,33.0,32.0,2016-2017,
+262,163,Atlanta Falcons,Green Bay Packers,bwin,-154.0,0.9285498944829664,30 Oct 2016,33.0,32.0,2016-2017,
+263,164,Atlanta Falcons,Green Bay Packers,Marathonbet,-161.0,0.9288104303680628,30 Oct 2016,33.0,32.0,2016-2017,
+264,165,Atlanta Falcons,Green Bay Packers,Pinnacle,-154.0,0.9285498944829664,30 Oct 2016,33.0,32.0,2016-2017,
+265,166,Atlanta Falcons,Green Bay Packers,Unibet,-167.0,0.929016466399644,30 Oct 2016,33.0,32.0,2016-2017,
+266,167,Atlanta Falcons,Green Bay Packers,William Hill,-161.0,0.9288104303680628,30 Oct 2016,33.0,32.0,2016-2017,
+267,168,Denver Broncos,Los Angeles Chargers,bet-at-home,-189.0,0.9296606000983767,30 Oct 2016,27.0,19.0,2016-2017,
+268,169,Denver Broncos,Los Angeles Chargers,bet365,-185.0,0.9295548186111948,30 Oct 2016,27.0,19.0,2016-2017,
+269,170,Denver Broncos,Los Angeles Chargers,bwin,-200.0,0.9299297903008322,30 Oct 2016,27.0,19.0,2016-2017,
+270,171,Denver Broncos,Los Angeles Chargers,Marathonbet,-185.0,0.9295548186111948,30 Oct 2016,27.0,19.0,2016-2017,
+271,172,Denver Broncos,Los Angeles Chargers,Pinnacle,-179.0,0.92938733125649,30 Oct 2016,27.0,19.0,2016-2017,
+272,173,Denver Broncos,Los Angeles Chargers,Unibet,-204.0,0.9300205151584227,30 Oct 2016,27.0,19.0,2016-2017,
+273,174,Denver Broncos,Los Angeles Chargers,William Hill,-200.0,0.9299297903008322,30 Oct 2016,27.0,19.0,2016-2017,
+274,175,Buffalo Bills,New England Patriots,bet-at-home,191.0,0.9394982784062961,30 Oct 2016,25.0,41.0,2016-2017,
+275,176,Buffalo Bills,New England Patriots,bet365,210.0,0.9390511112104815,30 Oct 2016,25.0,41.0,2016-2017,
+276,177,Buffalo Bills,New England Patriots,bwin,190.0,0.9395243040102853,30 Oct 2016,25.0,41.0,2016-2017,
+277,178,Buffalo Bills,New England Patriots,Marathonbet,225.0,0.9387516688918558,30 Oct 2016,25.0,41.0,2016-2017,
+278,179,Buffalo Bills,New England Patriots,Pinnacle,210.0,0.9390511112104815,30 Oct 2016,25.0,41.0,2016-2017,
+279,180,Buffalo Bills,New England Patriots,Unibet,204.0,0.9391832788545645,30 Oct 2016,25.0,41.0,2016-2017,
+280,181,Buffalo Bills,New England Patriots,William Hill,220.0,0.9388469252763196,30 Oct 2016,25.0,41.0,2016-2017,
+281,182,Carolina Panthers,Arizona Cardinals,bet-at-home,-145.0,0.9281782102163615,30 Oct 2016,30.0,20.0,2016-2017,
+282,183,Carolina Panthers,Arizona Cardinals,bet365,-141.0,0.9279978939054889,30 Oct 2016,30.0,20.0,2016-2017,
+283,184,Carolina Panthers,Arizona Cardinals,bwin,-139.0,0.9279038718291054,30 Oct 2016,30.0,20.0,2016-2017,
+284,185,Carolina Panthers,Arizona Cardinals,Marathonbet,-128.0,0.9273346373976672,30 Oct 2016,30.0,20.0,2016-2017,
+285,186,Carolina Panthers,Arizona Cardinals,Pinnacle,-135.0,0.9277075316107751,30 Oct 2016,30.0,20.0,2016-2017,
+286,187,Carolina Panthers,Arizona Cardinals,Unibet,-143.0,0.9280893042575284,30 Oct 2016,30.0,20.0,2016-2017,
+287,188,Carolina Panthers,Arizona Cardinals,William Hill,-135.0,0.9277075316107751,30 Oct 2016,30.0,20.0,2016-2017,
+288,189,Cleveland Browns,New York Jets,bet-at-home,110.0,0.9431535625482292,30 Oct 2016,28.0,31.0,2016-2017,
+289,190,Cleveland Browns,New York Jets,bet365,120.0,0.9424330479855493,30 Oct 2016,28.0,31.0,2016-2017,
+290,191,Cleveland Browns,New York Jets,bwin,120.0,0.9424330479855493,30 Oct 2016,28.0,31.0,2016-2017,
+291,192,Cleveland Browns,New York Jets,Marathonbet,133.0,0.9416595865193996,30 Oct 2016,28.0,31.0,2016-2017,
+292,193,Cleveland Browns,New York Jets,Pinnacle,121.0,0.9423676012461057,30 Oct 2016,28.0,31.0,2016-2017,
+293,194,Cleveland Browns,New York Jets,Unibet,106.0,0.9434801958166444,30 Oct 2016,28.0,31.0,2016-2017,
+294,195,Cleveland Browns,New York Jets,William Hill,120.0,0.9424330479855493,30 Oct 2016,28.0,31.0,2016-2017,
+295,196,Houston Texans,Detroit Lions,bet-at-home,-127.0,0.9272780373831776,30 Oct 2016,20.0,13.0,2016-2017,
+296,197,Houston Texans,Detroit Lions,bet365,-120.0,0.9268556422337221,30 Oct 2016,20.0,13.0,2016-2017,
+297,198,Houston Texans,Detroit Lions,bwin,-128.0,0.9273346373976672,30 Oct 2016,20.0,13.0,2016-2017,
+298,199,Houston Texans,Detroit Lions,Marathonbet,-118.0,0.9267258305191235,30 Oct 2016,20.0,13.0,2016-2017,
+299,200,Houston Texans,Detroit Lions,Pinnacle,-109.0,0.9260832625318607,30 Oct 2016,20.0,13.0,2016-2017,
+300,201,Houston Texans,Detroit Lions,Unibet,-120.0,0.9268556422337221,30 Oct 2016,20.0,13.0,2016-2017,
+301,202,Houston Texans,Detroit Lions,William Hill,-130.0,0.9274452450595705,30 Oct 2016,20.0,13.0,2016-2017,
+302,203,Indianapolis Colts,Kansas City Chiefs,bet-at-home,120.0,0.9424330479855493,30 Oct 2016,14.0,30.0,2016-2017,
+303,204,Indianapolis Colts,Kansas City Chiefs,bet365,125.0,0.9421163702140487,30 Oct 2016,14.0,30.0,2016-2017,
+304,205,Indianapolis Colts,Kansas City Chiefs,bwin,120.0,0.9424330479855493,30 Oct 2016,14.0,30.0,2016-2017,
+305,206,Indianapolis Colts,Kansas City Chiefs,Marathonbet,135.0,0.9415539126795927,30 Oct 2016,14.0,30.0,2016-2017,
+306,207,Indianapolis Colts,Kansas City Chiefs,Pinnacle,125.0,0.9421163702140487,30 Oct 2016,14.0,30.0,2016-2017,
+307,208,Indianapolis Colts,Kansas City Chiefs,Unibet,133.0,0.9416595865193996,30 Oct 2016,14.0,30.0,2016-2017,
+308,209,Indianapolis Colts,Kansas City Chiefs,William Hill,129.0,0.9418808411214952,30 Oct 2016,14.0,30.0,2016-2017,
+309,210,New Orleans Saints,Seattle Seahawks,bet-at-home,-112.0,0.9263088247456784,30 Oct 2016,25.0,20.0,2016-2017,
+310,211,New Orleans Saints,Seattle Seahawks,bet365,-105.0,0.9257626520895786,30 Oct 2016,25.0,20.0,2016-2017,
+311,212,New Orleans Saints,Seattle Seahawks,bwin,100.0,0.9440196356084205,30 Oct 2016,25.0,20.0,2016-2017,
+312,213,New Orleans Saints,Seattle Seahawks,Marathonbet,-104.0,0.9256786826880284,30 Oct 2016,25.0,20.0,2016-2017,
+313,214,New Orleans Saints,Seattle Seahawks,Pinnacle,-101.0,0.9254168957302547,30 Oct 2016,25.0,20.0,2016-2017,
+314,215,New Orleans Saints,Seattle Seahawks,Unibet,-109.0,0.9260832625318607,30 Oct 2016,25.0,20.0,2016-2017,
+315,216,New Orleans Saints,Seattle Seahawks,William Hill,100.0,0.9440196356084205,30 Oct 2016,25.0,20.0,2016-2017,
+316,217,Tampa Bay Buccaneers,Las Vegas Raiders,bet-at-home,-119.0,0.926791277258567,30 Oct 2016,24.0,30.0,2016-2017,
+317,218,Tampa Bay Buccaneers,Las Vegas Raiders,bet365,-116.0,0.9265915807971882,30 Oct 2016,24.0,30.0,2016-2017,
+318,219,Tampa Bay Buccaneers,Las Vegas Raiders,bwin,-110.0,0.9261598046644777,30 Oct 2016,24.0,30.0,2016-2017,
+319,220,Tampa Bay Buccaneers,Las Vegas Raiders,Marathonbet,-105.0,0.9257626520895786,30 Oct 2016,24.0,30.0,2016-2017,
+320,221,Tampa Bay Buccaneers,Las Vegas Raiders,Pinnacle,-114.0,0.9264526615197074,30 Oct 2016,24.0,30.0,2016-2017,
+321,222,Tampa Bay Buccaneers,Las Vegas Raiders,Unibet,-109.0,0.9260832625318607,30 Oct 2016,24.0,30.0,2016-2017,
+322,223,Tampa Bay Buccaneers,Las Vegas Raiders,William Hill,-110.0,0.9261598046644777,30 Oct 2016,24.0,30.0,2016-2017,
+323,224,Las Vegas Raiders,Los Angeles Chargers,bet-at-home,-204.0,0.9300205151584227,09 Oct 2016,34.0,31.0,2016-2017,
+324,225,Las Vegas Raiders,Los Angeles Chargers,bet365,-213.0,0.9302122456109703,09 Oct 2016,34.0,31.0,2016-2017,
+325,226,Las Vegas Raiders,Los Angeles Chargers,bwin,-200.0,0.9299297903008322,09 Oct 2016,34.0,31.0,2016-2017,
+326,227,Las Vegas Raiders,Los Angeles Chargers,Marathonbet,-204.0,0.9300205151584227,09 Oct 2016,34.0,31.0,2016-2017,
+327,228,Las Vegas Raiders,Los Angeles Chargers,Pinnacle,-185.0,0.9295548186111948,09 Oct 2016,34.0,31.0,2016-2017,
+328,229,Las Vegas Raiders,Los Angeles Chargers,Unibet,-125.0,0.9271621421154131,09 Oct 2016,34.0,31.0,2016-2017,
+329,230,Las Vegas Raiders,Los Angeles Chargers,William Hill,-200.0,0.9299297903008322,09 Oct 2016,34.0,31.0,2016-2017,
+330,231,Baltimore Ravens,Washington Commanders,bet-at-home,-204.0,0.9300205151584227,09 Oct 2016,10.0,16.0,2016-2017,
+331,232,Baltimore Ravens,Washington Commanders,bet365,-200.0,0.9299297903008322,09 Oct 2016,10.0,16.0,2016-2017,
+332,233,Baltimore Ravens,Washington Commanders,bwin,-200.0,0.9299297903008322,09 Oct 2016,10.0,16.0,2016-2017,
+333,234,Baltimore Ravens,Washington Commanders,Marathonbet,-196.0,0.9298353811850656,09 Oct 2016,10.0,16.0,2016-2017,
+334,235,Baltimore Ravens,Washington Commanders,Pinnacle,-196.0,0.9298353811850656,09 Oct 2016,10.0,16.0,2016-2017,
+335,236,Baltimore Ravens,Washington Commanders,Unibet,-123.0,0.9270425082906242,09 Oct 2016,10.0,16.0,2016-2017,
+336,237,Baltimore Ravens,Washington Commanders,William Hill,-200.0,0.9299297903008322,09 Oct 2016,10.0,16.0,2016-2017,
+337,238,Cleveland Browns,New England Patriots,bet-at-home,344.0,0.9373041606495734,09 Oct 2016,13.0,33.0,2016-2017,
+338,239,Cleveland Browns,New England Patriots,bet365,400.0,0.9369217436113648,09 Oct 2016,13.0,33.0,2016-2017,
+339,240,Cleveland Browns,New England Patriots,bwin,400.0,0.9369217436113648,09 Oct 2016,13.0,33.0,2016-2017,
+340,241,Cleveland Browns,New England Patriots,Marathonbet,459.0,0.9366200057135861,09 Oct 2016,13.0,33.0,2016-2017,
+341,242,Cleveland Browns,New England Patriots,Pinnacle,384.0,0.9370195944462066,09 Oct 2016,13.0,33.0,2016-2017,
+342,243,Cleveland Browns,New England Patriots,Unibet,117.0,0.9426361585562358,09 Oct 2016,13.0,33.0,2016-2017,
+343,244,Cleveland Browns,New England Patriots,William Hill,375.0,0.9370783147583587,09 Oct 2016,13.0,33.0,2016-2017,
+344,245,Detroit Lions,Philadelphia Eagles,bet-at-home,145.0,0.9410695742471443,09 Oct 2016,24.0,23.0,2016-2017,
+345,246,Detroit Lions,Philadelphia Eagles,bet365,160.0,0.9404572973608416,09 Oct 2016,24.0,23.0,2016-2017,
+346,247,Detroit Lions,Philadelphia Eagles,bwin,160.0,0.9404572973608416,09 Oct 2016,24.0,23.0,2016-2017,
+347,248,Detroit Lions,Philadelphia Eagles,Marathonbet,164.0,0.9403130554440686,09 Oct 2016,24.0,23.0,2016-2017,
+348,249,Detroit Lions,Philadelphia Eagles,Pinnacle,161.0,0.9404205607476634,09 Oct 2016,24.0,23.0,2016-2017,
+349,250,Detroit Lions,Philadelphia Eagles,Unibet,-103.0,0.9255930984902947,09 Oct 2016,24.0,23.0,2016-2017,
+350,251,Detroit Lions,Philadelphia Eagles,William Hill,165.0,0.9402780943697288,09 Oct 2016,24.0,23.0,2016-2017,
+351,252,Indianapolis Colts,Chicago Bears,bet-at-home,-200.0,0.9299297903008322,09 Oct 2016,29.0,23.0,2016-2017,
+352,253,Indianapolis Colts,Chicago Bears,bet365,-200.0,0.9299297903008322,09 Oct 2016,29.0,23.0,2016-2017,
+353,254,Indianapolis Colts,Chicago Bears,bwin,-213.0,0.9302122456109703,09 Oct 2016,29.0,23.0,2016-2017,
+354,255,Indianapolis Colts,Chicago Bears,Marathonbet,-196.0,0.9298353811850656,09 Oct 2016,29.0,23.0,2016-2017,
+355,256,Indianapolis Colts,Chicago Bears,Pinnacle,-200.0,0.9299297903008322,09 Oct 2016,29.0,23.0,2016-2017,
+356,257,Indianapolis Colts,Chicago Bears,Unibet,-125.0,0.9271621421154131,09 Oct 2016,29.0,23.0,2016-2017,
+357,258,Indianapolis Colts,Chicago Bears,William Hill,-208.0,0.9301077672941913,09 Oct 2016,29.0,23.0,2016-2017,
+358,259,San Francisco 49ers,Arizona Cardinals,bet-at-home,156.0,0.9406089840217063,07 Oct 2016,21.0,33.0,2016-2017,
+359,260,San Francisco 49ers,Arizona Cardinals,bet365,170.0,0.9401094951059005,07 Oct 2016,21.0,33.0,2016-2017,
+360,261,San Francisco 49ers,Arizona Cardinals,bwin,165.0,0.9402780943697288,07 Oct 2016,21.0,33.0,2016-2017,
+361,262,San Francisco 49ers,Arizona Cardinals,Marathonbet,183.0,0.9397144911163602,07 Oct 2016,21.0,33.0,2016-2017,
+362,263,San Francisco 49ers,Arizona Cardinals,Pinnacle,169.0,0.940142412105029,07 Oct 2016,21.0,33.0,2016-2017,
+363,264,San Francisco 49ers,Arizona Cardinals,Unibet,-102.0,0.9255058524634787,07 Oct 2016,21.0,33.0,2016-2017,
+364,265,San Francisco 49ers,Arizona Cardinals,William Hill,170.0,0.9401094951059005,07 Oct 2016,21.0,33.0,2016-2017,
+365,266,Minnesota Vikings,New York Giants,bet-at-home,-192.0,0.9297370587380758,04 Oct 2016,24.0,10.0,2016-2017,
+366,267,Minnesota Vikings,New York Giants,bet365,-185.0,0.9295548186111948,04 Oct 2016,24.0,10.0,2016-2017,
+367,268,Minnesota Vikings,New York Giants,bwin,-189.0,0.9296606000983767,04 Oct 2016,24.0,10.0,2016-2017,
+368,269,Minnesota Vikings,New York Giants,Marathonbet,-182.0,0.9294724477810121,04 Oct 2016,24.0,10.0,2016-2017,
+369,270,Minnesota Vikings,New York Giants,Pinnacle,-189.0,0.9296606000983767,04 Oct 2016,24.0,10.0,2016-2017,
+370,271,Minnesota Vikings,New York Giants,Unibet,-123.0,0.9270425082906242,04 Oct 2016,24.0,10.0,2016-2017,
+371,272,Minnesota Vikings,New York Giants,William Hill,-189.0,0.9296606000983767,04 Oct 2016,24.0,10.0,2016-2017,
+372,273,Washington Commanders,Dallas Cowboys,bet-at-home,-185.0,0.9295548186111948,18 Sep 2016,23.0,27.0,2016-2017,
+373,274,Washington Commanders,Dallas Cowboys,bet365,-175.0,0.929269328802039,18 Sep 2016,23.0,27.0,2016-2017,
+374,275,Washington Commanders,Dallas Cowboys,bwin,-167.0,0.929016466399644,18 Sep 2016,23.0,27.0,2016-2017,
+375,276,Washington Commanders,Dallas Cowboys,Marathonbet,-185.0,0.9295548186111948,18 Sep 2016,23.0,27.0,2016-2017,
+376,277,Washington Commanders,Dallas Cowboys,Pinnacle,-185.0,0.9295548186111948,18 Sep 2016,23.0,27.0,2016-2017,
+377,278,Washington Commanders,Dallas Cowboys,Unibet,-123.0,0.9270425082906242,18 Sep 2016,23.0,27.0,2016-2017,
+378,279,Washington Commanders,Dallas Cowboys,William Hill,-189.0,0.9296606000983767,18 Sep 2016,23.0,27.0,2016-2017,
+379,280,Buffalo Bills,New York Jets,bet-at-home,-119.0,0.926791277258567,16 Sep 2016,31.0,37.0,2016-2017,
+380,281,Buffalo Bills,New York Jets,bet365,-125.0,0.9271621421154131,16 Sep 2016,31.0,37.0,2016-2017,
+381,282,Buffalo Bills,New York Jets,bwin,-110.0,0.9261598046644777,16 Sep 2016,31.0,37.0,2016-2017,
+382,283,Buffalo Bills,New York Jets,Marathonbet,-112.0,0.9263088247456784,16 Sep 2016,31.0,37.0,2016-2017,
+383,284,Buffalo Bills,New York Jets,Pinnacle,-120.0,0.9268556422337221,16 Sep 2016,31.0,37.0,2016-2017,
+384,285,Buffalo Bills,New York Jets,Unibet,-108.0,0.9260053159564433,16 Sep 2016,31.0,37.0,2016-2017,
+385,286,Buffalo Bills,New York Jets,William Hill,-120.0,0.9268556422337221,16 Sep 2016,31.0,37.0,2016-2017,
+386,287,San Francisco 49ers,Los Angeles Rams,1xBet,106.0,0.9434801958166444,13 Sep 2016,28.0,0.0,2016-2017,
+387,288,San Francisco 49ers,Los Angeles Rams,bet-at-home,110.0,0.9431535625482292,13 Sep 2016,28.0,0.0,2016-2017,
+388,289,San Francisco 49ers,Los Angeles Rams,bet365,125.0,0.9421163702140487,13 Sep 2016,28.0,0.0,2016-2017,
+389,290,San Francisco 49ers,Los Angeles Rams,bwin,125.0,0.9421163702140487,13 Sep 2016,28.0,0.0,2016-2017,
+390,291,San Francisco 49ers,Los Angeles Rams,Marathonbet,131.0,0.9417685118619696,13 Sep 2016,28.0,0.0,2016-2017,
+391,292,San Francisco 49ers,Los Angeles Rams,Pinnacle,114.0,0.9428500537589942,13 Sep 2016,28.0,0.0,2016-2017,
+392,293,San Francisco 49ers,Los Angeles Rams,Unibet,-103.0,0.9255930984902947,13 Sep 2016,28.0,0.0,2016-2017,
+393,294,San Francisco 49ers,Los Angeles Rams,William Hill,125.0,0.9421163702140487,13 Sep 2016,28.0,0.0,2016-2017,
+394,295,Washington Commanders,Pittsburgh Steelers,1xBet,141.0,0.9412550066755674,12 Sep 2016,16.0,38.0,2016-2017,
+395,296,Washington Commanders,Pittsburgh Steelers,bet-at-home,106.0,0.9434801958166444,12 Sep 2016,16.0,38.0,2016-2017,
+396,297,Washington Commanders,Pittsburgh Steelers,bet365,110.0,0.9431535625482292,12 Sep 2016,16.0,38.0,2016-2017,
+397,298,Washington Commanders,Pittsburgh Steelers,bwin,120.0,0.9424330479855493,12 Sep 2016,16.0,38.0,2016-2017,
+398,299,Washington Commanders,Pittsburgh Steelers,Marathonbet,124.0,0.942177646075526,12 Sep 2016,16.0,38.0,2016-2017,
+399,300,Washington Commanders,Pittsburgh Steelers,Pinnacle,120.0,0.9424330479855493,12 Sep 2016,16.0,38.0,2016-2017,
+400,301,Washington Commanders,Pittsburgh Steelers,Unibet,-104.0,0.9256786826880284,12 Sep 2016,16.0,38.0,2016-2017,
+401,302,Washington Commanders,Pittsburgh Steelers,William Hill,114.0,0.9428500537589942,12 Sep 2016,16.0,38.0,2016-2017,
+402,303,Arizona Cardinals,New England Patriots,bet-at-home,-455.0,0.9325299229381865,12 Sep 2016,21.0,23.0,2016-2017,
+403,304,Arizona Cardinals,New England Patriots,bet365,-435.0,0.9324359084283632,12 Sep 2016,21.0,23.0,2016-2017,
+404,305,Arizona Cardinals,New England Patriots,bwin,-400.0,0.9322488172093131,12 Sep 2016,21.0,23.0,2016-2017,
+405,306,Arizona Cardinals,New England Patriots,Marathonbet,-345.0,0.9318783426070982,12 Sep 2016,21.0,23.0,2016-2017,
+406,307,Arizona Cardinals,New England Patriots,Pinnacle,-385.0,0.932158248995206,12 Sep 2016,21.0,23.0,2016-2017,
+407,308,Arizona Cardinals,New England Patriots,Unibet,-145.0,0.9281782102163615,12 Sep 2016,21.0,23.0,2016-2017,
+408,309,Arizona Cardinals,New England Patriots,William Hill,-455.0,0.9325299229381865,12 Sep 2016,21.0,23.0,2016-2017,
+409,0,,,,,,,,,,"0,0,Los Angeles Rams,New England Patriots,1xBet,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019"
+410,1,,,,,,,,,,"1,1,Los Angeles Rams,New England Patriots,bet-at-home,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019"
+411,2,,,,,,,,,,"2,2,Los Angeles Rams,New England Patriots,bet365,110,0.9431535625482292,03 Feb 2019,3,13,2018-2019"
+412,3,,,,,,,,,,"3,3,Los Angeles Rams,New England Patriots,bwin,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019"
+413,4,,,,,,,,,,"4,4,Los Angeles Rams,New England Patriots,Coolbet,116,0.9427062169849654,03 Feb 2019,3,13,2018-2019"
+414,5,,,,,,,,,,"5,5,Los Angeles Rams,New England Patriots,Marathonbet,112,0.9429990738401953,03 Feb 2019,3,13,2018-2019"
+415,6,,,,,,,,,,"6,6,Los Angeles Rams,New England Patriots,Parimatch,117,0.9426361585562358,03 Feb 2019,3,13,2018-2019"
+416,7,,,,,,,,,,"7,7,Los Angeles Rams,New England Patriots,Pinnacle,112,0.9429990738401953,03 Feb 2019,3,13,2018-2019"
+417,8,,,,,,,,,,"8,8,Los Angeles Rams,New England Patriots,Unibet,-125,0.9271621421154131,03 Feb 2019,3,13,2018-2019"
+418,9,,,,,,,,,,"9,9,Los Angeles Rams,New England Patriots,William Hill,114,0.9428500537589942,03 Feb 2019,3,13,2018-2019"
+419,10,,,,,,,,,,"10,10,NFC,AFC,1xBet,-108,0.9260053159564433,27 Jan 2019,7,26,2018-2019"
+420,11,,,,,,,,,,"11,11,NFC,AFC,bet-at-home,-108,0.9260053159564433,27 Jan 2019,7,26,2018-2019"
+421,12,,,,,,,,,,"12,12,NFC,AFC,bet365,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019"
+422,13,,,,,,,,,,"13,13,NFC,AFC,bwin,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019"
+423,14,,,,,,,,,,"14,14,NFC,AFC,Coolbet,-104,0.9256786826880284,27 Jan 2019,7,26,2018-2019"
+424,15,,,,,,,,,,"15,15,NFC,AFC,Marathonbet,-109,0.9260832625318607,27 Jan 2019,7,26,2018-2019"
+425,16,,,,,,,,,,"16,16,NFC,AFC,Parimatch,-104,0.9256786826880284,27 Jan 2019,7,26,2018-2019"
+426,17,,,,,,,,,,"17,17,NFC,AFC,Unibet,-102,0.9255058524634787,27 Jan 2019,7,26,2018-2019"
+427,18,,,,,,,,,,"18,18,NFC,AFC,William Hill,-105,0.9257626520895786,27 Jan 2019,7,26,2018-2019"
+428,19,,,,,,,,,,"19,19,Kansas City Chiefs,New England Patriots,1xBet,-169,0.9290819131390873,20 Jan 2019,31,37,2018-2019"
+429,20,,,,,,,,,,"20,20,Kansas City Chiefs,New England Patriots,bet-at-home,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019"
+430,21,,,,,,,,,,"21,21,Kansas City Chiefs,New England Patriots,bet365,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019"
+431,22,,,,,,,,,,"22,22,Kansas City Chiefs,New England Patriots,bwin,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019"
+432,23,,,,,,,,,,"23,23,Kansas City Chiefs,New England Patriots,Coolbet,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019"
+433,24,,,,,,,,,,"24,24,Kansas City Chiefs,New England Patriots,Marathonbet,-179,0.92938733125649,20 Jan 2019,31,37,2018-2019"
+434,25,,,,,,,,,,"25,25,Kansas City Chiefs,New England Patriots,Parimatch,-167,0.929016466399644,20 Jan 2019,31,37,2018-2019"
+435,26,,,,,,,,,,"26,26,Kansas City Chiefs,New England Patriots,Pinnacle,-172,0.9291772459618604,20 Jan 2019,31,37,2018-2019"
+436,27,,,,,,,,,,"27,27,Kansas City Chiefs,New England Patriots,Unibet,-185,0.9295548186111948,20 Jan 2019,31,37,2018-2019"
+437,28,,,,,,,,,,"28,28,Kansas City Chiefs,New England Patriots,William Hill,-179,0.92938733125649,20 Jan 2019,31,37,2018-2019"
+438,29,,,,,,,,,,"29,29,New Orleans Saints,Los Angeles Rams,1xBet,-182,0.9294724477810121,20 Jan 2019,23,26,2018-2019"
+439,30,,,,,,,,,,"30,30,New Orleans Saints,Los Angeles Rams,bet-at-home,-167,0.929016466399644,20 Jan 2019,23,26,2018-2019"
+440,31,,,,,,,,,,"31,31,New Orleans Saints,Los Angeles Rams,bet365,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019"
+441,32,,,,,,,,,,"32,32,New Orleans Saints,Los Angeles Rams,bwin,-175,0.929269328802039,20 Jan 2019,23,26,2018-2019"
+442,33,,,,,,,,,,"33,33,New Orleans Saints,Los Angeles Rams,Coolbet,-154,0.9285498944829664,20 Jan 2019,23,26,2018-2019"
+443,34,,,,,,,,,,"34,34,New Orleans Saints,Los Angeles Rams,Marathonbet,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019"
+444,35,,,,,,,,,,"35,35,New Orleans Saints,Los Angeles Rams,Parimatch,-161,0.9288104303680628,20 Jan 2019,23,26,2018-2019"
+445,36,,,,,,,,,,"36,36,New Orleans Saints,Los Angeles Rams,Pinnacle,-154,0.9285498944829664,20 Jan 2019,23,26,2018-2019"
+446,37,,,,,,,,,,"37,37,New Orleans Saints,Los Angeles Rams,Unibet,-172,0.9291772459618604,20 Jan 2019,23,26,2018-2019"
+447,38,,,,,,,,,,"38,38,New Orleans Saints,Los Angeles Rams,William Hill,-164,0.9289153214386858,20 Jan 2019,23,26,2018-2019"
+448,39,,,,,,,,,,"39,39,New Orleans Saints,Philadelphia Eagles,1xBet,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019"
+449,40,,,,,,,,,,"40,40,New Orleans Saints,Philadelphia Eagles,bet-at-home,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019"
+450,41,,,,,,,,,,"41,41,New Orleans Saints,Philadelphia Eagles,bet365,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019"
+451,42,,,,,,,,,,"42,42,New Orleans Saints,Philadelphia Eagles,bwin,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019"
+452,43,,,,,,,,,,"43,43,New Orleans Saints,Philadelphia Eagles,Coolbet,-370,0.9320603572058341,13 Jan 2019,20,14,2018-2019"
+453,44,,,,,,,,,,"44,44,New Orleans Saints,Philadelphia Eagles,Marathonbet,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019"
+454,45,,,,,,,,,,"45,45,New Orleans Saints,Philadelphia Eagles,Parimatch,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019"
+455,46,,,,,,,,,,"46,46,New Orleans Saints,Philadelphia Eagles,Pinnacle,-385,0.932158248995206,13 Jan 2019,20,14,2018-2019"
+456,47,,,,,,,,,,"47,47,New Orleans Saints,Philadelphia Eagles,Unibet,-357,0.9319688821594527,13 Jan 2019,20,14,2018-2019"
+457,48,,,,,,,,,,"48,48,New Orleans Saints,Philadelphia Eagles,William Hill,-400,0.9322488172093131,13 Jan 2019,20,14,2018-2019"
+458,49,,,,,,,,,,"49,49,New England Patriots,Los Angeles Chargers,1xBet,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019"
+459,50,,,,,,,,,,"50,50,New England Patriots,Los Angeles Chargers,bet-at-home,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019"
+460,51,,,,,,,,,,"51,51,New England Patriots,Los Angeles Chargers,bet365,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019"
+461,52,,,,,,,,,,"52,52,New England Patriots,Los Angeles Chargers,bwin,-200,0.9299297903008322,13 Jan 2019,41,28,2018-2019"
+462,53,,,,,,,,,,"53,53,New England Patriots,Los Angeles Chargers,Coolbet,-192,0.9297370587380758,13 Jan 2019,41,28,2018-2019"
+463,54,,,,,,,,,,"54,54,New England Patriots,Los Angeles Chargers,Marathonbet,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019"
+464,55,,,,,,,,,,"55,55,New England Patriots,Los Angeles Chargers,Parimatch,-185,0.9295548186111948,13 Jan 2019,41,28,2018-2019"
+465,56,,,,,,,,,,"56,56,New England Patriots,Los Angeles Chargers,Pinnacle,-189,0.9296606000983767,13 Jan 2019,41,28,2018-2019"
+466,57,,,,,,,,,,"57,57,New England Patriots,Los Angeles Chargers,Unibet,-189,0.9296606000983767,13 Jan 2019,41,28,2018-2019"
+467,58,,,,,,,,,,"58,58,New England Patriots,Los Angeles Chargers,William Hill,-196,0.9298353811850656,13 Jan 2019,41,28,2018-2019"
+468,59,,,,,,,,,,"59,59,Los Angeles Rams,Dallas Cowboys,1xBet,-357,0.9319688821594527,13 Jan 2019,30,22,2018-2019"
+469,60,,,,,,,,,,"60,60,Los Angeles Rams,Dallas Cowboys,bet-at-home,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019"
+470,61,,,,,,,,,,"61,61,Los Angeles Rams,Dallas Cowboys,bet365,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019"
+471,62,,,,,,,,,,"62,62,Los Angeles Rams,Dallas Cowboys,bwin,-357,0.9319688821594527,13 Jan 2019,30,22,2018-2019"
+472,63,,,,,,,,,,"63,63,Los Angeles Rams,Dallas Cowboys,Coolbet,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019"
+473,64,,,,,,,,,,"64,64,Los Angeles Rams,Dallas Cowboys,Marathonbet,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019"
+474,65,,,,,,,,,,"65,65,Los Angeles Rams,Dallas Cowboys,Parimatch,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019"
+475,66,,,,,,,,,,"66,66,Los Angeles Rams,Dallas Cowboys,Pinnacle,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019"
+476,67,,,,,,,,,,"67,67,Los Angeles Rams,Dallas Cowboys,Unibet,-333,0.9317812972186468,13 Jan 2019,30,22,2018-2019"
+477,68,,,,,,,,,,"68,68,Los Angeles Rams,Dallas Cowboys,William Hill,-345,0.9318783426070982,13 Jan 2019,30,22,2018-2019"
+478,69,,,,,,,,,,"69,69,New Orleans Saints,Pittsburgh Steelers,1xBet,-256,0.9309429433797592,23 Dec 2018,31,28,2018-2019"
+479,70,,,,,,,,,,"70,70,New Orleans Saints,Pittsburgh Steelers,bet-at-home,-270,0.9311308066351691,23 Dec 2018,31,28,2018-2019"
+480,71,,,,,,,,,,"71,71,New Orleans Saints,Pittsburgh Steelers,bet365,-286,0.9313230648995406,23 Dec 2018,31,28,2018-2019"
+481,72,,,,,,,,,,"72,72,New Orleans Saints,Pittsburgh Steelers,bwin,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019"
+482,73,,,,,,,,,,"73,73,New Orleans Saints,Pittsburgh Steelers,Coolbet,-270,0.9311308066351691,23 Dec 2018,31,28,2018-2019"
+483,74,,,,,,,,,,"74,74,New Orleans Saints,Pittsburgh Steelers,Marathonbet,-250,0.93085601519157,23 Dec 2018,31,28,2018-2019"
+484,75,,,,,,,,,,"75,75,New Orleans Saints,Pittsburgh Steelers,Parimatch,-256,0.9309429433797592,23 Dec 2018,31,28,2018-2019"
+485,76,,,,,,,,,,"76,76,New Orleans Saints,Pittsburgh Steelers,Pinnacle,-263,0.9310393656188048,23 Dec 2018,31,28,2018-2019"
+486,77,,,,,,,,,,"77,77,New Orleans Saints,Pittsburgh Steelers,Unibet,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019"
+487,78,,,,,,,,,,"78,78,New Orleans Saints,Pittsburgh Steelers,William Hill,-278,0.9312296921582421,23 Dec 2018,31,28,2018-2019"
+488,79,,,,,,,,,,"79,79,Philadelphia Eagles,Houston Texans,1xBet,-133,0.9276049658250801,23 Dec 2018,32,30,2018-2019"
+489,80,,,,,,,,,,"80,80,Philadelphia Eagles,Houston Texans,bet-at-home,-128,0.9273346373976672,23 Dec 2018,32,30,2018-2019"
+490,81,,,,,,,,,,"81,81,Philadelphia Eagles,Houston Texans,bet365,-125,0.9271621421154131,23 Dec 2018,32,30,2018-2019"
+491,82,,,,,,,,,,"82,82,Philadelphia Eagles,Houston Texans,bwin,-133,0.9276049658250801,23 Dec 2018,32,30,2018-2019"
+492,83,,,,,,,,,,"83,83,Philadelphia Eagles,Houston Texans,Coolbet,-119,0.926791277258567,23 Dec 2018,32,30,2018-2019"
+493,84,,,,,,,,,,"84,84,Philadelphia Eagles,Houston Texans,Marathonbet,-119,0.926791277258567,23 Dec 2018,32,30,2018-2019"
+494,85,,,,,,,,,,"85,85,Philadelphia Eagles,Houston Texans,Parimatch,-120,0.9268556422337221,23 Dec 2018,32,30,2018-2019"
+495,86,,,,,,,,,,"86,86,Philadelphia Eagles,Houston Texans,Pinnacle,-122,0.9269812324291469,23 Dec 2018,32,30,2018-2019"
+496,87,,,,,,,,,,"87,87,Philadelphia Eagles,Houston Texans,Unibet,-130,0.9274452450595705,23 Dec 2018,32,30,2018-2019"
+497,88,,,,,,,,,,"88,88,Philadelphia Eagles,Houston Texans,William Hill,-130,0.9274452450595705,23 Dec 2018,32,30,2018-2019"
+498,89,,,,,,,,,,"89,89,Tennessee Titans,Washington Commanders,1xBet,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019"
+499,90,,,,,,,,,,"90,90,Tennessee Titans,Washington Commanders,bet-at-home,-833,0.933458840404312,22 Dec 2018,25,16,2018-2019"
+500,91,,,,,,,,,,"91,91,Tennessee Titans,Washington Commanders,bet365,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019"
+501,92,,,,,,,,,,"92,92,Tennessee Titans,Washington Commanders,bwin,-625,0.9330865008509747,22 Dec 2018,25,16,2018-2019"
+502,93,,,,,,,,,,"93,93,Tennessee Titans,Washington Commanders,Coolbet,-526,0.9328060437319334,22 Dec 2018,25,16,2018-2019"
+503,94,,,,,,,,,,"94,94,Tennessee Titans,Washington Commanders,Marathonbet,-556,0.9329015587509858,22 Dec 2018,25,16,2018-2019"
+504,95,,,,,,,,,,"95,95,Tennessee Titans,Washington Commanders,Parimatch,-714,0.9332723351414941,22 Dec 2018,25,16,2018-2019"
+505,96,,,,,,,,,,"96,96,Tennessee Titans,Washington Commanders,Pinnacle,-588,0.9329927169446075,22 Dec 2018,25,16,2018-2019"
+506,97,,,,,,,,,,"97,97,Tennessee Titans,Washington Commanders,Unibet,-625,0.9330865008509747,22 Dec 2018,25,16,2018-2019"
+507,98,,,,,,,,,,"98,98,Tennessee Titans,Washington Commanders,William Hill,-667,0.9331803682354916,22 Dec 2018,25,16,2018-2019"

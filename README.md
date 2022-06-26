@@ -95,5 +95,26 @@ sample .plist file:
  </dict>
 </dict>
 
-linke to chrome 93:
+link to chrome 93:
 https://chromium.cypress.io/mac/stable/93.0.4577.82
+
+Features/bugs to work on in priority:
+- if adding a non int is added to an input response exit the program after confirmation
+- align the text outputs
+- add the rest of the sports and seasons
+- add the current season
+- add caching check to see if the files exists before rerunning the reports
+- add the ability to email csvs to someone
+- add the ability to change between closing and opening odds
+- add file explorer to open and view the csv files
+- add the ability to run a range of seasons
+- clear screen on each render
+- add the ability to run by sport, league, country, or season
+- have a cursor that moves between menu options
+- make all the constants environment variables and add .envrc and make for that
+- make things clickable?
+
+Future plans/milestones:
+- run reports off the csvs
+- change browsers if possible
+- containerize this whole thing so that the user won't need worry about the dependencies and it taking over their computer
