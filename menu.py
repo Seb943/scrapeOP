@@ -94,6 +94,3 @@ def sub_menu(sports_choice):
             if exit_program.lower() == "x":
                 print("Exiting program...")
                 quit()
-
-
-menu(print_menu=True)

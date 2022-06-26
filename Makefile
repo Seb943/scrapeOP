@@ -21,5 +21,7 @@ deps:
 chrome:
 	sudo mv com.google.Keystone.plist /Library/Managed\ Preferences/com.google.Keystone.plist
 
+odds:
+	python main.py
 
 full-build: setup venv deps
