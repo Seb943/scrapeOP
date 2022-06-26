@@ -100,18 +100,28 @@ sports = {
         "country": "japan",
         "league": "Japanese J1",
         "seasons": [
-            {"year": "2008-2009", "pages": 6},
+            {"year": "2004", "pages": 4},
+            {"year": "2005", "pages": 7},
+            {"year": "2006", "pages": 7},
+            {"year": "2007", "pages": 7},
+            {"year": "2008", "pages": 7},
+            {"year": "2009", "pages": 7},
+            {"year": "2010", "pages": 7},
+            {"year": "2011", "pages": 7},
+            {"year": "2012", "pages": 7},
+            {"year": "2013", "pages": 7},
+            {"year": "2014", "pages": 7},
+            {"year": "2015", "pages": 7},
+            {"year": "2016", "pages": 7},
+            {"year": "2017", "pages": 7},
+            {"year": "2018", "pages": 7},
+            {"year": "2019", "pages": 7},
+            {"year": "2020", "pages": 7},
+            {"year": "2021", "pages": 8},
+            {"year": "2022", "pages": 4},
         ],
     },
     6: {
-        "sport": "soccer",
-        "country": "australia",
-        "league": "Australian A-League",
-        "seasons": [
-            {"year": "2008-2009", "pages": 6},
-        ],
-    },
-    7: {
         "sport": "soccer",
         "country": "Brazil",
         "league": "Brazilian Series A",
@@ -119,7 +129,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    8: {
+    7: {
         "sport": "soccer",
         "country": "england",
         "league": "English Premier",
@@ -127,7 +137,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    9: {
+    8: {
         "sport": "soccer",
         "country": "england",
         "league": "English League Championship",
@@ -135,7 +145,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    10: {
+    9: {
         "sport": "soccer",
         "country": "englad",
         "league": "English League One",
@@ -143,7 +153,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    11: {
+    10: {
         "sport": "soccer",
         "country": "engald",
         "league": "English League Two",
@@ -151,7 +161,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    12: {
+    11: {
         "sport": "soccer",
         "country": "sweden",
         "league": "Swedish Allsvenskan",
@@ -159,7 +169,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    13: {
+    12: {
         "sport": "soccer",
         "country": "france",
         "league": "French League One",
@@ -167,7 +177,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    14: {
+    13: {
         "sport": "soccer",
         "country": "italy",
         "league": "Italy Series A",
@@ -175,7 +185,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    15: {
+    14: {
         "sport": "soccer",
         "country": "spain",
         "league": "Spanish Premier",
@@ -183,7 +193,7 @@ sports = {
             {"year": "2008-2009", "pages": 6},
         ],
     },
-    16: {
+    15: {
         "sport": "soccer",
         "country": "mexico",
         "league": "Mexico MX",
