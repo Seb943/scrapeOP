@@ -18,8 +18,19 @@ deps:
 	pip install --upgrade pip-tools
 	pip install -r requirements.txt
 
-chrome:
-	sudo mv com.google.Keystone.plist /Library/Managed\ Preferences/com.google.Keystone.plist
+block-updates:
+	#https://www.webnots.com/how-to-edit-hosts-file-in-mac-os-x/
+	#https://www.webnots.com/7-ways-to-disable-automatic-chrome-update-in-windows-and-mac/
+	sudo cp /private/etc/hosts ~/Documents/hosts-backup
+	sudo nano /private/etc/hosts
+	#run this command to enable changes: make flush
+
+flush:
+	dscacheutil -flushcache
+
+restore-hosts:
+	sudo cp ~/Documents/hosts-backup /private/etc/hosts
+
 
 odds:
 	python main.py

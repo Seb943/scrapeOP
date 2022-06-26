@@ -98,7 +98,7 @@ sports = {
     5: {
         "sport": "soccer",
         "country": "japan",
-        "league": "Japanese J1",
+        "league": "j-league",
         "seasons": [
             {"year": "2004", "pages": 4},
             {"year": "2005", "pages": 7},

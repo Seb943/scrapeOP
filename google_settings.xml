@@ -1,0 +1,11 @@
+<key>updatePolicies</key>
+<key>com.google.Chrome</key>
+<dict>
+ <key>TargetVersionPrefix</key>
+ <string>93.</string>
+</dict>
+<dict>
+ <key>global</key>
+ <dict>
+ </dict>
+</dict>
