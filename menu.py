@@ -35,16 +35,16 @@ class Menu:
             3. MLB ⚾️ 🇺🇸
             4. MLS ⚽️ 🇺🇸
             5. Japanese J1 ⚽ 🇯🇵
-            7. Brazilian Series A ⚽ 🇧🇷
-            8. English Premier ⚽ 🇬🇧
-            9. English League Championship ⚽ 🇬🇧
-            10. English League One ⚽ 🇬🇧
-            11. English League Two ⚽ 🇬🇧
-            12. Swedish Allsvenskan ⚽ 🇸🇪
-            13. French League One ⚽ 🇫🇷
-            14. Italy Series A ⚽ 🇮🇹
-            15. Spanish Premier ⚽ 🇪🇸
-            16. Mexico MX ⚽ 🇲🇽
+            6. Brazilian Series A ⚽ 🇧🇷
+            7. English Premier ⚽ 🇬🇧
+            8. English League Championship ⚽ 🇬🇧
+            9. English League One ⚽ 🇬🇧
+            10. English League Two ⚽ 🇬🇧
+            11. Swedish Allsvenskan ⚽ 🇸🇪
+            12. French League One ⚽ 🇫🇷
+            13. Italy Series A ⚽ 🇮🇹
+            14. Spanish Premier ⚽ 🇪🇸
+            15. Mexico MX ⚽ 🇲🇽
             ?. Why dont' I see league ___?
             0. Exit 🛑
             """
