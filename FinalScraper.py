@@ -27,8 +27,7 @@ if_poc_passes = """
         16. Mexico MX ⚽ 🇲🇽"""
 
 
-def menu():
-    print_menu = True
+def menu(print_menu=True):
     while print_menu:
         print(
             """
@@ -40,14 +39,23 @@ def menu():
         0. Exit
         """
         )
-        choice = int(input("Enter your choice: "))
-        if choice in range(1, 17):
-            sub_menu(sports[choice])
-        if choice == 0:
-            print_menu = False
-        else:
-            print("Invalid input, please try again.")
-            menu()
+        try:
+            choice = int(input("Enter your choice: "))
+            if choice in range(1, 17):
+                sub_menu(sports[choice])
+            if choice == 0:
+                print_menu = False
+            else:
+                print("Invalid input, please try again.")
+                menu()
+        except ValueError:
+            print("Press only numbers")
+            exit_program = input(
+                "Please try again or press x to exit or press any key to continue: "
+            )
+            if exit_program.lower() == "x":
+                print("Exiting program...")
+                break
 
 
 def sub_menu(sports_choice):
@@ -61,22 +69,31 @@ def sub_menu(sports_choice):
         print("Select a season to scrape:")
         print(*seasons, sep="\n")
         print("0. Go Back to Sports Menu")
-        choice = int(input("Enter your choice: "))
-        if choice in range(1, len(seasons) + 1):
-            scrape_oddsportal_historical(
-                sport=sports_choice["sport"],
-                country=sports_choice["country"],
-                league=sports_choice["league"],
-                start_season=sports_choice["seasons"][choice - 1]["year"],
-                current_season="no",
-                max_page=sports_choice["seasons"][choice - 1]["pages"],
+        try:
+            choice = int(input("Enter your choice: "))
+            if choice in range(1, len(seasons) + 1):
+                scrape_oddsportal_historical(
+                    sport=sports_choice["sport"],
+                    country=sports_choice["country"],
+                    league=sports_choice["league"],
+                    start_season=sports_choice["seasons"][choice - 1]["year"],
+                    current_season="no",
+                    max_page=sports_choice["seasons"][choice - 1]["pages"],
+                )
+            elif choice == 0:
+                print_sub_menu = False
+                menu()
+            else:
+                print("Invalid input, please try again.")
+                sub_menu(sports_choice)
+        except ValueError:
+            print("Press only numbers")
+            exit_program = input(
+                "Please try again or press x to exit or press any key to continue: "
             )
-        elif choice == 0:
-            print_sub_menu = False
-            menu()
-        else:
-            print("Invalid input, please try again.")
-            sub_menu(sports_choice)
+            if exit_program.lower() == "x":
+                print("Exiting program...")
+                quit()
 
 
-menu()
+menu(print_menu=True)
