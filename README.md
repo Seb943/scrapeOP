@@ -98,8 +98,8 @@ sample .plist file:
 link to chrome 93:
 https://chromium.cypress.io/mac/stable/93.0.4577.82
 
-Features/bugs to work on in priority:
-- if adding a non int is added to an input response exit the program after confirmation
+Features/bugs to work on in priority:x
+x if adding a non int is added to an input response exit the program after confirmation
 - align the text outputs
 - add the rest of the sports and seasons
 - add the current season

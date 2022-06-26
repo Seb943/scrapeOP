@@ -1,8 +1,9 @@
-from menu import menu as main_menu
+from menu import Menu
 
 
 def main():
-    main_menu(print_menu=True)
+    main_menu = Menu()
+    main_menu.menu()
 
 
 if __name__ == "__main__":
