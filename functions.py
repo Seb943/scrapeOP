@@ -243,7 +243,7 @@ def scrape_page_typeA(page, sport, country, tournament, SEASON):
             "page": page,
             "successes": successes,
             "failures": failures,
-            "time": end_timer - start_timer,
+            "seconds elapsed": end_timer - start_timer,
             "DATA": DATA,
         }
         f.write(json.dumps(log))

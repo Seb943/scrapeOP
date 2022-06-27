@@ -1,0 +1,648 @@
+Home_id;Away_id;Bookmaker;OddHome;OddDraw;OddAway;Date;Score_home;Score_away;Season
+Athletico-PR;Flamengo RJ;1xBet;+112;+229;+296;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;bet-at-home;+114;+227;+215;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;bet365;+114;+220;+200;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;bwin;+120;+220;+200;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;Marathonbet;+110;+229;+298;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;Pinnacle;+125;+242;+246;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;Unibet;+120;+220;+210;11 Dec 2016; 0;0 ;2016
+Athletico-PR;Flamengo RJ;William Hill;+210;+210;+210;11 Dec 2016; 0;0 ;2016
+Cruzeiro;Corinthians;1xBet;+110;+248;+286;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;bet-at-home;+135;+231;+175;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;bet365;+129;+220;+175;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;bwin;+135;+210;+185;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;Marathonbet;+108;+248;+278;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;Pinnacle;+134;+249;+221;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;Unibet;+129;+220;+200;11 Dec 2016; 3;2 ;2016
+Cruzeiro;Corinthians;William Hill;+200;+200;+200;11 Dec 2016; 3;2 ;2016
+Fluminense;Internacional;1xBet;+142;+250;+204;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;bet-at-home;+214;+224;+116;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;bet365;+200;+220;+114;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;bwin;+210;+220;+114;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;Marathonbet;+140;+250;+204;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;Pinnacle;+323;+258;-104;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;Unibet;+215;+240;+110;11 Dec 2016; 1;1 ;2016
+Fluminense;Internacional;William Hill;+110;+110;+110;11 Dec 2016; 1;1 ;2016
+Gremio;Botafogo RJ;1xBet;-106;+248;+344;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;bet-at-home;+161;+218;+154;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;bet365;+150;+220;+150;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;bwin;+150;+220;+160;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;Marathonbet;+100;+250;+305;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;Pinnacle;+233;+254;+125;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;Unibet;+210;+229;+120;11 Dec 2016; 0;1 ;2016
+Gremio;Botafogo RJ;William Hill;+120;+120;+120;11 Dec 2016; 0;1 ;2016
+Ponte Preta;Coritiba;1xBet;-106;+250;+344;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;bet-at-home;-122;+243;+303;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;bet365;-125;+225;+300;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;bwin;-118;+220;+300;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;Marathonbet;+104;+246;+298;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;Pinnacle;-116;+266;+365;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;Unibet;-125;+250;+320;11 Dec 2016; 2;0 ;2016
+Ponte Preta;Coritiba;William Hill;+320;+320;+320;11 Dec 2016; 2;0 ;2016
+Santos;America MG;1xBet;-370;+550;+1050;11 Dec 2016; 1;0 ;2016
+Santos;America MG;bet-at-home;-526;+527;+1053;11 Dec 2016; 1;0 ;2016
+Santos;America MG;bet365;-588;+500;+1000;11 Dec 2016; 1;0 ;2016
+Santos;America MG;bwin;-556;+500;+1100;11 Dec 2016; 1;0 ;2016
+Santos;America MG;Marathonbet;-385;+550;+1100;11 Dec 2016; 1;0 ;2016
+Santos;America MG;Pinnacle;-476;+635;+1564;11 Dec 2016; 1;0 ;2016
+Santos;America MG;Unibet;-667;+600;+1300;11 Dec 2016; 1;0 ;2016
+Santos;America MG;William Hill;+1300;+1300;+1300;11 Dec 2016; 1;0 ;2016
+Sport Recife;Figueirense;1xBet;-200;+344;+640;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;bet-at-home;-294;+368;+656;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;bet365;-303;+350;+600;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;bwin;-286;+350;+625;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;Marathonbet;-200;+330;+660;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;Pinnacle;-250;+417;+752;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;Unibet;-286;+375;+650;11 Dec 2016; 2;0 ;2016
+Sport Recife;Figueirense;William Hill;+650;+650;+650;11 Dec 2016; 2;0 ;2016
+Vitoria;Palmeiras;1xBet;+137;+234;+225;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;bet-at-home;+120;+221;+208;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;bet365;+120;+210;+200;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;bwin;+120;+210;+210;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;Marathonbet;+140;+235;+218;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;Pinnacle;+104;+257;+292;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;Unibet;+120;+220;+215;11 Dec 2016; 1;2 ;2016
+Vitoria;Palmeiras;William Hill;+215;+215;+215;11 Dec 2016; 1;2 ;2016
+America MG;Sao Paulo;1xBet;+309;+250;+102;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;bet-at-home;+208;+206;+127;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;bet365;+229;+210;+129;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;bwin;+190;+210;+129;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;Marathonbet;+315;+250;+100;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;Pinnacle;+231;+231;+137;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;Unibet;+229;+220;+114;31 Oct 2016; 1;0 ;2016
+America MG;Sao Paulo;William Hill;+114;+114;+114;31 Oct 2016; 1;0 ;2016
+Figueirense;Gremio;1xBet;+177;+240;+172;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;bet-at-home;+135;+199;+204;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;bet365;+150;+200;+200;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;bwin;+145;+190;+185;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;Marathonbet;+177;+240;+170;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;Pinnacle;+163;+225;+195;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;Unibet;+135;+220;+190;29 Oct 2016; 0;0 ;2016
+Figueirense;Gremio;William Hill;+190;+190;+190;29 Oct 2016; 0;0 ;2016
+Santos;Palmeiras;1xBet;+131;+240;+236;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;bet-at-home;+129;+214;+197;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;bet365;+129;+210;+229;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;bwin;-139;+240;+350;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;Marathonbet;+129;+240;+236;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;Pinnacle;+142;+236;+218;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;Unibet;+129;+220;+200;29 Oct 2016; 1;0 ;2016
+Santos;Palmeiras;William Hill;+200;+200;+200;29 Oct 2016; 1;0 ;2016
+Botafogo RJ;Coritiba;1xBet;-161;+290;+565;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;bet-at-home;-147;+244;+390;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;bet365;-137;+229;+450;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;bwin;-133;+229;+350;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;Marathonbet;-167;+290;+590;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;Pinnacle;-127;+268;+416;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;Unibet;-143;+240;+400;29 Oct 2016; 0;0 ;2016
+Botafogo RJ;Coritiba;William Hill;+400;+400;+400;29 Oct 2016; 0;0 ;2016
+Internacional;Santa Cruz;1xBet;-244;+400;+780;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;bet-at-home;-333;+362;+843;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;bet365;-286;+350;+900;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;bwin;-227;+290;+575;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;Marathonbet;-250;+400;+800;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;Pinnacle;-217;+348;+769;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;Unibet;-333;+400;+850;29 Oct 2016; 1;1 ;2016
+Internacional;Santa Cruz;William Hill;+850;+850;+850;29 Oct 2016; 1;1 ;2016
+Athletico-PR;Cruzeiro;1xBet;+112;+250;+278;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;bet-at-home;+114;+208;+236;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;bet365;+110;+210;+275;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;bwin;+114;+220;+210;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;Marathonbet;+110;+250;+280;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;Pinnacle;+119;+234;+271;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;Unibet;+114;+220;+229;29 Oct 2016; 1;0 ;2016
+Athletico-PR;Cruzeiro;William Hill;+229;+229;+229;29 Oct 2016; 1;0 ;2016
+Atletico-MG;Flamengo RJ;1xBet;+112;+244;+284;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;bet-at-home;+110;+229;+223;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;bet365;+104;+200;+300;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;bwin;+114;+225;+210;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;Marathonbet;+110;+245;+285;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;Pinnacle;+116;+257;+254;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;Unibet;+114;+229;+220;29 Oct 2016; 2;2 ;2016
+Atletico-MG;Flamengo RJ;William Hill;+220;+220;+220;29 Oct 2016; 2;2 ;2016
+Corinthians;Chapecoense-SC;1xBet;-161;+290;+565;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;bet-at-home;-200;+294;+490;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;bet365;-200;+280;+650;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;bwin;-200;+275;+500;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;Marathonbet;-167;+290;+590;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;Pinnacle;-185;+332;+592;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;Unibet;-200;+300;+525;29 Oct 2016; 1;1 ;2016
+Corinthians;Chapecoense-SC;William Hill;+525;+525;+525;29 Oct 2016; 1;1 ;2016
+Coritiba;America MG;1xBet;-149;+290;+495;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;bet-at-home;-159;+250;+426;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;bet365;-149;+280;+400;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;bwin;-161;+250;+400;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;Marathonbet;-154;+290;+509;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;Pinnacle;-147;+275;+505;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;Unibet;-154;+250;+450;04 Oct 2016; 3;0 ;2016
+Coritiba;America MG;William Hill;+450;+450;+450;04 Oct 2016; 3;0 ;2016
+Santa Cruz;Palmeiras;1xBet;+256;+270;+112;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;bet-at-home;+238;+227;+104;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;bet365;+240;+260;+104;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;bwin;+229;+240;+100;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;Marathonbet;+258;+270;+110;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;Pinnacle;+303;+254;+102;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;Unibet;+229;+220;+114;03 Oct 2016; 2;3 ;2016
+Santa Cruz;Palmeiras;William Hill;+114;+114;+114;03 Oct 2016; 2;3 ;2016
+Internacional;Figueirense;1xBet;-109;+260;+344;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;bet-at-home;-217;+290;+564;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;bet365;-167;+260;+500;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;bwin;-200;+260;+525;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;Marathonbet;-111;+260;+350;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;Pinnacle;-164;+299;+557;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;Unibet;-200;+285;+550;02 Oct 2016; 1;0 ;2016
+Internacional;Figueirense;William Hill;+550;+550;+550;02 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;1xBet;+122;+240;+260;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;bet-at-home;-128;+236;+333;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;bet365;+104;+229;+260;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;bwin;-115;+229;+280;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;Marathonbet;+120;+240;+262;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;Pinnacle;+100;+246;+323;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;Unibet;-125;+240;+350;01 Oct 2016; 1;0 ;2016
+Cruzeiro;Gremio;William Hill;+350;+350;+350;01 Oct 2016; 1;0 ;2016
+Botafogo RJ;Corinthians;1xBet;+156;+240;+194;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;bet-at-home;+133;+204;+202;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;bet365;+145;+220;+190;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;bwin;+140;+200;+185;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;Marathonbet;+154;+240;+195;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;Pinnacle;+150;+229;+210;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;Unibet;+129;+220;+200;01 Oct 2016; 2;0 ;2016
+Botafogo RJ;Corinthians;William Hill;+200;+200;+200;01 Oct 2016; 2;0 ;2016
+Ponte Preta;Atletico-MG;1xBet;+198;+244;+152;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;bet-at-home;+142;+215;+177;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;bet365;+145;+220;+188;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;bwin;+145;+210;+170;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;Marathonbet;+198;+245;+150;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;Pinnacle;+154;+244;+193;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;Unibet;+145;+220;+179;01 Oct 2016; 1;2 ;2016
+Ponte Preta;Atletico-MG;William Hill;+179;+179;+179;01 Oct 2016; 1;2 ;2016
+Chapecoense-SC;Vitoria;1xBet;+102;+250;+309;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;bet-at-home;-106;+223;+278;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;bet365;+100;+229;+280;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;bwin;-105;+220;+260;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;Marathonbet;+100;+250;+315;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;Pinnacle;+106;+241;+305;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;Unibet;+100;+220;+270;01 Oct 2016; 1;4 ;2016
+Chapecoense-SC;Vitoria;William Hill;+270;+270;+270;01 Oct 2016; 1;4 ;2016
+Santos;Athletico-PR;1xBet;-139;+274;+480;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;bet-at-home;-182;+269;+475;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;bet365;-161;+260;+500;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;bwin;-175;+260;+450;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;Marathonbet;-143;+275;+490;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;Pinnacle;-159;+295;+525;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;Unibet;-182;+285;+500;01 Oct 2016; 2;0 ;2016
+Santos;Athletico-PR;William Hill;+500;+500;+500;01 Oct 2016; 2;0 ;2016
+Sao Paulo;Cruzeiro;1xBet;+102;+250;+309;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;bet-at-home;+104;+218;+247;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;bet365;+100;+229;+280;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;bwin;-111;+225;+280;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;Marathonbet;+100;+250;+315;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;Pinnacle;+104;+248;+301;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;Unibet;+100;+220;+270;16 Sep 2016; 1;0 ;2016
+Sao Paulo;Cruzeiro;William Hill;+270;+270;+270;16 Sep 2016; 1;0 ;2016
+Coritiba;Corinthians;1xBet;+173;+244;+174;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;bet-at-home;+138;+214;+184;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;bet365;+125;+220;+200;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;bwin;+150;+220;+160;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;Marathonbet;+172;+245;+172;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;Pinnacle;+169;+220;+194;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;Unibet;+154;+220;+170;15 Sep 2016; 1;1 ;2016
+Coritiba;Corinthians;William Hill;+170;+170;+170;15 Sep 2016; 1;1 ;2016
+Ponte Preta;Gremio;1xBet;+147;+229;+217;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;bet-at-home;+139;+209;+187;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;bet365;+125;+220;+200;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;bwin;+129;+210;+190;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;Marathonbet;+145;+229;+218;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;Pinnacle;+147;+229;+216;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;Unibet;+140;+220;+179;15 Sep 2016; 3;0 ;2016
+Ponte Preta;Gremio;William Hill;+179;+179;+179;15 Sep 2016; 3;0 ;2016
+Botafogo RJ;Santos;1xBet;+172;+240;+177;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;bet-at-home;+135;+220;+183;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;bet365;+125;+229;+190;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;bwin;+140;+210;+179;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;Marathonbet;+170;+240;+177;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;Pinnacle;+150;+236;+204;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;Unibet;+140;+220;+179;14 Sep 2016; 0;1 ;2016
+Botafogo RJ;Santos;William Hill;+179;+179;+179;14 Sep 2016; 0;1 ;2016
+Fluminense;Atletico-MG;1xBet;+142;+240;+218;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;bet-at-home;+123;+220;+204;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;bet365;+125;+225;+190;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;bwin;+125;+225;+185;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;Marathonbet;+140;+240;+218;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;Pinnacle;+154;+247;+191;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;Unibet;+120;+225;+215;12 Sep 2016; 4;2 ;2016
+Fluminense;Atletico-MG;William Hill;+215;+215;+215;12 Sep 2016; 4;2 ;2016
+America MG;Cruzeiro;1xBet;+187;+234;+167;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;bet-at-home;+266;+220;-102;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;bet365;+220;+225;+125;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;bwin;+260;+229;-110;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;Marathonbet;+186;+235;+165;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;Pinnacle;+257;+242;+121;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;Unibet;+275;+225;+100;09 Sep 2016; 0;2 ;2016
+America MG;Cruzeiro;William Hill;+100;+100;+100;09 Sep 2016; 0;2 ;2016
+Internacional;Santos;1xBet;+142;+240;+218;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;bet-at-home;+125;+213;+204;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;bet365;+129;+240;+200;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;bwin;+120;+225;+195;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;Marathonbet;+140;+240;+218;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;Pinnacle;+141;+237;+220;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;Unibet;+114;+220;+229;09 Sep 2016; 2;1 ;2016
+Internacional;Santos;William Hill;+229;+229;+229;09 Sep 2016; 2;1 ;2016
+Corinthians;Sport Recife;1xBet;-161;+290;+565;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;bet-at-home;-185;+281;+467;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;bet365;-175;+280;+500;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;bwin;-182;+260;+450;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;Marathonbet;-167;+290;+590;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;Pinnacle;-172;+318;+547;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;Unibet;-182;+280;+475;08 Sep 2016; 3;0 ;2016
+Corinthians;Sport Recife;William Hill;+475;+475;+475;08 Sep 2016; 3;0 ;2016
+Coritiba;Gremio;1xBet;+231;+244;+131;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;bet-at-home;+168;+206;+156;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;bet365;+220;+225;+125;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;bwin;+165;+210;+150;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;Marathonbet;+231;+245;+129;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;Pinnacle;+202;+237;+150;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;Unibet;+129;+220;+200;08 Sep 2016; 4;0 ;2016
+Coritiba;Gremio;William Hill;+200;+200;+200;08 Sep 2016; 4;0 ;2016
+Flamengo RJ;Ponte Preta;1xBet;-130;+270;+440;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;bet-at-home;-135;+241;+349;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;bet365;-125;+250;+350;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;bwin;-139;+240;+350;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;Marathonbet;-133;+270;+450;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;Pinnacle;-127;+276;+397;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;Unibet;-133;+240;+350;08 Sep 2016; 2;1 ;2016
+Flamengo RJ;Ponte Preta;William Hill;+350;+350;+350;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;1xBet;-115;+270;+358;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;bet-at-home;-109;+227;+279;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;bet365;-110;+240;+300;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;bwin;-115;+229;+280;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;Marathonbet;-118;+270;+365;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;Pinnacle;+102;+254;+305;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;Unibet;-111;+229;+300;08 Sep 2016; 2;1 ;2016
+Palmeiras;Sao Paulo;William Hill;+300;+300;+300;08 Sep 2016; 2;1 ;2016
+Botafogo RJ;Fluminense;1xBet;+131;+229;+246;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;bet-at-home;+129;+208;+202;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;bet365;+125;+225;+220;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;bwin;+120;+210;+210;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;Marathonbet;+129;+229;+248;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;Pinnacle;+136;+233;+231;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;Unibet;+150;+220;+175;07 Sep 2016; 1;0 ;2016
+Botafogo RJ;Fluminense;William Hill;+175;+175;+175;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;1xBet;+174;+238;+175;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;bet-at-home;+140;+208;+188;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;bet365;+150;+229;+175;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;bwin;+145;+220;+165;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;Marathonbet;+174;+238;+174;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;Pinnacle;+152;+231;+204;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;Unibet;+145;+220;+179;07 Sep 2016; 1;0 ;2016
+Figueirense;Athletico-PR;William Hill;+179;+179;+179;07 Sep 2016; 1;0 ;2016
+Vitoria;America MG;1xBet;-139;+280;+465;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;bet-at-home;-156;+258;+395;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;bet365;-161;+275;+450;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;bwin;-161;+270;+375;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;Marathonbet;-143;+280;+480;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;Pinnacle;-145;+292;+455;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;Unibet;-154;+250;+425;28 Aug 2016; 2;1 ;2016
+Vitoria;America MG;William Hill;+425;+425;+425;28 Aug 2016; 2;1 ;2016
+Athletico-PR;Palmeiras;1xBet;+152;+244;+198;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;bet-at-home;+140;+221;+175;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;bet365;+140;+220;+175;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;bwin;+135;+220;+175;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;Marathonbet;+150;+245;+198;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;Pinnacle;+150;+241;+200;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;Unibet;+145;+220;+175;14 Aug 2016; 0;1 ;2016
+Athletico-PR;Palmeiras;William Hill;+175;+175;+175;14 Aug 2016; 0;1 ;2016
+Cruzeiro;Coritiba;1xBet;-122;+280;+376;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;bet-at-home;-141;+249;+358;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;bet365;-137;+250;+350;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;bwin;-154;+250;+375;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;Marathonbet;-125;+280;+384;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;Pinnacle;-154;+290;+515;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;Unibet;-182;+280;+500;14 Aug 2016; 2;2 ;2016
+Cruzeiro;Coritiba;William Hill;+500;+500;+500;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;1xBet;-109;+270;+330;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;bet-at-home;-112;+242;+271;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;bet365;-110;+240;+260;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;bwin;-111;+240;+260;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;Marathonbet;-111;+270;+334;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;Pinnacle;-123;+277;+379;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;Unibet;-125;+240;+325;14 Aug 2016; 2;2 ;2016
+Vitoria;Santa Cruz;William Hill;+325;+325;+325;14 Aug 2016; 2;2 ;2016
+Gremio;Corinthians;1xBet;+112;+250;+278;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;bet-at-home;+104;+229;+234;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;bet365;+100;+225;+250;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;bwin;-118;+225;+300;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;Marathonbet;+110;+250;+280;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;Pinnacle;+122;+231;+266;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;Unibet;+114;+220;+229;14 Aug 2016; 3;0 ;2016
+Gremio;Corinthians;William Hill;+229;+229;+229;14 Aug 2016; 3;0 ;2016
+Flamengo RJ;Athletico-PR;1xBet;-109;+250;+363;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;bet-at-home;-130;+237;+337;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;bet365;-125;+250;+350;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;bwin;-133;+240;+325;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;Marathonbet;-111;+250;+370;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;Pinnacle;-133;+264;+455;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;Unibet;-143;+250;+400;06 Aug 2016; 1;0 ;2016
+Flamengo RJ;Athletico-PR;William Hill;+400;+400;+400;06 Aug 2016; 1;0 ;2016
+Chapecoense-SC;Palmeiras;1xBet;+209;+240;+147;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;bet-at-home;+175;+220;+141;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;bet365;+200;+240;+129;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;bwin;+190;+220;+125;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;Marathonbet;+210;+240;+145;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;Pinnacle;+181;+238;+167;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;Unibet;+170;+220;+150;05 Aug 2016; 1;1 ;2016
+Chapecoense-SC;Palmeiras;William Hill;+150;+150;+150;05 Aug 2016; 1;1 ;2016
+Cruzeiro;Internacional;1xBet;+142;+240;+218;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;bet-at-home;-102;+219;+269;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;bet365;+110;+229;+250;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;bwin;+114;+210;+220;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;Marathonbet;+140;+240;+218;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;Pinnacle;-102;+244;+333;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;Unibet;-133;+240;+370;05 Aug 2016; 4;2 ;2016
+Cruzeiro;Internacional;William Hill;+370;+370;+370;05 Aug 2016; 4;2 ;2016
+Gremio;Santa Cruz;1xBet;-196;+350;+620;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;bet-at-home;-244;+324;+589;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;bet365;-227;+320;+650;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;bwin;-250;+309;+600;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;Marathonbet;-200;+350;+630;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;Pinnacle;-270;+419;+873;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;Unibet;-286;+375;+700;04 Aug 2016; 0;0 ;2016
+Gremio;Santa Cruz;William Hill;+700;+700;+700;04 Aug 2016; 0;0 ;2016
+Sao Paulo;Atletico-MG;1xBet;+122;+244;+256;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;bet-at-home;+127;+220;+198;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;bet365;+125;+225;+220;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;bwin;+120;+220;+200;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;Marathonbet;+120;+245;+256;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;Pinnacle;+150;+241;+200;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;Unibet;+140;+220;+179;04 Aug 2016; 1;2 ;2016
+Sao Paulo;Atletico-MG;William Hill;+179;+179;+179;04 Aug 2016; 1;2 ;2016
+Ponte Preta;Botafogo RJ;1xBet;+122;+240;+260;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;bet-at-home;+102;+220;+254;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;bet365;+100;+229;+280;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;bwin;+100;+210;+260;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;Marathonbet;+120;+240;+262;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;Pinnacle;+112;+242;+279;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;Unibet;+104;+220;+260;04 Aug 2016; 2;0 ;2016
+Ponte Preta;Botafogo RJ;William Hill;+260;+260;+260;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;1xBet;+200;+240;+152;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;bet-at-home;+158;+211;+163;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;bet365;+160;+220;+170;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;bwin;+150;+210;+165;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;Marathonbet;+202;+240;+150;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;Pinnacle;+164;+223;+196;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;Unibet;+154;+220;+165;04 Aug 2016; 2;0 ;2016
+Athletico-PR;Corinthians;William Hill;+165;+165;+165;04 Aug 2016; 2;0 ;2016
+Santos;Flamengo RJ;1xBet;+102;+240;+328;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;bet-at-home;+145;+212;+177;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;bet365;+160;+210;+179;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;bwin;+140;+210;+179;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;Marathonbet;+100;+240;+333;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;Pinnacle;+156;+236;+196;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;Unibet;+165;+220;+154;04 Aug 2016; 0;0 ;2016
+Santos;Flamengo RJ;William Hill;+154;+154;+154;04 Aug 2016; 0;0 ;2016
+Flamengo RJ;America MG;1xBet;-169;+296;+600;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;bet-at-home;-192;+283;+484;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;bet365;-189;+275;+475;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;bwin;-189;+270;+475;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;Marathonbet;-175;+296;+630;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;Pinnacle;-250;+383;+847;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;Unibet;-250;+340;+650;25 Jul 2016; 2;1 ;2016
+Flamengo RJ;America MG;William Hill;+650;+650;+650;25 Jul 2016; 2;1 ;2016
+Santos;Ponte Preta;1xBet;-122;+250;+430;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;bet-at-home;-182;+268;+480;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;bet365;-189;+260;+450;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;bwin;-189;+270;+475;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;Marathonbet;-125;+250;+440;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;Pinnacle;-213;+355;+705;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;Unibet;-200;+300;+500;16 Jul 2016; 3;1 ;2016
+Santos;Ponte Preta;William Hill;+500;+500;+500;16 Jul 2016; 3;1 ;2016
+Palmeiras;Santos;1xBet;+102;+240;+328;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;bet-at-home;-109;+220;+290;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;bet365;+100;+229;+240;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;bwin;-111;+225;+275;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;Marathonbet;+100;+240;+333;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;Pinnacle;+123;+246;+247;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;Unibet;+110;+220;+240;12 Jul 2016; 1;1 ;2016
+Palmeiras;Santos;William Hill;+240;+240;+240;12 Jul 2016; 1;1 ;2016
+Sport Recife;Palmeiras;1xBet;+200;+240;+152;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;bet-at-home;+187;+212;+138;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;bet365;+200;+220;+140;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;bwin;+185;+210;+135;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;Marathonbet;+202;+240;+150;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;Pinnacle;+206;+231;+150;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;Unibet;+170;+220;+145;04 Jul 2016; 1;3 ;2016
+Sport Recife;Palmeiras;William Hill;+145;+145;+145;04 Jul 2016; 1;3 ;2016
+Figueirense;Atletico-MG;1xBet;+177;+229;+179;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;bet-at-home;+166;+209;+156;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;bet365;+210;+220;+129;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;bwin;+160;+210;+154;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;Marathonbet;+177;+229;+177;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;Pinnacle;+235;+235;+134;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;Unibet;+165;+220;+154;03 Jul 2016; 1;1 ;2016
+Figueirense;Atletico-MG;William Hill;+154;+154;+154;03 Jul 2016; 1;1 ;2016
+Botafogo RJ;Santa Cruz;1xBet;+112;+240;+290;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;bet-at-home;-105;+222;+276;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;bet365;-125;+240;+375;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;bwin;-105;+210;+275;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;Marathonbet;+110;+240;+292;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;Pinnacle;-133;+285;+419;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;Unibet;+100;+220;+260;03 Jul 2016; 2;1 ;2016
+Botafogo RJ;Santa Cruz;William Hill;+260;+260;+260;03 Jul 2016; 2;1 ;2016
+Corinthians;Flamengo RJ;1xBet;-103;+250;+334;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;bet-at-home;-116;+220;+315;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;bet365;-125;+240;+375;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;bwin;-120;+220;+320;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;Marathonbet;-105;+250;+340;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;Pinnacle;-109;+249;+359;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;Unibet;-111;+229;+285;03 Jul 2016; 4;0 ;2016
+Corinthians;Flamengo RJ;William Hill;+285;+285;+285;03 Jul 2016; 4;0 ;2016
+Ponte Preta;Sao Paulo;1xBet;+200;+240;+152;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;bet-at-home;-127;+237;+324;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;bet365;+100;+229;+280;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;bwin;-125;+225;+325;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;Marathonbet;+202;+240;+150;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;Pinnacle;+110;+231;+299;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;Unibet;-133;+240;+340;03 Jul 2016; 1;0 ;2016
+Ponte Preta;Sao Paulo;William Hill;+340;+340;+340;03 Jul 2016; 1;0 ;2016
+Santos;Chapecoense-SC;1xBet;-161;+290;+565;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;bet-at-home;-185;+259;+514;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;bet365;-200;+290;+600;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;bwin;-189;+260;+500;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;Marathonbet;-167;+290;+590;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;Pinnacle;-200;+345;+646;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;Unibet;-182;+280;+475;03 Jul 2016; 3;0 ;2016
+Santos;Chapecoense-SC;William Hill;+475;+475;+475;03 Jul 2016; 3;0 ;2016
+Cruzeiro;Vitoria;1xBet;-196;+330;+680;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;bet-at-home;-196;+278;+511;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;bet365;-227;+320;+650;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;bwin;-200;+275;+500;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;Marathonbet;-200;+330;+690;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;Pinnacle;-217;+363;+705;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;Unibet;-182;+280;+475;03 Jul 2016; 2;2 ;2016
+Cruzeiro;Vitoria;William Hill;+475;+475;+475;03 Jul 2016; 2;2 ;2016
+Internacional;Gremio;1xBet;+131;+229;+246;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;bet-at-home;+114;+208;+234;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;bet365;+114;+220;+250;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;bwin;+110;+210;+229;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;Marathonbet;+129;+229;+248;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;Pinnacle;+131;+224;+252;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;Unibet;+120;+210;+220;03 Jul 2016; 0;1 ;2016
+Internacional;Gremio;William Hill;+220;+220;+220;03 Jul 2016; 0;1 ;2016
+Fluminense;Corinthians;1xBet;+175;+240;+174;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;bet-at-home;+185;+204;+143;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;bet365;+200;+240;+129;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;bwin;+185;+225;+125;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;Marathonbet;+175;+240;+172;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;Pinnacle;+229;+217;+147;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;Unibet;+179;+220;+140;16 Jun 2016; 1;0 ;2016
+Fluminense;Corinthians;William Hill;+140;+140;+140;16 Jun 2016; 1;0 ;2016
+Internacional;Atletico-MG;1xBet;+102;+250;+309;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;bet-at-home;-110;+235;+275;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;bet365;-110;+240;+300;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;bwin;-115;+229;+280;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;Marathonbet;+100;+250;+315;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;Pinnacle;+102;+246;+316;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;Unibet;-111;+229;+300;16 Jun 2016; 2;0 ;2016
+Internacional;Atletico-MG;William Hill;+300;+300;+300;16 Jun 2016; 2;0 ;2016
+Coritiba;Palmeiras;1xBet;+177;+229;+179;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;bet-at-home;+159;+206;+165;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;bet365;+175;+240;+145;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;bwin;+165;+229;+140;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;Marathonbet;+177;+229;+177;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;Pinnacle;+206;+220;+159;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;Unibet;+179;+220;+145;16 Jun 2016; 2;2 ;2016
+Coritiba;Palmeiras;William Hill;+145;+145;+145;16 Jun 2016; 2;2 ;2016
+Cruzeiro;Flamengo RJ;1xBet;-109;+260;+344;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;bet-at-home;+114;+210;+229;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;bet365;+110;+210;+280;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;bwin;+104;+195;+260;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;Marathonbet;-111;+260;+350;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;Pinnacle;+124;+236;+254;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;Unibet;+114;+220;+229;16 Jun 2016; 0;1 ;2016
+Cruzeiro;Flamengo RJ;William Hill;+229;+229;+229;16 Jun 2016; 0;1 ;2016
+Botafogo RJ;America MG;1xBet;+131;+240;+236;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;bet-at-home;-115;+217;+318;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;bwin;-105;+190;+309;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;Marathonbet;+129;+240;+236;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;Pinnacle;-115;+256;+375;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;Unibet;-118;+240;+300;16 Jun 2016; 3;1 ;2016
+Botafogo RJ;America MG;William Hill;-118;+220;+320;16 Jun 2016; 3;1 ;2016
+Santa Cruz;Figueirense;1xBet;-122;+270;+390;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;bet-at-home;-119;+224;+318;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;bet365;-120;+240;+350;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;bwin;-128;+229;+325;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;Marathonbet;-125;+270;+400;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;Pinnacle;+100;+246;+325;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;Unibet;-105;+229;+270;16 Jun 2016; 1;0 ;2016
+Santa Cruz;Figueirense;William Hill;+270;+270;+270;16 Jun 2016; 1;0 ;2016
+Santos;Sport Recife;1xBet;-139;+270;+484;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;bet-at-home;-172;+270;+430;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;bet365;-175;+280;+500;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;bwin;-182;+260;+450;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;Marathonbet;-143;+270;+500;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;Pinnacle;-196;+332;+661;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;Unibet;-182;+280;+500;16 Jun 2016; 2;0 ;2016
+Santos;Sport Recife;William Hill;+500;+500;+500;16 Jun 2016; 2;0 ;2016
+Chapecoense-SC;Gremio;1xBet;+200;+240;+152;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;bet-at-home;+158;+196;+174;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;bet365;+175;+229;+150;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;bwin;+165;+220;+145;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;Marathonbet;+202;+240;+150;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;Pinnacle;+191;+211;+177;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;Unibet;+160;+215;+160;15 Jun 2016; 3;3 ;2016
+Chapecoense-SC;Gremio;William Hill;+160;+160;+160;15 Jun 2016; 3;3 ;2016
+Ponte Preta;Athletico-PR;1xBet;+122;+240;+260;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;bet-at-home;+102;+214;+264;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;bet365;+100;+229;+280;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;bwin;-105;+220;+260;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;Marathonbet;+120;+240;+262;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;Pinnacle;+104;+236;+317;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;Unibet;+104;+220;+250;15 Jun 2016; 3;2 ;2016
+Ponte Preta;Athletico-PR;William Hill;+250;+250;+250;15 Jun 2016; 3;2 ;2016
+Sao Paulo;Vitoria;1xBet;-161;+290;+565;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;bet-at-home;-192;+282;+487;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;bet365;-200;+280;+650;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;bwin;-208;+260;+600;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;Marathonbet;-167;+290;+590;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;Pinnacle;-222;+351;+763;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;Unibet;-200;+300;+500;15 Jun 2016; 2;0 ;2016
+Sao Paulo;Vitoria;William Hill;+500;+500;+500;15 Jun 2016; 2;0 ;2016
+Palmeiras;Corinthians;1xBet;+167;+229;+188;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;bet-at-home;+141;+209;+184;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;bet365;+140;+210;+188;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;bwin;+140;+200;+185;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;Marathonbet;+165;+229;+188;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;Pinnacle;+156;+227;+204;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;Unibet;+150;+220;+165;12 Jun 2016; 1;0 ;2016
+Palmeiras;Corinthians;William Hill;+165;+165;+165;12 Jun 2016; 1;0 ;2016
+Atletico-MG;Gremio;1xBet;+102;+250;+309;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;bet-at-home;+104;+212;+254;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;bet365;-105;+240;+280;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;bwin;-105;+225;+260;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;Marathonbet;+100;+250;+315;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;Pinnacle;+102;+240;+320;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;Unibet;-105;+225;+300;27 May 2016; 0;3 ;2016
+Atletico-MG;Gremio;William Hill;+300;+300;+300;27 May 2016; 0;3 ;2016
+Internacional;Sport Recife;1xBet;-149;+300;+475;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;bet-at-home;-196;+269;+541;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;bet365;-175;+280;+500;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;bwin;-189;+270;+475;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;Marathonbet;-154;+300;+490;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;Pinnacle;-182;+308;+633;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;Unibet;-182;+270;+550;26 May 2016; 1;0 ;2016
+Internacional;Sport Recife;William Hill;+550;+550;+550;26 May 2016; 1;0 ;2016
+Corinthians;Ponte Preta;1xBet;-175;+300;+640;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;bet-at-home;-175;+252;+492;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;bet365;-167;+270;+500;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;bwin;-175;+250;+475;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;Marathonbet;-182;+300;+670;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;Pinnacle;-159;+282;+578;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;Unibet;-182;+250;+600;26 May 2016; 3;0 ;2016
+Corinthians;Ponte Preta;William Hill;+600;+600;+600;26 May 2016; 3;0 ;2016
+Coritiba;Sao Paulo;1xBet;+200;+240;+152;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;bet-at-home;+136;+206;+193;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;bet365;+150;+229;+175;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;bwin;+145;+220;+165;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;Marathonbet;+202;+240;+150;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;Pinnacle;+148;+225;+218;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;Unibet;+200;+220;+135;26 May 2016; 1;1 ;2016
+Coritiba;Sao Paulo;William Hill;+135;+135;+135;26 May 2016; 1;1 ;2016
+Palmeiras;Fluminense;1xBet;-122;+270;+390;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;bet-at-home;-119;+221;+326;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;bet365;-120;+260;+320;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;bwin;-125;+240;+300;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;Marathonbet;-125;+270;+400;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;Pinnacle;-109;+257;+346;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;Unibet;-111;+240;+300;26 May 2016; 2;0 ;2016
+Palmeiras;Fluminense;William Hill;+300;+300;+300;26 May 2016; 2;0 ;2016
+Santa Cruz;Cruzeiro;1xBet;+209;+250;+142;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;bet-at-home;+131;+216;+193;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;bet365;+138;+240;+188;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;bwin;+129;+229;+175;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;Marathonbet;+210;+250;+140;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;Pinnacle;+144;+235;+214;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;Unibet;+154;+229;+165;26 May 2016; 4;1 ;2016
+Santa Cruz;Cruzeiro;William Hill;+165;+165;+165;26 May 2016; 4;1 ;2016
+America MG;Vitoria;1xBet;-109;+250;+363;26 May 2016; 1;1 ;2016
+America MG;Vitoria;bet-at-home;-101;+223;+261;26 May 2016; 1;1 ;2016
+America MG;Vitoria;bet365;-105;+240;+280;26 May 2016; 1;1 ;2016
+America MG;Vitoria;bwin;-110;+229;+260;26 May 2016; 1;1 ;2016
+America MG;Vitoria;Marathonbet;-111;+250;+370;26 May 2016; 1;1 ;2016
+America MG;Vitoria;Pinnacle;+104;+247;+305;26 May 2016; 1;1 ;2016
+America MG;Vitoria;Unibet;-105;+225;+300;26 May 2016; 1;1 ;2016
+America MG;Vitoria;William Hill;+300;+300;+300;26 May 2016; 1;1 ;2016
+Flamengo RJ;Chapecoense-SC;1xBet;-139;+274;+480;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;bet-at-home;-152;+247;+404;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;bet365;-154;+275;+425;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;bwin;-161;+260;+400;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;Marathonbet;-143;+275;+490;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;Pinnacle;-143;+275;+482;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;Unibet;-143;+250;+400;26 May 2016; 2;2 ;2016
+Flamengo RJ;Chapecoense-SC;William Hill;+400;+400;+400;26 May 2016; 2;2 ;2016
+Figueirense;Ponte Preta;1xBet;+125;+229;+258;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;bet-at-home;+110;+219;+231;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;bet365;+110;+220;+229;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;bwin;+110;+220;+225;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;Marathonbet;+124;+229;+260;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;Pinnacle;+122;+227;+270;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;Unibet;+110;+220;+240;15 May 2016; 0;0 ;2016
+Figueirense;Ponte Preta;William Hill;+240;+240;+240;15 May 2016; 0;0 ;2016

@@ -1,0 +1,267 @@
+Home_id;Away_id;Bookmaker;OddHome;OddAway;Date;Score_home;Score_away;Season
+New York Giants;New England Patriots;bet-at-home;+129;-167;05 Feb 2012; 21;17 ;2011-2012
+New York Giants;New England Patriots;bet365;+140;-161;05 Feb 2012; 21;17 ;2011-2012
+New York Giants;New England Patriots;Pinnacle;+152;-169;05 Feb 2012; 21;17 ;2011-2012
+New York Giants;New England Patriots;Unibet;+125;-154;05 Feb 2012; 21;17 ;2011-2012
+New York Giants;New England Patriots;William Hill;+138;-161;05 Feb 2012; 21;17 ;2011-2012
+AFC;NFC;bet-at-home;+129;-167;29 Jan 2012; 59;41 ;2011-2012
+AFC;NFC;bet365;+140;-161;29 Jan 2012; 59;41 ;2011-2012
+AFC;NFC;bwin;+135;-164;29 Jan 2012; 59;41 ;2011-2012
+AFC;NFC;Pinnacle;+152;-169;29 Jan 2012; 59;41 ;2011-2012
+AFC;NFC;Unibet;-169;-169;29 Jan 2012; 59;41 ;2011-2012
+AFC;NFC;William Hill;+145;-164;29 Jan 2012; 59;41 ;2011-2012
+San Francisco 49ers;New York Giants;bet-at-home;-143;+110;22 Jan 2012; 17;20 ;2011-2012
+San Francisco 49ers;New York Giants;bet365;-152;+129;22 Jan 2012; 17;20 ;2011-2012
+San Francisco 49ers;New York Giants;bwin;-149;+125;22 Jan 2012; 17;20 ;2011-2012
+San Francisco 49ers;New York Giants;Pinnacle;-149;+136;22 Jan 2012; 17;20 ;2011-2012
+San Francisco 49ers;New York Giants;Unibet;-149;+120;22 Jan 2012; 17;20 ;2011-2012
+San Francisco 49ers;New York Giants;William Hill;-145;+125;22 Jan 2012; 17;20 ;2011-2012
+New England Patriots;Baltimore Ravens;bet-at-home;-357;+260;22 Jan 2012; 23;20 ;2011-2012
+New England Patriots;Baltimore Ravens;bet365;-345;+270;22 Jan 2012; 23;20 ;2011-2012
+New England Patriots;Baltimore Ravens;bwin;-370;+290;22 Jan 2012; 23;20 ;2011-2012
+New England Patriots;Baltimore Ravens;Pinnacle;-345;+305;22 Jan 2012; 23;20 ;2011-2012
+New England Patriots;Baltimore Ravens;Unibet;-370;+280;22 Jan 2012; 23;20 ;2011-2012
+New England Patriots;Baltimore Ravens;William Hill;-345;+275;22 Jan 2012; 23;20 ;2011-2012
+Green Bay Packers;New York Giants;bet-at-home;-435;+309;15 Jan 2012; 20;37 ;2011-2012
+Green Bay Packers;New York Giants;bet365;-400;+320;15 Jan 2012; 20;37 ;2011-2012
+Green Bay Packers;New York Giants;bwin;-400;+309;15 Jan 2012; 20;37 ;2011-2012
+Green Bay Packers;New York Giants;Pinnacle;-385;+334;15 Jan 2012; 20;37 ;2011-2012
+Green Bay Packers;New York Giants;Unibet;-400;+300;15 Jan 2012; 20;37 ;2011-2012
+Green Bay Packers;New York Giants;William Hill;-400;+300;15 Jan 2012; 20;37 ;2011-2012
+Baltimore Ravens;Houston Texans;bet-at-home;-400;+290;15 Jan 2012; 20;13 ;2011-2012
+Baltimore Ravens;Houston Texans;bet365;-385;+300;15 Jan 2012; 20;13 ;2011-2012
+Baltimore Ravens;Houston Texans;bwin;-417;+320;15 Jan 2012; 20;13 ;2011-2012
+Baltimore Ravens;Houston Texans;Pinnacle;-345;+305;15 Jan 2012; 20;13 ;2011-2012
+Baltimore Ravens;Houston Texans;Unibet;-400;+300;15 Jan 2012; 20;13 ;2011-2012
+Baltimore Ravens;Houston Texans;William Hill;-400;+300;15 Jan 2012; 20;13 ;2011-2012
+New England Patriots;Denver Broncos;bet-at-home;-833;+525;15 Jan 2012; 45;10 ;2011-2012
+New England Patriots;Denver Broncos;bet365;+525;+550;15 Jan 2012; 45;10 ;2011-2012
+New England Patriots;Denver Broncos;bwin;-1111;+700;15 Jan 2012; 45;10 ;2011-2012
+New England Patriots;Denver Broncos;Pinnacle;-833;+604;15 Jan 2012; 45;10 ;2011-2012
+New England Patriots;Denver Broncos;Unibet;+604;+604;15 Jan 2012; 45;10 ;2011-2012
+New England Patriots;Denver Broncos;William Hill;-833;+550;15 Jan 2012; 45;10 ;2011-2012
+Buffalo Bills;Miami Dolphins;bet365;-105;-116;18 Dec 2011; 23;30 ;2011-2012
+Buffalo Bills;Miami Dolphins;bwin;-143;+120;18 Dec 2011; 23;30 ;2011-2012
+Buffalo Bills;Miami Dolphins;Pinnacle;-119;+108;18 Dec 2011; 23;30 ;2011-2012
+Buffalo Bills;Miami Dolphins;William Hill;-125;+104;18 Dec 2011; 23;30 ;2011-2012
+Chicago Bears;Seattle Seahawks;bet-at-home;-200;+150;18 Dec 2011; 14;38 ;2011-2012
+Chicago Bears;Seattle Seahawks;bet365;-227;+185;18 Dec 2011; 14;38 ;2011-2012
+Chicago Bears;Seattle Seahawks;bwin;-250;+200;18 Dec 2011; 14;38 ;2011-2012
+Chicago Bears;Seattle Seahawks;Pinnacle;-222;+197;18 Dec 2011; 14;38 ;2011-2012
+Chicago Bears;Seattle Seahawks;Unibet;-222;+175;18 Dec 2011; 14;38 ;2011-2012
+Chicago Bears;Seattle Seahawks;William Hill;-222;+179;18 Dec 2011; 14;38 ;2011-2012
+Houston Texans;Carolina Panthers;bet-at-home;-286;+210;18 Dec 2011; 13;28 ;2011-2012
+Houston Texans;Carolina Panthers;bet365;-294;+235;18 Dec 2011; 13;28 ;2011-2012
+Houston Texans;Carolina Panthers;bwin;-303;+240;18 Dec 2011; 13;28 ;2011-2012
+Houston Texans;Carolina Panthers;Pinnacle;-278;+248;18 Dec 2011; 13;28 ;2011-2012
+Houston Texans;Carolina Panthers;Unibet;-286;+225;18 Dec 2011; 13;28 ;2011-2012
+Houston Texans;Carolina Panthers;William Hill;-278;+240;18 Dec 2011; 13;28 ;2011-2012
+Indianapolis Colts;Tennessee Titans;bet-at-home;+240;-333;18 Dec 2011; 27;13 ;2011-2012
+Indianapolis Colts;Tennessee Titans;bet365;+240;-303;18 Dec 2011; 27;13 ;2011-2012
+Indianapolis Colts;Tennessee Titans;bwin;+200;-250;18 Dec 2011; 27;13 ;2011-2012
+Indianapolis Colts;Tennessee Titans;Pinnacle;+254;-286;18 Dec 2011; 27;13 ;2011-2012
+Indianapolis Colts;Tennessee Titans;Unibet;-286;-286;18 Dec 2011; 27;13 ;2011-2012
+Indianapolis Colts;Tennessee Titans;William Hill;-286;-286;18 Dec 2011; 27;13 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;bet-at-home;+600;-1000;18 Dec 2011; 19;14 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;bet365;+550;-833;18 Dec 2011; 19;14 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;bwin;+500;-769;18 Dec 2011; 19;14 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;Pinnacle;+569;-769;18 Dec 2011; 19;14 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;Unibet;+600;-1000;18 Dec 2011; 19;14 ;2011-2012
+Kansas City Chiefs;Green Bay Packers;William Hill;+550;-833;18 Dec 2011; 19;14 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;bet-at-home;+210;-286;18 Dec 2011; 13;20 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;bet365;+229;-286;18 Dec 2011; 13;20 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;bwin;+229;-286;18 Dec 2011; 13;20 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;Pinnacle;+231;-263;18 Dec 2011; 13;20 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;Unibet;+220;-286;18 Dec 2011; 13;20 ;2011-2012
+Los Angeles Rams;Cincinnati Bengals;William Hill;+229;-270;18 Dec 2011; 13;20 ;2011-2012
+Minnesota Vikings;New Orleans Saints;bet-at-home;+240;-333;18 Dec 2011; 20;42 ;2011-2012
+Minnesota Vikings;New Orleans Saints;bet365;+260;-323;18 Dec 2011; 20;42 ;2011-2012
+Minnesota Vikings;New Orleans Saints;bwin;+220;-278;18 Dec 2011; 20;42 ;2011-2012
+Minnesota Vikings;New Orleans Saints;Pinnacle;+264;-303;18 Dec 2011; 20;42 ;2011-2012
+Minnesota Vikings;New Orleans Saints;Unibet;+200;-256;18 Dec 2011; 20;42 ;2011-2012
+Minnesota Vikings;New Orleans Saints;William Hill;+250;-303;18 Dec 2011; 20;42 ;2011-2012
+New York Giants;Washington Commanders;bet-at-home;-333;+240;18 Dec 2011; 10;23 ;2011-2012
+New York Giants;Washington Commanders;bet365;-312;+250;18 Dec 2011; 10;23 ;2011-2012
+New York Giants;Washington Commanders;bwin;-263;+210;18 Dec 2011; 10;23 ;2011-2012
+New York Giants;Washington Commanders;Pinnacle;-303;+264;18 Dec 2011; 10;23 ;2011-2012
+New York Giants;Washington Commanders;Unibet;-303;+235;18 Dec 2011; 10;23 ;2011-2012
+New York Giants;Washington Commanders;William Hill;-303;+250;18 Dec 2011; 10;23 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;bet-at-home;+240;-333;18 Dec 2011; 15;31 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;bet365;+265;-333;18 Dec 2011; 15;31 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;bwin;+179;-222;18 Dec 2011; 15;31 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;Pinnacle;+273;-312;18 Dec 2011; 15;31 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;Unibet;-312;-312;18 Dec 2011; 15;31 ;2011-2012
+Tampa Bay Buccaneers;Dallas Cowboys;William Hill;+260;-323;18 Dec 2011; 15;31 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;bet-at-home;-500;+350;27 Nov 2011; 24;14 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;bet365;-455;+350;27 Nov 2011; 24;14 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;bwin;-455;+340;27 Nov 2011; 24;14 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;Pinnacle;-455;+384;27 Nov 2011; 24;14 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;Unibet;-500;+355;27 Nov 2011; 24;14 ;2011-2012
+Atlanta Falcons;Minnesota Vikings;William Hill;+355;+355;27 Nov 2011; 24;14 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;bet-at-home;-400;+290;27 Nov 2011; 23;20 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;bet365;-345;+270;27 Nov 2011; 23;20 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;bwin;-312;+250;27 Nov 2011; 23;20 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;Pinnacle;-345;+297;27 Nov 2011; 23;20 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;Unibet;-370;+275;27 Nov 2011; 23;20 ;2011-2012
+Cincinnati Bengals;Cleveland Browns;William Hill;-345;+275;27 Nov 2011; 23;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;bet-at-home;+140;-182;27 Nov 2011; 13;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;bet365;+154;-175;27 Nov 2011; 13;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;bwin;+165;-200;27 Nov 2011; 13;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;Pinnacle;+162;-179;27 Nov 2011; 13;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;Unibet;+140;-175;27 Nov 2011; 13;20 ;2011-2012
+Jacksonville Jaguars;Houston Texans;William Hill;+150;-169;27 Nov 2011; 13;20 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;bet-at-home;-143;+110;27 Nov 2011; 20;23 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;bet365;-147;+125;27 Nov 2011; 20;23 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;bwin;-500;+375;27 Nov 2011; 20;23 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;Pinnacle;-133;+120;27 Nov 2011; 20;23 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;Unibet;+120;+120;27 Nov 2011; 20;23 ;2011-2012
+Los Angeles Rams;Arizona Cardinals;William Hill;-145;+125;27 Nov 2011; 20;23 ;2011-2012
+New York Jets;Buffalo Bills;bet-at-home;-400;+290;27 Nov 2011; 28;24 ;2011-2012
+New York Jets;Buffalo Bills;bet365;-357;+275;27 Nov 2011; 28;24 ;2011-2012
+New York Jets;Buffalo Bills;bwin;-303;+250;27 Nov 2011; 28;24 ;2011-2012
+New York Jets;Buffalo Bills;Pinnacle;-345;+305;27 Nov 2011; 28;24 ;2011-2012
+New York Jets;Buffalo Bills;Unibet;-400;+295;27 Nov 2011; 28;24 ;2011-2012
+New York Jets;Buffalo Bills;William Hill;-385;+290;27 Nov 2011; 28;24 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;bet-at-home;-182;+140;25 Nov 2011; 16;6 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;bet365;-175;+154;25 Nov 2011; 16;6 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;bwin;-200;+165;25 Nov 2011; 16;6 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;Pinnacle;-175;+158;25 Nov 2011; 16;6 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;Unibet;-182;+145;25 Nov 2011; 16;6 ;2011-2012
+Baltimore Ravens;San Francisco 49ers;William Hill;-175;+154;25 Nov 2011; 16;6 ;2011-2012
+Houston Texans;Cleveland Browns;bet-at-home;-714;+450;06 Nov 2011; 30;12 ;2011-2012
+Houston Texans;Cleveland Browns;bet365;-556;+425;06 Nov 2011; 30;12 ;2011-2012
+Houston Texans;Cleveland Browns;bwin;-526;+390;06 Nov 2011; 30;12 ;2011-2012
+Houston Texans;Cleveland Browns;Pinnacle;-526;+442;06 Nov 2011; 30;12 ;2011-2012
+Houston Texans;Cleveland Browns;Unibet;+442;+442;06 Nov 2011; 30;12 ;2011-2012
+Houston Texans;Cleveland Browns;William Hill;-714;+450;06 Nov 2011; 30;12 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;bet-at-home;-222;+170;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;bet365;-233;+190;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;bwin;-333;+260;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;Pinnacle;-238;+214;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;Unibet;+214;+214;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Miami Dolphins;William Hill;-238;+200;06 Nov 2011; 3;31 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;bet-at-home;+150;-200;01 Nov 2011; 23;20 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;bet365;+170;-200;01 Nov 2011; 23;20 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;bwin;+165;-200;01 Nov 2011; 23;20 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;Pinnacle;+166;-185;01 Nov 2011; 23;20 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;Unibet;+160;-200;01 Nov 2011; 23;20 ;2011-2012
+Kansas City Chiefs;Los Angeles Chargers;William Hill;+160;-179;01 Nov 2011; 23;20 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;bet-at-home;-200;+150;31 Oct 2011; 34;7 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;bet365;-192;+167;31 Oct 2011; 34;7 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;bwin;-182;+150;31 Oct 2011; 34;7 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;Pinnacle;-185;+166;31 Oct 2011; 34;7 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;Unibet;-182;+145;31 Oct 2011; 34;7 ;2011-2012
+Philadelphia Eagles;Dallas Cowboys;William Hill;-179;+160;31 Oct 2011; 34;7 ;2011-2012
+Pittsburgh Steelers;New England Patriots;bet-at-home;+120;-154;30 Oct 2011; 25;17 ;2011-2012
+Pittsburgh Steelers;New England Patriots;bet365;+135;-156;30 Oct 2011; 25;17 ;2011-2012
+Pittsburgh Steelers;New England Patriots;bwin;-110;-110;30 Oct 2011; 25;17 ;2011-2012
+Pittsburgh Steelers;New England Patriots;Pinnacle;+136;-149;30 Oct 2011; 25;17 ;2011-2012
+Pittsburgh Steelers;New England Patriots;Unibet;+125;-154;30 Oct 2011; 25;17 ;2011-2012
+Pittsburgh Steelers;New England Patriots;William Hill;+129;-149;30 Oct 2011; 25;17 ;2011-2012
+San Francisco 49ers;Cleveland Browns;bet-at-home;-500;+350;30 Oct 2011; 20;10 ;2011-2012
+San Francisco 49ers;Cleveland Browns;bet365;-500;+375;30 Oct 2011; 20;10 ;2011-2012
+San Francisco 49ers;Cleveland Browns;bwin;-500;+375;30 Oct 2011; 20;10 ;2011-2012
+San Francisco 49ers;Cleveland Browns;Pinnacle;-476;+400;30 Oct 2011; 20;10 ;2011-2012
+San Francisco 49ers;Cleveland Browns;Unibet;+400;+400;30 Oct 2011; 20;10 ;2011-2012
+San Francisco 49ers;Cleveland Browns;William Hill;-500;+350;30 Oct 2011; 20;10 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;bet-at-home;+129;-167;30 Oct 2011; 12;34 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;bet365;+129;-152;30 Oct 2011; 12;34 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;bwin;-200;+165;30 Oct 2011; 12;34 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;Pinnacle;+116;-128;30 Oct 2011; 12;34 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;Unibet;+125;-154;30 Oct 2011; 12;34 ;2011-2012
+Seattle Seahawks;Cincinnati Bengals;William Hill;+129;-149;30 Oct 2011; 12;34 ;2011-2012
+Carolina Panthers;New Orleans Saints;bet-at-home;+210;-286;09 Oct 2011; 27;30 ;2011-2012
+Carolina Panthers;New Orleans Saints;bet365;+225;-278;09 Oct 2011; 27;30 ;2011-2012
+Carolina Panthers;New Orleans Saints;bwin;+200;-250;09 Oct 2011; 27;30 ;2011-2012
+Carolina Panthers;New Orleans Saints;Pinnacle;+231;-263;09 Oct 2011; 27;30 ;2011-2012
+Carolina Panthers;New Orleans Saints;Unibet;-263;-263;09 Oct 2011; 27;30 ;2011-2012
+Carolina Panthers;New Orleans Saints;William Hill;+250;-303;09 Oct 2011; 27;30 ;2011-2012
+Houston Texans;Las Vegas Raiders;bet-at-home;-286;+210;09 Oct 2011; 20;25 ;2011-2012
+Houston Texans;Las Vegas Raiders;bet365;-263;+215;09 Oct 2011; 20;25 ;2011-2012
+Houston Texans;Las Vegas Raiders;bwin;-250;+200;09 Oct 2011; 20;25 ;2011-2012
+Houston Texans;Las Vegas Raiders;Pinnacle;-250;+222;09 Oct 2011; 20;25 ;2011-2012
+Houston Texans;Las Vegas Raiders;Unibet;-250;+195;09 Oct 2011; 20;25 ;2011-2012
+Houston Texans;Las Vegas Raiders;William Hill;-250;+210;09 Oct 2011; 20;25 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;bet-at-home;-143;+110;09 Oct 2011; 20;30 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;bet365;-135;+114;09 Oct 2011; 20;30 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;bwin;-189;+154;09 Oct 2011; 20;30 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;Pinnacle;-130;+118;09 Oct 2011; 20;30 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;Unibet;-133;+108;09 Oct 2011; 20;30 ;2011-2012
+Jacksonville Jaguars;Cincinnati Bengals;William Hill;-141;+120;09 Oct 2011; 20;30 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;bet-at-home;-200;+150;09 Oct 2011; 38;17 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;bet365;-233;+190;09 Oct 2011; 38;17 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;bwin;-385;+300;09 Oct 2011; 38;17 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;Pinnacle;-159;+144;09 Oct 2011; 38;17 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;Unibet;-200;+160;09 Oct 2011; 38;17 ;2011-2012
+Pittsburgh Steelers;Tennessee Titans;William Hill;-189;+165;09 Oct 2011; 38;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;bet-at-home;-500;+350;04 Oct 2011; 24;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;bet365;-667;+450;04 Oct 2011; 24;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;bwin;-556;+409;04 Oct 2011; 24;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;Pinnacle;-455;+384;04 Oct 2011; 24;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;Unibet;-714;+450;04 Oct 2011; 24;17 ;2011-2012
+Tampa Bay Buccaneers;Indianapolis Colts;William Hill;-500;+350;04 Oct 2011; 24;17 ;2011-2012
+Baltimore Ravens;New York Jets;bet-at-home;-200;+150;03 Oct 2011; 34;17 ;2011-2012
+Baltimore Ravens;New York Jets;bet365;-185;+165;03 Oct 2011; 34;17 ;2011-2012
+Baltimore Ravens;New York Jets;bwin;-189;+154;03 Oct 2011; 34;17 ;2011-2012
+Baltimore Ravens;New York Jets;Pinnacle;-192;+173;03 Oct 2011; 34;17 ;2011-2012
+Baltimore Ravens;New York Jets;Unibet;-182;+145;03 Oct 2011; 34;17 ;2011-2012
+Baltimore Ravens;New York Jets;William Hill;-169;+150;03 Oct 2011; 34;17 ;2011-2012
+Buffalo Bills;Las Vegas Raiders;bet365;-200;+170;18 Sep 2011; 38;35 ;2011-2012
+Buffalo Bills;Las Vegas Raiders;bwin;-120;+100;18 Sep 2011; 38;35 ;2011-2012
+Buffalo Bills;Las Vegas Raiders;Pinnacle;-196;+175;18 Sep 2011; 38;35 ;2011-2012
+Buffalo Bills;Las Vegas Raiders;Unibet;-182;+145;18 Sep 2011; 38;35 ;2011-2012
+Buffalo Bills;Las Vegas Raiders;William Hill;-200;+170;18 Sep 2011; 38;35 ;2011-2012
+Detroit Lions;Kansas City Chiefs;bet-at-home;-167;+129;18 Sep 2011; 48;3 ;2011-2012
+Detroit Lions;Kansas City Chiefs;bet365;-435;+325;18 Sep 2011; 48;3 ;2011-2012
+Detroit Lions;Kansas City Chiefs;bwin;-164;+135;18 Sep 2011; 48;3 ;2011-2012
+Detroit Lions;Kansas City Chiefs;Pinnacle;-417;+361;18 Sep 2011; 48;3 ;2011-2012
+Detroit Lions;Kansas City Chiefs;Unibet;+361;+361;18 Sep 2011; 48;3 ;2011-2012
+Detroit Lions;Kansas City Chiefs;William Hill;-345;+275;18 Sep 2011; 48;3 ;2011-2012
+Denver Broncos;Las Vegas Raiders;bet-at-home;-133;+100;13 Sep 2011; 20;23 ;2011-2012
+Denver Broncos;Las Vegas Raiders;bet365;-116;-105;13 Sep 2011; 20;23 ;2011-2012
+Denver Broncos;Las Vegas Raiders;bwin;-133;+110;13 Sep 2011; 20;23 ;2011-2012
+Denver Broncos;Las Vegas Raiders;Pinnacle;-164;+147;13 Sep 2011; 20;23 ;2011-2012
+Denver Broncos;Las Vegas Raiders;Unibet;+147;+147;13 Sep 2011; 20;23 ;2011-2012
+Denver Broncos;Las Vegas Raiders;William Hill;-120;+100;13 Sep 2011; 20;23 ;2011-2012
+Miami Dolphins;New England Patriots;bet-at-home;+170;-222;12 Sep 2011; 24;38 ;2011-2012
+Miami Dolphins;New England Patriots;bet365;+195;-238;12 Sep 2011; 24;38 ;2011-2012
+Miami Dolphins;New England Patriots;bwin;+179;-222;12 Sep 2011; 24;38 ;2011-2012
+Miami Dolphins;New England Patriots;Pinnacle;+289;-333;12 Sep 2011; 24;38 ;2011-2012
+Miami Dolphins;New England Patriots;Unibet;-333;-333;12 Sep 2011; 24;38 ;2011-2012
+Miami Dolphins;New England Patriots;William Hill;+179;-222;12 Sep 2011; 24;38 ;2011-2012
+New York Jets;Dallas Cowboys;bet-at-home;-222;+170;12 Sep 2011; 27;24 ;2011-2012
+New York Jets;Dallas Cowboys;bet365;-222;+179;12 Sep 2011; 27;24 ;2011-2012
+New York Jets;Dallas Cowboys;bwin;-213;+175;12 Sep 2011; 27;24 ;2011-2012
+New York Jets;Dallas Cowboys;Pinnacle;-227;+200;12 Sep 2011; 27;24 ;2011-2012
+New York Jets;Dallas Cowboys;Unibet;-250;+195;12 Sep 2011; 27;24 ;2011-2012
+New York Jets;Dallas Cowboys;William Hill;-149;+129;12 Sep 2011; 27;24 ;2011-2012
+New York Giants;Chicago Bears;bet-at-home;-222;+170;23 Aug 2011; 41;13 ;2011-2012
+New York Giants;Chicago Bears;bet365;-213;+175;23 Aug 2011; 41;13 ;2011-2012
+New York Giants;Chicago Bears;bwin;-213;+175;23 Aug 2011; 41;13 ;2011-2012
+New York Giants;Chicago Bears;Pinnacle;-200;+179;23 Aug 2011; 41;13 ;2011-2012
+New York Giants;Chicago Bears;William Hill;-200;+170;23 Aug 2011; 41;13 ;2011-2012
+Dallas Cowboys;Los Angeles Chargers;bet-at-home;-125;-111;22 Aug 2011; 7;20 ;2011-2012
+Dallas Cowboys;Los Angeles Chargers;bet365;-116;-105;22 Aug 2011; 7;20 ;2011-2012
+Dallas Cowboys;Los Angeles Chargers;bwin;-115;-105;22 Aug 2011; 7;20 ;2011-2012
+Dallas Cowboys;Los Angeles Chargers;Pinnacle;-115;+104;22 Aug 2011; 7;20 ;2011-2012
+Dallas Cowboys;Los Angeles Chargers;William Hill;+104;+104;22 Aug 2011; 7;20 ;2011-2012
+New York Jets;Cincinnati Bengals;bet-at-home;-286;+210;21 Aug 2011; 27;7 ;2011-2012
+New York Jets;Cincinnati Bengals;bet365;-278;+225;21 Aug 2011; 27;7 ;2011-2012
+New York Jets;Cincinnati Bengals;bwin;-303;+240;21 Aug 2011; 27;7 ;2011-2012
+New York Jets;Cincinnati Bengals;Pinnacle;-263;+231;21 Aug 2011; 27;7 ;2011-2012
+New York Jets;Cincinnati Bengals;William Hill;-278;+240;21 Aug 2011; 27;7 ;2011-2012
+Seattle Seahawks;Minnesota Vikings;bet-at-home;-154;+120;21 Aug 2011; 7;20 ;2011-2012
+Seattle Seahawks;Minnesota Vikings;bet365;-152;+129;21 Aug 2011; 7;20 ;2011-2012
+Seattle Seahawks;Minnesota Vikings;bwin;-154;+129;21 Aug 2011; 7;20 ;2011-2012
+Seattle Seahawks;Minnesota Vikings;Pinnacle;-145;+131;21 Aug 2011; 7;20 ;2011-2012
+Seattle Seahawks;Minnesota Vikings;William Hill;-149;+129;21 Aug 2011; 7;20 ;2011-2012
+Denver Broncos;Buffalo Bills;bet-at-home;-200;+150;21 Aug 2011; 24;10 ;2011-2012
+Denver Broncos;Buffalo Bills;bet365;-200;+170;21 Aug 2011; 24;10 ;2011-2012
+Denver Broncos;Buffalo Bills;bwin;-208;+170;21 Aug 2011; 24;10 ;2011-2012
+Denver Broncos;Buffalo Bills;Pinnacle;-196;+175;21 Aug 2011; 24;10 ;2011-2012
+Denver Broncos;Buffalo Bills;William Hill;-200;+170;21 Aug 2011; 24;10 ;2011-2012
+Houston Texans;New Orleans Saints;bet-at-home;-125;-111;21 Aug 2011; 27;14 ;2011-2012
+Houston Texans;New Orleans Saints;bet365;-125;+104;21 Aug 2011; 27;14 ;2011-2012
+Houston Texans;New Orleans Saints;bwin;-125;+104;21 Aug 2011; 27;14 ;2011-2012
+Houston Texans;New Orleans Saints;Pinnacle;+112;-125;21 Aug 2011; 27;14 ;2011-2012
+Houston Texans;New Orleans Saints;William Hill;-110;-110;21 Aug 2011; 27;14 ;2011-2012

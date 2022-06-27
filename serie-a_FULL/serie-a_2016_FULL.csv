@@ -1,0 +1,648 @@
+index;TeamsRaw;Bookmaker;OddHome;OddDraw;OddAway;DateRaw;ScoreRaw;TO_KEEP;Home_id;Away_id;Date;Score_home;Score_away;Season
+0;Athletico-PR - Flamengo RJ;1xBet;+112;+229;+296;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+1;Athletico-PR - Flamengo RJ;bet-at-home;+114;+227;+215;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+2;Athletico-PR - Flamengo RJ;bet365;+114;+220;+200;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+3;Athletico-PR - Flamengo RJ;bwin;+120;+220;+200;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+4;Athletico-PR - Flamengo RJ;Marathonbet;+110;+229;+298;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+5;Athletico-PR - Flamengo RJ;Pinnacle;+125;+242;+246;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+6;Athletico-PR - Flamengo RJ;Unibet;+120;+220;+210;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+7;Athletico-PR - Flamengo RJ;William Hill;+210;+210;+210;Sunday, 11 Dec 2016, 18:00;Final result 0:0 (0:0, 0:0);1;Athletico-PR;Flamengo RJ;11 Dec 2016; 0;0 ;2016
+58;Cruzeiro - Corinthians;1xBet;+110;+248;+286;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+59;Cruzeiro - Corinthians;bet-at-home;+135;+231;+175;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+60;Cruzeiro - Corinthians;bet365;+129;+220;+175;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+61;Cruzeiro - Corinthians;bwin;+135;+210;+185;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+62;Cruzeiro - Corinthians;Marathonbet;+108;+248;+278;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+63;Cruzeiro - Corinthians;Pinnacle;+134;+249;+221;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+64;Cruzeiro - Corinthians;Unibet;+129;+220;+200;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+65;Cruzeiro - Corinthians;William Hill;+200;+200;+200;Sunday, 11 Dec 2016, 18:00;Final result 3:2 (1:1, 2:1);1;Cruzeiro;Corinthians;11 Dec 2016; 3;2 ;2016
+87;Fluminense - Internacional;1xBet;+142;+250;+204;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+88;Fluminense - Internacional;bet-at-home;+214;+224;+116;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+89;Fluminense - Internacional;bet365;+200;+220;+114;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+90;Fluminense - Internacional;bwin;+210;+220;+114;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+91;Fluminense - Internacional;Marathonbet;+140;+250;+204;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+92;Fluminense - Internacional;Pinnacle;+323;+258;-104;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+93;Fluminense - Internacional;Unibet;+215;+240;+110;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+94;Fluminense - Internacional;William Hill;+110;+110;+110;Sunday, 11 Dec 2016, 18:00;Final result 1:1 (0:0, 1:1);1;Fluminense;Internacional;11 Dec 2016; 1;1 ;2016
+116;Gremio - Botafogo RJ;1xBet;-106;+248;+344;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+117;Gremio - Botafogo RJ;bet-at-home;+161;+218;+154;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+118;Gremio - Botafogo RJ;bet365;+150;+220;+150;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+119;Gremio - Botafogo RJ;bwin;+150;+220;+160;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+120;Gremio - Botafogo RJ;Marathonbet;+100;+250;+305;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+121;Gremio - Botafogo RJ;Pinnacle;+233;+254;+125;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+122;Gremio - Botafogo RJ;Unibet;+210;+229;+120;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+123;Gremio - Botafogo RJ;William Hill;+120;+120;+120;Sunday, 11 Dec 2016, 18:00;Final result 0:1 (0:1, 0:0);1;Gremio;Botafogo RJ;11 Dec 2016; 0;1 ;2016
+145;Ponte Preta - Coritiba;1xBet;-106;+250;+344;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+146;Ponte Preta - Coritiba;bet-at-home;-122;+243;+303;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+147;Ponte Preta - Coritiba;bet365;-125;+225;+300;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+148;Ponte Preta - Coritiba;bwin;-118;+220;+300;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+149;Ponte Preta - Coritiba;Marathonbet;+104;+246;+298;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+150;Ponte Preta - Coritiba;Pinnacle;-116;+266;+365;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+151;Ponte Preta - Coritiba;Unibet;-125;+250;+320;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+152;Ponte Preta - Coritiba;William Hill;+320;+320;+320;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Ponte Preta;Coritiba;11 Dec 2016; 2;0 ;2016
+174;Santos - America MG;1xBet;-370;+550;+1050;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+175;Santos - America MG;bet-at-home;-526;+527;+1053;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+176;Santos - America MG;bet365;-588;+500;+1000;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+177;Santos - America MG;bwin;-556;+500;+1100;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+178;Santos - America MG;Marathonbet;-385;+550;+1100;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+179;Santos - America MG;Pinnacle;-476;+635;+1564;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+180;Santos - America MG;Unibet;-667;+600;+1300;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+181;Santos - America MG;William Hill;+1300;+1300;+1300;Sunday, 11 Dec 2016, 18:00;Final result 1:0 (0:0, 1:0);1;Santos;America MG;11 Dec 2016; 1;0 ;2016
+203;Sport Recife - Figueirense;1xBet;-200;+344;+640;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+204;Sport Recife - Figueirense;bet-at-home;-294;+368;+656;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+205;Sport Recife - Figueirense;bet365;-303;+350;+600;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+206;Sport Recife - Figueirense;bwin;-286;+350;+625;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+207;Sport Recife - Figueirense;Marathonbet;-200;+330;+660;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+208;Sport Recife - Figueirense;Pinnacle;-250;+417;+752;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+209;Sport Recife - Figueirense;Unibet;-286;+375;+650;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+210;Sport Recife - Figueirense;William Hill;+650;+650;+650;Sunday, 11 Dec 2016, 18:00;Final result 2:0 (0:0, 2:0);1;Sport Recife;Figueirense;11 Dec 2016; 2;0 ;2016
+232;Vitoria - Palmeiras;1xBet;+137;+234;+225;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+233;Vitoria - Palmeiras;bet-at-home;+120;+221;+208;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+234;Vitoria - Palmeiras;bet365;+120;+210;+200;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+235;Vitoria - Palmeiras;bwin;+120;+210;+210;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+236;Vitoria - Palmeiras;Marathonbet;+140;+235;+218;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+237;Vitoria - Palmeiras;Pinnacle;+104;+257;+292;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+238;Vitoria - Palmeiras;Unibet;+120;+220;+215;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+239;Vitoria - Palmeiras;William Hill;+215;+215;+215;Sunday, 11 Dec 2016, 18:00;Final result 1:2 (1:2, 0:0);1;Vitoria;Palmeiras;11 Dec 2016; 1;2 ;2016
+261;America MG - Sao Paulo;1xBet;+309;+250;+102;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+262;America MG - Sao Paulo;bet-at-home;+208;+206;+127;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+263;America MG - Sao Paulo;bet365;+229;+210;+129;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+264;America MG - Sao Paulo;bwin;+190;+210;+129;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+265;America MG - Sao Paulo;Marathonbet;+315;+250;+100;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+266;America MG - Sao Paulo;Pinnacle;+231;+231;+137;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+267;America MG - Sao Paulo;Unibet;+229;+220;+114;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+268;America MG - Sao Paulo;William Hill;+114;+114;+114;Monday, 31 Oct 2016, 22:00;Final result 1:0 (1:0, 0:0);1;America MG;Sao Paulo;31 Oct 2016; 1;0 ;2016
+290;Figueirense - Gremio;1xBet;+177;+240;+172;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+291;Figueirense - Gremio;bet-at-home;+135;+199;+204;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+292;Figueirense - Gremio;bet365;+150;+200;+200;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+293;Figueirense - Gremio;bwin;+145;+190;+185;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+294;Figueirense - Gremio;Marathonbet;+177;+240;+170;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+295;Figueirense - Gremio;Pinnacle;+163;+225;+195;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+296;Figueirense - Gremio;Unibet;+135;+220;+190;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+297;Figueirense - Gremio;William Hill;+190;+190;+190;Saturday, 29 Oct 2016, 21:30;Final result 0:0 (0:0, 0:0);1;Figueirense;Gremio;29 Oct 2016; 0;0 ;2016
+319;Santos - Palmeiras;1xBet;+131;+240;+236;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+320;Santos - Palmeiras;bet-at-home;+129;+214;+197;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+321;Santos - Palmeiras;bet365;+129;+210;+229;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+322;Santos - Palmeiras;bwin;-139;+240;+350;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+323;Santos - Palmeiras;Marathonbet;+129;+240;+236;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+324;Santos - Palmeiras;Pinnacle;+142;+236;+218;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+325;Santos - Palmeiras;Unibet;+129;+220;+200;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+326;Santos - Palmeiras;William Hill;+200;+200;+200;Saturday, 29 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Santos;Palmeiras;29 Oct 2016; 1;0 ;2016
+348;Botafogo RJ - Coritiba;1xBet;-161;+290;+565;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+349;Botafogo RJ - Coritiba;bet-at-home;-147;+244;+390;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+350;Botafogo RJ - Coritiba;bet365;-137;+229;+450;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+351;Botafogo RJ - Coritiba;bwin;-133;+229;+350;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+352;Botafogo RJ - Coritiba;Marathonbet;-167;+290;+590;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+353;Botafogo RJ - Coritiba;Pinnacle;-127;+268;+416;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+354;Botafogo RJ - Coritiba;Unibet;-143;+240;+400;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+355;Botafogo RJ - Coritiba;William Hill;+400;+400;+400;Saturday, 29 Oct 2016, 20:30;Final result 0:0 (0:0, 0:0);1;Botafogo RJ;Coritiba;29 Oct 2016; 0;0 ;2016
+377;Internacional - Santa Cruz;1xBet;-244;+400;+780;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+378;Internacional - Santa Cruz;bet-at-home;-333;+362;+843;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+379;Internacional - Santa Cruz;bet365;-286;+350;+900;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+380;Internacional - Santa Cruz;bwin;-227;+290;+575;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+381;Internacional - Santa Cruz;Marathonbet;-250;+400;+800;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+382;Internacional - Santa Cruz;Pinnacle;-217;+348;+769;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+383;Internacional - Santa Cruz;Unibet;-333;+400;+850;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+384;Internacional - Santa Cruz;William Hill;+850;+850;+850;Saturday, 29 Oct 2016, 20:30;Final result 1:1 (1:1, 0:0);1;Internacional;Santa Cruz;29 Oct 2016; 1;1 ;2016
+406;Athletico-PR - Cruzeiro;1xBet;+112;+250;+278;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+407;Athletico-PR - Cruzeiro;bet-at-home;+114;+208;+236;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+408;Athletico-PR - Cruzeiro;bet365;+110;+210;+275;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+409;Athletico-PR - Cruzeiro;bwin;+114;+220;+210;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+410;Athletico-PR - Cruzeiro;Marathonbet;+110;+250;+280;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+411;Athletico-PR - Cruzeiro;Pinnacle;+119;+234;+271;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+412;Athletico-PR - Cruzeiro;Unibet;+114;+220;+229;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+413;Athletico-PR - Cruzeiro;William Hill;+229;+229;+229;Saturday, 29 Oct 2016, 18:30;Final result 1:0 (1:0, 0:0);1;Athletico-PR;Cruzeiro;29 Oct 2016; 1;0 ;2016
+435;Atletico-MG - Flamengo RJ;1xBet;+112;+244;+284;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+436;Atletico-MG - Flamengo RJ;bet-at-home;+110;+229;+223;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+437;Atletico-MG - Flamengo RJ;bet365;+104;+200;+300;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+438;Atletico-MG - Flamengo RJ;bwin;+114;+225;+210;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+439;Atletico-MG - Flamengo RJ;Marathonbet;+110;+245;+285;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+440;Atletico-MG - Flamengo RJ;Pinnacle;+116;+257;+254;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+441;Atletico-MG - Flamengo RJ;Unibet;+114;+229;+220;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+442;Atletico-MG - Flamengo RJ;William Hill;+220;+220;+220;Saturday, 29 Oct 2016, 18:30;Final result 2:2 (0:1, 2:1);1;Atletico-MG;Flamengo RJ;29 Oct 2016; 2;2 ;2016
+464;Corinthians - Chapecoense-SC;1xBet;-161;+290;+565;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+465;Corinthians - Chapecoense-SC;bet-at-home;-200;+294;+490;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+466;Corinthians - Chapecoense-SC;bet365;-200;+280;+650;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+467;Corinthians - Chapecoense-SC;bwin;-200;+275;+500;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+468;Corinthians - Chapecoense-SC;Marathonbet;-167;+290;+590;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+469;Corinthians - Chapecoense-SC;Pinnacle;-185;+332;+592;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+470;Corinthians - Chapecoense-SC;Unibet;-200;+300;+525;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+471;Corinthians - Chapecoense-SC;William Hill;+525;+525;+525;Saturday, 29 Oct 2016, 18:30;Final result 1:1 (0:0, 1:1);1;Corinthians;Chapecoense-SC;29 Oct 2016; 1;1 ;2016
+493;Coritiba - America MG;1xBet;-149;+290;+495;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+494;Coritiba - America MG;bet-at-home;-159;+250;+426;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+495;Coritiba - America MG;bet365;-149;+280;+400;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+496;Coritiba - America MG;bwin;-161;+250;+400;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+497;Coritiba - America MG;Marathonbet;-154;+290;+509;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+498;Coritiba - America MG;Pinnacle;-147;+275;+505;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+499;Coritiba - America MG;Unibet;-154;+250;+450;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+500;Coritiba - America MG;William Hill;+450;+450;+450;Tuesday, 04 Oct 2016, 00:00;Final result 3:0 (1:0, 2:0);1;Coritiba;America MG;04 Oct 2016; 3;0 ;2016
+522;Santa Cruz - Palmeiras;1xBet;+256;+270;+112;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+523;Santa Cruz - Palmeiras;bet-at-home;+238;+227;+104;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+524;Santa Cruz - Palmeiras;bet365;+240;+260;+104;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+525;Santa Cruz - Palmeiras;bwin;+229;+240;+100;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+526;Santa Cruz - Palmeiras;Marathonbet;+258;+270;+110;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+527;Santa Cruz - Palmeiras;Pinnacle;+303;+254;+102;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+528;Santa Cruz - Palmeiras;Unibet;+229;+220;+114;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+529;Santa Cruz - Palmeiras;William Hill;+114;+114;+114;Monday, 03 Oct 2016, 23:00;Final result 2:3 (0:1, 2:2);1;Santa Cruz;Palmeiras;03 Oct 2016; 2;3 ;2016
+551;Internacional - Figueirense;1xBet;-109;+260;+344;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+552;Internacional - Figueirense;bet-at-home;-217;+290;+564;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+553;Internacional - Figueirense;bet365;-167;+260;+500;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+554;Internacional - Figueirense;bwin;-200;+260;+525;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+555;Internacional - Figueirense;Marathonbet;-111;+260;+350;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+556;Internacional - Figueirense;Pinnacle;-164;+299;+557;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+557;Internacional - Figueirense;Unibet;-200;+285;+550;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+558;Internacional - Figueirense;William Hill;+550;+550;+550;Sunday, 02 Oct 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Internacional;Figueirense;02 Oct 2016; 1;0 ;2016
+580;Cruzeiro - Gremio;1xBet;+122;+240;+260;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+581;Cruzeiro - Gremio;bet-at-home;-128;+236;+333;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+582;Cruzeiro - Gremio;bet365;+104;+229;+260;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+583;Cruzeiro - Gremio;bwin;-115;+229;+280;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+584;Cruzeiro - Gremio;Marathonbet;+120;+240;+262;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+585;Cruzeiro - Gremio;Pinnacle;+100;+246;+323;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+586;Cruzeiro - Gremio;Unibet;-125;+240;+350;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+587;Cruzeiro - Gremio;William Hill;+350;+350;+350;Saturday, 01 Oct 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Cruzeiro;Gremio;01 Oct 2016; 1;0 ;2016
+609;Botafogo RJ - Corinthians;1xBet;+156;+240;+194;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+610;Botafogo RJ - Corinthians;bet-at-home;+133;+204;+202;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+611;Botafogo RJ - Corinthians;bet365;+145;+220;+190;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+612;Botafogo RJ - Corinthians;bwin;+140;+200;+185;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+613;Botafogo RJ - Corinthians;Marathonbet;+154;+240;+195;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+614;Botafogo RJ - Corinthians;Pinnacle;+150;+229;+210;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+615;Botafogo RJ - Corinthians;Unibet;+129;+220;+200;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+616;Botafogo RJ - Corinthians;William Hill;+200;+200;+200;Saturday, 01 Oct 2016, 19:30;Final result 2:0 (2:0, 0:0);1;Botafogo RJ;Corinthians;01 Oct 2016; 2;0 ;2016
+638;Ponte Preta - Atletico-MG;1xBet;+198;+244;+152;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+639;Ponte Preta - Atletico-MG;bet-at-home;+142;+215;+177;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+640;Ponte Preta - Atletico-MG;bet365;+145;+220;+188;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+641;Ponte Preta - Atletico-MG;bwin;+145;+210;+170;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+642;Ponte Preta - Atletico-MG;Marathonbet;+198;+245;+150;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+643;Ponte Preta - Atletico-MG;Pinnacle;+154;+244;+193;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+644;Ponte Preta - Atletico-MG;Unibet;+145;+220;+179;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+645;Ponte Preta - Atletico-MG;William Hill;+179;+179;+179;Saturday, 01 Oct 2016, 19:30;Final result 1:2 (0:2, 1:0);1;Ponte Preta;Atletico-MG;01 Oct 2016; 1;2 ;2016
+667;Chapecoense-SC - Vitoria;1xBet;+102;+250;+309;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+668;Chapecoense-SC - Vitoria;bet-at-home;-106;+223;+278;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+669;Chapecoense-SC - Vitoria;bet365;+100;+229;+280;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+670;Chapecoense-SC - Vitoria;bwin;-105;+220;+260;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+671;Chapecoense-SC - Vitoria;Marathonbet;+100;+250;+315;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+672;Chapecoense-SC - Vitoria;Pinnacle;+106;+241;+305;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+673;Chapecoense-SC - Vitoria;Unibet;+100;+220;+270;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+674;Chapecoense-SC - Vitoria;William Hill;+270;+270;+270;Saturday, 01 Oct 2016, 19:00;Final result 1:4 (0:4, 1:0);1;Chapecoense-SC;Vitoria;01 Oct 2016; 1;4 ;2016
+696;Santos - Athletico-PR;1xBet;-139;+274;+480;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+697;Santos - Athletico-PR;bet-at-home;-182;+269;+475;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+698;Santos - Athletico-PR;bet365;-161;+260;+500;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+699;Santos - Athletico-PR;bwin;-175;+260;+450;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+700;Santos - Athletico-PR;Marathonbet;-143;+275;+490;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+701;Santos - Athletico-PR;Pinnacle;-159;+295;+525;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+702;Santos - Athletico-PR;Unibet;-182;+285;+500;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+703;Santos - Athletico-PR;William Hill;+500;+500;+500;Saturday, 01 Oct 2016, 19:00;Final result 2:0 (1:0, 1:0);1;Santos;Athletico-PR;01 Oct 2016; 2;0 ;2016
+725;Sao Paulo - Cruzeiro;1xBet;+102;+250;+309;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+726;Sao Paulo - Cruzeiro;bet-at-home;+104;+218;+247;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+727;Sao Paulo - Cruzeiro;bet365;+100;+229;+280;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+728;Sao Paulo - Cruzeiro;bwin;-111;+225;+280;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+729;Sao Paulo - Cruzeiro;Marathonbet;+100;+250;+315;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+730;Sao Paulo - Cruzeiro;Pinnacle;+104;+248;+301;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+731;Sao Paulo - Cruzeiro;Unibet;+100;+220;+270;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+732;Sao Paulo - Cruzeiro;William Hill;+270;+270;+270;Friday, 16 Sep 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Sao Paulo;Cruzeiro;16 Sep 2016; 1;0 ;2016
+754;Coritiba - Corinthians;1xBet;+173;+244;+174;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+755;Coritiba - Corinthians;bet-at-home;+138;+214;+184;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+756;Coritiba - Corinthians;bet365;+125;+220;+200;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+757;Coritiba - Corinthians;bwin;+150;+220;+160;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+758;Coritiba - Corinthians;Marathonbet;+172;+245;+172;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+759;Coritiba - Corinthians;Pinnacle;+169;+220;+194;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+760;Coritiba - Corinthians;Unibet;+154;+220;+170;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+761;Coritiba - Corinthians;William Hill;+170;+170;+170;Thursday, 15 Sep 2016, 00:45;Final result 1:1 (1:1, 0:0);1;Coritiba;Corinthians;15 Sep 2016; 1;1 ;2016
+783;Ponte Preta - Gremio;1xBet;+147;+229;+217;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+784;Ponte Preta - Gremio;bet-at-home;+139;+209;+187;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+785;Ponte Preta - Gremio;bet365;+125;+220;+200;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+786;Ponte Preta - Gremio;bwin;+129;+210;+190;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+787;Ponte Preta - Gremio;Marathonbet;+145;+229;+218;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+788;Ponte Preta - Gremio;Pinnacle;+147;+229;+216;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+789;Ponte Preta - Gremio;Unibet;+140;+220;+179;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+790;Ponte Preta - Gremio;William Hill;+179;+179;+179;Thursday, 15 Sep 2016, 00:00;Final result 3:0 (0:0, 3:0);1;Ponte Preta;Gremio;15 Sep 2016; 3;0 ;2016
+812;Botafogo RJ - Santos;1xBet;+172;+240;+177;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+813;Botafogo RJ - Santos;bet-at-home;+135;+220;+183;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+814;Botafogo RJ - Santos;bet365;+125;+229;+190;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+815;Botafogo RJ - Santos;bwin;+140;+210;+179;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+816;Botafogo RJ - Santos;Marathonbet;+170;+240;+177;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+817;Botafogo RJ - Santos;Pinnacle;+150;+236;+204;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+818;Botafogo RJ - Santos;Unibet;+140;+220;+179;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+819;Botafogo RJ - Santos;William Hill;+179;+179;+179;Wednesday, 14 Sep 2016, 22:30;Final result 0:1 (0:1, 0:0);1;Botafogo RJ;Santos;14 Sep 2016; 0;1 ;2016
+841;Fluminense - Atletico-MG;1xBet;+142;+240;+218;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+842;Fluminense - Atletico-MG;bet-at-home;+123;+220;+204;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+843;Fluminense - Atletico-MG;bet365;+125;+225;+190;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+844;Fluminense - Atletico-MG;bwin;+125;+225;+185;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+845;Fluminense - Atletico-MG;Marathonbet;+140;+240;+218;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+846;Fluminense - Atletico-MG;Pinnacle;+154;+247;+191;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+847;Fluminense - Atletico-MG;Unibet;+120;+225;+215;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+848;Fluminense - Atletico-MG;William Hill;+215;+215;+215;Monday, 12 Sep 2016, 23:00;Final result 4:2 (0:1, 4:1);1;Fluminense;Atletico-MG;12 Sep 2016; 4;2 ;2016
+870;America MG - Cruzeiro;1xBet;+187;+234;+167;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+871;America MG - Cruzeiro;bet-at-home;+266;+220;-102;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+872;America MG - Cruzeiro;bet365;+220;+225;+125;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+873;America MG - Cruzeiro;bwin;+260;+229;-110;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+874;America MG - Cruzeiro;Marathonbet;+186;+235;+165;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+875;America MG - Cruzeiro;Pinnacle;+257;+242;+121;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+876;America MG - Cruzeiro;Unibet;+275;+225;+100;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+877;America MG - Cruzeiro;William Hill;+100;+100;+100;Friday, 09 Sep 2016, 00:00;Final result 0:2 (0:1, 0:1);1;America MG;Cruzeiro;09 Sep 2016; 0;2 ;2016
+899;Internacional - Santos;1xBet;+142;+240;+218;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+900;Internacional - Santos;bet-at-home;+125;+213;+204;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+901;Internacional - Santos;bet365;+129;+240;+200;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+902;Internacional - Santos;bwin;+120;+225;+195;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+903;Internacional - Santos;Marathonbet;+140;+240;+218;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+904;Internacional - Santos;Pinnacle;+141;+237;+220;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+905;Internacional - Santos;Unibet;+114;+220;+229;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+906;Internacional - Santos;William Hill;+229;+229;+229;Friday, 09 Sep 2016, 00:00;Final result 2:1 (1:1, 1:0);1;Internacional;Santos;09 Sep 2016; 2;1 ;2016
+928;Corinthians - Sport Recife;1xBet;-161;+290;+565;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+929;Corinthians - Sport Recife;bet-at-home;-185;+281;+467;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+930;Corinthians - Sport Recife;bet365;-175;+280;+500;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+931;Corinthians - Sport Recife;bwin;-182;+260;+450;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+932;Corinthians - Sport Recife;Marathonbet;-167;+290;+590;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+933;Corinthians - Sport Recife;Pinnacle;-172;+318;+547;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+934;Corinthians - Sport Recife;Unibet;-182;+280;+475;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+935;Corinthians - Sport Recife;William Hill;+475;+475;+475;Thursday, 08 Sep 2016, 22:30;Final result 3:0 (0:0, 3:0);1;Corinthians;Sport Recife;08 Sep 2016; 3;0 ;2016
+957;Coritiba - Gremio;1xBet;+231;+244;+131;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+958;Coritiba - Gremio;bet-at-home;+168;+206;+156;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+959;Coritiba - Gremio;bet365;+220;+225;+125;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+960;Coritiba - Gremio;bwin;+165;+210;+150;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+961;Coritiba - Gremio;Marathonbet;+231;+245;+129;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+962;Coritiba - Gremio;Pinnacle;+202;+237;+150;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+963;Coritiba - Gremio;Unibet;+129;+220;+200;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+964;Coritiba - Gremio;William Hill;+200;+200;+200;Thursday, 08 Sep 2016, 00:45;Final result 4:0 (4:0, 0:0);1;Coritiba;Gremio;08 Sep 2016; 4;0 ;2016
+986;Flamengo RJ - Ponte Preta;1xBet;-130;+270;+440;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+987;Flamengo RJ - Ponte Preta;bet-at-home;-135;+241;+349;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+988;Flamengo RJ - Ponte Preta;bet365;-125;+250;+350;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+989;Flamengo RJ - Ponte Preta;bwin;-139;+240;+350;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+990;Flamengo RJ - Ponte Preta;Marathonbet;-133;+270;+450;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+991;Flamengo RJ - Ponte Preta;Pinnacle;-127;+276;+397;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+992;Flamengo RJ - Ponte Preta;Unibet;-133;+240;+350;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+993;Flamengo RJ - Ponte Preta;William Hill;+350;+350;+350;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (1:0, 1:1);1;Flamengo RJ;Ponte Preta;08 Sep 2016; 2;1 ;2016
+1015;Palmeiras - Sao Paulo;1xBet;-115;+270;+358;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1016;Palmeiras - Sao Paulo;bet-at-home;-109;+227;+279;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1017;Palmeiras - Sao Paulo;bet365;-110;+240;+300;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1018;Palmeiras - Sao Paulo;bwin;-115;+229;+280;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1019;Palmeiras - Sao Paulo;Marathonbet;-118;+270;+365;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1020;Palmeiras - Sao Paulo;Pinnacle;+102;+254;+305;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1021;Palmeiras - Sao Paulo;Unibet;-111;+229;+300;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1022;Palmeiras - Sao Paulo;William Hill;+300;+300;+300;Thursday, 08 Sep 2016, 00:45;Final result 2:1 (0:0, 2:1);1;Palmeiras;Sao Paulo;08 Sep 2016; 2;1 ;2016
+1044;Botafogo RJ - Fluminense;1xBet;+131;+229;+246;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1045;Botafogo RJ - Fluminense;bet-at-home;+129;+208;+202;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1046;Botafogo RJ - Fluminense;bet365;+125;+225;+220;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1047;Botafogo RJ - Fluminense;bwin;+120;+210;+210;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1048;Botafogo RJ - Fluminense;Marathonbet;+129;+229;+248;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1049;Botafogo RJ - Fluminense;Pinnacle;+136;+233;+231;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1050;Botafogo RJ - Fluminense;Unibet;+150;+220;+175;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1051;Botafogo RJ - Fluminense;William Hill;+175;+175;+175;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Botafogo RJ;Fluminense;07 Sep 2016; 1;0 ;2016
+1073;Figueirense - Athletico-PR;1xBet;+174;+238;+175;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1074;Figueirense - Athletico-PR;bet-at-home;+140;+208;+188;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1075;Figueirense - Athletico-PR;bet365;+150;+229;+175;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1076;Figueirense - Athletico-PR;bwin;+145;+220;+165;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1077;Figueirense - Athletico-PR;Marathonbet;+174;+238;+174;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1078;Figueirense - Athletico-PR;Pinnacle;+152;+231;+204;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1079;Figueirense - Athletico-PR;Unibet;+145;+220;+179;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1080;Figueirense - Athletico-PR;William Hill;+179;+179;+179;Wednesday, 07 Sep 2016, 19:00;Final result 1:0 (1:0, 0:0);1;Figueirense;Athletico-PR;07 Sep 2016; 1;0 ;2016
+1102;Vitoria - America MG;1xBet;-139;+280;+465;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1103;Vitoria - America MG;bet-at-home;-156;+258;+395;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1104;Vitoria - America MG;bet365;-161;+275;+450;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1105;Vitoria - America MG;bwin;-161;+270;+375;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1106;Vitoria - America MG;Marathonbet;-143;+280;+480;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1107;Vitoria - America MG;Pinnacle;-145;+292;+455;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1108;Vitoria - America MG;Unibet;-154;+250;+425;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1109;Vitoria - America MG;William Hill;+425;+425;+425;Sunday, 28 Aug 2016, 21:30;Final result 2:1 (1:0, 1:1);1;Vitoria;America MG;28 Aug 2016; 2;1 ;2016
+1131;Athletico-PR - Palmeiras;1xBet;+152;+244;+198;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1132;Athletico-PR - Palmeiras;bet-at-home;+140;+221;+175;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1133;Athletico-PR - Palmeiras;bet365;+140;+220;+175;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1134;Athletico-PR - Palmeiras;bwin;+135;+220;+175;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1135;Athletico-PR - Palmeiras;Marathonbet;+150;+245;+198;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1136;Athletico-PR - Palmeiras;Pinnacle;+150;+241;+200;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1137;Athletico-PR - Palmeiras;Unibet;+145;+220;+175;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1138;Athletico-PR - Palmeiras;William Hill;+175;+175;+175;Sunday, 14 Aug 2016, 21:30;Final result 0:1 (0:1, 0:0);1;Athletico-PR;Palmeiras;14 Aug 2016; 0;1 ;2016
+1160;Cruzeiro - Coritiba;1xBet;-122;+280;+376;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1161;Cruzeiro - Coritiba;bet-at-home;-141;+249;+358;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1162;Cruzeiro - Coritiba;bet365;-137;+250;+350;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1163;Cruzeiro - Coritiba;bwin;-154;+250;+375;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1164;Cruzeiro - Coritiba;Marathonbet;-125;+280;+384;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1165;Cruzeiro - Coritiba;Pinnacle;-154;+290;+515;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1166;Cruzeiro - Coritiba;Unibet;-182;+280;+500;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1167;Cruzeiro - Coritiba;William Hill;+500;+500;+500;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:2, 1:0);1;Cruzeiro;Coritiba;14 Aug 2016; 2;2 ;2016
+1189;Vitoria - Santa Cruz;1xBet;-109;+270;+330;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1190;Vitoria - Santa Cruz;bet-at-home;-112;+242;+271;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1191;Vitoria - Santa Cruz;bet365;-110;+240;+260;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1192;Vitoria - Santa Cruz;bwin;-111;+240;+260;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1193;Vitoria - Santa Cruz;Marathonbet;-111;+270;+334;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1194;Vitoria - Santa Cruz;Pinnacle;-123;+277;+379;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1195;Vitoria - Santa Cruz;Unibet;-125;+240;+325;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1196;Vitoria - Santa Cruz;William Hill;+325;+325;+325;Sunday, 14 Aug 2016, 19:00;Final result 2:2 (1:1, 1:1);1;Vitoria;Santa Cruz;14 Aug 2016; 2;2 ;2016
+1218;Gremio - Corinthians;1xBet;+112;+250;+278;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1219;Gremio - Corinthians;bet-at-home;+104;+229;+234;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1220;Gremio - Corinthians;bet365;+100;+225;+250;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1221;Gremio - Corinthians;bwin;-118;+225;+300;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1222;Gremio - Corinthians;Marathonbet;+110;+250;+280;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1223;Gremio - Corinthians;Pinnacle;+122;+231;+266;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1224;Gremio - Corinthians;Unibet;+114;+220;+229;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1225;Gremio - Corinthians;William Hill;+229;+229;+229;Sunday, 14 Aug 2016, 14:00;Final result 3:0 (1:0, 2:0);1;Gremio;Corinthians;14 Aug 2016; 3;0 ;2016
+1247;Flamengo RJ - Athletico-PR;1xBet;-109;+250;+363;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1248;Flamengo RJ - Athletico-PR;bet-at-home;-130;+237;+337;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1249;Flamengo RJ - Athletico-PR;bet365;-125;+250;+350;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1250;Flamengo RJ - Athletico-PR;bwin;-133;+240;+325;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1251;Flamengo RJ - Athletico-PR;Marathonbet;-111;+250;+370;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1252;Flamengo RJ - Athletico-PR;Pinnacle;-133;+264;+455;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1253;Flamengo RJ - Athletico-PR;Unibet;-143;+250;+400;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1254;Flamengo RJ - Athletico-PR;William Hill;+400;+400;+400;Saturday, 06 Aug 2016, 21:30;Final result 1:0 (0:0, 1:0);1;Flamengo RJ;Athletico-PR;06 Aug 2016; 1;0 ;2016
+1276;Chapecoense-SC - Palmeiras;1xBet;+209;+240;+147;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1277;Chapecoense-SC - Palmeiras;bet-at-home;+175;+220;+141;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1278;Chapecoense-SC - Palmeiras;bet365;+200;+240;+129;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1279;Chapecoense-SC - Palmeiras;bwin;+190;+220;+125;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1280;Chapecoense-SC - Palmeiras;Marathonbet;+210;+240;+145;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1281;Chapecoense-SC - Palmeiras;Pinnacle;+181;+238;+167;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1282;Chapecoense-SC - Palmeiras;Unibet;+170;+220;+150;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1283;Chapecoense-SC - Palmeiras;William Hill;+150;+150;+150;Friday, 05 Aug 2016, 00:30;Final result 1:1 (1:0, 0:1);1;Chapecoense-SC;Palmeiras;05 Aug 2016; 1;1 ;2016
+1305;Cruzeiro - Internacional;1xBet;+142;+240;+218;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1306;Cruzeiro - Internacional;bet-at-home;-102;+219;+269;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1307;Cruzeiro - Internacional;bet365;+110;+229;+250;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1308;Cruzeiro - Internacional;bwin;+114;+210;+220;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1309;Cruzeiro - Internacional;Marathonbet;+140;+240;+218;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1310;Cruzeiro - Internacional;Pinnacle;-102;+244;+333;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1311;Cruzeiro - Internacional;Unibet;-133;+240;+370;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1312;Cruzeiro - Internacional;William Hill;+370;+370;+370;Friday, 05 Aug 2016, 00:00;Final result 4:2 (3:1, 1:1);1;Cruzeiro;Internacional;05 Aug 2016; 4;2 ;2016
+1334;Gremio - Santa Cruz;1xBet;-196;+350;+620;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1335;Gremio - Santa Cruz;bet-at-home;-244;+324;+589;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1336;Gremio - Santa Cruz;bet365;-227;+320;+650;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1337;Gremio - Santa Cruz;bwin;-250;+309;+600;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1338;Gremio - Santa Cruz;Marathonbet;-200;+350;+630;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1339;Gremio - Santa Cruz;Pinnacle;-270;+419;+873;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1340;Gremio - Santa Cruz;Unibet;-286;+375;+700;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1341;Gremio - Santa Cruz;William Hill;+700;+700;+700;Thursday, 04 Aug 2016, 22:30;Final result 0:0 (0:0, 0:0);1;Gremio;Santa Cruz;04 Aug 2016; 0;0 ;2016
+1363;Sao Paulo - Atletico-MG;1xBet;+122;+244;+256;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1364;Sao Paulo - Atletico-MG;bet-at-home;+127;+220;+198;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1365;Sao Paulo - Atletico-MG;bet365;+125;+225;+220;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1366;Sao Paulo - Atletico-MG;bwin;+120;+220;+200;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1367;Sao Paulo - Atletico-MG;Marathonbet;+120;+245;+256;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1368;Sao Paulo - Atletico-MG;Pinnacle;+150;+241;+200;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1369;Sao Paulo - Atletico-MG;Unibet;+140;+220;+179;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1370;Sao Paulo - Atletico-MG;William Hill;+179;+179;+179;Thursday, 04 Aug 2016, 22:30;Final result 1:2 (1:2, 0:0);1;Sao Paulo;Atletico-MG;04 Aug 2016; 1;2 ;2016
+1392;Ponte Preta - Botafogo RJ;1xBet;+122;+240;+260;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1393;Ponte Preta - Botafogo RJ;bet-at-home;+102;+220;+254;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1394;Ponte Preta - Botafogo RJ;bet365;+100;+229;+280;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1395;Ponte Preta - Botafogo RJ;bwin;+100;+210;+260;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1396;Ponte Preta - Botafogo RJ;Marathonbet;+120;+240;+262;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1397;Ponte Preta - Botafogo RJ;Pinnacle;+112;+242;+279;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1398;Ponte Preta - Botafogo RJ;Unibet;+104;+220;+260;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1399;Ponte Preta - Botafogo RJ;William Hill;+260;+260;+260;Thursday, 04 Aug 2016, 22:15;Final result 2:0 (1:0, 1:0);1;Ponte Preta;Botafogo RJ;04 Aug 2016; 2;0 ;2016
+1421;Athletico-PR - Corinthians;1xBet;+200;+240;+152;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1422;Athletico-PR - Corinthians;bet-at-home;+158;+211;+163;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1423;Athletico-PR - Corinthians;bet365;+160;+220;+170;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1424;Athletico-PR - Corinthians;bwin;+150;+210;+165;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1425;Athletico-PR - Corinthians;Marathonbet;+202;+240;+150;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1426;Athletico-PR - Corinthians;Pinnacle;+164;+223;+196;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1427;Athletico-PR - Corinthians;Unibet;+154;+220;+165;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1428;Athletico-PR - Corinthians;William Hill;+165;+165;+165;Thursday, 04 Aug 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Athletico-PR;Corinthians;04 Aug 2016; 2;0 ;2016
+1450;Santos - Flamengo RJ;1xBet;+102;+240;+328;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1451;Santos - Flamengo RJ;bet-at-home;+145;+212;+177;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1452;Santos - Flamengo RJ;bet365;+160;+210;+179;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1453;Santos - Flamengo RJ;bwin;+140;+210;+179;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1454;Santos - Flamengo RJ;Marathonbet;+100;+240;+333;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1455;Santos - Flamengo RJ;Pinnacle;+156;+236;+196;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1456;Santos - Flamengo RJ;Unibet;+165;+220;+154;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1457;Santos - Flamengo RJ;William Hill;+154;+154;+154;Thursday, 04 Aug 2016, 00:45;Final result 0:0 (0:0, 0:0);1;Santos;Flamengo RJ;04 Aug 2016; 0;0 ;2016
+1479;Flamengo RJ - America MG;1xBet;-169;+296;+600;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1480;Flamengo RJ - America MG;bet-at-home;-192;+283;+484;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1481;Flamengo RJ - America MG;bet365;-189;+275;+475;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1482;Flamengo RJ - America MG;bwin;-189;+270;+475;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1483;Flamengo RJ - America MG;Marathonbet;-175;+296;+630;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1484;Flamengo RJ - America MG;Pinnacle;-250;+383;+847;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1485;Flamengo RJ - America MG;Unibet;-250;+340;+650;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1486;Flamengo RJ - America MG;William Hill;+650;+650;+650;Monday, 25 Jul 2016, 23:00;Final result 2:1 (0:0, 2:1);1;Flamengo RJ;America MG;25 Jul 2016; 2;1 ;2016
+1508;Santos - Ponte Preta;1xBet;-122;+250;+430;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1509;Santos - Ponte Preta;bet-at-home;-182;+268;+480;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1510;Santos - Ponte Preta;bet365;-189;+260;+450;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1511;Santos - Ponte Preta;bwin;-189;+270;+475;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1512;Santos - Ponte Preta;Marathonbet;-125;+250;+440;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1513;Santos - Ponte Preta;Pinnacle;-213;+355;+705;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1514;Santos - Ponte Preta;Unibet;-200;+300;+500;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1515;Santos - Ponte Preta;William Hill;+500;+500;+500;Saturday, 16 Jul 2016, 21:30;Final result 3:1 (1:0, 2:1);1;Santos;Ponte Preta;16 Jul 2016; 3;1 ;2016
+1537;Palmeiras - Santos;1xBet;+102;+240;+328;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1538;Palmeiras - Santos;bet-at-home;-109;+220;+290;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1539;Palmeiras - Santos;bet365;+100;+229;+240;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1540;Palmeiras - Santos;bwin;-111;+225;+275;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1541;Palmeiras - Santos;Marathonbet;+100;+240;+333;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1542;Palmeiras - Santos;Pinnacle;+123;+246;+247;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1543;Palmeiras - Santos;Unibet;+110;+220;+240;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1544;Palmeiras - Santos;William Hill;+240;+240;+240;Tuesday, 12 Jul 2016, 23:30;Final result 1:1 (1:0, 0:1);1;Palmeiras;Santos;12 Jul 2016; 1;1 ;2016
+1566;Sport Recife - Palmeiras;1xBet;+200;+240;+152;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1567;Sport Recife - Palmeiras;bet-at-home;+187;+212;+138;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1568;Sport Recife - Palmeiras;bet365;+200;+220;+140;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1569;Sport Recife - Palmeiras;bwin;+185;+210;+135;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1570;Sport Recife - Palmeiras;Marathonbet;+202;+240;+150;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1571;Sport Recife - Palmeiras;Pinnacle;+206;+231;+150;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1572;Sport Recife - Palmeiras;Unibet;+170;+220;+145;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1573;Sport Recife - Palmeiras;William Hill;+145;+145;+145;Monday, 04 Jul 2016, 23:00;Final result 1:3 (0:1, 1:2);1;Sport Recife;Palmeiras;04 Jul 2016; 1;3 ;2016
+1595;Figueirense - Atletico-MG;1xBet;+177;+229;+179;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1596;Figueirense - Atletico-MG;bet-at-home;+166;+209;+156;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1597;Figueirense - Atletico-MG;bet365;+210;+220;+129;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1598;Figueirense - Atletico-MG;bwin;+160;+210;+154;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1599;Figueirense - Atletico-MG;Marathonbet;+177;+229;+177;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1600;Figueirense - Atletico-MG;Pinnacle;+235;+235;+134;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1601;Figueirense - Atletico-MG;Unibet;+165;+220;+154;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1602;Figueirense - Atletico-MG;William Hill;+154;+154;+154;Sunday, 03 Jul 2016, 22:00;Final result 1:1 (0:1, 1:0);1;Figueirense;Atletico-MG;03 Jul 2016; 1;1 ;2016
+1624;Botafogo RJ - Santa Cruz;1xBet;+112;+240;+290;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1625;Botafogo RJ - Santa Cruz;bet-at-home;-105;+222;+276;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1626;Botafogo RJ - Santa Cruz;bet365;-125;+240;+375;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1627;Botafogo RJ - Santa Cruz;bwin;-105;+210;+275;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1628;Botafogo RJ - Santa Cruz;Marathonbet;+110;+240;+292;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1629;Botafogo RJ - Santa Cruz;Pinnacle;-133;+285;+419;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1630;Botafogo RJ - Santa Cruz;Unibet;+100;+220;+260;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1631;Botafogo RJ - Santa Cruz;William Hill;+260;+260;+260;Sunday, 03 Jul 2016, 19:00;Final result 2:1 (2:0, 0:1);1;Botafogo RJ;Santa Cruz;03 Jul 2016; 2;1 ;2016
+1653;Corinthians - Flamengo RJ;1xBet;-103;+250;+334;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1654;Corinthians - Flamengo RJ;bet-at-home;-116;+220;+315;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1655;Corinthians - Flamengo RJ;bet365;-125;+240;+375;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1656;Corinthians - Flamengo RJ;bwin;-120;+220;+320;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1657;Corinthians - Flamengo RJ;Marathonbet;-105;+250;+340;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1658;Corinthians - Flamengo RJ;Pinnacle;-109;+249;+359;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1659;Corinthians - Flamengo RJ;Unibet;-111;+229;+285;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1660;Corinthians - Flamengo RJ;William Hill;+285;+285;+285;Sunday, 03 Jul 2016, 19:00;Final result 4:0 (0:0, 4:0);1;Corinthians;Flamengo RJ;03 Jul 2016; 4;0 ;2016
+1682;Ponte Preta - Sao Paulo;1xBet;+200;+240;+152;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1683;Ponte Preta - Sao Paulo;bet-at-home;-127;+237;+324;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1684;Ponte Preta - Sao Paulo;bet365;+100;+229;+280;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1685;Ponte Preta - Sao Paulo;bwin;-125;+225;+325;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1686;Ponte Preta - Sao Paulo;Marathonbet;+202;+240;+150;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1687;Ponte Preta - Sao Paulo;Pinnacle;+110;+231;+299;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1688;Ponte Preta - Sao Paulo;Unibet;-133;+240;+340;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1689;Ponte Preta - Sao Paulo;William Hill;+340;+340;+340;Sunday, 03 Jul 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Ponte Preta;Sao Paulo;03 Jul 2016; 1;0 ;2016
+1711;Santos - Chapecoense-SC;1xBet;-161;+290;+565;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1712;Santos - Chapecoense-SC;bet-at-home;-185;+259;+514;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1713;Santos - Chapecoense-SC;bet365;-200;+290;+600;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1714;Santos - Chapecoense-SC;bwin;-189;+260;+500;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1715;Santos - Chapecoense-SC;Marathonbet;-167;+290;+590;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1716;Santos - Chapecoense-SC;Pinnacle;-200;+345;+646;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1717;Santos - Chapecoense-SC;Unibet;-182;+280;+475;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1718;Santos - Chapecoense-SC;William Hill;+475;+475;+475;Sunday, 03 Jul 2016, 19:00;Final result 3:0 (0:0, 3:0);1;Santos;Chapecoense-SC;03 Jul 2016; 3;0 ;2016
+1740;Cruzeiro - Vitoria;1xBet;-196;+330;+680;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1741;Cruzeiro - Vitoria;bet-at-home;-196;+278;+511;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1742;Cruzeiro - Vitoria;bet365;-227;+320;+650;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1743;Cruzeiro - Vitoria;bwin;-200;+275;+500;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1744;Cruzeiro - Vitoria;Marathonbet;-200;+330;+690;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1745;Cruzeiro - Vitoria;Pinnacle;-217;+363;+705;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1746;Cruzeiro - Vitoria;Unibet;-182;+280;+475;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1747;Cruzeiro - Vitoria;William Hill;+475;+475;+475;Sunday, 03 Jul 2016, 14:00;Final result 2:2 (1:0, 1:2);1;Cruzeiro;Vitoria;03 Jul 2016; 2;2 ;2016
+1769;Internacional - Gremio;1xBet;+131;+229;+246;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1770;Internacional - Gremio;bet-at-home;+114;+208;+234;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1771;Internacional - Gremio;bet365;+114;+220;+250;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1772;Internacional - Gremio;bwin;+110;+210;+229;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1773;Internacional - Gremio;Marathonbet;+129;+229;+248;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1774;Internacional - Gremio;Pinnacle;+131;+224;+252;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1775;Internacional - Gremio;Unibet;+120;+210;+220;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1776;Internacional - Gremio;William Hill;+220;+220;+220;Sunday, 03 Jul 2016, 14:00;Final result 0:1 (0:1, 0:0);1;Internacional;Gremio;03 Jul 2016; 0;1 ;2016
+1798;Fluminense - Corinthians;1xBet;+175;+240;+174;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1799;Fluminense - Corinthians;bet-at-home;+185;+204;+143;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1800;Fluminense - Corinthians;bet365;+200;+240;+129;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1801;Fluminense - Corinthians;bwin;+185;+225;+125;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1802;Fluminense - Corinthians;Marathonbet;+175;+240;+172;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1803;Fluminense - Corinthians;Pinnacle;+229;+217;+147;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1804;Fluminense - Corinthians;Unibet;+179;+220;+140;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1805;Fluminense - Corinthians;William Hill;+140;+140;+140;Thursday, 16 Jun 2016, 23:00;Final result 1:0 (0:0, 1:0);1;Fluminense;Corinthians;16 Jun 2016; 1;0 ;2016
+1827;Internacional - Atletico-MG;1xBet;+102;+250;+309;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1828;Internacional - Atletico-MG;bet-at-home;-110;+235;+275;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1829;Internacional - Atletico-MG;bet365;-110;+240;+300;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1830;Internacional - Atletico-MG;bwin;-115;+229;+280;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1831;Internacional - Atletico-MG;Marathonbet;+100;+250;+315;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1832;Internacional - Atletico-MG;Pinnacle;+102;+246;+316;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1833;Internacional - Atletico-MG;Unibet;-111;+229;+300;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1834;Internacional - Atletico-MG;William Hill;+300;+300;+300;Thursday, 16 Jun 2016, 22:30;Final result 2:0 (1:0, 1:0);1;Internacional;Atletico-MG;16 Jun 2016; 2;0 ;2016
+1856;Coritiba - Palmeiras;1xBet;+177;+229;+179;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1857;Coritiba - Palmeiras;bet-at-home;+159;+206;+165;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1858;Coritiba - Palmeiras;bet365;+175;+240;+145;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1859;Coritiba - Palmeiras;bwin;+165;+229;+140;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1860;Coritiba - Palmeiras;Marathonbet;+177;+229;+177;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1861;Coritiba - Palmeiras;Pinnacle;+206;+220;+159;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1862;Coritiba - Palmeiras;Unibet;+179;+220;+145;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1863;Coritiba - Palmeiras;William Hill;+145;+145;+145;Thursday, 16 Jun 2016, 00:45;Final result 2:2 (1:1, 1:1);1;Coritiba;Palmeiras;16 Jun 2016; 2;2 ;2016
+1885;Cruzeiro - Flamengo RJ;1xBet;-109;+260;+344;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1886;Cruzeiro - Flamengo RJ;bet-at-home;+114;+210;+229;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1887;Cruzeiro - Flamengo RJ;bet365;+110;+210;+280;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1888;Cruzeiro - Flamengo RJ;bwin;+104;+195;+260;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1889;Cruzeiro - Flamengo RJ;Marathonbet;-111;+260;+350;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1890;Cruzeiro - Flamengo RJ;Pinnacle;+124;+236;+254;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1891;Cruzeiro - Flamengo RJ;Unibet;+114;+220;+229;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1892;Cruzeiro - Flamengo RJ;William Hill;+229;+229;+229;Thursday, 16 Jun 2016, 00:45;Final result 0:1 (0:1, 0:0);1;Cruzeiro;Flamengo RJ;16 Jun 2016; 0;1 ;2016
+1914;Botafogo RJ - America MG;1xBet;+131;+240;+236;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1915;Botafogo RJ - America MG;bet-at-home;-115;+217;+318;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1916;Botafogo RJ - America MG;bwin;-105;+190;+309;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1917;Botafogo RJ - America MG;Marathonbet;+129;+240;+236;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1918;Botafogo RJ - America MG;Pinnacle;-115;+256;+375;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1919;Botafogo RJ - America MG;Unibet;-118;+240;+300;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1920;Botafogo RJ - America MG;William Hill;-118;+220;+320;Thursday, 16 Jun 2016, 00:00;Final result 3:1 (3:0, 0:1);1;Botafogo RJ;America MG;16 Jun 2016; 3;1 ;2016
+1943;Santa Cruz - Figueirense;1xBet;-122;+270;+390;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1944;Santa Cruz - Figueirense;bet-at-home;-119;+224;+318;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1945;Santa Cruz - Figueirense;bet365;-120;+240;+350;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1946;Santa Cruz - Figueirense;bwin;-128;+229;+325;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1947;Santa Cruz - Figueirense;Marathonbet;-125;+270;+400;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1948;Santa Cruz - Figueirense;Pinnacle;+100;+246;+325;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1949;Santa Cruz - Figueirense;Unibet;-105;+229;+270;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1950;Santa Cruz - Figueirense;William Hill;+270;+270;+270;Thursday, 16 Jun 2016, 00:00;Final result 1:0 (1:0, 0:0);1;Santa Cruz;Figueirense;16 Jun 2016; 1;0 ;2016
+1972;Santos - Sport Recife;1xBet;-139;+270;+484;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1973;Santos - Sport Recife;bet-at-home;-172;+270;+430;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1974;Santos - Sport Recife;bet365;-175;+280;+500;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1975;Santos - Sport Recife;bwin;-182;+260;+450;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1976;Santos - Sport Recife;Marathonbet;-143;+270;+500;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1977;Santos - Sport Recife;Pinnacle;-196;+332;+661;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1978;Santos - Sport Recife;Unibet;-182;+280;+500;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+1979;Santos - Sport Recife;William Hill;+500;+500;+500;Thursday, 16 Jun 2016, 00:00;Final result 2:0 (0:0, 2:0);1;Santos;Sport Recife;16 Jun 2016; 2;0 ;2016
+2001;Chapecoense-SC - Gremio;1xBet;+200;+240;+152;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2002;Chapecoense-SC - Gremio;bet-at-home;+158;+196;+174;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2003;Chapecoense-SC - Gremio;bet365;+175;+229;+150;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2004;Chapecoense-SC - Gremio;bwin;+165;+220;+145;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2005;Chapecoense-SC - Gremio;Marathonbet;+202;+240;+150;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2006;Chapecoense-SC - Gremio;Pinnacle;+191;+211;+177;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2007;Chapecoense-SC - Gremio;Unibet;+160;+215;+160;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2008;Chapecoense-SC - Gremio;William Hill;+160;+160;+160;Wednesday, 15 Jun 2016, 22:30;Final result 3:3 (2:2, 1:1);1;Chapecoense-SC;Gremio;15 Jun 2016; 3;3 ;2016
+2030;Ponte Preta - Athletico-PR;1xBet;+122;+240;+260;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2031;Ponte Preta - Athletico-PR;bet-at-home;+102;+214;+264;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2032;Ponte Preta - Athletico-PR;bet365;+100;+229;+280;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2033;Ponte Preta - Athletico-PR;bwin;-105;+220;+260;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2034;Ponte Preta - Athletico-PR;Marathonbet;+120;+240;+262;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2035;Ponte Preta - Athletico-PR;Pinnacle;+104;+236;+317;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2036;Ponte Preta - Athletico-PR;Unibet;+104;+220;+250;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2037;Ponte Preta - Athletico-PR;William Hill;+250;+250;+250;Wednesday, 15 Jun 2016, 22:30;Final result 3:2 (1:1, 2:1);1;Ponte Preta;Athletico-PR;15 Jun 2016; 3;2 ;2016
+2059;Sao Paulo - Vitoria;1xBet;-161;+290;+565;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2060;Sao Paulo - Vitoria;bet-at-home;-192;+282;+487;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2061;Sao Paulo - Vitoria;bet365;-200;+280;+650;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2062;Sao Paulo - Vitoria;bwin;-208;+260;+600;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2063;Sao Paulo - Vitoria;Marathonbet;-167;+290;+590;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2064;Sao Paulo - Vitoria;Pinnacle;-222;+351;+763;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2065;Sao Paulo - Vitoria;Unibet;-200;+300;+500;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2066;Sao Paulo - Vitoria;William Hill;+500;+500;+500;Wednesday, 15 Jun 2016, 22:30;Final result 2:0 (0:0, 2:0);1;Sao Paulo;Vitoria;15 Jun 2016; 2;0 ;2016
+2088;Palmeiras - Corinthians;1xBet;+167;+229;+188;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2089;Palmeiras - Corinthians;bet-at-home;+141;+209;+184;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2090;Palmeiras - Corinthians;bet365;+140;+210;+188;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2091;Palmeiras - Corinthians;bwin;+140;+200;+185;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2092;Palmeiras - Corinthians;Marathonbet;+165;+229;+188;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2093;Palmeiras - Corinthians;Pinnacle;+156;+227;+204;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2094;Palmeiras - Corinthians;Unibet;+150;+220;+165;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2095;Palmeiras - Corinthians;William Hill;+165;+165;+165;Sunday, 12 Jun 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Palmeiras;Corinthians;12 Jun 2016; 1;0 ;2016
+2117;Atletico-MG - Gremio;1xBet;+102;+250;+309;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2118;Atletico-MG - Gremio;bet-at-home;+104;+212;+254;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2119;Atletico-MG - Gremio;bet365;-105;+240;+280;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2120;Atletico-MG - Gremio;bwin;-105;+225;+260;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2121;Atletico-MG - Gremio;Marathonbet;+100;+250;+315;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2122;Atletico-MG - Gremio;Pinnacle;+102;+240;+320;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2123;Atletico-MG - Gremio;Unibet;-105;+225;+300;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2124;Atletico-MG - Gremio;William Hill;+300;+300;+300;Friday, 27 May 2016, 00:00;Final result 0:3 (0:3, 0:0);1;Atletico-MG;Gremio;27 May 2016; 0;3 ;2016
+2146;Internacional - Sport Recife;1xBet;-149;+300;+475;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2147;Internacional - Sport Recife;bet-at-home;-196;+269;+541;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2148;Internacional - Sport Recife;bet365;-175;+280;+500;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2149;Internacional - Sport Recife;bwin;-189;+270;+475;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2150;Internacional - Sport Recife;Marathonbet;-154;+300;+490;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2151;Internacional - Sport Recife;Pinnacle;-182;+308;+633;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2152;Internacional - Sport Recife;Unibet;-182;+270;+550;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2153;Internacional - Sport Recife;William Hill;+550;+550;+550;Thursday, 26 May 2016, 19:00;Final result 1:0 (0:0, 1:0);1;Internacional;Sport Recife;26 May 2016; 1;0 ;2016
+2175;Corinthians - Ponte Preta;1xBet;-175;+300;+640;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2176;Corinthians - Ponte Preta;bet-at-home;-175;+252;+492;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2177;Corinthians - Ponte Preta;bet365;-167;+270;+500;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2178;Corinthians - Ponte Preta;bwin;-175;+250;+475;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2179;Corinthians - Ponte Preta;Marathonbet;-182;+300;+670;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2180;Corinthians - Ponte Preta;Pinnacle;-159;+282;+578;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2181;Corinthians - Ponte Preta;Unibet;-182;+250;+600;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2182;Corinthians - Ponte Preta;William Hill;+600;+600;+600;Thursday, 26 May 2016, 14:00;Final result 3:0 (2:0, 1:0);1;Corinthians;Ponte Preta;26 May 2016; 3;0 ;2016
+2204;Coritiba - Sao Paulo;1xBet;+200;+240;+152;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2205;Coritiba - Sao Paulo;bet-at-home;+136;+206;+193;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2206;Coritiba - Sao Paulo;bet365;+150;+229;+175;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2207;Coritiba - Sao Paulo;bwin;+145;+220;+165;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2208;Coritiba - Sao Paulo;Marathonbet;+202;+240;+150;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2209;Coritiba - Sao Paulo;Pinnacle;+148;+225;+218;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2210;Coritiba - Sao Paulo;Unibet;+200;+220;+135;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2211;Coritiba - Sao Paulo;William Hill;+135;+135;+135;Thursday, 26 May 2016, 00:45;Final result 1:1 (0:0, 1:1);1;Coritiba;Sao Paulo;26 May 2016; 1;1 ;2016
+2233;Palmeiras - Fluminense;1xBet;-122;+270;+390;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2234;Palmeiras - Fluminense;bet-at-home;-119;+221;+326;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2235;Palmeiras - Fluminense;bet365;-120;+260;+320;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2236;Palmeiras - Fluminense;bwin;-125;+240;+300;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2237;Palmeiras - Fluminense;Marathonbet;-125;+270;+400;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2238;Palmeiras - Fluminense;Pinnacle;-109;+257;+346;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2239;Palmeiras - Fluminense;Unibet;-111;+240;+300;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2240;Palmeiras - Fluminense;William Hill;+300;+300;+300;Thursday, 26 May 2016, 00:45;Final result 2:0 (0:0, 2:0);1;Palmeiras;Fluminense;26 May 2016; 2;0 ;2016
+2262;Santa Cruz - Cruzeiro;1xBet;+209;+250;+142;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2263;Santa Cruz - Cruzeiro;bet-at-home;+131;+216;+193;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2264;Santa Cruz - Cruzeiro;bet365;+138;+240;+188;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2265;Santa Cruz - Cruzeiro;bwin;+129;+229;+175;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2266;Santa Cruz - Cruzeiro;Marathonbet;+210;+250;+140;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2267;Santa Cruz - Cruzeiro;Pinnacle;+144;+235;+214;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2268;Santa Cruz - Cruzeiro;Unibet;+154;+229;+165;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2269;Santa Cruz - Cruzeiro;William Hill;+165;+165;+165;Thursday, 26 May 2016, 00:45;Final result 4:1 (1:0, 3:1);1;Santa Cruz;Cruzeiro;26 May 2016; 4;1 ;2016
+2291;America MG - Vitoria;1xBet;-109;+250;+363;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2292;America MG - Vitoria;bet-at-home;-101;+223;+261;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2293;America MG - Vitoria;bet365;-105;+240;+280;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2294;America MG - Vitoria;bwin;-110;+229;+260;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2295;America MG - Vitoria;Marathonbet;-111;+250;+370;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2296;America MG - Vitoria;Pinnacle;+104;+247;+305;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2297;America MG - Vitoria;Unibet;-105;+225;+300;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2298;America MG - Vitoria;William Hill;+300;+300;+300;Thursday, 26 May 2016, 00:00;Final result 1:1 (0:0, 1:1);1;America MG;Vitoria;26 May 2016; 1;1 ;2016
+2320;Flamengo RJ - Chapecoense-SC;1xBet;-139;+274;+480;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2321;Flamengo RJ - Chapecoense-SC;bet-at-home;-152;+247;+404;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2322;Flamengo RJ - Chapecoense-SC;bet365;-154;+275;+425;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2323;Flamengo RJ - Chapecoense-SC;bwin;-161;+260;+400;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2324;Flamengo RJ - Chapecoense-SC;Marathonbet;-143;+275;+490;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2325;Flamengo RJ - Chapecoense-SC;Pinnacle;-143;+275;+482;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2326;Flamengo RJ - Chapecoense-SC;Unibet;-143;+250;+400;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2327;Flamengo RJ - Chapecoense-SC;William Hill;+400;+400;+400;Thursday, 26 May 2016, 00:00;Final result 2:2 (1:1, 1:1);1;Flamengo RJ;Chapecoense-SC;26 May 2016; 2;2 ;2016
+2349;Figueirense - Ponte Preta;1xBet;+125;+229;+258;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2350;Figueirense - Ponte Preta;bet-at-home;+110;+219;+231;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2351;Figueirense - Ponte Preta;bet365;+110;+220;+229;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2352;Figueirense - Ponte Preta;bwin;+110;+220;+225;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2353;Figueirense - Ponte Preta;Marathonbet;+124;+229;+260;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2354;Figueirense - Ponte Preta;Pinnacle;+122;+227;+270;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2355;Figueirense - Ponte Preta;Unibet;+110;+220;+240;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016
+2356;Figueirense - Ponte Preta;William Hill;+240;+240;+240;Sunday, 15 May 2016, 19:00;Final result 0:0 (0:0, 0:0);1;Figueirense;Ponte Preta;15 May 2016; 0;0 ;2016

@@ -1,0 +1,322 @@
+index;TeamsRaw;Bookmaker;OddHome;OddAway;DateRaw;ScoreRaw;TO_KEEP;Home_id;Away_id;Date;Score_home;Score_away;Season
+0;San Francisco 49ers - Baltimore Ravens;bet-at-home;-182;+140;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+1;San Francisco 49ers - Baltimore Ravens;bet365;-192;+167;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+2;San Francisco 49ers - Baltimore Ravens;Marathonbet;-204;+190;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+3;San Francisco 49ers - Baltimore Ravens;Pinnacle;-196;+175;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+4;San Francisco 49ers - Baltimore Ravens;Unibet;-189;+154;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+5;San Francisco 49ers - Baltimore Ravens;William Hill;+154;+150;Sunday, 03 Feb 2013, 22:30;Final result 31:34 (3:7, 3:14, 17:7, 8:6);1;San Francisco 49ers;Baltimore Ravens;03 Feb 2013; 31;34 ;2012-2013
+29;NFC - AFC;bet-at-home;+120;-154;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+30;NFC - AFC;bet365;-116;-105;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+31;NFC - AFC;bwin;+125;-149;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+32;NFC - AFC;Marathonbet;+104;-111;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+33;NFC - AFC;Pinnacle;+104;-115;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+34;NFC - AFC;Unibet;-105;-118;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+35;NFC - AFC;William Hill;-110;-110;Sunday, 27 Jan 2013, 23:00;Final result 62:35 (7:7, 24:7, 21:7, 10:14);1;NFC;AFC;27 Jan 2013; 62;35 ;2012-2013
+58;New England Patriots - Baltimore Ravens;bet-at-home;-435;+320;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+59;New England Patriots - Baltimore Ravens;bet365;-435;+325;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+60;New England Patriots - Baltimore Ravens;bwin;-435;+325;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+61;New England Patriots - Baltimore Ravens;Marathonbet;-455;+409;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+62;New England Patriots - Baltimore Ravens;Pinnacle;-400;+350;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+63;New England Patriots - Baltimore Ravens;Unibet;-455;+340;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+64;New England Patriots - Baltimore Ravens;William Hill;-400;+350;Sunday, 20 Jan 2013, 22:30;Final result 13:28 (3:0, 10:7, 0:7, 0:14);1;New England Patriots;Baltimore Ravens;20 Jan 2013; 13;28 ;2012-2013
+87;Atlanta Falcons - San Francisco 49ers;bet-at-home;+150;-200;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+88;Atlanta Falcons - San Francisco 49ers;bet365;+129;-152;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+89;Atlanta Falcons - San Francisco 49ers;bwin;+140;-167;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+90;Atlanta Falcons - San Francisco 49ers;Marathonbet;+170;-182;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+91;Atlanta Falcons - San Francisco 49ers;Pinnacle;+158;-175;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+92;Atlanta Falcons - San Francisco 49ers;Unibet;+150;-185;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+93;Atlanta Falcons - San Francisco 49ers;William Hill;+150;-169;Sunday, 20 Jan 2013, 19:00;Final result 24:28 (10:0, 14:14, 0:7, 0:7);1;Atlanta Falcons;San Francisco 49ers;20 Jan 2013; 24;28 ;2012-2013
+116;New England Patriots - Houston Texans;bet-at-home;-400;+290;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+117;New England Patriots - Houston Texans;bet365;-455;+350;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+118;New England Patriots - Houston Texans;bwin;+350;+350;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+119;New England Patriots - Houston Texans;Marathonbet;-323;+295;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+120;New England Patriots - Houston Texans;Pinnacle;-417;+354;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+121;New England Patriots - Houston Texans;Unibet;-400;+305;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+122;New England Patriots - Houston Texans;William Hill;-400;+300;Sunday, 13 Jan 2013, 20:30;Final result 41:28 (7:3, 10:10, 14:0, 10:15);1;New England Patriots;Houston Texans;13 Jan 2013; 41;28 ;2012-2013
+145;Atlanta Falcons - Seattle Seahawks;bet-at-home;-143;+110;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+146;Atlanta Falcons - Seattle Seahawks;bet365;-141;+120;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+147;Atlanta Falcons - Seattle Seahawks;bwin;-137;+114;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+148;Atlanta Falcons - Seattle Seahawks;Marathonbet;-133;+125;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+149;Atlanta Falcons - Seattle Seahawks;Pinnacle;-132;+119;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+150;Atlanta Falcons - Seattle Seahawks;Unibet;-143;+120;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+151;Atlanta Falcons - Seattle Seahawks;William Hill;-141;+120;Sunday, 13 Jan 2013, 17:00;Final result 30:28 (10:0, 10:0, 7:7, 3:21);1;Atlanta Falcons;Seattle Seahawks;13 Jan 2013; 30;28 ;2012-2013
+174;Buffalo Bills - Seattle Seahawks;bet-at-home;+129;-167;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+175;Buffalo Bills - Seattle Seahawks;bet365;+210;-250;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+176;Buffalo Bills - Seattle Seahawks;bwin;+135;-161;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+177;Buffalo Bills - Seattle Seahawks;Marathonbet;+144;-154;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+178;Buffalo Bills - Seattle Seahawks;Pinnacle;+214;-238;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+179;Buffalo Bills - Seattle Seahawks;Unibet;+210;-270;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+180;Buffalo Bills - Seattle Seahawks;William Hill;+200;-238;Sunday, 16 Dec 2012, 20:05;Final result 17:50 (7:14, 10:17, 0:16, 0:3);1;Buffalo Bills;Seattle Seahawks;16 Dec 2012; 17;50 ;2012-2013
+203;Atlanta Falcons - New York Giants;bet-at-home;-167;+129;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+204;Atlanta Falcons - New York Giants;bet365;-120;+100;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+205;Atlanta Falcons - New York Giants;bwin;-161;+135;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+206;Atlanta Falcons - New York Giants;Marathonbet;-154;+144;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+207;Atlanta Falcons - New York Giants;Pinnacle;-120;+108;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+208;Atlanta Falcons - New York Giants;Unibet;-130;+104;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+209;Atlanta Falcons - New York Giants;William Hill;-130;+110;Sunday, 16 Dec 2012, 17:00;Final result 34:0 (14:0, 3:0, 10:0, 7:0);1;Atlanta Falcons;New York Giants;16 Dec 2012; 34;0 ;2012-2013
+232;Baltimore Ravens - Denver Broncos;bet-at-home;-111;-125;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+233;Baltimore Ravens - Denver Broncos;bet365;+120;-141;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+234;Baltimore Ravens - Denver Broncos;bwin;-143;+120;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+235;Baltimore Ravens - Denver Broncos;Marathonbet;+114;-122;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+236;Baltimore Ravens - Denver Broncos;Pinnacle;+127;-141;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+237;Baltimore Ravens - Denver Broncos;Unibet;+125;-154;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+238;Baltimore Ravens - Denver Broncos;William Hill;+120;-141;Sunday, 16 Dec 2012, 17:00;Final result 17:34 (0:3, 0:14, 3:14, 14:3);1;Baltimore Ravens;Denver Broncos;16 Dec 2012; 17;34 ;2012-2013
+261;Chicago Bears - Green Bay Packers;bet-at-home;-125;-111;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+262;Chicago Bears - Green Bay Packers;bet365;+145;-167;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+263;Chicago Bears - Green Bay Packers;bwin;-115;-105;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+264;Chicago Bears - Green Bay Packers;Marathonbet;+112;-120;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+265;Chicago Bears - Green Bay Packers;Pinnacle;+124;-137;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+266;Chicago Bears - Green Bay Packers;Unibet;+129;-161;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+267;Chicago Bears - Green Bay Packers;William Hill;+140;-161;Sunday, 16 Dec 2012, 17:00;Final result 13:21 (0:0, 7:14, 3:7, 3:0);1;Chicago Bears;Green Bay Packers;16 Dec 2012; 13;21 ;2012-2013
+290;Cleveland Browns - Washington Commanders;bet-at-home;+110;-143;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+291;Cleveland Browns - Washington Commanders;bet365;+100;-120;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+292;Cleveland Browns - Washington Commanders;bwin;+120;-143;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+293;Cleveland Browns - Washington Commanders;Marathonbet;+120;-128;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+294;Cleveland Browns - Washington Commanders;Pinnacle;-172;+156;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+295;Cleveland Browns - Washington Commanders;Unibet;-213;+170;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+296;Cleveland Browns - Washington Commanders;William Hill;+100;-120;Sunday, 16 Dec 2012, 17:00;Final result 21:38 (7:7, 7:3, 0:14, 7:14);1;Cleveland Browns;Washington Commanders;16 Dec 2012; 21;38 ;2012-2013
+319;Houston Texans - Indianapolis Colts;bet-at-home;-370;+270;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+320;Houston Texans - Indianapolis Colts;bet365;-400;+309;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+321;Houston Texans - Indianapolis Colts;bwin;-370;+285;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+322;Houston Texans - Indianapolis Colts;Marathonbet;-476;+430;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+323;Houston Texans - Indianapolis Colts;Pinnacle;-385;+338;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+324;Houston Texans - Indianapolis Colts;Unibet;-455;+330;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+325;Houston Texans - Indianapolis Colts;William Hill;-400;+300;Sunday, 16 Dec 2012, 17:00;Final result 29:17 (10:0, 10:10, 3:7, 6:0);1;Houston Texans;Indianapolis Colts;16 Dec 2012; 29;17 ;2012-2013
+348;Los Angeles Rams - Minnesota Vikings;bet-at-home;-143;+110;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+349;Los Angeles Rams - Minnesota Vikings;bet365;-147;+125;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+350;Los Angeles Rams - Minnesota Vikings;bwin;-143;+120;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+351;Los Angeles Rams - Minnesota Vikings;Marathonbet;-147;+138;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+352;Los Angeles Rams - Minnesota Vikings;Pinnacle;-139;+125;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+353;Los Angeles Rams - Minnesota Vikings;Unibet;-149;+120;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+354;Los Angeles Rams - Minnesota Vikings;William Hill;-145;+125;Sunday, 16 Dec 2012, 17:00;Final result 22:36 (0:7, 7:23, 0:3, 15:3);1;Los Angeles Rams;Minnesota Vikings;16 Dec 2012; 22;36 ;2012-2013
+377;Jacksonville Jaguars - New York Jets;bet-at-home;+129;-167;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+378;Jacksonville Jaguars - New York Jets;bet365;+125;-147;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+379;Jacksonville Jaguars - New York Jets;bwin;+135;-161;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+380;Jacksonville Jaguars - New York Jets;Marathonbet;+131;-141;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+381;Jacksonville Jaguars - New York Jets;Pinnacle;+125;-139;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+382;Jacksonville Jaguars - New York Jets;Unibet;+120;-149;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+383;Jacksonville Jaguars - New York Jets;William Hill;+125;-145;Sunday, 09 Dec 2012, 17:00;Final result 10:17 (0:0, 3:0, 0:10, 7:7);1;Jacksonville Jaguars;New York Jets;09 Dec 2012; 10;17 ;2012-2013
+406;Indianapolis Colts - Buffalo Bills;bet-at-home;-182;+140;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+407;Indianapolis Colts - Buffalo Bills;bet365;-167;+145;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+408;Indianapolis Colts - Buffalo Bills;bwin;-189;+154;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+409;Indianapolis Colts - Buffalo Bills;Marathonbet;-167;+156;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+410;Indianapolis Colts - Buffalo Bills;Pinnacle;-167;+150;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+411;Indianapolis Colts - Buffalo Bills;Unibet;-175;+140;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+412;Indianapolis Colts - Buffalo Bills;William Hill;-169;+150;Sunday, 25 Nov 2012, 17:00;Final result 20:13 (7:3, 6:3, 7:0, 0:7);1;Indianapolis Colts;Buffalo Bills;25 Nov 2012; 20;13 ;2012-2013
+435;Jacksonville Jaguars - Tennessee Titans;bet-at-home;+120;-154;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+436;Jacksonville Jaguars - Tennessee Titans;bet365;+140;-161;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+437;Jacksonville Jaguars - Tennessee Titans;bwin;+114;-137;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+438;Jacksonville Jaguars - Tennessee Titans;Marathonbet;+140;-149;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+439;Jacksonville Jaguars - Tennessee Titans;Pinnacle;+143;-159;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+440;Jacksonville Jaguars - Tennessee Titans;Unibet;+135;-167;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+441;Jacksonville Jaguars - Tennessee Titans;William Hill;+129;-149;Sunday, 25 Nov 2012, 17:00;Final result 24:19 (7:3, 0:3, 7:3, 10:10);1;Jacksonville Jaguars;Tennessee Titans;25 Nov 2012; 24;19 ;2012-2013
+464;Kansas City Chiefs - Denver Broncos;bet-at-home;+400;-588;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+465;Kansas City Chiefs - Denver Broncos;bet365;+400;-526;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+466;Kansas City Chiefs - Denver Broncos;bwin;+250;-312;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+467;Kansas City Chiefs - Denver Broncos;Marathonbet;+470;-526;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+468;Kansas City Chiefs - Denver Broncos;Pinnacle;+408;-476;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+469;Kansas City Chiefs - Denver Broncos;Unibet;+405;-588;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+470;Kansas City Chiefs - Denver Broncos;William Hill;-588;-588;Sunday, 25 Nov 2012, 17:00;Final result 9:17 (6:0, 0:7, 3:7, 0:3);1;Kansas City Chiefs;Denver Broncos;25 Nov 2012; 9;17 ;2012-2013
+493;Miami Dolphins - Seattle Seahawks;bet-at-home;+120;-154;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+494;Miami Dolphins - Seattle Seahawks;bet365;+140;-161;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+495;Miami Dolphins - Seattle Seahawks;bwin;-115;-105;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+496;Miami Dolphins - Seattle Seahawks;Marathonbet;+129;-139;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+497;Miami Dolphins - Seattle Seahawks;Pinnacle;+140;-154;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+498;Miami Dolphins - Seattle Seahawks;Unibet;+135;-167;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+499;Miami Dolphins - Seattle Seahawks;William Hill;+129;-149;Sunday, 25 Nov 2012, 17:00;Final result 24:21 (0:0, 7:7, 0:7, 17:7);1;Miami Dolphins;Seattle Seahawks;25 Nov 2012; 24;21 ;2012-2013
+522;Tampa Bay Buccaneers - Atlanta Falcons;bet-at-home;-118;-118;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+523;Tampa Bay Buccaneers - Atlanta Falcons;bet365;-105;-116;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+524;Tampa Bay Buccaneers - Atlanta Falcons;bwin;+154;-189;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+525;Tampa Bay Buccaneers - Atlanta Falcons;Marathonbet;+104;-111;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+526;Tampa Bay Buccaneers - Atlanta Falcons;Pinnacle;-103;-108;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+527;Tampa Bay Buccaneers - Atlanta Falcons;Unibet;-109;-114;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+528;Tampa Bay Buccaneers - Atlanta Falcons;William Hill;-105;-115;Sunday, 25 Nov 2012, 17:00;Final result 23:24 (7:3, 3:7, 3:7, 10:7);1;Tampa Bay Buccaneers;Atlanta Falcons;25 Nov 2012; 23;24 ;2012-2013
+551;New York Jets - New England Patriots;bet-at-home;+240;-333;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+552;New York Jets - New England Patriots;bet365;+245;-312;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+553;New York Jets - New England Patriots;bwin;+250;-312;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+554;New York Jets - New England Patriots;Marathonbet;+210;-222;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+555;New York Jets - New England Patriots;Pinnacle;+248;-278;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+556;New York Jets - New England Patriots;Unibet;+240;-312;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+557;New York Jets - New England Patriots;William Hill;+240;-278;Friday, 23 Nov 2012, 00:20;Final result 19:49 (0:0, 3:35, 9:0, 7:14);1;New York Jets;New England Patriots;23 Nov 2012; 19;49 ;2012-2013
+580;Dallas Cowboys - Washington Commanders;bet-at-home;-286;+210;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+581;Dallas Cowboys - Washington Commanders;bet365;-175;+154;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+582;Dallas Cowboys - Washington Commanders;bwin;-263;+210;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+583;Dallas Cowboys - Washington Commanders;Marathonbet;-169;+158;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+584;Dallas Cowboys - Washington Commanders;Pinnacle;-172;+154;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+585;Dallas Cowboys - Washington Commanders;Unibet;-182;+145;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+586;Dallas Cowboys - Washington Commanders;William Hill;-169;+150;Thursday, 22 Nov 2012, 20:25;Final result 31:38 (3:0, 0:28, 10:0, 18:10);1;Dallas Cowboys;Washington Commanders;22 Nov 2012; 31;38 ;2012-2013
+638;Arizona Cardinals - San Francisco 49ers;bet-at-home;+240;-333;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+639;Arizona Cardinals - San Francisco 49ers;bet365;+245;-312;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+640;Arizona Cardinals - San Francisco 49ers;bwin;+179;-222;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+641;Arizona Cardinals - San Francisco 49ers;Marathonbet;+245;-263;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+642;Arizona Cardinals - San Francisco 49ers;Pinnacle;+248;-278;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+643;Arizona Cardinals - San Francisco 49ers;Unibet;+240;-312;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+644;Arizona Cardinals - San Francisco 49ers;William Hill;+250;-303;Tuesday, 30 Oct 2012, 00:30;Final result 3:24 (0:7, 0:10, 3:7, 0:0);1;Arizona Cardinals;San Francisco 49ers;30 Oct 2012; 3;24 ;2012-2013
+667;Denver Broncos - New Orleans Saints;bet-at-home;-286;+210;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+668;Denver Broncos - New Orleans Saints;bet365;-278;+225;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+669;Denver Broncos - New Orleans Saints;bwin;-208;+170;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+670;Denver Broncos - New Orleans Saints;Marathonbet;-233;+215;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+671;Denver Broncos - New Orleans Saints;Pinnacle;-270;+241;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+672;Denver Broncos - New Orleans Saints;Unibet;-294;+225;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+673;Denver Broncos - New Orleans Saints;William Hill;-250;+210;Monday, 29 Oct 2012, 00:20;Final result 34:14 (7:0, 10:7, 7:0, 10:7);1;Denver Broncos;New Orleans Saints;29 Oct 2012; 34;14 ;2012-2013
+696;Dallas Cowboys - New York Giants;bet-at-home;-111;-125;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+697;Dallas Cowboys - New York Giants;bet365;+100;-120;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+698;Dallas Cowboys - New York Giants;bwin;-110;-110;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+699;Dallas Cowboys - New York Giants;Marathonbet;-106;+100;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+700;Dallas Cowboys - New York Giants;Pinnacle;-105;-105;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+701;Dallas Cowboys - New York Giants;Unibet;-105;-118;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+702;Dallas Cowboys - New York Giants;William Hill;+104;-125;Sunday, 28 Oct 2012, 20:25;Final result 24:29 (0:13, 10:10, 14:0, 0:6);1;Dallas Cowboys;New York Giants;28 Oct 2012; 24;29 ;2012-2013
+725;Kansas City Chiefs - Las Vegas Raiders;bet-at-home;-133;+100;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+726;Kansas City Chiefs - Las Vegas Raiders;bet365;-125;+104;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+727;Kansas City Chiefs - Las Vegas Raiders;bwin;-161;+135;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+728;Kansas City Chiefs - Las Vegas Raiders;Marathonbet;-128;+120;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+729;Kansas City Chiefs - Las Vegas Raiders;Pinnacle;-125;+112;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+730;Kansas City Chiefs - Las Vegas Raiders;Unibet;-139;+112;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+731;Kansas City Chiefs - Las Vegas Raiders;William Hill;-135;+114;Sunday, 28 Oct 2012, 20:05;Final result 16:26 (0:3, 6:10, 3:10, 7:3);1;Kansas City Chiefs;Las Vegas Raiders;28 Oct 2012; 16;26 ;2012-2013
+754;Chicago Bears - Carolina Panthers;bet-at-home;-500;+350;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+755;Chicago Bears - Carolina Panthers;bet365;-400;+309;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+756;Chicago Bears - Carolina Panthers;bwin;-278;+220;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+757;Chicago Bears - Carolina Panthers;Marathonbet;-455;+409;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+758;Chicago Bears - Carolina Panthers;Pinnacle;-417;+361;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+759;Chicago Bears - Carolina Panthers;Unibet;-455;+330;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+760;Chicago Bears - Carolina Panthers;William Hill;+330;+330;Sunday, 28 Oct 2012, 17:00;Final result 23:22 (7:3, 0:10, 0:6, 16:3);1;Chicago Bears;Carolina Panthers;28 Oct 2012; 23;22 ;2012-2013
+783;Cleveland Browns - Los Angeles Chargers;bet-at-home;+129;-167;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+784;Cleveland Browns - Los Angeles Chargers;bet365;+140;-161;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+785;Cleveland Browns - Los Angeles Chargers;bwin;+170;-208;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+786;Cleveland Browns - Los Angeles Chargers;Marathonbet;+125;-135;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+787;Cleveland Browns - Los Angeles Chargers;Pinnacle;+144;-159;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+788;Cleveland Browns - Los Angeles Chargers;Unibet;+125;-154;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+789;Cleveland Browns - Los Angeles Chargers;William Hill;+120;-141;Sunday, 28 Oct 2012, 17:00;Final result 7:6 (7:0, 0:3, 0:3, 0:0);1;Cleveland Browns;Los Angeles Chargers;28 Oct 2012; 7;6 ;2012-2013
+812;Detroit Lions - Seattle Seahawks;bet-at-home;-154;+120;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+813;Detroit Lions - Seattle Seahawks;bet365;-135;+114;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+814;Detroit Lions - Seattle Seahawks;bwin;-182;+150;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+815;Detroit Lions - Seattle Seahawks;Marathonbet;-143;+134;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+816;Detroit Lions - Seattle Seahawks;Pinnacle;-130;+118;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+817;Detroit Lions - Seattle Seahawks;Unibet;-133;+108;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+818;Detroit Lions - Seattle Seahawks;William Hill;-145;+125;Sunday, 28 Oct 2012, 17:00;Final result 28:24 (7:3, 7:14, 0:0, 14:7);1;Detroit Lions;Seattle Seahawks;28 Oct 2012; 28;24 ;2012-2013
+841;Green Bay Packers - Jacksonville Jaguars;bet-at-home;-1000;+600;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+842;Green Bay Packers - Jacksonville Jaguars;bet365;-1429;+800;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+843;Green Bay Packers - Jacksonville Jaguars;bwin;-833;+525;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+844;Green Bay Packers - Jacksonville Jaguars;Marathonbet;-833;+650;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+845;Green Bay Packers - Jacksonville Jaguars;Pinnacle;-833;+638;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+846;Green Bay Packers - Jacksonville Jaguars;Unibet;+638;+638;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+847;Green Bay Packers - Jacksonville Jaguars;William Hill;-1000;+650;Sunday, 28 Oct 2012, 17:00;Final result 24:15 (7:3, 7:9, 0:0, 10:3);1;Green Bay Packers;Jacksonville Jaguars;28 Oct 2012; 24;15 ;2012-2013
+899;Kansas City Chiefs - Baltimore Ravens;bet-at-home;+185;-250;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+900;Kansas City Chiefs - Baltimore Ravens;bet365;+185;-227;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+901;Kansas City Chiefs - Baltimore Ravens;bwin;+195;-238;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+902;Kansas City Chiefs - Baltimore Ravens;Marathonbet;+190;-204;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+903;Kansas City Chiefs - Baltimore Ravens;Pinnacle;+193;-213;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+904;Kansas City Chiefs - Baltimore Ravens;Unibet;+185;-238;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+905;Kansas City Chiefs - Baltimore Ravens;William Hill;+179;-222;Sunday, 07 Oct 2012, 17:00;Final result 6:9 (0:3, 3:0, 0:6, 3:0);1;Kansas City Chiefs;Baltimore Ravens;07 Oct 2012; 6;9 ;2012-2013
+928;New York Giants - Cleveland Browns;bet-at-home;-400;+290;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+929;New York Giants - Cleveland Browns;bet365;-400;+320;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+930;New York Giants - Cleveland Browns;bwin;-714;+450;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+931;New York Giants - Cleveland Browns;Marathonbet;-500;+450;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+932;New York Giants - Cleveland Browns;Pinnacle;-400;+346;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+933;New York Giants - Cleveland Browns;Unibet;-476;+340;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+934;New York Giants - Cleveland Browns;William Hill;-500;+350;Sunday, 07 Oct 2012, 17:00;Final result 41:27 (7:14, 20:3, 7:3, 7:7);1;New York Giants;Cleveland Browns;07 Oct 2012; 41;27 ;2012-2013
+957;Pittsburgh Steelers - Philadelphia Eagles;bet-at-home;-200;+150;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+958;Pittsburgh Steelers - Philadelphia Eagles;bet365;-185;+165;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+959;Pittsburgh Steelers - Philadelphia Eagles;bwin;-154;+129;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+960;Pittsburgh Steelers - Philadelphia Eagles;Marathonbet;-169;+158;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+961;Pittsburgh Steelers - Philadelphia Eagles;Pinnacle;-179;+162;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+962;Pittsburgh Steelers - Philadelphia Eagles;Unibet;-192;+154;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+963;Pittsburgh Steelers - Philadelphia Eagles;William Hill;-179;+160;Sunday, 07 Oct 2012, 17:00;Final result 16:14 (0:0, 10:0, 0:7, 6:7);1;Pittsburgh Steelers;Philadelphia Eagles;07 Oct 2012; 16;14 ;2012-2013
+986;Washington Commanders - Atlanta Falcons;bet-at-home;+129;-167;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+987;Washington Commanders - Atlanta Falcons;bet365;+135;-156;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+988;Washington Commanders - Atlanta Falcons;bwin;+120;-143;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+989;Washington Commanders - Atlanta Falcons;Marathonbet;+152;-161;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+990;Washington Commanders - Atlanta Falcons;Pinnacle;+136;-149;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+991;Washington Commanders - Atlanta Falcons;Unibet;+129;-161;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+992;Washington Commanders - Atlanta Falcons;William Hill;+129;-149;Sunday, 07 Oct 2012, 17:00;Final result 17:24 (0:0, 7:7, 3:0, 7:17);1;Washington Commanders;Atlanta Falcons;07 Oct 2012; 17;24 ;2012-2013
+1015;Los Angeles Rams - Arizona Cardinals;bet-at-home;-111;-125;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1016;Los Angeles Rams - Arizona Cardinals;bet365;+104;-125;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1017;Los Angeles Rams - Arizona Cardinals;bwin;+100;-120;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1018;Los Angeles Rams - Arizona Cardinals;Marathonbet;+112;-120;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1019;Los Angeles Rams - Arizona Cardinals;Pinnacle;+104;-116;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1020;Los Angeles Rams - Arizona Cardinals;Unibet;+100;-123;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1021;Los Angeles Rams - Arizona Cardinals;William Hill;-123;-123;Friday, 05 Oct 2012, 00:20;Final result 17:3 (7:3, 3:0, 0:0, 7:0);1;Los Angeles Rams;Arizona Cardinals;05 Oct 2012; 17;3 ;2012-2013
+1044;Dallas Cowboys - Chicago Bears;bet-at-home;-200;+150;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1045;Dallas Cowboys - Chicago Bears;bet365;-200;+170;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1046;Dallas Cowboys - Chicago Bears;bwin;-213;+175;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1047;Dallas Cowboys - Chicago Bears;Marathonbet;-172;+162;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1048;Dallas Cowboys - Chicago Bears;Pinnacle;-208;+188;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1049;Dallas Cowboys - Chicago Bears;Unibet;-222;+175;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1050;Dallas Cowboys - Chicago Bears;William Hill;-179;+160;Tuesday, 02 Oct 2012, 00:30;Final result 18:34 (0:0, 7:10, 3:14, 8:10);1;Dallas Cowboys;Chicago Bears;02 Oct 2012; 18;34 ;2012-2013
+1073;Philadelphia Eagles - Baltimore Ravens;bet-at-home;-200;+150;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1074;Philadelphia Eagles - Baltimore Ravens;bet365;-135;+114;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1075;Philadelphia Eagles - Baltimore Ravens;bwin;-200;+165;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1076;Philadelphia Eagles - Baltimore Ravens;Marathonbet;-167;+156;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1077;Philadelphia Eagles - Baltimore Ravens;Pinnacle;-127;+114;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1078;Philadelphia Eagles - Baltimore Ravens;Unibet;-143;+114;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1079;Philadelphia Eagles - Baltimore Ravens;William Hill;-120;+100;Sunday, 16 Sep 2012, 17:00;Final result 24:23 (7:7, 0:10, 10:0, 7:6);1;Philadelphia Eagles;Baltimore Ravens;16 Sep 2012; 24;23 ;2012-2013
+1102;Green Bay Packers - Chicago Bears;bet-at-home;-286;+210;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1103;Green Bay Packers - Chicago Bears;bet365;-263;+215;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1104;Green Bay Packers - Chicago Bears;bwin;-455;+340;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1105;Green Bay Packers - Chicago Bears;Marathonbet;-250;+229;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1106;Green Bay Packers - Chicago Bears;Pinnacle;-256;+227;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1107;Green Bay Packers - Chicago Bears;Unibet;-294;+225;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1108;Green Bay Packers - Chicago Bears;William Hill;-270;+229;Friday, 14 Sep 2012, 00:20;Final result 23:10 (0:0, 13:0, 0:3, 10:7);1;Green Bay Packers;Chicago Bears;14 Sep 2012; 23;10 ;2012-2013
+1131;Las Vegas Raiders - Los Angeles Chargers;bet-at-home;-125;-111;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1132;Las Vegas Raiders - Los Angeles Chargers;bet365;+100;-120;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1133;Las Vegas Raiders - Los Angeles Chargers;bwin;-120;+100;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1134;Las Vegas Raiders - Los Angeles Chargers;Marathonbet;+102;-111;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1135;Las Vegas Raiders - Los Angeles Chargers;Pinnacle;+108;-118;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1136;Las Vegas Raiders - Los Angeles Chargers;Unibet;+104;-130;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1137;Las Vegas Raiders - Los Angeles Chargers;William Hill;-105;-115;Tuesday, 11 Sep 2012, 02:15;Final result 14:22 (3:3, 3:7, 0:6, 8:6);1;Las Vegas Raiders;Los Angeles Chargers;11 Sep 2012; 14;22 ;2012-2013
+1160;Baltimore Ravens - Cincinnati Bengals;bet-at-home;-333;+240;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1161;Baltimore Ravens - Cincinnati Bengals;bet365;-278;+225;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1162;Baltimore Ravens - Cincinnati Bengals;bwin;-303;+240;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1163;Baltimore Ravens - Cincinnati Bengals;Marathonbet;-294;+265;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1164;Baltimore Ravens - Cincinnati Bengals;Pinnacle;-256;+231;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1165;Baltimore Ravens - Cincinnati Bengals;Unibet;-312;+240;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1166;Baltimore Ravens - Cincinnati Bengals;William Hill;-278;+240;Monday, 10 Sep 2012, 23:00;Final result 44:13 (10:0, 7:10, 17:3, 10:0);1;Baltimore Ravens;Cincinnati Bengals;10 Sep 2012; 44;13 ;2012-2013
+1189;Denver Broncos - Pittsburgh Steelers;bet-at-home;-154;+120;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1190;Denver Broncos - Pittsburgh Steelers;bet365;-120;+100;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1191;Denver Broncos - Pittsburgh Steelers;bwin;-143;+120;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1192;Denver Broncos - Pittsburgh Steelers;Marathonbet;-105;-103;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1193;Denver Broncos - Pittsburgh Steelers;Pinnacle;-114;+104;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1194;Denver Broncos - Pittsburgh Steelers;Unibet;-118;-105;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1195;Denver Broncos - Pittsburgh Steelers;William Hill;-115;-105;Monday, 10 Sep 2012, 00:20;Final result 31:19 (0:0, 7:10, 7:3, 17:6);1;Denver Broncos;Pittsburgh Steelers;10 Sep 2012; 31;19 ;2012-2013
+1218;New England Patriots - Philadelphia Eagles;bet-at-home;-154;+120;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1219;New England Patriots - Philadelphia Eagles;bet365;-120;+100;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1220;New England Patriots - Philadelphia Eagles;bwin;-167;+140;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1221;New England Patriots - Philadelphia Eagles;Pinnacle;-141;+127;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1222;New England Patriots - Philadelphia Eagles;Unibet;-118;-105;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1223;New England Patriots - Philadelphia Eagles;William Hill;-149;+129;Tuesday, 21 Aug 2012, 00:00;Final result 17:27 (3:0, 11:14, 3:10, 0:3);1;New England Patriots;Philadelphia Eagles;21 Aug 2012; 17;27 ;2012-2013
+1247;Pittsburgh Steelers - Indianapolis Colts;bet-at-home;-200;+150;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1248;Pittsburgh Steelers - Indianapolis Colts;bet365;-185;+165;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1249;Pittsburgh Steelers - Indianapolis Colts;bwin;-189;+154;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1250;Pittsburgh Steelers - Indianapolis Colts;Pinnacle;-185;+167;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1251;Pittsburgh Steelers - Indianapolis Colts;Unibet;+167;+167;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1252;Pittsburgh Steelers - Indianapolis Colts;William Hill;-200;+170;Monday, 20 Aug 2012, 00:00;Final result 26:24 (14:0, 0:17, 6:7, 6:0);1;Pittsburgh Steelers;Indianapolis Colts;20 Aug 2012; 26;24 ;2012-2013
+1276;Denver Broncos - Seattle Seahawks;bet-at-home;-118;-118;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1277;Denver Broncos - Seattle Seahawks;bet365;-116;-105;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1278;Denver Broncos - Seattle Seahawks;bwin;-137;+114;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1279;Denver Broncos - Seattle Seahawks;Pinnacle;-112;+102;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1280;Denver Broncos - Seattle Seahawks;Unibet;+102;+102;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1281;Denver Broncos - Seattle Seahawks;William Hill;-120;+100;Sunday, 19 Aug 2012, 01:00;Final result 10:30 (7:3, 3:6, 0:7, 0:14);1;Denver Broncos;Seattle Seahawks;19 Aug 2012; 10;30 ;2012-2013
+1305;Los Angeles Chargers - Dallas Cowboys;bet-at-home;-182;+140;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1306;Los Angeles Chargers - Dallas Cowboys;bet365;-182;+160;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1307;Los Angeles Chargers - Dallas Cowboys;bwin;-164;+135;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1308;Los Angeles Chargers - Dallas Cowboys;Pinnacle;-175;+158;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1309;Los Angeles Chargers - Dallas Cowboys;Unibet;+158;+158;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1310;Los Angeles Chargers - Dallas Cowboys;William Hill;-175;+154;Sunday, 19 Aug 2012, 01:00;Final result 28:20 (0:3, 0:7, 7:3, 21:7);1;Los Angeles Chargers;Dallas Cowboys;19 Aug 2012; 28;20 ;2012-2013
+1334;Chicago Bears - Washington Commanders;bet-at-home;-118;-118;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1335;Chicago Bears - Washington Commanders;bet365;-116;-105;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1336;Chicago Bears - Washington Commanders;bwin;-120;+100;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1337;Chicago Bears - Washington Commanders;Pinnacle;-118;+106;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1338;Chicago Bears - Washington Commanders;Unibet;+106;+106;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1339;Chicago Bears - Washington Commanders;William Hill;-125;+104;Sunday, 19 Aug 2012, 00:00;Final result 33:31 (14:0, 6:10, 10:0, 3:21);1;Chicago Bears;Washington Commanders;19 Aug 2012; 33;31 ;2012-2013
+1363;Houston Texans - San Francisco 49ers;bet-at-home;-182;+120;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1364;Houston Texans - San Francisco 49ers;bet365;-172;+150;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1365;Houston Texans - San Francisco 49ers;bwin;-167;+140;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1366;Houston Texans - San Francisco 49ers;Pinnacle;-169;+152;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1367;Houston Texans - San Francisco 49ers;Unibet;+152;+152;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1368;Houston Texans - San Francisco 49ers;William Hill;+152;+152;Sunday, 19 Aug 2012, 00:00;Final result 20:9 (3:3, 7:3, 3:3, 7:0);1;Houston Texans;San Francisco 49ers;19 Aug 2012; 20;9 ;2012-2013
+1392;Los Angeles Rams - Kansas City Chiefs;bet-at-home;-118;-118;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013
+1393;Los Angeles Rams - Kansas City Chiefs;bet365;-105;-116;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013
+1394;Los Angeles Rams - Kansas City Chiefs;bwin;-115;-105;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013
+1395;Los Angeles Rams - Kansas City Chiefs;Pinnacle;+106;-118;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013
+1396;Los Angeles Rams - Kansas City Chiefs;Unibet;+104;-130;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013
+1397;Los Angeles Rams - Kansas City Chiefs;William Hill;-120;+100;Sunday, 19 Aug 2012, 00:00;Final result 31:17 (14:0, 3:10, 7:0, 7:7);1;Los Angeles Rams;Kansas City Chiefs;19 Aug 2012; 31;17 ;2012-2013

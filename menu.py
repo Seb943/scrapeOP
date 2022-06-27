@@ -102,6 +102,7 @@ class Menu:
             print("✨✨Select a season to scrape:")
             print(*seasons, sep="\n")
             print(f"{self.padding}16. Current season {current_year}")
+            print(f"{self.padding}17. All seasons")
             print(f"{self.padding}0. Go Back to Sports Menu ⏪")
             try:
                 choice = int(input("Enter your choice: "))
@@ -114,6 +115,21 @@ class Menu:
                         current_season="no",
                         max_page=sports_choice["seasons"][choice - 1]["pages"],
                     )
+                elif choice == 17:
+                    start_time = time.time()
+                    for season in sports_choice["seasons"]:
+                        scrape_oddsportal_historical(
+                            sport=sports_choice["sport"],
+                            country=sports_choice["country"],
+                            league=sports_choice["league"],
+                            start_season=season["year"],
+                            current_season="no",
+                            max_page=11,
+                        )
+
+                    end_time = time.time()
+                    with open("scrape_time.txt", "w") as f:
+                        f.write(f"{end_time - start_time}")
                 elif choice == 0:
                     self.print_sub_menu = False
                     self.menu()

@@ -1,0 +1,101 @@
+Home_id;Away_id;Bookmaker;OddHome;OddAway;Date;Score_home;Score_away;Season
+AFC;NFC;bet365;+110;+110;08 Feb 2009; 21;30 ;2008-2009
+AFC;NFC;Pinnacle;+120;-135;08 Feb 2009; 21;30 ;2008-2009
+AFC;NFC;Unibet;-135;-135;08 Feb 2009; 21;30 ;2008-2009
+AFC;NFC;William Hill;-135;-135;08 Feb 2009; 21;30 ;2008-2009
+Pittsburgh Steelers;Arizona Cardinals;bet365;-286;+200;01 Feb 2009; 27;23 ;2008-2009
+Pittsburgh Steelers;Arizona Cardinals;Pinnacle;+200;+225;01 Feb 2009; 27;23 ;2008-2009
+Pittsburgh Steelers;Arizona Cardinals;Unibet;+225;+225;01 Feb 2009; 27;23 ;2008-2009
+Pittsburgh Steelers;Arizona Cardinals;William Hill;+225;+210;01 Feb 2009; 27;23 ;2008-2009
+Pittsburgh Steelers;Baltimore Ravens;bet365;-222;+210;18 Jan 2009; 23;14 ;2008-2009
+Pittsburgh Steelers;Baltimore Ravens;bwin;-213;+220;18 Jan 2009; 23;14 ;2008-2009
+Pittsburgh Steelers;Baltimore Ravens;Pinnacle;+220;+229;18 Jan 2009; 23;14 ;2008-2009
+Arizona Cardinals;Philadelphia Eagles;bet365;+154;-185;18 Jan 2009; 32;25 ;2008-2009
+Arizona Cardinals;Philadelphia Eagles;bwin;+154;-196;18 Jan 2009; 32;25 ;2008-2009
+Arizona Cardinals;Philadelphia Eagles;Pinnacle;+165;-179;18 Jan 2009; 32;25 ;2008-2009
+Pittsburgh Steelers;Los Angeles Chargers;bet365;-278;+225;11 Jan 2009; 35;24 ;2008-2009
+Pittsburgh Steelers;Los Angeles Chargers;bwin;-278;+220;11 Jan 2009; 35;24 ;2008-2009
+Pittsburgh Steelers;Los Angeles Chargers;Pinnacle;-256;+254;11 Jan 2009; 35;24 ;2008-2009
+New York Giants;Philadelphia Eagles;bet365;-213;+175;11 Jan 2009; 11;23 ;2008-2009
+New York Giants;Philadelphia Eagles;bwin;-208;+179;11 Jan 2009; 11;23 ;2008-2009
+New York Giants;Philadelphia Eagles;Pinnacle;+179;+183;11 Jan 2009; 11;23 ;2008-2009
+Atlanta Falcons;Tampa Bay Buccaneers;bet365;-213;+175;14 Dec 2008; 13;10 ;2008-2009
+Atlanta Falcons;Tampa Bay Buccaneers;bwin;-169;+150;14 Dec 2008; 13;10 ;2008-2009
+Atlanta Falcons;Tampa Bay Buccaneers;Pinnacle;-227;+206;14 Dec 2008; 13;10 ;2008-2009
+Cincinnati Bengals;Washington Commanders;bet365;+229;+229;14 Dec 2008; 20;13 ;2008-2009
+Cincinnati Bengals;Washington Commanders;bwin;+275;+275;14 Dec 2008; 20;13 ;2008-2009
+Cincinnati Bengals;Washington Commanders;Pinnacle;+254;-312;14 Dec 2008; 20;13 ;2008-2009
+Houston Texans;Tennessee Titans;bet365;+135;-161;14 Dec 2008; 13;12 ;2008-2009
+Houston Texans;Tennessee Titans;bwin;+145;+145;14 Dec 2008; 13;12 ;2008-2009
+Houston Texans;Tennessee Titans;Pinnacle;+145;-154;14 Dec 2008; 13;12 ;2008-2009
+Indianapolis Colts;Detroit Lions;bet365;-2000;+1000;14 Dec 2008; 31;21 ;2008-2009
+Indianapolis Colts;Detroit Lions;Pinnacle;-1429;+1000;14 Dec 2008; 31;21 ;2008-2009
+Jacksonville Jaguars;Green Bay Packers;bet365;+120;-132;14 Dec 2008; 20;16 ;2008-2009
+Jacksonville Jaguars;Green Bay Packers;bwin;+104;-125;14 Dec 2008; 20;16 ;2008-2009
+Jacksonville Jaguars;Green Bay Packers;Pinnacle;+123;-123;14 Dec 2008; 20;16 ;2008-2009
+Kansas City Chiefs;Los Angeles Chargers;bet365;+215;-244;14 Dec 2008; 21;22 ;2008-2009
+Kansas City Chiefs;Los Angeles Chargers;bwin;-244;-244;14 Dec 2008; 21;22 ;2008-2009
+Kansas City Chiefs;Los Angeles Chargers;Pinnacle;+209;-233;14 Dec 2008; 21;22 ;2008-2009
+Los Angeles Rams;Seattle Seahawks;bet365;+114;-141;14 Dec 2008; 20;23 ;2008-2009
+Los Angeles Rams;Seattle Seahawks;bwin;+125;+125;14 Dec 2008; 20;23 ;2008-2009
+Los Angeles Rams;Seattle Seahawks;Pinnacle;+117;-127;14 Dec 2008; 20;23 ;2008-2009
+Miami Dolphins;San Francisco 49ers;bet365;-303;+220;14 Dec 2008; 14;9 ;2008-2009
+Miami Dolphins;San Francisco 49ers;bwin;-303;+240;14 Dec 2008; 14;9 ;2008-2009
+Miami Dolphins;San Francisco 49ers;Pinnacle;-250;+200;14 Dec 2008; 14;9 ;2008-2009
+New York Jets;Buffalo Bills;bet365;-323;+280;14 Dec 2008; 31;27 ;2008-2009
+New York Jets;Buffalo Bills;bwin;+280;+280;14 Dec 2008; 31;27 ;2008-2009
+New York Jets;Buffalo Bills;Pinnacle;+280;+295;14 Dec 2008; 31;27 ;2008-2009
+Baltimore Ravens;Philadelphia Eagles;bet365;-125;+104;23 Nov 2008; 36;7 ;2008-2009
+Baltimore Ravens;Philadelphia Eagles;bwin;-120;+100;23 Nov 2008; 36;7 ;2008-2009
+Baltimore Ravens;Philadelphia Eagles;Pinnacle;-122;+108;23 Nov 2008; 36;7 ;2008-2009
+Cleveland Browns;Houston Texans;bet365;-161;+135;23 Nov 2008; 6;16 ;2008-2009
+Cleveland Browns;Houston Texans;bwin;-169;+135;23 Nov 2008; 6;16 ;2008-2009
+Cleveland Browns;Houston Texans;Pinnacle;-139;+127;23 Nov 2008; 6;16 ;2008-2009
+Dallas Cowboys;San Francisco 49ers;bet365;-714;+375;23 Nov 2008; 35;22 ;2008-2009
+Dallas Cowboys;San Francisco 49ers;bwin;-714;+400;23 Nov 2008; 35;22 ;2008-2009
+Dallas Cowboys;San Francisco 49ers;Pinnacle;-476;+370;23 Nov 2008; 35;22 ;2008-2009
+Detroit Lions;Tampa Bay Buccaneers;bet365;+280;+280;23 Nov 2008; 20;38 ;2008-2009
+Detroit Lions;Tampa Bay Buccaneers;bwin;+309;+309;23 Nov 2008; 20;38 ;2008-2009
+Detroit Lions;Tampa Bay Buccaneers;Pinnacle;+309;+309;23 Nov 2008; 20;38 ;2008-2009
+Jacksonville Jaguars;Minnesota Vikings;bet365;-141;+110;23 Nov 2008; 12;30 ;2008-2009
+Jacksonville Jaguars;Minnesota Vikings;bwin;+110;+114;23 Nov 2008; 12;30 ;2008-2009
+Jacksonville Jaguars;Minnesota Vikings;Pinnacle;-132;+117;23 Nov 2008; 12;30 ;2008-2009
+Los Angeles Rams;Chicago Bears;bet365;+265;-370;23 Nov 2008; 3;27 ;2008-2009
+Los Angeles Rams;Chicago Bears;bwin;+320;+320;23 Nov 2008; 3;27 ;2008-2009
+Los Angeles Rams;Chicago Bears;Pinnacle;+285;-345;23 Nov 2008; 3;27 ;2008-2009
+Miami Dolphins;New England Patriots;bet365;+110;-120;23 Nov 2008; 28;48 ;2008-2009
+Miami Dolphins;New England Patriots;bwin;+110;-130;23 Nov 2008; 28;48 ;2008-2009
+Miami Dolphins;New England Patriots;Pinnacle;+116;-127;23 Nov 2008; 28;48 ;2008-2009
+Pittsburgh Steelers;Cincinnati Bengals;bet365;-714;+550;21 Nov 2008; 27;10 ;2008-2009
+Pittsburgh Steelers;Cincinnati Bengals;bwin;-556;+475;21 Nov 2008; 27;10 ;2008-2009
+Pittsburgh Steelers;Cincinnati Bengals;Pinnacle;-556;+600;21 Nov 2008; 27;10 ;2008-2009
+Cincinnati Bengals;Jacksonville Jaguars;bwin;+280;-357;02 Nov 2008; 21;19 ;2008-2009
+Cincinnati Bengals;Jacksonville Jaguars;Pinnacle;+320;+320;02 Nov 2008; 21;19 ;2008-2009
+Cleveland Browns;Baltimore Ravens;bwin;-130;+110;02 Nov 2008; 27;37 ;2008-2009
+Cleveland Browns;Baltimore Ravens;Pinnacle;-116;+106;02 Nov 2008; 27;37 ;2008-2009
+Tennessee Titans;Indianapolis Colts;bwin;-222;+179;28 Oct 2008; 31;21 ;2008-2009
+Tennessee Titans;Indianapolis Colts;Pinnacle;-192;+177;28 Oct 2008; 31;21 ;2008-2009
+Pittsburgh Steelers;New York Giants;bwin;-154;+129;26 Oct 2008; 14;21 ;2008-2009
+Pittsburgh Steelers;New York Giants;Pinnacle;-143;+133;26 Oct 2008; 14;21 ;2008-2009
+San Francisco 49ers;Seattle Seahawks;bwin;-222;+179;26 Oct 2008; 13;34 ;2008-2009
+San Francisco 49ers;Seattle Seahawks;Pinnacle;-233;+215;26 Oct 2008; 13;34 ;2008-2009
+Houston Texans;Cincinnati Bengals;bwin;-435;+330;26 Oct 2008; 35;6 ;2008-2009
+Houston Texans;Cincinnati Bengals;Pinnacle;-385;+330;26 Oct 2008; 35;6 ;2008-2009
+Jacksonville Jaguars;Cleveland Browns;bwin;-294;+235;26 Oct 2008; 17;23 ;2008-2009
+Jacksonville Jaguars;Cleveland Browns;Pinnacle;-312;+282;26 Oct 2008; 17;23 ;2008-2009
+Baltimore Ravens;Tennessee Titans;bwin;-149;-149;05 Oct 2008; 10;13 ;2008-2009
+Baltimore Ravens;Tennessee Titans;Pinnacle;+118;-128;05 Oct 2008; 10;13 ;2008-2009
+Carolina Panthers;Kansas City Chiefs;bwin;+370;-500;05 Oct 2008; 34;0 ;2008-2009
+Carolina Panthers;Kansas City Chiefs;Pinnacle;-417;+359;05 Oct 2008; 34;0 ;2008-2009
+Detroit Lions;Chicago Bears;bwin;-208;-208;05 Oct 2008; 7;34 ;2008-2009
+Detroit Lions;Chicago Bears;Pinnacle;+156;-167;05 Oct 2008; 7;34 ;2008-2009
+Green Bay Packers;Atlanta Falcons;bwin;-189;+154;05 Oct 2008; 24;27 ;2008-2009
+Green Bay Packers;Atlanta Falcons;Pinnacle;-172;+170;05 Oct 2008; 24;27 ;2008-2009
+Houston Texans;Indianapolis Colts;bwin;+154;-189;05 Oct 2008; 27;31 ;2008-2009
+Houston Texans;Indianapolis Colts;Pinnacle;+154;-167;05 Oct 2008; 27;31 ;2008-2009
+Miami Dolphins;Los Angeles Chargers;bwin;+220;-278;05 Oct 2008; 17;10 ;2008-2009
+Miami Dolphins;Los Angeles Chargers;Pinnacle;+221;-233;05 Oct 2008; 17;10 ;2008-2009
+New York Giants;Seattle Seahawks;bwin;-345;-345;05 Oct 2008; 44;6 ;2008-2009
+New York Giants;Seattle Seahawks;Pinnacle;-270;+248;05 Oct 2008; 44;6 ;2008-2009
+Philadelphia Eagles;Washington Commanders;bwin;-263;+210;05 Oct 2008; 17;23 ;2008-2009
+Philadelphia Eagles;Washington Commanders;Pinnacle;-256;+250;05 Oct 2008; 17;23 ;2008-2009

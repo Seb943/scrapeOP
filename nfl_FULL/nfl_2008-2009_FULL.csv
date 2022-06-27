@@ -1,0 +1,101 @@
+index;TeamsRaw;Bookmaker;OddHome;OddAway;DateRaw;ScoreRaw;TO_KEEP;Home_id;Away_id;Date;Score_home;Score_away;Season
+0;AFC - NFC;bet365;+110;+110;Sunday, 08 Feb 2009, 20:30;Final result 21:30 (7:0, 7:10, 0:7, 7:13);1;AFC;NFC;08 Feb 2009; 21;30 ;2008-2009
+1;AFC - NFC;Pinnacle;+120;-135;Sunday, 08 Feb 2009, 20:30;Final result 21:30 (7:0, 7:10, 0:7, 7:13);1;AFC;NFC;08 Feb 2009; 21;30 ;2008-2009
+2;AFC - NFC;Unibet;-135;-135;Sunday, 08 Feb 2009, 20:30;Final result 21:30 (7:0, 7:10, 0:7, 7:13);1;AFC;NFC;08 Feb 2009; 21;30 ;2008-2009
+3;AFC - NFC;William Hill;-135;-135;Sunday, 08 Feb 2009, 20:30;Final result 21:30 (7:0, 7:10, 0:7, 7:13);1;AFC;NFC;08 Feb 2009; 21;30 ;2008-2009
+29;Pittsburgh Steelers - Arizona Cardinals;bet365;-286;+200;Sunday, 01 Feb 2009, 22:00;Final result 27:23 (3:0, 14:7, 3:0, 7:16);1;Pittsburgh Steelers;Arizona Cardinals;01 Feb 2009; 27;23 ;2008-2009
+30;Pittsburgh Steelers - Arizona Cardinals;Pinnacle;+200;+225;Sunday, 01 Feb 2009, 22:00;Final result 27:23 (3:0, 14:7, 3:0, 7:16);1;Pittsburgh Steelers;Arizona Cardinals;01 Feb 2009; 27;23 ;2008-2009
+31;Pittsburgh Steelers - Arizona Cardinals;Unibet;+225;+225;Sunday, 01 Feb 2009, 22:00;Final result 27:23 (3:0, 14:7, 3:0, 7:16);1;Pittsburgh Steelers;Arizona Cardinals;01 Feb 2009; 27;23 ;2008-2009
+32;Pittsburgh Steelers - Arizona Cardinals;William Hill;+225;+210;Sunday, 01 Feb 2009, 22:00;Final result 27:23 (3:0, 14:7, 3:0, 7:16);1;Pittsburgh Steelers;Arizona Cardinals;01 Feb 2009; 27;23 ;2008-2009
+58;Pittsburgh Steelers - Baltimore Ravens;bet365;-222;+210;Sunday, 18 Jan 2009, 22:30;Final result 23:14 (6:0, 7:7, 3:0, 7:7);1;Pittsburgh Steelers;Baltimore Ravens;18 Jan 2009; 23;14 ;2008-2009
+59;Pittsburgh Steelers - Baltimore Ravens;bwin;-213;+220;Sunday, 18 Jan 2009, 22:30;Final result 23:14 (6:0, 7:7, 3:0, 7:7);1;Pittsburgh Steelers;Baltimore Ravens;18 Jan 2009; 23;14 ;2008-2009
+60;Pittsburgh Steelers - Baltimore Ravens;Pinnacle;+220;+229;Sunday, 18 Jan 2009, 22:30;Final result 23:14 (6:0, 7:7, 3:0, 7:7);1;Pittsburgh Steelers;Baltimore Ravens;18 Jan 2009; 23;14 ;2008-2009
+87;Arizona Cardinals - Philadelphia Eagles;bet365;+154;-185;Sunday, 18 Jan 2009, 19:00;Final result 32:25 (7:3, 17:3, 0:13, 8:6);1;Arizona Cardinals;Philadelphia Eagles;18 Jan 2009; 32;25 ;2008-2009
+88;Arizona Cardinals - Philadelphia Eagles;bwin;+154;-196;Sunday, 18 Jan 2009, 19:00;Final result 32:25 (7:3, 17:3, 0:13, 8:6);1;Arizona Cardinals;Philadelphia Eagles;18 Jan 2009; 32;25 ;2008-2009
+89;Arizona Cardinals - Philadelphia Eagles;Pinnacle;+165;-179;Sunday, 18 Jan 2009, 19:00;Final result 32:25 (7:3, 17:3, 0:13, 8:6);1;Arizona Cardinals;Philadelphia Eagles;18 Jan 2009; 32;25 ;2008-2009
+116;Pittsburgh Steelers - Los Angeles Chargers;bet365;-278;+225;Sunday, 11 Jan 2009, 20:45;Final result 35:24 (7:7, 7:3, 7:0, 14:14);1;Pittsburgh Steelers;Los Angeles Chargers;11 Jan 2009; 35;24 ;2008-2009
+117;Pittsburgh Steelers - Los Angeles Chargers;bwin;-278;+220;Sunday, 11 Jan 2009, 20:45;Final result 35:24 (7:7, 7:3, 7:0, 14:14);1;Pittsburgh Steelers;Los Angeles Chargers;11 Jan 2009; 35;24 ;2008-2009
+118;Pittsburgh Steelers - Los Angeles Chargers;Pinnacle;-256;+254;Sunday, 11 Jan 2009, 20:45;Final result 35:24 (7:7, 7:3, 7:0, 14:14);1;Pittsburgh Steelers;Los Angeles Chargers;11 Jan 2009; 35;24 ;2008-2009
+145;New York Giants - Philadelphia Eagles;bet365;-213;+175;Sunday, 11 Jan 2009, 17:00;Final result 11:23 (3:7, 5:3, 3:3, 0:10);1;New York Giants;Philadelphia Eagles;11 Jan 2009; 11;23 ;2008-2009
+146;New York Giants - Philadelphia Eagles;bwin;-208;+179;Sunday, 11 Jan 2009, 17:00;Final result 11:23 (3:7, 5:3, 3:3, 0:10);1;New York Giants;Philadelphia Eagles;11 Jan 2009; 11;23 ;2008-2009
+147;New York Giants - Philadelphia Eagles;Pinnacle;+179;+183;Sunday, 11 Jan 2009, 17:00;Final result 11:23 (3:7, 5:3, 3:3, 0:10);1;New York Giants;Philadelphia Eagles;11 Jan 2009; 11;23 ;2008-2009
+174;Atlanta Falcons - Tampa Bay Buccaneers;bet365;-213;+175;Sunday, 14 Dec 2008, 17:00;Final result 13:10 OT (10:0, 0:7, 0:0, 0:3, 3:0);1;Atlanta Falcons;Tampa Bay Buccaneers;14 Dec 2008; 13;10 ;2008-2009
+175;Atlanta Falcons - Tampa Bay Buccaneers;bwin;-169;+150;Sunday, 14 Dec 2008, 17:00;Final result 13:10 OT (10:0, 0:7, 0:0, 0:3, 3:0);1;Atlanta Falcons;Tampa Bay Buccaneers;14 Dec 2008; 13;10 ;2008-2009
+176;Atlanta Falcons - Tampa Bay Buccaneers;Pinnacle;-227;+206;Sunday, 14 Dec 2008, 17:00;Final result 13:10 OT (10:0, 0:7, 0:0, 0:3, 3:0);1;Atlanta Falcons;Tampa Bay Buccaneers;14 Dec 2008; 13;10 ;2008-2009
+203;Cincinnati Bengals - Washington Commanders;bet365;+229;+229;Sunday, 14 Dec 2008, 17:00;Final result 20:13 (14:0, 3:10, 0:0, 3:3);1;Cincinnati Bengals;Washington Commanders;14 Dec 2008; 20;13 ;2008-2009
+204;Cincinnati Bengals - Washington Commanders;bwin;+275;+275;Sunday, 14 Dec 2008, 17:00;Final result 20:13 (14:0, 3:10, 0:0, 3:3);1;Cincinnati Bengals;Washington Commanders;14 Dec 2008; 20;13 ;2008-2009
+205;Cincinnati Bengals - Washington Commanders;Pinnacle;+254;-312;Sunday, 14 Dec 2008, 17:00;Final result 20:13 (14:0, 3:10, 0:0, 3:3);1;Cincinnati Bengals;Washington Commanders;14 Dec 2008; 20;13 ;2008-2009
+232;Houston Texans - Tennessee Titans;bet365;+135;-161;Sunday, 14 Dec 2008, 17:00;Final result 13:12 (0:3, 10:3, 0:3, 3:3);1;Houston Texans;Tennessee Titans;14 Dec 2008; 13;12 ;2008-2009
+233;Houston Texans - Tennessee Titans;bwin;+145;+145;Sunday, 14 Dec 2008, 17:00;Final result 13:12 (0:3, 10:3, 0:3, 3:3);1;Houston Texans;Tennessee Titans;14 Dec 2008; 13;12 ;2008-2009
+234;Houston Texans - Tennessee Titans;Pinnacle;+145;-154;Sunday, 14 Dec 2008, 17:00;Final result 13:12 (0:3, 10:3, 0:3, 3:3);1;Houston Texans;Tennessee Titans;14 Dec 2008; 13;12 ;2008-2009
+261;Indianapolis Colts - Detroit Lions;bet365;-2000;+1000;Sunday, 14 Dec 2008, 17:00;Final result 31:21 (7:3, 14:7, 0:3, 10:8);1;Indianapolis Colts;Detroit Lions;14 Dec 2008; 31;21 ;2008-2009
+262;Indianapolis Colts - Detroit Lions;Pinnacle;-1429;+1000;Sunday, 14 Dec 2008, 17:00;Final result 31:21 (7:3, 14:7, 0:3, 10:8);1;Indianapolis Colts;Detroit Lions;14 Dec 2008; 31;21 ;2008-2009
+290;Jacksonville Jaguars - Green Bay Packers;bet365;+120;-132;Sunday, 14 Dec 2008, 17:00;Final result 20:16 (7:3, 0:10, 0:0, 13:3);1;Jacksonville Jaguars;Green Bay Packers;14 Dec 2008; 20;16 ;2008-2009
+291;Jacksonville Jaguars - Green Bay Packers;bwin;+104;-125;Sunday, 14 Dec 2008, 17:00;Final result 20:16 (7:3, 0:10, 0:0, 13:3);1;Jacksonville Jaguars;Green Bay Packers;14 Dec 2008; 20;16 ;2008-2009
+292;Jacksonville Jaguars - Green Bay Packers;Pinnacle;+123;-123;Sunday, 14 Dec 2008, 17:00;Final result 20:16 (7:3, 0:10, 0:0, 13:3);1;Jacksonville Jaguars;Green Bay Packers;14 Dec 2008; 20;16 ;2008-2009
+319;Kansas City Chiefs - Los Angeles Chargers;bet365;+215;-244;Sunday, 14 Dec 2008, 17:00;Final result 21:22 (7:0, 7:3, 7:7, 0:12);1;Kansas City Chiefs;Los Angeles Chargers;14 Dec 2008; 21;22 ;2008-2009
+320;Kansas City Chiefs - Los Angeles Chargers;bwin;-244;-244;Sunday, 14 Dec 2008, 17:00;Final result 21:22 (7:0, 7:3, 7:7, 0:12);1;Kansas City Chiefs;Los Angeles Chargers;14 Dec 2008; 21;22 ;2008-2009
+321;Kansas City Chiefs - Los Angeles Chargers;Pinnacle;+209;-233;Sunday, 14 Dec 2008, 17:00;Final result 21:22 (7:0, 7:3, 7:7, 0:12);1;Kansas City Chiefs;Los Angeles Chargers;14 Dec 2008; 21;22 ;2008-2009
+348;Los Angeles Rams - Seattle Seahawks;bet365;+114;-141;Sunday, 14 Dec 2008, 17:00;Final result 20:23 (7:7, 10:0, 0:6, 3:10);1;Los Angeles Rams;Seattle Seahawks;14 Dec 2008; 20;23 ;2008-2009
+349;Los Angeles Rams - Seattle Seahawks;bwin;+125;+125;Sunday, 14 Dec 2008, 17:00;Final result 20:23 (7:7, 10:0, 0:6, 3:10);1;Los Angeles Rams;Seattle Seahawks;14 Dec 2008; 20;23 ;2008-2009
+350;Los Angeles Rams - Seattle Seahawks;Pinnacle;+117;-127;Sunday, 14 Dec 2008, 17:00;Final result 20:23 (7:7, 10:0, 0:6, 3:10);1;Los Angeles Rams;Seattle Seahawks;14 Dec 2008; 20;23 ;2008-2009
+377;Miami Dolphins - San Francisco 49ers;bet365;-303;+220;Sunday, 14 Dec 2008, 17:00;Final result 14:9 (7:3, 7:0, 0:3, 0:3);1;Miami Dolphins;San Francisco 49ers;14 Dec 2008; 14;9 ;2008-2009
+378;Miami Dolphins - San Francisco 49ers;bwin;-303;+240;Sunday, 14 Dec 2008, 17:00;Final result 14:9 (7:3, 7:0, 0:3, 0:3);1;Miami Dolphins;San Francisco 49ers;14 Dec 2008; 14;9 ;2008-2009
+379;Miami Dolphins - San Francisco 49ers;Pinnacle;-250;+200;Sunday, 14 Dec 2008, 17:00;Final result 14:9 (7:3, 7:0, 0:3, 0:3);1;Miami Dolphins;San Francisco 49ers;14 Dec 2008; 14;9 ;2008-2009
+406;New York Jets - Buffalo Bills;bet365;-323;+280;Sunday, 14 Dec 2008, 17:00;Final result 31:27 (14:3, 7:14, 0:3, 10:7);1;New York Jets;Buffalo Bills;14 Dec 2008; 31;27 ;2008-2009
+407;New York Jets - Buffalo Bills;bwin;+280;+280;Sunday, 14 Dec 2008, 17:00;Final result 31:27 (14:3, 7:14, 0:3, 10:7);1;New York Jets;Buffalo Bills;14 Dec 2008; 31;27 ;2008-2009
+408;New York Jets - Buffalo Bills;Pinnacle;+280;+295;Sunday, 14 Dec 2008, 17:00;Final result 31:27 (14:3, 7:14, 0:3, 10:7);1;New York Jets;Buffalo Bills;14 Dec 2008; 31;27 ;2008-2009
+435;Baltimore Ravens - Philadelphia Eagles;bet365;-125;+104;Sunday, 23 Nov 2008, 17:00;Final result 36:7 (0:0, 10:7, 2:0, 24:0);1;Baltimore Ravens;Philadelphia Eagles;23 Nov 2008; 36;7 ;2008-2009
+436;Baltimore Ravens - Philadelphia Eagles;bwin;-120;+100;Sunday, 23 Nov 2008, 17:00;Final result 36:7 (0:0, 10:7, 2:0, 24:0);1;Baltimore Ravens;Philadelphia Eagles;23 Nov 2008; 36;7 ;2008-2009
+437;Baltimore Ravens - Philadelphia Eagles;Pinnacle;-122;+108;Sunday, 23 Nov 2008, 17:00;Final result 36:7 (0:0, 10:7, 2:0, 24:0);1;Baltimore Ravens;Philadelphia Eagles;23 Nov 2008; 36;7 ;2008-2009
+464;Cleveland Browns - Houston Texans;bet365;-161;+135;Sunday, 23 Nov 2008, 17:00;Final result 6:16 (0:7, 6:6, 0:3, 0:0);1;Cleveland Browns;Houston Texans;23 Nov 2008; 6;16 ;2008-2009
+465;Cleveland Browns - Houston Texans;bwin;-169;+135;Sunday, 23 Nov 2008, 17:00;Final result 6:16 (0:7, 6:6, 0:3, 0:0);1;Cleveland Browns;Houston Texans;23 Nov 2008; 6;16 ;2008-2009
+466;Cleveland Browns - Houston Texans;Pinnacle;-139;+127;Sunday, 23 Nov 2008, 17:00;Final result 6:16 (0:7, 6:6, 0:3, 0:0);1;Cleveland Browns;Houston Texans;23 Nov 2008; 6;16 ;2008-2009
+493;Dallas Cowboys - San Francisco 49ers;bet365;-714;+375;Sunday, 23 Nov 2008, 17:00;Final result 35:22 (0:6, 22:0, 7:3, 6:13);1;Dallas Cowboys;San Francisco 49ers;23 Nov 2008; 35;22 ;2008-2009
+494;Dallas Cowboys - San Francisco 49ers;bwin;-714;+400;Sunday, 23 Nov 2008, 17:00;Final result 35:22 (0:6, 22:0, 7:3, 6:13);1;Dallas Cowboys;San Francisco 49ers;23 Nov 2008; 35;22 ;2008-2009
+495;Dallas Cowboys - San Francisco 49ers;Pinnacle;-476;+370;Sunday, 23 Nov 2008, 17:00;Final result 35:22 (0:6, 22:0, 7:3, 6:13);1;Dallas Cowboys;San Francisco 49ers;23 Nov 2008; 35;22 ;2008-2009
+522;Detroit Lions - Tampa Bay Buccaneers;bet365;+280;+280;Sunday, 23 Nov 2008, 17:00;Final result 20:38 (17:0, 0:21, 3:14, 0:3);1;Detroit Lions;Tampa Bay Buccaneers;23 Nov 2008; 20;38 ;2008-2009
+523;Detroit Lions - Tampa Bay Buccaneers;bwin;+309;+309;Sunday, 23 Nov 2008, 17:00;Final result 20:38 (17:0, 0:21, 3:14, 0:3);1;Detroit Lions;Tampa Bay Buccaneers;23 Nov 2008; 20;38 ;2008-2009
+524;Detroit Lions - Tampa Bay Buccaneers;Pinnacle;+309;+309;Sunday, 23 Nov 2008, 17:00;Final result 20:38 (17:0, 0:21, 3:14, 0:3);1;Detroit Lions;Tampa Bay Buccaneers;23 Nov 2008; 20;38 ;2008-2009
+551;Jacksonville Jaguars - Minnesota Vikings;bet365;-141;+110;Sunday, 23 Nov 2008, 17:00;Final result 12:30 (7:17, 3:0, 0:3, 2:10);1;Jacksonville Jaguars;Minnesota Vikings;23 Nov 2008; 12;30 ;2008-2009
+552;Jacksonville Jaguars - Minnesota Vikings;bwin;+110;+114;Sunday, 23 Nov 2008, 17:00;Final result 12:30 (7:17, 3:0, 0:3, 2:10);1;Jacksonville Jaguars;Minnesota Vikings;23 Nov 2008; 12;30 ;2008-2009
+553;Jacksonville Jaguars - Minnesota Vikings;Pinnacle;-132;+117;Sunday, 23 Nov 2008, 17:00;Final result 12:30 (7:17, 3:0, 0:3, 2:10);1;Jacksonville Jaguars;Minnesota Vikings;23 Nov 2008; 12;30 ;2008-2009
+580;Los Angeles Rams - Chicago Bears;bet365;+265;-370;Sunday, 23 Nov 2008, 17:00;Final result 3:27 (0:14, 3:10, 0:3, 0:0);1;Los Angeles Rams;Chicago Bears;23 Nov 2008; 3;27 ;2008-2009
+581;Los Angeles Rams - Chicago Bears;bwin;+320;+320;Sunday, 23 Nov 2008, 17:00;Final result 3:27 (0:14, 3:10, 0:3, 0:0);1;Los Angeles Rams;Chicago Bears;23 Nov 2008; 3;27 ;2008-2009
+582;Los Angeles Rams - Chicago Bears;Pinnacle;+285;-345;Sunday, 23 Nov 2008, 17:00;Final result 3:27 (0:14, 3:10, 0:3, 0:0);1;Los Angeles Rams;Chicago Bears;23 Nov 2008; 3;27 ;2008-2009
+609;Miami Dolphins - New England Patriots;bet365;+110;-120;Sunday, 23 Nov 2008, 17:00;Final result 28:48 (7:3, 7:14, 7:14, 7:17);1;Miami Dolphins;New England Patriots;23 Nov 2008; 28;48 ;2008-2009
+610;Miami Dolphins - New England Patriots;bwin;+110;-130;Sunday, 23 Nov 2008, 17:00;Final result 28:48 (7:3, 7:14, 7:14, 7:17);1;Miami Dolphins;New England Patriots;23 Nov 2008; 28;48 ;2008-2009
+611;Miami Dolphins - New England Patriots;Pinnacle;+116;-127;Sunday, 23 Nov 2008, 17:00;Final result 28:48 (7:3, 7:14, 7:14, 7:17);1;Miami Dolphins;New England Patriots;23 Nov 2008; 28;48 ;2008-2009
+638;Pittsburgh Steelers - Cincinnati Bengals;bet365;-714;+550;Friday, 21 Nov 2008, 00:15;Final result 27:10 (0:7, 10:0, 10:0, 7:3);1;Pittsburgh Steelers;Cincinnati Bengals;21 Nov 2008; 27;10 ;2008-2009
+639;Pittsburgh Steelers - Cincinnati Bengals;bwin;-556;+475;Friday, 21 Nov 2008, 00:15;Final result 27:10 (0:7, 10:0, 10:0, 7:3);1;Pittsburgh Steelers;Cincinnati Bengals;21 Nov 2008; 27;10 ;2008-2009
+640;Pittsburgh Steelers - Cincinnati Bengals;Pinnacle;-556;+600;Friday, 21 Nov 2008, 00:15;Final result 27:10 (0:7, 10:0, 10:0, 7:3);1;Pittsburgh Steelers;Cincinnati Bengals;21 Nov 2008; 27;10 ;2008-2009
+667;Cincinnati Bengals - Jacksonville Jaguars;bwin;+280;-357;Sunday, 02 Nov 2008, 17:00;Final result 21:19 (7:0, 7:3, 7:0, 0:16);1;Cincinnati Bengals;Jacksonville Jaguars;02 Nov 2008; 21;19 ;2008-2009
+668;Cincinnati Bengals - Jacksonville Jaguars;Pinnacle;+320;+320;Sunday, 02 Nov 2008, 17:00;Final result 21:19 (7:0, 7:3, 7:0, 0:16);1;Cincinnati Bengals;Jacksonville Jaguars;02 Nov 2008; 21;19 ;2008-2009
+696;Cleveland Browns - Baltimore Ravens;bwin;-130;+110;Sunday, 02 Nov 2008, 17:00;Final result 27:37 (7:10, 6:3, 14:7, 0:17);1;Cleveland Browns;Baltimore Ravens;02 Nov 2008; 27;37 ;2008-2009
+697;Cleveland Browns - Baltimore Ravens;Pinnacle;-116;+106;Sunday, 02 Nov 2008, 17:00;Final result 27:37 (7:10, 6:3, 14:7, 0:17);1;Cleveland Browns;Baltimore Ravens;02 Nov 2008; 27;37 ;2008-2009
+725;Tennessee Titans - Indianapolis Colts;bwin;-222;+179;Tuesday, 28 Oct 2008, 00:30;Final result 31:21 (3:7, 3:0, 8:7, 17:7);1;Tennessee Titans;Indianapolis Colts;28 Oct 2008; 31;21 ;2008-2009
+726;Tennessee Titans - Indianapolis Colts;Pinnacle;-192;+177;Tuesday, 28 Oct 2008, 00:30;Final result 31:21 (3:7, 3:0, 8:7, 17:7);1;Tennessee Titans;Indianapolis Colts;28 Oct 2008; 31;21 ;2008-2009
+754;Pittsburgh Steelers - New York Giants;bwin;-154;+129;Sunday, 26 Oct 2008, 20:15;Final result 14:21 (7:3, 0:6, 7:0, 0:12);1;Pittsburgh Steelers;New York Giants;26 Oct 2008; 14;21 ;2008-2009
+755;Pittsburgh Steelers - New York Giants;Pinnacle;-143;+133;Sunday, 26 Oct 2008, 20:15;Final result 14:21 (7:3, 0:6, 7:0, 0:12);1;Pittsburgh Steelers;New York Giants;26 Oct 2008; 14;21 ;2008-2009
+783;San Francisco 49ers - Seattle Seahawks;bwin;-222;+179;Sunday, 26 Oct 2008, 20:15;Final result 13:34 (0:6, 3:14, 3:7, 7:7);1;San Francisco 49ers;Seattle Seahawks;26 Oct 2008; 13;34 ;2008-2009
+784;San Francisco 49ers - Seattle Seahawks;Pinnacle;-233;+215;Sunday, 26 Oct 2008, 20:15;Final result 13:34 (0:6, 3:14, 3:7, 7:7);1;San Francisco 49ers;Seattle Seahawks;26 Oct 2008; 13;34 ;2008-2009
+812;Houston Texans - Cincinnati Bengals;bwin;-435;+330;Sunday, 26 Oct 2008, 20:05;Final result 35:6 (7:3, 7:3, 14:0, 7:0);1;Houston Texans;Cincinnati Bengals;26 Oct 2008; 35;6 ;2008-2009
+813;Houston Texans - Cincinnati Bengals;Pinnacle;-385;+330;Sunday, 26 Oct 2008, 20:05;Final result 35:6 (7:3, 7:3, 14:0, 7:0);1;Houston Texans;Cincinnati Bengals;26 Oct 2008; 35;6 ;2008-2009
+841;Jacksonville Jaguars - Cleveland Browns;bwin;-294;+235;Sunday, 26 Oct 2008, 20:05;Final result 17:23 (0:7, 7:10, 7:0, 3:6);1;Jacksonville Jaguars;Cleveland Browns;26 Oct 2008; 17;23 ;2008-2009
+842;Jacksonville Jaguars - Cleveland Browns;Pinnacle;-312;+282;Sunday, 26 Oct 2008, 20:05;Final result 17:23 (0:7, 7:10, 7:0, 3:6);1;Jacksonville Jaguars;Cleveland Browns;26 Oct 2008; 17;23 ;2008-2009
+870;Baltimore Ravens - Tennessee Titans;bwin;-149;-149;Sunday, 05 Oct 2008, 17:00;Final result 10:13 (3:0, 0:3, 7:0, 0:10);1;Baltimore Ravens;Tennessee Titans;05 Oct 2008; 10;13 ;2008-2009
+871;Baltimore Ravens - Tennessee Titans;Pinnacle;+118;-128;Sunday, 05 Oct 2008, 17:00;Final result 10:13 (3:0, 0:3, 7:0, 0:10);1;Baltimore Ravens;Tennessee Titans;05 Oct 2008; 10;13 ;2008-2009
+899;Carolina Panthers - Kansas City Chiefs;bwin;+370;-500;Sunday, 05 Oct 2008, 17:00;Final result 34:0 (7:0, 14:0, 10:0, 3:0);1;Carolina Panthers;Kansas City Chiefs;05 Oct 2008; 34;0 ;2008-2009
+900;Carolina Panthers - Kansas City Chiefs;Pinnacle;-417;+359;Sunday, 05 Oct 2008, 17:00;Final result 34:0 (7:0, 14:0, 10:0, 3:0);1;Carolina Panthers;Kansas City Chiefs;05 Oct 2008; 34;0 ;2008-2009
+928;Detroit Lions - Chicago Bears;bwin;-208;-208;Sunday, 05 Oct 2008, 17:00;Final result 7:34 (0:3, 0:14, 7:14, 0:3);1;Detroit Lions;Chicago Bears;05 Oct 2008; 7;34 ;2008-2009
+929;Detroit Lions - Chicago Bears;Pinnacle;+156;-167;Sunday, 05 Oct 2008, 17:00;Final result 7:34 (0:3, 0:14, 7:14, 0:3);1;Detroit Lions;Chicago Bears;05 Oct 2008; 7;34 ;2008-2009
+957;Green Bay Packers - Atlanta Falcons;bwin;-189;+154;Sunday, 05 Oct 2008, 17:00;Final result 24:27 (0:10, 7:7, 3:0, 14:10);1;Green Bay Packers;Atlanta Falcons;05 Oct 2008; 24;27 ;2008-2009
+958;Green Bay Packers - Atlanta Falcons;Pinnacle;-172;+170;Sunday, 05 Oct 2008, 17:00;Final result 24:27 (0:10, 7:7, 3:0, 14:10);1;Green Bay Packers;Atlanta Falcons;05 Oct 2008; 24;27 ;2008-2009
+986;Houston Texans - Indianapolis Colts;bwin;+154;-189;Sunday, 05 Oct 2008, 17:00;Final result 27:31 (0:10, 17:0, 3:0, 7:21);1;Houston Texans;Indianapolis Colts;05 Oct 2008; 27;31 ;2008-2009
+987;Houston Texans - Indianapolis Colts;Pinnacle;+154;-167;Sunday, 05 Oct 2008, 17:00;Final result 27:31 (0:10, 17:0, 3:0, 7:21);1;Houston Texans;Indianapolis Colts;05 Oct 2008; 27;31 ;2008-2009
+1015;Miami Dolphins - Los Angeles Chargers;bwin;+220;-278;Sunday, 05 Oct 2008, 17:00;Final result 17:10 (3:3, 14:0, 0:7, 0:0);1;Miami Dolphins;Los Angeles Chargers;05 Oct 2008; 17;10 ;2008-2009
+1016;Miami Dolphins - Los Angeles Chargers;Pinnacle;+221;-233;Sunday, 05 Oct 2008, 17:00;Final result 17:10 (3:3, 14:0, 0:7, 0:0);1;Miami Dolphins;Los Angeles Chargers;05 Oct 2008; 17;10 ;2008-2009
+1044;New York Giants - Seattle Seahawks;bwin;-345;-345;Sunday, 05 Oct 2008, 17:00;Final result 44:6 (14:3, 13:3, 10:0, 7:0);1;New York Giants;Seattle Seahawks;05 Oct 2008; 44;6 ;2008-2009
+1045;New York Giants - Seattle Seahawks;Pinnacle;-270;+248;Sunday, 05 Oct 2008, 17:00;Final result 44:6 (14:3, 13:3, 10:0, 7:0);1;New York Giants;Seattle Seahawks;05 Oct 2008; 44;6 ;2008-2009
+1073;Philadelphia Eagles - Washington Commanders;bwin;-263;+210;Sunday, 05 Oct 2008, 17:00;Final result 17:23 (14:0, 0:9, 0:7, 3:7);1;Philadelphia Eagles;Washington Commanders;05 Oct 2008; 17;23 ;2008-2009
+1074;Philadelphia Eagles - Washington Commanders;Pinnacle;-256;+250;Sunday, 05 Oct 2008, 17:00;Final result 17:23 (14:0, 0:9, 0:7, 3:7);1;Philadelphia Eagles;Washington Commanders;05 Oct 2008; 17;23 ;2008-2009
