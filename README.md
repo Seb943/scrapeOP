@@ -102,7 +102,7 @@ Features/bugs to work on in priority:x
 x if adding a non int is added to an input response exit the program after confirmation
 x align the text outputs
 x add the rest of the sports and seasons
-- add the current season
+x add the current season
 - add caching check to see if the files exists before rerunning the reports
 - add the ability to email csvs to someone
 - add the ability to change between closing and opening odds

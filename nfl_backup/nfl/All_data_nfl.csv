@@ -1,0 +1,297 @@
+,index,Home_id,Away_id,Bookmaker,OddHome,OddAway,Date,Score_home,Score_away,Season
+0,0,Atlanta Falcons,New England Patriots,1xBet,129,0.9418808411214952,05 Feb 2017,28,34,2016-2017
+1,1,Atlanta Falcons,New England Patriots,bet-at-home,123,0.9422399264593229,05 Feb 2017,28,34,2016-2017
+2,2,Atlanta Falcons,New England Patriots,bet365,125,0.9421163702140487,05 Feb 2017,28,34,2016-2017
+3,3,Atlanta Falcons,New England Patriots,bwin,125,0.9421163702140487,05 Feb 2017,28,34,2016-2017
+4,4,Atlanta Falcons,New England Patriots,Marathonbet,131,0.9417685118619696,05 Feb 2017,28,34,2016-2017
+5,5,Atlanta Falcons,New England Patriots,Pinnacle,124,0.942177646075526,05 Feb 2017,28,34,2016-2017
+6,6,Atlanta Falcons,New England Patriots,Unibet,123,0.9422399264593229,05 Feb 2017,28,34,2016-2017
+7,7,Atlanta Falcons,New England Patriots,William Hill,125,0.9421163702140487,05 Feb 2017,28,34,2016-2017
+8,8,NFC,AFC,1xBet,-182,0.9294724477810121,30 Jan 2017,13,20,2016-2017
+9,9,NFC,AFC,bet-at-home,-189,0.9296606000983767,30 Jan 2017,13,20,2016-2017
+10,10,NFC,AFC,bet365,-175,0.929269328802039,30 Jan 2017,13,20,2016-2017
+11,11,NFC,AFC,bwin,-196,0.9298353811850656,30 Jan 2017,13,20,2016-2017
+12,12,NFC,AFC,Marathonbet,-189,0.9296606000983767,30 Jan 2017,13,20,2016-2017
+13,13,NFC,AFC,Pinnacle,-179,0.92938733125649,30 Jan 2017,13,20,2016-2017
+14,14,NFC,AFC,Unibet,-189,0.9296606000983767,30 Jan 2017,13,20,2016-2017
+15,15,NFC,AFC,William Hill,-179,0.92938733125649,30 Jan 2017,13,20,2016-2017
+16,16,New England Patriots,Pittsburgh Steelers,1xBet,-278,0.9312296921582421,22 Jan 2017,36,17,2016-2017
+17,17,New England Patriots,Pittsburgh Steelers,bet-at-home,-244,0.9307648292962044,22 Jan 2017,36,17,2016-2017
+18,18,New England Patriots,Pittsburgh Steelers,bet365,-244,0.9307648292962044,22 Jan 2017,36,17,2016-2017
+19,19,New England Patriots,Pittsburgh Steelers,bwin,-263,0.9310393656188048,22 Jan 2017,36,17,2016-2017
+20,20,New England Patriots,Pittsburgh Steelers,Marathonbet,-227,0.9304804066240366,22 Jan 2017,36,17,2016-2017
+21,21,New England Patriots,Pittsburgh Steelers,Pinnacle,-227,0.9304804066240366,22 Jan 2017,36,17,2016-2017
+22,22,New England Patriots,Pittsburgh Steelers,Unibet,-238,0.9306690650295233,22 Jan 2017,36,17,2016-2017
+23,23,New England Patriots,Pittsburgh Steelers,William Hill,-250,0.93085601519157,22 Jan 2017,36,17,2016-2017
+24,24,Atlanta Falcons,Green Bay Packers,1xBet,-238,0.9306690650295233,22 Jan 2017,44,21,2016-2017
+25,25,Atlanta Falcons,Green Bay Packers,bet-at-home,-250,0.93085601519157,22 Jan 2017,44,21,2016-2017
+26,26,Atlanta Falcons,Green Bay Packers,bet365,-250,0.93085601519157,22 Jan 2017,44,21,2016-2017
+27,27,Atlanta Falcons,Green Bay Packers,bwin,-222,0.9303885000628641,22 Jan 2017,44,21,2016-2017
+28,28,Atlanta Falcons,Green Bay Packers,Marathonbet,-227,0.9304804066240366,22 Jan 2017,44,21,2016-2017
+29,29,Atlanta Falcons,Green Bay Packers,Pinnacle,-250,0.93085601519157,22 Jan 2017,44,21,2016-2017
+30,30,Atlanta Falcons,Green Bay Packers,Unibet,-222,0.9303885000628641,22 Jan 2017,44,21,2016-2017
+31,31,Atlanta Falcons,Green Bay Packers,William Hill,-208,0.9301077672941913,22 Jan 2017,44,21,2016-2017
+32,32,Kansas City Chiefs,Pittsburgh Steelers,1xBet,-133,0.9276049658250801,16 Jan 2017,16,18,2016-2017
+33,33,Kansas City Chiefs,Pittsburgh Steelers,bet-at-home,-139,0.9279038718291054,16 Jan 2017,16,18,2016-2017
+34,34,Kansas City Chiefs,Pittsburgh Steelers,bet365,-141,0.9279978939054889,16 Jan 2017,16,18,2016-2017
+35,35,Kansas City Chiefs,Pittsburgh Steelers,bwin,-143,0.9280893042575284,16 Jan 2017,16,18,2016-2017
+36,36,Kansas City Chiefs,Pittsburgh Steelers,Marathonbet,-135,0.9277075316107751,16 Jan 2017,16,18,2016-2017
+37,37,Kansas City Chiefs,Pittsburgh Steelers,Pinnacle,-139,0.9279038718291054,16 Jan 2017,16,18,2016-2017
+38,38,Kansas City Chiefs,Pittsburgh Steelers,Unibet,-130,0.9274452450595705,16 Jan 2017,16,18,2016-2017
+39,39,Kansas City Chiefs,Pittsburgh Steelers,William Hill,-135,0.9277075316107751,16 Jan 2017,16,18,2016-2017
+40,40,Baltimore Ravens,Philadelphia Eagles,1xBet,-238,0.9306690650295233,18 Dec 2016,27,26,2016-2017
+41,41,Baltimore Ravens,Philadelphia Eagles,bet-at-home,-238,0.9306690650295233,18 Dec 2016,27,26,2016-2017
+42,42,Baltimore Ravens,Philadelphia Eagles,bet365,-244,0.9307648292962044,18 Dec 2016,27,26,2016-2017
+43,43,Baltimore Ravens,Philadelphia Eagles,bwin,-250,0.93085601519157,18 Dec 2016,27,26,2016-2017
+44,44,Baltimore Ravens,Philadelphia Eagles,Marathonbet,-244,0.9307648292962044,18 Dec 2016,27,26,2016-2017
+45,45,Baltimore Ravens,Philadelphia Eagles,Pinnacle,-227,0.9304804066240366,18 Dec 2016,27,26,2016-2017
+46,46,Baltimore Ravens,Philadelphia Eagles,Unibet,-238,0.9306690650295233,18 Dec 2016,27,26,2016-2017
+47,47,Baltimore Ravens,Philadelphia Eagles,William Hill,-250,0.93085601519157,18 Dec 2016,27,26,2016-2017
+48,48,Buffalo Bills,Cleveland Browns,1xBet,-455,0.9325299229381865,18 Dec 2016,33,13,2016-2017
+49,49,Buffalo Bills,Cleveland Browns,bet-at-home,-625,0.9330865008509747,18 Dec 2016,33,13,2016-2017
+50,50,Buffalo Bills,Cleveland Browns,bet365,-500,0.9327140112298766,18 Dec 2016,33,13,2016-2017
+51,51,Buffalo Bills,Cleveland Browns,bwin,-476,0.9326201532161679,18 Dec 2016,33,13,2016-2017
+52,52,Buffalo Bills,Cleveland Browns,Marathonbet,-476,0.9326201532161679,18 Dec 2016,33,13,2016-2017
+53,53,Buffalo Bills,Cleveland Browns,Pinnacle,-455,0.9325299229381865,18 Dec 2016,33,13,2016-2017
+54,54,Buffalo Bills,Cleveland Browns,Unibet,-476,0.9326201532161679,18 Dec 2016,33,13,2016-2017
+55,55,Buffalo Bills,Cleveland Browns,William Hill,-556,0.9329015587509858,18 Dec 2016,33,13,2016-2017
+56,56,Chicago Bears,Green Bay Packers,1xBet,200,0.9392758183440566,18 Dec 2016,27,30,2016-2017
+57,57,Chicago Bears,Green Bay Packers,bet-at-home,172,0.9400448160900694,18 Dec 2016,27,30,2016-2017
+58,58,Chicago Bears,Green Bay Packers,bet365,190,0.9395243040102853,18 Dec 2016,27,30,2016-2017
+59,59,Chicago Bears,Green Bay Packers,bwin,179,0.9398298855402709,18 Dec 2016,27,30,2016-2017
+60,60,Chicago Bears,Green Bay Packers,Marathonbet,202,0.9392290882038407,18 Dec 2016,27,30,2016-2017
+61,61,Chicago Bears,Green Bay Packers,Pinnacle,193,0.9394470404984423,18 Dec 2016,27,30,2016-2017
+62,62,Chicago Bears,Green Bay Packers,Unibet,179,0.9398298855402709,18 Dec 2016,27,30,2016-2017
+63,63,Chicago Bears,Green Bay Packers,William Hill,190,0.9395243040102853,18 Dec 2016,27,30,2016-2017
+64,64,Cincinnati Bengals,Pittsburgh Steelers,1xBet,148,0.9409371225125563,18 Dec 2016,20,24,2016-2017
+65,65,Cincinnati Bengals,Pittsburgh Steelers,bet-at-home,127,0.9419967363892596,18 Dec 2016,20,24,2016-2017
+66,66,Cincinnati Bengals,Pittsburgh Steelers,bet365,140,0.9413030323404826,18 Dec 2016,20,24,2016-2017
+67,67,Cincinnati Bengals,Pittsburgh Steelers,bwin,140,0.9413030323404826,18 Dec 2016,20,24,2016-2017
+68,68,Cincinnati Bengals,Pittsburgh Steelers,Marathonbet,150,0.940851784482218,18 Dec 2016,20,24,2016-2017
+69,69,Cincinnati Bengals,Pittsburgh Steelers,Pinnacle,140,0.9413030323404826,18 Dec 2016,20,24,2016-2017
+70,70,Cincinnati Bengals,Pittsburgh Steelers,Unibet,140,0.9413030323404826,18 Dec 2016,20,24,2016-2017
+71,71,Cincinnati Bengals,Pittsburgh Steelers,William Hill,145,0.9410695742471443,18 Dec 2016,20,24,2016-2017
+72,72,Houston Texans,Jacksonville Jaguars,1xBet,-200,0.9299297903008322,18 Dec 2016,21,20,2016-2017
+73,73,Houston Texans,Jacksonville Jaguars,bet-at-home,-200,0.9299297903008322,18 Dec 2016,21,20,2016-2017
+74,74,Houston Texans,Jacksonville Jaguars,bet365,-185,0.9295548186111948,18 Dec 2016,21,20,2016-2017
+75,75,Houston Texans,Jacksonville Jaguars,bwin,-189,0.9296606000983767,18 Dec 2016,21,20,2016-2017
+76,76,Houston Texans,Jacksonville Jaguars,Marathonbet,-204,0.9300205151584227,18 Dec 2016,21,20,2016-2017
+77,77,Houston Texans,Jacksonville Jaguars,Pinnacle,-185,0.9295548186111948,18 Dec 2016,21,20,2016-2017
+78,78,Houston Texans,Jacksonville Jaguars,Unibet,-192,0.9297370587380758,18 Dec 2016,21,20,2016-2017
+79,79,Houston Texans,Jacksonville Jaguars,William Hill,-189,0.9296606000983767,18 Dec 2016,21,20,2016-2017
+80,80,Kansas City Chiefs,Tennessee Titans,1xBet,-244,0.9307648292962044,18 Dec 2016,17,19,2016-2017
+81,81,Kansas City Chiefs,Tennessee Titans,bet-at-home,-270,0.9311308066351691,18 Dec 2016,17,19,2016-2017
+82,82,Kansas City Chiefs,Tennessee Titans,bet365,-270,0.9311308066351691,18 Dec 2016,17,19,2016-2017
+83,83,Kansas City Chiefs,Tennessee Titans,bwin,-278,0.9312296921582421,18 Dec 2016,17,19,2016-2017
+84,84,Kansas City Chiefs,Tennessee Titans,Marathonbet,-250,0.93085601519157,18 Dec 2016,17,19,2016-2017
+85,85,Kansas City Chiefs,Tennessee Titans,Pinnacle,-250,0.93085601519157,18 Dec 2016,17,19,2016-2017
+86,86,Kansas City Chiefs,Tennessee Titans,Unibet,-256,0.9309429433797592,18 Dec 2016,17,19,2016-2017
+87,87,Kansas City Chiefs,Tennessee Titans,William Hill,-270,0.9311308066351691,18 Dec 2016,17,19,2016-2017
+88,88,Minnesota Vikings,Indianapolis Colts,1xBet,-208,0.9301077672941913,18 Dec 2016,6,34,2016-2017
+89,89,Minnesota Vikings,Indianapolis Colts,bet-at-home,-250,0.93085601519157,18 Dec 2016,6,34,2016-2017
+90,90,Minnesota Vikings,Indianapolis Colts,bet365,-244,0.9307648292962044,18 Dec 2016,6,34,2016-2017
+91,91,Minnesota Vikings,Indianapolis Colts,bwin,-250,0.93085601519157,18 Dec 2016,6,34,2016-2017
+92,92,Minnesota Vikings,Indianapolis Colts,Marathonbet,-213,0.9302122456109703,18 Dec 2016,6,34,2016-2017
+93,93,Minnesota Vikings,Indianapolis Colts,Pinnacle,-238,0.9306690650295233,18 Dec 2016,6,34,2016-2017
+94,94,Minnesota Vikings,Indianapolis Colts,Unibet,-227,0.9304804066240366,18 Dec 2016,6,34,2016-2017
+95,95,Minnesota Vikings,Indianapolis Colts,William Hill,-250,0.93085601519157,18 Dec 2016,6,34,2016-2017
+96,96,New York Giants,Detroit Lions,1xBet,-175,0.929269328802039,18 Dec 2016,17,6,2016-2017
+97,97,New York Giants,Detroit Lions,bet-at-home,-208,0.9301077672941913,18 Dec 2016,17,6,2016-2017
+98,98,New York Giants,Detroit Lions,bet365,-222,0.9303885000628641,18 Dec 2016,17,6,2016-2017
+99,99,New York Giants,Detroit Lions,bwin,-208,0.9301077672941913,18 Dec 2016,17,6,2016-2017
+100,100,New York Giants,Detroit Lions,Marathonbet,-185,0.9295548186111948,18 Dec 2016,17,6,2016-2017
+101,101,New York Giants,Detroit Lions,Pinnacle,-200,0.9299297903008322,18 Dec 2016,17,6,2016-2017
+102,102,New York Giants,Detroit Lions,Unibet,-200,0.9299297903008322,18 Dec 2016,17,6,2016-2017
+103,103,New York Giants,Detroit Lions,William Hill,-208,0.9301077672941913,18 Dec 2016,17,6,2016-2017
+104,104,New York Jets,Miami Dolphins,1xBet,129,0.9418808411214952,18 Dec 2016,13,34,2016-2017
+105,105,New York Jets,Miami Dolphins,bet-at-home,112,0.9429990738401953,18 Dec 2016,13,34,2016-2017
+106,106,New York Jets,Miami Dolphins,bet365,125,0.9421163702140487,18 Dec 2016,13,34,2016-2017
+107,107,New York Jets,Miami Dolphins,bwin,125,0.9421163702140487,18 Dec 2016,13,34,2016-2017
+108,108,New York Jets,Miami Dolphins,Marathonbet,135,0.9415539126795927,18 Dec 2016,13,34,2016-2017
+109,109,New York Jets,Miami Dolphins,Pinnacle,129,0.9418808411214952,18 Dec 2016,13,34,2016-2017
+110,110,New York Jets,Miami Dolphins,Unibet,118,0.9425672977074846,18 Dec 2016,13,34,2016-2017
+111,111,New York Jets,Miami Dolphins,William Hill,120,0.9424330479855493,18 Dec 2016,13,34,2016-2017
+112,112,Baltimore Ravens,Cincinnati Bengals,bet-at-home,-185,0.9295548186111948,27 Nov 2016,19,14,2016-2017
+113,113,Baltimore Ravens,Cincinnati Bengals,bet365,-182,0.9294724477810121,27 Nov 2016,19,14,2016-2017
+114,114,Baltimore Ravens,Cincinnati Bengals,bwin,-189,0.9296606000983767,27 Nov 2016,19,14,2016-2017
+115,115,Baltimore Ravens,Cincinnati Bengals,Marathonbet,-169,0.9290819131390873,27 Nov 2016,19,14,2016-2017
+116,116,Baltimore Ravens,Cincinnati Bengals,Pinnacle,-185,0.9295548186111948,27 Nov 2016,19,14,2016-2017
+117,117,Baltimore Ravens,Cincinnati Bengals,Unibet,-182,0.9294724477810121,27 Nov 2016,19,14,2016-2017
+118,118,Baltimore Ravens,Cincinnati Bengals,William Hill,-179,0.92938733125649,27 Nov 2016,19,14,2016-2017
+119,119,Buffalo Bills,Jacksonville Jaguars,bet-at-home,-417,0.9323436032732639,27 Nov 2016,28,21,2016-2017
+120,120,Buffalo Bills,Jacksonville Jaguars,bet365,-400,0.9322488172093131,27 Nov 2016,28,21,2016-2017
+121,121,Buffalo Bills,Jacksonville Jaguars,bwin,-357,0.9319688821594527,27 Nov 2016,28,21,2016-2017
+122,122,Buffalo Bills,Jacksonville Jaguars,Marathonbet,-385,0.932158248995206,27 Nov 2016,28,21,2016-2017
+123,123,Buffalo Bills,Jacksonville Jaguars,Pinnacle,-357,0.9319688821594527,27 Nov 2016,28,21,2016-2017
+124,124,Buffalo Bills,Jacksonville Jaguars,Unibet,-370,0.9320603572058341,27 Nov 2016,28,21,2016-2017
+125,125,Buffalo Bills,Jacksonville Jaguars,William Hill,-455,0.9325299229381865,27 Nov 2016,28,21,2016-2017
+126,126,Chicago Bears,Tennessee Titans,bet-at-home,214,0.9389671361502346,27 Nov 2016,21,27,2016-2017
+127,127,Chicago Bears,Tennessee Titans,bet365,225,0.9387516688918558,27 Nov 2016,21,27,2016-2017
+128,128,Chicago Bears,Tennessee Titans,bwin,200,0.9392758183440566,27 Nov 2016,21,27,2016-2017
+129,129,Chicago Bears,Tennessee Titans,Marathonbet,244,0.9384254451751856,27 Nov 2016,21,27,2016-2017
+130,130,Chicago Bears,Tennessee Titans,Pinnacle,222,0.9388083054932971,27 Nov 2016,21,27,2016-2017
+131,131,Chicago Bears,Tennessee Titans,Unibet,229,0.9386784718806361,27 Nov 2016,21,27,2016-2017
+132,132,Chicago Bears,Tennessee Titans,William Hill,220,0.9388469252763196,27 Nov 2016,21,27,2016-2017
+133,133,Cleveland Browns,New York Giants,bet-at-home,213,0.9389878328337152,27 Nov 2016,13,27,2016-2017
+134,134,Cleveland Browns,New York Giants,bet365,240,0.9384898134751495,27 Nov 2016,13,27,2016-2017
+135,135,Cleveland Browns,New York Giants,bwin,229,0.9386784718806361,27 Nov 2016,13,27,2016-2017
+136,136,Cleveland Browns,New York Giants,Marathonbet,258,0.9382159351249135,27 Nov 2016,13,27,2016-2017
+137,137,Cleveland Browns,New York Giants,Pinnacle,237,0.9385395216220497,27 Nov 2016,13,27,2016-2017
+138,138,Cleveland Browns,New York Giants,Unibet,210,0.9390511112104815,27 Nov 2016,13,27,2016-2017
+139,139,Cleveland Browns,New York Giants,William Hill,240,0.9384898134751495,27 Nov 2016,13,27,2016-2017
+140,140,Indianapolis Colts,Pittsburgh Steelers,bet-at-home,284,0.937881840097751,25 Nov 2016,7,28,2016-2017
+141,141,Indianapolis Colts,Pittsburgh Steelers,bet365,325,0.9374639436944733,25 Nov 2016,7,28,2016-2017
+142,142,Indianapolis Colts,Pittsburgh Steelers,bwin,309,0.9376137880810778,25 Nov 2016,7,28,2016-2017
+143,143,Indianapolis Colts,Pittsburgh Steelers,Marathonbet,355,0.9372194941654787,25 Nov 2016,7,28,2016-2017
+144,144,Indianapolis Colts,Pittsburgh Steelers,Pinnacle,361,0.9371754932502595,25 Nov 2016,7,28,2016-2017
+145,145,Indianapolis Colts,Pittsburgh Steelers,Unibet,325,0.9374639436944733,25 Nov 2016,7,28,2016-2017
+146,146,Indianapolis Colts,Pittsburgh Steelers,William Hill,325,0.9374639436944733,25 Nov 2016,7,28,2016-2017
+147,147,Dallas Cowboys,Washington Commanders,bet-at-home,-244,0.9307648292962044,24 Nov 2016,31,26,2016-2017
+148,148,Dallas Cowboys,Washington Commanders,bet365,-250,0.93085601519157,24 Nov 2016,31,26,2016-2017
+149,149,Dallas Cowboys,Washington Commanders,bwin,-250,0.93085601519157,24 Nov 2016,31,26,2016-2017
+150,150,Dallas Cowboys,Washington Commanders,Marathonbet,-227,0.9304804066240366,24 Nov 2016,31,26,2016-2017
+151,151,Dallas Cowboys,Washington Commanders,Pinnacle,-233,0.9305855100247622,24 Nov 2016,31,26,2016-2017
+152,152,Dallas Cowboys,Washington Commanders,Unibet,-244,0.9307648292962044,24 Nov 2016,31,26,2016-2017
+153,153,Dallas Cowboys,Washington Commanders,William Hill,-263,0.9310393656188048,24 Nov 2016,31,26,2016-2017
+154,154,Detroit Lions,Minnesota Vikings,bet-at-home,-127,0.9272780373831776,24 Nov 2016,16,13,2016-2017
+155,155,Detroit Lions,Minnesota Vikings,bet365,-125,0.9271621421154131,24 Nov 2016,16,13,2016-2017
+156,156,Detroit Lions,Minnesota Vikings,bwin,-125,0.9271621421154131,24 Nov 2016,16,13,2016-2017
+157,157,Detroit Lions,Minnesota Vikings,Marathonbet,-127,0.9272780373831776,24 Nov 2016,16,13,2016-2017
+158,158,Detroit Lions,Minnesota Vikings,Pinnacle,-123,0.9270425082906242,24 Nov 2016,16,13,2016-2017
+159,159,Detroit Lions,Minnesota Vikings,Unibet,-127,0.9272780373831776,24 Nov 2016,16,13,2016-2017
+160,160,Detroit Lions,Minnesota Vikings,William Hill,-130,0.9274452450595705,24 Nov 2016,16,13,2016-2017
+161,161,Atlanta Falcons,Green Bay Packers,bet-at-home,-169,0.9290819131390873,30 Oct 2016,33,32,2016-2017
+162,162,Atlanta Falcons,Green Bay Packers,bet365,-167,0.929016466399644,30 Oct 2016,33,32,2016-2017
+163,163,Atlanta Falcons,Green Bay Packers,bwin,-154,0.9285498944829664,30 Oct 2016,33,32,2016-2017
+164,164,Atlanta Falcons,Green Bay Packers,Marathonbet,-161,0.9288104303680628,30 Oct 2016,33,32,2016-2017
+165,165,Atlanta Falcons,Green Bay Packers,Pinnacle,-154,0.9285498944829664,30 Oct 2016,33,32,2016-2017
+166,166,Atlanta Falcons,Green Bay Packers,Unibet,-167,0.929016466399644,30 Oct 2016,33,32,2016-2017
+167,167,Atlanta Falcons,Green Bay Packers,William Hill,-161,0.9288104303680628,30 Oct 2016,33,32,2016-2017
+168,168,Denver Broncos,Los Angeles Chargers,bet-at-home,-189,0.9296606000983767,30 Oct 2016,27,19,2016-2017
+169,169,Denver Broncos,Los Angeles Chargers,bet365,-185,0.9295548186111948,30 Oct 2016,27,19,2016-2017
+170,170,Denver Broncos,Los Angeles Chargers,bwin,-200,0.9299297903008322,30 Oct 2016,27,19,2016-2017
+171,171,Denver Broncos,Los Angeles Chargers,Marathonbet,-185,0.9295548186111948,30 Oct 2016,27,19,2016-2017
+172,172,Denver Broncos,Los Angeles Chargers,Pinnacle,-179,0.92938733125649,30 Oct 2016,27,19,2016-2017
+173,173,Denver Broncos,Los Angeles Chargers,Unibet,-204,0.9300205151584227,30 Oct 2016,27,19,2016-2017
+174,174,Denver Broncos,Los Angeles Chargers,William Hill,-200,0.9299297903008322,30 Oct 2016,27,19,2016-2017
+175,175,Buffalo Bills,New England Patriots,bet-at-home,191,0.9394982784062961,30 Oct 2016,25,41,2016-2017
+176,176,Buffalo Bills,New England Patriots,bet365,210,0.9390511112104815,30 Oct 2016,25,41,2016-2017
+177,177,Buffalo Bills,New England Patriots,bwin,190,0.9395243040102853,30 Oct 2016,25,41,2016-2017
+178,178,Buffalo Bills,New England Patriots,Marathonbet,225,0.9387516688918558,30 Oct 2016,25,41,2016-2017
+179,179,Buffalo Bills,New England Patriots,Pinnacle,210,0.9390511112104815,30 Oct 2016,25,41,2016-2017
+180,180,Buffalo Bills,New England Patriots,Unibet,204,0.9391832788545645,30 Oct 2016,25,41,2016-2017
+181,181,Buffalo Bills,New England Patriots,William Hill,220,0.9388469252763196,30 Oct 2016,25,41,2016-2017
+182,182,Carolina Panthers,Arizona Cardinals,bet-at-home,-145,0.9281782102163615,30 Oct 2016,30,20,2016-2017
+183,183,Carolina Panthers,Arizona Cardinals,bet365,-141,0.9279978939054889,30 Oct 2016,30,20,2016-2017
+184,184,Carolina Panthers,Arizona Cardinals,bwin,-139,0.9279038718291054,30 Oct 2016,30,20,2016-2017
+185,185,Carolina Panthers,Arizona Cardinals,Marathonbet,-128,0.9273346373976672,30 Oct 2016,30,20,2016-2017
+186,186,Carolina Panthers,Arizona Cardinals,Pinnacle,-135,0.9277075316107751,30 Oct 2016,30,20,2016-2017
+187,187,Carolina Panthers,Arizona Cardinals,Unibet,-143,0.9280893042575284,30 Oct 2016,30,20,2016-2017
+188,188,Carolina Panthers,Arizona Cardinals,William Hill,-135,0.9277075316107751,30 Oct 2016,30,20,2016-2017
+189,189,Cleveland Browns,New York Jets,bet-at-home,110,0.9431535625482292,30 Oct 2016,28,31,2016-2017
+190,190,Cleveland Browns,New York Jets,bet365,120,0.9424330479855493,30 Oct 2016,28,31,2016-2017
+191,191,Cleveland Browns,New York Jets,bwin,120,0.9424330479855493,30 Oct 2016,28,31,2016-2017
+192,192,Cleveland Browns,New York Jets,Marathonbet,133,0.9416595865193996,30 Oct 2016,28,31,2016-2017
+193,193,Cleveland Browns,New York Jets,Pinnacle,121,0.9423676012461057,30 Oct 2016,28,31,2016-2017
+194,194,Cleveland Browns,New York Jets,Unibet,106,0.9434801958166444,30 Oct 2016,28,31,2016-2017
+195,195,Cleveland Browns,New York Jets,William Hill,120,0.9424330479855493,30 Oct 2016,28,31,2016-2017
+196,196,Houston Texans,Detroit Lions,bet-at-home,-127,0.9272780373831776,30 Oct 2016,20,13,2016-2017
+197,197,Houston Texans,Detroit Lions,bet365,-120,0.9268556422337221,30 Oct 2016,20,13,2016-2017
+198,198,Houston Texans,Detroit Lions,bwin,-128,0.9273346373976672,30 Oct 2016,20,13,2016-2017
+199,199,Houston Texans,Detroit Lions,Marathonbet,-118,0.9267258305191235,30 Oct 2016,20,13,2016-2017
+200,200,Houston Texans,Detroit Lions,Pinnacle,-109,0.9260832625318607,30 Oct 2016,20,13,2016-2017
+201,201,Houston Texans,Detroit Lions,Unibet,-120,0.9268556422337221,30 Oct 2016,20,13,2016-2017
+202,202,Houston Texans,Detroit Lions,William Hill,-130,0.9274452450595705,30 Oct 2016,20,13,2016-2017
+203,203,Indianapolis Colts,Kansas City Chiefs,bet-at-home,120,0.9424330479855493,30 Oct 2016,14,30,2016-2017
+204,204,Indianapolis Colts,Kansas City Chiefs,bet365,125,0.9421163702140487,30 Oct 2016,14,30,2016-2017
+205,205,Indianapolis Colts,Kansas City Chiefs,bwin,120,0.9424330479855493,30 Oct 2016,14,30,2016-2017
+206,206,Indianapolis Colts,Kansas City Chiefs,Marathonbet,135,0.9415539126795927,30 Oct 2016,14,30,2016-2017
+207,207,Indianapolis Colts,Kansas City Chiefs,Pinnacle,125,0.9421163702140487,30 Oct 2016,14,30,2016-2017
+208,208,Indianapolis Colts,Kansas City Chiefs,Unibet,133,0.9416595865193996,30 Oct 2016,14,30,2016-2017
+209,209,Indianapolis Colts,Kansas City Chiefs,William Hill,129,0.9418808411214952,30 Oct 2016,14,30,2016-2017
+210,210,New Orleans Saints,Seattle Seahawks,bet-at-home,-112,0.9263088247456784,30 Oct 2016,25,20,2016-2017
+211,211,New Orleans Saints,Seattle Seahawks,bet365,-105,0.9257626520895786,30 Oct 2016,25,20,2016-2017
+212,212,New Orleans Saints,Seattle Seahawks,bwin,100,0.9440196356084205,30 Oct 2016,25,20,2016-2017
+213,213,New Orleans Saints,Seattle Seahawks,Marathonbet,-104,0.9256786826880284,30 Oct 2016,25,20,2016-2017
+214,214,New Orleans Saints,Seattle Seahawks,Pinnacle,-101,0.9254168957302547,30 Oct 2016,25,20,2016-2017
+215,215,New Orleans Saints,Seattle Seahawks,Unibet,-109,0.9260832625318607,30 Oct 2016,25,20,2016-2017
+216,216,New Orleans Saints,Seattle Seahawks,William Hill,100,0.9440196356084205,30 Oct 2016,25,20,2016-2017
+217,217,Baltimore Ravens,Washington Commanders,bet-at-home,-204,0.9300205151584227,09 Oct 2016,10,16,2016-2017
+218,218,Baltimore Ravens,Washington Commanders,bet365,-200,0.9299297903008322,09 Oct 2016,10,16,2016-2017
+219,219,Baltimore Ravens,Washington Commanders,bwin,-200,0.9299297903008322,09 Oct 2016,10,16,2016-2017
+220,220,Baltimore Ravens,Washington Commanders,Marathonbet,-196,0.9298353811850656,09 Oct 2016,10,16,2016-2017
+221,221,Baltimore Ravens,Washington Commanders,Pinnacle,-196,0.9298353811850656,09 Oct 2016,10,16,2016-2017
+222,222,Baltimore Ravens,Washington Commanders,Unibet,-123,0.9270425082906242,09 Oct 2016,10,16,2016-2017
+223,223,Baltimore Ravens,Washington Commanders,William Hill,-200,0.9299297903008322,09 Oct 2016,10,16,2016-2017
+224,224,Cleveland Browns,New England Patriots,bet-at-home,344,0.9373041606495734,09 Oct 2016,13,33,2016-2017
+225,225,Cleveland Browns,New England Patriots,bet365,400,0.9369217436113648,09 Oct 2016,13,33,2016-2017
+226,226,Cleveland Browns,New England Patriots,bwin,400,0.9369217436113648,09 Oct 2016,13,33,2016-2017
+227,227,Cleveland Browns,New England Patriots,Marathonbet,459,0.9366200057135861,09 Oct 2016,13,33,2016-2017
+228,228,Cleveland Browns,New England Patriots,Pinnacle,384,0.9370195944462066,09 Oct 2016,13,33,2016-2017
+229,229,Cleveland Browns,New England Patriots,Unibet,117,0.9426361585562358,09 Oct 2016,13,33,2016-2017
+230,230,Cleveland Browns,New England Patriots,William Hill,375,0.9370783147583587,09 Oct 2016,13,33,2016-2017
+231,231,Detroit Lions,Philadelphia Eagles,bet-at-home,145,0.9410695742471443,09 Oct 2016,24,23,2016-2017
+232,232,Detroit Lions,Philadelphia Eagles,bet365,160,0.9404572973608416,09 Oct 2016,24,23,2016-2017
+233,233,Detroit Lions,Philadelphia Eagles,bwin,160,0.9404572973608416,09 Oct 2016,24,23,2016-2017
+234,234,Detroit Lions,Philadelphia Eagles,Marathonbet,164,0.9403130554440686,09 Oct 2016,24,23,2016-2017
+235,235,Detroit Lions,Philadelphia Eagles,Pinnacle,161,0.9404205607476634,09 Oct 2016,24,23,2016-2017
+236,236,Detroit Lions,Philadelphia Eagles,Unibet,-103,0.9255930984902947,09 Oct 2016,24,23,2016-2017
+237,237,Detroit Lions,Philadelphia Eagles,William Hill,165,0.9402780943697288,09 Oct 2016,24,23,2016-2017
+238,238,Indianapolis Colts,Chicago Bears,bet-at-home,-200,0.9299297903008322,09 Oct 2016,29,23,2016-2017
+239,239,Indianapolis Colts,Chicago Bears,bet365,-200,0.9299297903008322,09 Oct 2016,29,23,2016-2017
+240,240,Indianapolis Colts,Chicago Bears,bwin,-213,0.9302122456109703,09 Oct 2016,29,23,2016-2017
+241,241,Indianapolis Colts,Chicago Bears,Marathonbet,-196,0.9298353811850656,09 Oct 2016,29,23,2016-2017
+242,242,Indianapolis Colts,Chicago Bears,Pinnacle,-200,0.9299297903008322,09 Oct 2016,29,23,2016-2017
+243,243,Indianapolis Colts,Chicago Bears,Unibet,-125,0.9271621421154131,09 Oct 2016,29,23,2016-2017
+244,244,Indianapolis Colts,Chicago Bears,William Hill,-208,0.9301077672941913,09 Oct 2016,29,23,2016-2017
+245,245,San Francisco 49ers,Arizona Cardinals,bet-at-home,156,0.9406089840217063,07 Oct 2016,21,33,2016-2017
+246,246,San Francisco 49ers,Arizona Cardinals,bet365,170,0.9401094951059005,07 Oct 2016,21,33,2016-2017
+247,247,San Francisco 49ers,Arizona Cardinals,bwin,165,0.9402780943697288,07 Oct 2016,21,33,2016-2017
+248,248,San Francisco 49ers,Arizona Cardinals,Marathonbet,183,0.9397144911163602,07 Oct 2016,21,33,2016-2017
+249,249,San Francisco 49ers,Arizona Cardinals,Pinnacle,169,0.940142412105029,07 Oct 2016,21,33,2016-2017
+250,250,San Francisco 49ers,Arizona Cardinals,Unibet,-102,0.9255058524634787,07 Oct 2016,21,33,2016-2017
+251,251,San Francisco 49ers,Arizona Cardinals,William Hill,170,0.9401094951059005,07 Oct 2016,21,33,2016-2017
+252,252,Minnesota Vikings,New York Giants,bet-at-home,-192,0.9297370587380758,04 Oct 2016,24,10,2016-2017
+253,253,Minnesota Vikings,New York Giants,bet365,-185,0.9295548186111948,04 Oct 2016,24,10,2016-2017
+254,254,Minnesota Vikings,New York Giants,bwin,-189,0.9296606000983767,04 Oct 2016,24,10,2016-2017
+255,255,Minnesota Vikings,New York Giants,Marathonbet,-182,0.9294724477810121,04 Oct 2016,24,10,2016-2017
+256,256,Minnesota Vikings,New York Giants,Pinnacle,-189,0.9296606000983767,04 Oct 2016,24,10,2016-2017
+257,257,Minnesota Vikings,New York Giants,Unibet,-123,0.9270425082906242,04 Oct 2016,24,10,2016-2017
+258,258,Minnesota Vikings,New York Giants,William Hill,-189,0.9296606000983767,04 Oct 2016,24,10,2016-2017
+259,259,Washington Commanders,Dallas Cowboys,bet-at-home,-185,0.9295548186111948,18 Sep 2016,23,27,2016-2017
+260,260,Washington Commanders,Dallas Cowboys,bet365,-175,0.929269328802039,18 Sep 2016,23,27,2016-2017
+261,261,Washington Commanders,Dallas Cowboys,bwin,-167,0.929016466399644,18 Sep 2016,23,27,2016-2017
+262,262,Washington Commanders,Dallas Cowboys,Marathonbet,-185,0.9295548186111948,18 Sep 2016,23,27,2016-2017
+263,263,Washington Commanders,Dallas Cowboys,Pinnacle,-185,0.9295548186111948,18 Sep 2016,23,27,2016-2017
+264,264,Washington Commanders,Dallas Cowboys,Unibet,-123,0.9270425082906242,18 Sep 2016,23,27,2016-2017
+265,265,Washington Commanders,Dallas Cowboys,William Hill,-189,0.9296606000983767,18 Sep 2016,23,27,2016-2017
+266,266,Buffalo Bills,New York Jets,bet-at-home,-119,0.926791277258567,16 Sep 2016,31,37,2016-2017
+267,267,Buffalo Bills,New York Jets,bet365,-125,0.9271621421154131,16 Sep 2016,31,37,2016-2017
+268,268,Buffalo Bills,New York Jets,bwin,-110,0.9261598046644777,16 Sep 2016,31,37,2016-2017
+269,269,Buffalo Bills,New York Jets,Marathonbet,-112,0.9263088247456784,16 Sep 2016,31,37,2016-2017
+270,270,Buffalo Bills,New York Jets,Pinnacle,-120,0.9268556422337221,16 Sep 2016,31,37,2016-2017
+271,271,Buffalo Bills,New York Jets,Unibet,-108,0.9260053159564433,16 Sep 2016,31,37,2016-2017
+272,272,Buffalo Bills,New York Jets,William Hill,-120,0.9268556422337221,16 Sep 2016,31,37,2016-2017
+273,273,San Francisco 49ers,Los Angeles Rams,1xBet,106,0.9434801958166444,13 Sep 2016,28,0,2016-2017
+274,274,San Francisco 49ers,Los Angeles Rams,bet-at-home,110,0.9431535625482292,13 Sep 2016,28,0,2016-2017
+275,275,San Francisco 49ers,Los Angeles Rams,bet365,125,0.9421163702140487,13 Sep 2016,28,0,2016-2017
+276,276,San Francisco 49ers,Los Angeles Rams,bwin,125,0.9421163702140487,13 Sep 2016,28,0,2016-2017
+277,277,San Francisco 49ers,Los Angeles Rams,Marathonbet,131,0.9417685118619696,13 Sep 2016,28,0,2016-2017
+278,278,San Francisco 49ers,Los Angeles Rams,Pinnacle,114,0.9428500537589942,13 Sep 2016,28,0,2016-2017
+279,279,San Francisco 49ers,Los Angeles Rams,Unibet,-103,0.9255930984902947,13 Sep 2016,28,0,2016-2017
+280,280,San Francisco 49ers,Los Angeles Rams,William Hill,125,0.9421163702140487,13 Sep 2016,28,0,2016-2017
+281,281,Washington Commanders,Pittsburgh Steelers,1xBet,141,0.9412550066755674,12 Sep 2016,16,38,2016-2017
+282,282,Washington Commanders,Pittsburgh Steelers,bet-at-home,106,0.9434801958166444,12 Sep 2016,16,38,2016-2017
+283,283,Washington Commanders,Pittsburgh Steelers,bet365,110,0.9431535625482292,12 Sep 2016,16,38,2016-2017
+284,284,Washington Commanders,Pittsburgh Steelers,bwin,120,0.9424330479855493,12 Sep 2016,16,38,2016-2017
+285,285,Washington Commanders,Pittsburgh Steelers,Marathonbet,124,0.942177646075526,12 Sep 2016,16,38,2016-2017
+286,286,Washington Commanders,Pittsburgh Steelers,Pinnacle,120,0.9424330479855493,12 Sep 2016,16,38,2016-2017
+287,287,Washington Commanders,Pittsburgh Steelers,Unibet,-104,0.9256786826880284,12 Sep 2016,16,38,2016-2017
+288,288,Washington Commanders,Pittsburgh Steelers,William Hill,114,0.9428500537589942,12 Sep 2016,16,38,2016-2017
+289,289,Arizona Cardinals,New England Patriots,bet-at-home,-455,0.9325299229381865,12 Sep 2016,21,23,2016-2017
+290,290,Arizona Cardinals,New England Patriots,bet365,-435,0.9324359084283632,12 Sep 2016,21,23,2016-2017
+291,291,Arizona Cardinals,New England Patriots,bwin,-400,0.9322488172093131,12 Sep 2016,21,23,2016-2017
+292,292,Arizona Cardinals,New England Patriots,Marathonbet,-345,0.9318783426070982,12 Sep 2016,21,23,2016-2017
+293,293,Arizona Cardinals,New England Patriots,Pinnacle,-385,0.932158248995206,12 Sep 2016,21,23,2016-2017
+294,294,Arizona Cardinals,New England Patriots,Unibet,-145,0.9281782102163615,12 Sep 2016,21,23,2016-2017
+295,295,Arizona Cardinals,New England Patriots,William Hill,-455,0.9325299229381865,12 Sep 2016,21,23,2016-2017

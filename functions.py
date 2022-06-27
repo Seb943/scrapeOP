@@ -1,8 +1,8 @@
 ### functions
 
 # OddsPortal scraper functions
-
-
+import csv
+import json
 import os
 import urllib
 from selenium import webdriver
@@ -85,9 +85,9 @@ def get_data_typeA(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("we wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(1, 30):  # only first 10 bookmakers displayed
             Book = ffi(
@@ -124,8 +124,8 @@ def get_data_next_games_typeA(i, link):
     L = []
 
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(
             1, 30
@@ -171,8 +171,8 @@ def get_data_next_games_typeA(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(
             1, 30
@@ -223,10 +223,30 @@ def scrape_page_typeA(page, sport, country, tournament, SEASON):
         sport, country, tournament, SEASON, page
     )
     DATA = []
-    for i in range(1, 100):
+    successes = 0
+    failures = 0
+    start_timer = time.time()
+    for i in range(1, 200):
+        print(f"attempt #{i}")
         content = get_data_typeA(i, link)
         if content != None:
+            successes += 1
+            print(f"success #{successes}!")
             DATA = DATA + content
+        else:
+            failures += 1
+            print(f"failure #{failures}!")
+    end_timer = time.time()
+    print(f"success to failure ratio: {successes}:{failures}")
+    with open(f"{sport}_{SEASON}_page_{page}.json", "w") as f:
+        log = {
+            "page": page,
+            "successes": successes,
+            "failures": failures,
+            "time": end_timer - start_timer,
+            "DATA": DATA,
+        }
+        f.write(json.dumps(log))
     print(DATA)
     return DATA
 
@@ -248,7 +268,7 @@ def scrape_page_current_season_typeA(page, sport, country, tournament):
         sport, country, tournament, page
     )
     DATA = []
-    for i in range(1, 100):
+    for i in range(1, 200):
         content = get_data_typeA(i, link)
         if content != None:
             DATA = DATA + content
@@ -564,9 +584,9 @@ def get_data_typeB(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("We wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(1, 30):  # only first 10 bookmakers displayed
             Book = ffi(
@@ -606,8 +626,8 @@ def get_data_next_games_typeB(i, link):
     L = []
 
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(
             1, 30
@@ -653,8 +673,8 @@ def get_data_next_games_typeB(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(
             1, 30
@@ -717,7 +737,7 @@ def scrape_page_typeB(
     DATA = []
     REACH_END = 0
     print("alpha_game = ", alpha_game)
-    for i in range(1, 100):
+    for i in range(1, 200):
         if REACH_END == 0:
             content = get_data_typeB(i, link)
             if content != None:
@@ -971,9 +991,9 @@ def get_data_typeC(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("we wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(1, 30):  # only first 10 bookmakers displayed
             Book = ffi(
@@ -1014,8 +1034,8 @@ def get_data_next_games_typeC(i, link):
     L = []
 
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(1, 30):  # only first 10 bookmakers displayed
             Book = ffi(
@@ -1067,8 +1087,8 @@ def get_data_next_games_typeC(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
-        time.sleep(4)
+        print("we wait 8 seconds")
+        time.sleep(8)
         # Now we collect all bookmaker
         for j in range(1, 30):  # only first 10 bookmakers displayed
             Book = ffi(
@@ -1125,7 +1145,7 @@ def scrape_page_typeC(page, sport, country, tournament, SEASON):
         sport, country, tournament, SEASON, page
     )
     DATA = []
-    for i in range(1, 100):
+    for i in range(1, 200):
         content = get_data_typeC(i, link)
         if content != None:
             DATA = DATA + content
@@ -1150,7 +1170,7 @@ def scrape_page_current_season_typeC(page, sport, country, tournament):
         sport, country, tournament, page
     )
     DATA = []
-    for i in range(1, 100):
+    for i in range(1, 200):
         content = get_data_typeC(i, link)
         if content != None:
             DATA = DATA + content
@@ -1456,9 +1476,9 @@ def get_data_typeD(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("we wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]')  # click on home/away odds
         if a == True:
             # Now we collect all bookmaker
@@ -1517,9 +1537,9 @@ def get_data_next_games_typeD(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("we wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]')  # click on home/away odds
         if a == True:
             # Now we collect all bookmaker
@@ -1548,9 +1568,9 @@ def get_data_next_games_typeD(i, link):
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
     a = ffi2(target)
     if a == True:
-        print("We wait 4 seconds")
+        print("we wait 8 seconds")
         L = []
-        time.sleep(4)
+        time.sleep(8)
         a = ffi2('//*[@id="bettype-tabs"]/ul/li[3]')  # click on home/away odds
         if a == True:
             # Now we collect all bookmaker
@@ -1584,7 +1604,7 @@ def scrape_page_typeD(page, sport, country, tournament, SEASON):
         sport, country, tournament, SEASON, page
     )
     DATA = []
-    for i in range(1, 100):
+    for i in range(1, 200):
         content = get_data_typeD(i, link)
         if content != None:
             DATA = DATA + content
@@ -1597,7 +1617,7 @@ def scrape_page_current_season_typeD(page, sport, country, tournament):
         sport, country, tournament, page
     )
     DATA = []
-    for i in range(1, 100):
+    for i in range(1, 200):
         content = get_data_typeD(i, link)
         if content != None:
             DATA = DATA + content
@@ -2043,7 +2063,7 @@ def scrape_oddsportal_historical(
             country1=country,
             tournament1=league,
             nseason=nseasons,
-            current_season="yes",
+            current_season=current_season,
             max_page=max_page,
         )
         df = create_clean_table_two_ways(df)
@@ -2057,7 +2077,7 @@ def scrape_oddsportal_historical(
             country1=country,
             tournament1=league,
             nseason=nseasons,
-            current_season="yes",
+            current_season=current_season,
             max_page=max_page,
         )
         df = create_clean_table_three_ways(df)
@@ -2068,7 +2088,7 @@ def scrape_oddsportal_historical(
             country1=country,
             tournament1=league,
             nseason=nseasons,
-            current_season="yes",
+            current_season=current_season,
             max_page=max_page,
         )
         df = create_clean_table_two_ways(df)
