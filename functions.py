@@ -44,13 +44,13 @@ def get_opening_odd(xpath):
     
 def fi(a):
     try:
-        driver.find_element_by_xpath(a).text
+        driver.find_element("xpath", a).text
     except:
         return False
 
 def ffi(a):
     if fi(a) != False :
-        return driver.find_element_by_xpath(a).text
+        return driver.find_element("xpath", a).text
             
 def fffi(a):
     if TYPE_ODDS == 'OPENING':
@@ -63,7 +63,7 @@ def fffi(a):
 
 def fi2(a):
     try:
-        driver.find_element_by_xpath(a).click()
+        driver.find_element("xpath", a).click()
     except:
         return False
 
