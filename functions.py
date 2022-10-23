@@ -20,7 +20,7 @@ import signal
 from create_clean_table import *
 
 global DRIVER_LOCATION
-DRIVER_LOCATION = "C:\\Users\\Sébastien CARARO\\Desktop\\chromedriver1.exe"
+DRIVER_LOCATION = "C:\\Users\\Utilisateur\\Desktop\\chromedriver.exe"
 
 global TYPE_ODDS
 TYPE_ODDS = 'CLOSING' # you can change to 'OPENING' if you want to collect opening odds, any other value will make the program collect CLOSING odds
@@ -78,6 +78,7 @@ def ffi2(a):
 
 def get_data_typeA(i, link):
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
@@ -101,6 +102,7 @@ def get_data_typeA(i, link):
 def get_data_next_games_typeA(i, link):
     L = None
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
     a = ffi2(target)
 
@@ -398,6 +400,7 @@ def scrape_next_games_typeA(tournament, sport, country, SEASON, nmax = 30):
 
 def get_data_typeB(i, link):
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
@@ -424,6 +427,7 @@ def get_data_typeB(i, link):
 def get_data_next_games_typeB(i, link):
     L = None
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
     a = ffi2(target)
 
@@ -664,6 +668,7 @@ def scrape_next_games_typeB(Surface, bestof, tournament , country , name_to_writ
 
 def get_data_typeC(i, link):
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
@@ -687,6 +692,7 @@ def get_data_typeC(i, link):
 
 def get_data_next_games_typeC(i, link):
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
     a = ffi2(target)
 
@@ -970,6 +976,7 @@ def scrape_next_games_typeC(tournament, sport, country, SEASON, nmax = 30):
 
 def get_data_typeD(i, link):
     driver.get(link)
+    reject_ads()
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
@@ -1005,6 +1012,7 @@ def get_data_typeD(i, link):
     
 def get_data_next_games_typeD(i, link):
     driver.get(link)
+    reject_ads()
     L = []
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
@@ -1408,6 +1416,11 @@ def scrape_oddsportal_specific_season(sport = 'football', country = 'france', le
         os.makedirs('./{}'.format(sport))
 
   df.to_csv('./{}/Season_{}_{}_{}.csv'.format(sport, country, league, season), sep=',', encoding='utf-8', index=False)
+  
+  
+  
+def reject_ads():
+    ffi2('//*[@id="onetrust-reject-all-handler"]')
     
     
   
