@@ -1398,7 +1398,7 @@ def scrape_oddsportal_specific_season(sport = 'football', country = 'france', le
     surface = input('Please indicate the surface : \n ')
     
   if sport in ['baseball','esports','basketball','darts', 'american-football', 'volleyball']:
-    df = scrape_current_tournament_typeA(sport, tournament, country, season, max_page = max_page)
+    df = scrape_current_tournament_typeA(sport = sport, tournament = league, country = country, SEASON = season, max_page = max_page)
     df = create_clean_table_two_ways(df)
   #elif sport in ['tennis']:
     #df = scrape_current_tournament_typeB(Surface = surface, bestof = bestof, tournament = league, country = country,\
