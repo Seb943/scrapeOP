@@ -79,6 +79,7 @@ def ffi2(a):
 def get_data_typeA(i, link):
     driver.get(link)
     reject_ads()
+
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a'.format(i)
     a = ffi2(target)
     if a == True:
@@ -103,6 +104,7 @@ def get_data_next_games_typeA(i, link):
     L = None
     driver.get(link)
     reject_ads()
+
     target = '//*[@id="tournamentTable"]/tbody/tr[{}]/td[2]/a[2]'.format(i)
     a = ffi2(target)
 
@@ -1483,5 +1485,11 @@ def scrape_oddsportal_specific_season(sport = 'football', country = 'france', le
   
   
   
-def reject_ads():
+def reject_ads(switch_to_decimal = True):
+    # Reject ads
     ffi2('//*[@id="onetrust-reject-all-handler"]')
+    
+    if switch_to_decimal:
+        # Change odds to decimal format
+        driver.find_element("xpath", '//*[@id="user-header-oddsformat-expander"]').click()
+        driver.find_element("xpath", '//*[@id="user-header-oddsformat"]/li[1]/a/span').click()
