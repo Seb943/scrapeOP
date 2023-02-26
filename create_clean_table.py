@@ -138,4 +138,3 @@ def create_clean_df(fileloc, sep = ";", ways = 2):
   print('Finished cleaning table!')
   return(0)
   
-#fileloc = "C:\\Users\\Sébastien CARARO\\Desktop\\ATP& &Others\\WebScraping\\DATA\\Treated data\\All_data_champions-league_foot";create_clean_df(fileloc, sep = ",", ways = 3)
