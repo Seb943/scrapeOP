@@ -5,7 +5,6 @@
 NB : You need to be in the right repository to import functions...'''
 import os
 
-#os.chdir("C:\\Users\\Sébastien CARARO\\Desktop\\ATP& &Others\\WebScraping")
 from functions import *
 
 print('Data will be saved in the following directory:', os.getcwd())
